@@ -26,7 +26,7 @@
 * **{{ optional }} You can include proposed implementations of future features.**
 * **{{ icon_important_big_red }} Include an appendix named _Instructions for Manual Testing_**, to give some guidance to the tester to chart a path through the features, and provide some important test inputs the tester can copy-paste into the app.
   * **Cover all user-testable features**<span tags="m--cs2103"> but no need to cover existing AB3 features if you did not touch them</span>.
-  * **No need to give a long list of test cases** including all possible variations. It is upto the tester to come up with those variations.
+  * **No need to give a long list of test cases** including all possible variations. It is up to the tester to come up with those variations.
   * Information in this appendix should _complement_ the UG. ==Minimize repeating information that are already mentioned in the UG.==
   * **Inaccurate instructions will be considered bugs**.
 <div tags="m--cs2103">
@@ -73,12 +73,12 @@
 {{ show_faq("tpDgKeepingProposedFeatures") }}
 
  * **The _Appendix: Requirements_ section** should be updated as follows:
-   * Requirements implemented in the current version: make sure requirements match the way they are actually been implemented (e.g., use case steps).
+   * Requirements implemented in the current version: make sure requirements match the way they have actually been implemented (e.g., use case steps).
    * Requirements yet to be implemented: keep these as well, as this is an ongoing project and these are meant to be implemented in future iterations.
    * More on user stories: You need to document all user stories for the current version, and possibly, for near-future versions.<br>Reason: It is essential to capture all user needs.
    * More on use cases: Use cases are complementary to user stories. Their purpose is to capture non-trivial interactions. Hence, a use case is _important_ if it involves a user interaction that is worthy of documenting e.g., it has multiple extensions -- this is not the same as the feature being important.<br>
       So, you need not document use cases that have simple interactions. Also, avoid documenting multiple use cases with very similar interactions either %%(it is enough to document one of them and mention how others are similar/vary)%%.<br>
-      Is sum, use cases should cover all non-trivial and unique user interaction patterns covering features that are in the current system at least, but can also cover upcoming features too if you wish.
+      In sum, use cases should cover all non-trivial and unique user interaction patterns covering features that are in the current system at least, but can also cover upcoming features too if you wish.
 </div>
 
 ##### DG Tips
@@ -108,7 +108,7 @@
     * a sequence diagram can omit less important interactions, self-calls, method parameters, etc.<br>
       {{ icon_tip }} You can use `...` (e.g., `foo(...)`) to indicate parameters have been omitted.<br>
       {{ icon_tip }} You can use pseudocode instead of exact method calls e.g., `save data in file` instead of `saveData(content, filename)`.<br>
-      {{ icon_tip }} Omit intricate details that complicated the diagram unnecessarily they add to the diagram e.g., exception handling (`throw`/`catch`), lambdas, calls to anonymous methods, etc.<br>
+      {{ icon_tip }} Omit intricate details that complicate the diagram unnecessarily when they add to it e.g., exception handling (`throw`/`catch`), lambdas, calls to anonymous methods, etc.<br>
       If you feel they are important to the purpose of the diagram (i.e., omitting them can mislead the reader), you can use a UML note to mention that information (as plain text) in the diagram.
   * **Omit repetitive details** e.g., a class diagram can show only a few representative ones in place of many similar classes (note how the <trigger trigger="click" for="modal:ipWeek10-logicClassDiagram">AB3 Logic class diagram</trigger> shows concrete `*Command` classes using a placeholder `XYZCommand`).
   * **Limit the scope of a diagram.** Decide the purpose of the diagram (i.e., what does it help to explain?) and omit details not related to it.<span tags="m--cs2103"> In particular, avoid showing lower-level details of multiple components in the same diagram unless strictly necessary e.g., note how  <trigger trigger="click" for="modal:ipWeek10-deleteSd">this sequence diagram</trigger> shows only the detailed interactions within the Logic component i.e., does not show detailed interactions within the model component.</span>

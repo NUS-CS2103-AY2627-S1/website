@@ -103,10 +103,10 @@ then [{{ g.iter3 }}] lasts 3 days
 
 The tP spans ten weeks, and is to be done in _breadth-first iterative_ fashion.
 
-****The first portion of the tP**** **will be spent of laying out the foundation for the iterations**, as illustrated below. This portion of the tP is light because you will be doing the individual project (iP) in parallel during this time.
+****The first portion of the tP**** **will be spent on laying out the foundation for the iterations**, as illustrated below. This portion of the tP is light because you will be doing the individual project (iP) in parallel during this time.
 
 {{ project_gantt_pre(g) }}
---Note: that the diagrams above show the relative size of tasks i.e., smaller tasks are shown as shorter bars--
+--Note that the diagrams above show the relative size of tasks i.e., smaller tasks are shown as shorter bars--
 
 {% set tfw = (tp_first_week | int) %}
 
@@ -128,7 +128,7 @@ The tP spans ten weeks, and is to be done in _breadth-first iterative_ fashion.
 
 #### {{ badge("Week " + (tfw + 3))}} {{ weekly_tp_themes.w6.name }}
 
-* Decide how the MVP version of the product will look like (i.e., {{ version_mvp }}).{{ bullet_target_green }}{% if cs2113 %}
+* Decide how the MVP version of the product will look (i.e., {{ version_mvp }}).{{ bullet_target_green }}{% if cs2113 %}
 * Record that product concept in the form of a user guide.
 * Set up the development environment.{% endif %}
 
@@ -229,7 +229,7 @@ Note how the <span class="text-success">:fas-crosshairs: **Product goal**</span>
 
 <box type="info" seamless>
 
-This version (i.e., {{ version_penultimate }}) will undergo a limited beta testing  (done by other teams) and you will receive the bug reports without any penalty.
+This version (i.e., {{ version_penultimate }}) will undergo a limited beta testing (done by other teams) and you will receive the bug reports without any penalty.
 </box>
 
 

@@ -42,7 +42,7 @@ As most of the work is graded individually, it is OK to do less or more than equ
 * **Let us know only if you failed to earn full marks for participation due to such a reason** (or if you feel you are at risk of not earning full marks), in which case we will consider giving an alternative avenue to earn marks missed due to the absences.<br>
  Detail of participation marks calculation is [here]({{ baseUrl }}/admin/participation.html).
 * **Normally, there is no need to inform us** (e.g., the tutor) of such absences or the reason, although you are welcome to.<br>
-  **No need to send us your MC** (it is best not to share your health information with others, unless necessary), but keep a copy  of it safely, in case we ask for it later, in relation to (b) given above.{% if cs2103 %}
+  **No need to send us your MC** (it is best not to share your health information with others, unless necessary), but keep a copy of it safely, in case we ask for it later, in relation to (b) given above.{% if cs2103 %}
 * **If you are unable to attend the tutorial in the scheduled time slot due to a valid reason** in a specific week, you may request permission to attend another slot by writing to `{{ course_email }}` (do not send such requests to the tutor, as tutors do not handle admin matters).
 * **If you are covered by an MC during a F2F tutorial but you are well enough to attend it via Zoom**, you may request to attend the tutorial via Zoom only, by writing to `{{ course_email }}` -- in such cases, Zoom-only attendance can be counted for participation (in contrast, Zoom-only attendance of F2F tutorials is not counted for participation under normal circumstances).
  {% endif %}
@@ -56,9 +56,9 @@ Similarly, we expect you to check email regularly and respond to emails written 
 
 <panel header="Email etiquette: ALWAYS respond to direct emails" expanded>
 
-Not responding to a personal email is a major breach of professional etiquette (and general civility). Imagine how pissed off you would be if you met the prof along the corridor, said 'Hi prof, good morning' and the prof walked away without saying anything back. Not responding to a personal email is just as bad. Always take a few seconds to at least acknowledge such emails. It doesn't take long to type "Noted. Thanks" and hit 'send'.
+Not responding to a personal email is a major breach of professional etiquette (and general civility). Imagine how annoyed you would be if you met the prof along the corridor, said 'Hi prof, good morning' and the prof walked away without saying anything back. Not responding to a personal email is just as bad. Always take a few seconds to at least acknowledge such emails. It doesn't take long to type "Noted. Thanks" and hit 'send'.
 
-The promptness of a reply is even more important when the email is requesting you for something that you cannot provide. Imagine you wrote to the prof requesting a reference letter and the prof did not respond at all because he/she did not want to give you one; You'll be quite frustrated because you wouldn't know whether to look for another prof or wait longer for a response. Saying 'No' is fine and in fact a necessary part of professional life; but saying nothing is not acceptable. If you didn't reply, the sender will not even know whether you received the email.
+The promptness of a reply is even more important when the email is requesting you for something that you cannot provide. Imagine you wrote to the prof requesting a reference letter and the prof did not respond at all because he/she did not want to give you one; you'll be quite frustrated because you wouldn't know whether to look for another prof or wait longer for a response. Saying 'No' is fine and in fact a necessary part of professional life; but saying nothing is not acceptable. If you didn't reply, the sender will not even know whether you received the email.
 
 </panel>
 <p/>
@@ -81,7 +81,7 @@ The promptness of a reply is even more important when the email is requesting yo
 
 <div id="policy-publishingSubmissions">
 
-The source code are publicly available and are available for reuse by others without any restrictions.
+The source code is publicly available and free for others to reuse without any restrictions.
 Is publishing submissions unfair to the author? We don't think so. If you were the first to think of something your peers are willing to adopt later, that means you are already ahead of them and they are unlikely to earn more marks by adopting your ideas.
 
 </div>
@@ -116,8 +116,8 @@ Penalties: NUS policy dictates that all plagiarism cases are to be reported, and
   * You clearly give credit to the original author(s).
 * You are allowed to reuse code from external sources, subject to following conditions:
   * You clearly give credit to the original author/source.
-  * You do not violate the license under which the work has been released. Please **do not use 3rd-party images/audio** in your software unless they have been specifically released to be used freely. Just because you found it in the Internet does not mean it is free for reuse.
-* ==Always get permission from us before you reuse== third-party libraries. Please post your 'request to use 3rd party library' in our [forum]({{ url_forum }}). That way, the whole class get to see what libraries are being used by others.
+  * You do not violate the license under which the work has been released. Please **do not use 3rd-party images/audio** in your software unless they have been specifically released to be used freely. Just because you found it on the Internet does not mean it is free for reuse.
+* ==Always get permission from us before you reuse== third-party libraries. Please post your 'request to use 3rd party library' in our [forum]({{ url_forum }}). That way, the whole class gets to see what libraries are being used by others.
   * Our approval is given based on compliance with the course. Compliance with the license of the reused software is entirely your responsibility. While we don't anticipate such a case, any liability from improper reuse of a third-party library is to be borne by the person who reused it (i.e., not NUS).
   * Once a 3rd party library has been approved for one student/team, it can be used freely by others without asking for approval again.
 
@@ -176,7 +176,7 @@ If you **reused code snippets found on the Internet** %%e.g., from StackOverflow
   //Solution below adapted from https://stackoverflow.com/a/16252290
   {Your implementation of the reused solution here ...}
   ```
-* If you copy-pasted a non-trivial code block (possibly with minor modifications %%renaming, layout changes, changes to comments, etc.%%), also mark the code block as reused code (using <trigger trigger="click" for="modal:reusePolicy-authorTags">`@@author` tags</trigger> with the <mark><code>-reused</code></mark>suffix)<br>
+* If you copy-pasted a non-trivial code block (possibly with minor modifications %%renaming, layout changes, changes to comments, etc.%%), also mark the code block as reused code (using <trigger trigger="click" for="modal:reusePolicy-authorTags">`@@author` tags</trigger> with the <mark><code>-reused</code></mark> suffix)<br>
   Format:
   ```java{highlight-lines="1['@@author'],6['@@author']"}
   //@@author {yourGithubUsername}-reused

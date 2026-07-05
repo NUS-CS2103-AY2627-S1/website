@@ -7,9 +7,9 @@
 
 <p class="lead text-secondary"><em>Course briefing videos</em> cover general admin instructions and aim to guide you on important components of the course.</p>
 
-**Course briefings are delivered as pre-recorded videos**, so that they can be made shorter, and you can speed-watch them if you wish, to save time.
+**Course briefings are delivered as pre-recorded videos**, so that they can be made shorter, and you can speed-watch them to save time if you wish.
 
-**Most course briefing videos are categorized MUST-WATCH** as they contain important information that you need to know to increase your effort-to-gain ratio, and get the best out of this course.
+**Most course briefing videos are categorized MUST-WATCH** as they contain important information you need to increase your effort-to-gain ratio and get the best out of this course.
 
 **They are listed below for reference only.** When it is time for you to watch a certain course briefing video, it will appear in the current schedule page of the course website.
 
@@ -21,7 +21,7 @@
 <box seamless>
 
 **{{ icon_graded }} Watching course briefing videos counts for participation.**<br>
-When watching a briefing video for the first time, avoid <tooltip content="dragging the slider or timeline bar back and forth">scrubbing</tooltip> or jumping ahead/around in the video timeline, as this can interfere with the video platform's capturing of what part of the video you actually watched. However, watching at faster speeds is fine.
+When watching a briefing video for the first time, avoid <tooltip content="dragging the slider or timeline bar back and forth">scrubbing</tooltip> or jumping ahead/around in the video timeline, as this can interfere with the video platform's tracking of which parts of the video you actually watched. However, watching at faster speeds is fine.
 
 **:fas-closed-captioning: We have added closed captioning support** for course briefing videos.
 
@@ -52,7 +52,7 @@ This week's briefing videos start with a detour.
 
 ---
 
-<span class="text-info">****0. Detour: SDLC Basics****</span>: Watch the following video covering the [week 2 topic 'SDLC Process Models Basics']({{ baseUrl }}/schedule/week2/topics.html#W2-2), as the concepts covered in there are referenced in the rest of the course briefing.
+<span class="text-info">****0. Detour: SDLC Basics****</span>: Watch the following video covering the [week 2 topic 'SDLC Process Models Basics']({{ baseUrl }}/schedule/week2/topics.html#W2-2), as the concepts covered there are referenced in the rest of the course briefing.
 {{ panopto(desc="6 mins -- %%Detour: **SDLC Basics**%%", "84a0119c-8f76-46fc-a256-b0f90098e59f", start_week="1") }}
 
 ---
@@ -68,7 +68,7 @@ This week's briefing videos start with a detour.
 ---
 
 <span class="text-info">****3. Week 1->2 Briefing****</span> (Week 1 Recap + Week 2 Preview): This video recaps Week 1 and gives a preview of what you need to do in Week 2.<br>
-%%Note: While weekly briefings are normally done in hybrid mode, this week's briefing is released as a pre-recorded video, to allow you to get started with week 2 tasks early.%%
+%%Note: While weekly briefings are normally done in hybrid mode, this week's briefing is released as a pre-recorded video to allow you to get started with week 2 tasks early.%%
 
 {{ panopto(desc="4 mins", "8548228b-dc17-4eaa-8aa2-b335010eea89", start_week="1") }}
 </div>

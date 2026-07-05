@@ -36,8 +36,8 @@ skinparam backgroundcolor transparent
 
 ****HEADS UP: 5 extra marks for community engagement!****{.text-danger}
 
-****Aim:**** **A student who does well in <tooltip content="i.e., activities that engages with, and benefits, fellow students in the class">peer-support activities</tooltip> should receive one letter grade higher** than another student who doesn't do well in this aspect, all other things being equal.<br>
-Rationale: Such activities are mutually beneficial, and enhances learning of you and your classmates.
+****Aim:**** **A student who does well in <tooltip content="i.e., activities that engage with, and benefit, fellow students in the class">peer-support activities</tooltip> should receive one letter grade higher** than another student who doesn't do well in this aspect, all other things being equal.<br>
+Rationale: Such activities are mutually beneficial, and enhance your learning as well as that of your classmates.
 
 ****How**** **does it work? There are at least 5 bonus marks allocated for such activities**. These marks are embedded inside various grade components (i.e., iP, tP, participation).
 
@@ -47,18 +47,18 @@ Rationale: Such activities are mutually beneficial, and enhances learning of you
 * Helping others to test their iP/tP, as requested via the forum.
 * Giving peer feedback via pull request reviews of team members (in the tP) and other students (in the iP).
 * Peer evaluations in iP and tP.
-* Helping to find bugs in another teams product (in the tP practical exam dry run).
+* Helping to find bugs in another team's product (in the tP practical exam dry run).
 
 ****What qualifies for bonus marks:**** While most of the eligible activities already have participation points attached to them, the **bonus marks are earned by going the extra mile to help peers**. Some examples:
 * Providing more useful/thoughtful inputs.
 * Doing notably more than the minimum requirement.
 
-****What doesn't qualify?**** Obvious attempts to grab bonus marks by gaming the system will not earn bonus marks though. Some examples:
+****What doesn't qualify?**** Obvious attempts to grab bonus marks by gaming the system will not be rewarded. Some examples:
 
 * Only a short burst of activity (instead of consistent activity over the semester).
-* Spammy/trivial posts/response.
+* Spammy/trivial posts/responses.
 * Regurgitating useless AI slop as feedback/responses.
-* 'Manufacturing' bogus activities (e.g., starting superfluous forum threads)
+* 'Manufacturing' bogus activities (e.g., starting superfluous forum threads).
 </box>
 </div>
 

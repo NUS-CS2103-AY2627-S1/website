@@ -9,9 +9,9 @@
 
 <div tags="m--cs2103">
 
-<p class="lead text-secondary"><em>Weekly briefing</em> are short weekly sessions (>1hr) conducted by the course lecturer(s) to wrap up the current week and brief you about the upcoming week.</p>
+<p class="lead text-secondary"><em>Weekly briefings</em> are short weekly sessions (>1hr) conducted by the course lecturer(s) to wrap up the current week and brief you about the upcoming week.</p>
 
-****This course does not have _lectures_****, as the course is using the _blended learning_ mode. Course content are delivered as an online textbook accompanied by pre-recorded videos, instead of using lectures as the main method of content delivery. We still have a lecture slot/venue though.
+****This course does not have _lectures_****, as the course is using the _blended learning_ mode. Course content is delivered as an online textbook accompanied by pre-recorded videos, instead of using lectures as the main method of content delivery. We still have a lecture slot/venue though.
 
 **In most weeks we use the lecture slot/venue for _weekly briefings_.** In some weeks we use it for important events such as the practical exam.
 </div>
@@ -27,7 +27,7 @@
 ****Mode****:
 {% if cs2103 %}
 * The first {{ lecture_name }} will be released as a pre-recorded video.
-* From week 2, {{ lecture_name }} will be in _hybrid_ mode (i.e., you can attend F2F or via Zoom or watch the recording later) from the 2nd week onwards. The Zoom link will be available in [Canvas course homepage]({{ url_canvas_home }}).
+* From week 2, {{ lecture_name }} will be in _hybrid_ mode (i.e., you can attend F2F or via Zoom or watch the recording later). The Zoom link will be available in [Canvas course homepage]({{ url_canvas_home }}).
 {% elseif cs2113 %}
 * Lectures will be conducted on-campus (i.e., F2F)
 {% else %}

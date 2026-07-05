@@ -14,7 +14,7 @@ There are no hard-and-fast rules. While some numbers (e.g., 30 LoC, or 3 levels 
 <p class="lead">The {{ url_schedule }} presents all you need to know in chronological order (for each week) while the other pages have some of the same content organized by topic.
 </p>
 
-The <span class="font-weight-bold">{{ url_schedule }}</span> is ==_the_ one page you need to refer weekly==. Although there is a lot of content in the <span class="font-weight-bold">{{ url_admin }}</span> and the [**Textbook page**]({{baseUrl}}/se-book-adapted/index.html) -- which you are welcome to read in those respective pages -- the same content is also cross-embedded in the corresponding weekly schedule pages. Such cross-embedded extracts usually appear in expandable panels and can be identified by the symbol {{ icon_embedding }} in the panel title.
+The <span class="font-weight-bold">{{ url_schedule }}</span> is ==_the_ one page you need to refer to weekly==. Although there is a lot of content in the <span class="font-weight-bold">{{ url_admin }}</span> and the [**Textbook page**]({{baseUrl}}/se-book-adapted/index.html) -- which you are welcome to read in those respective pages -- the same content is also cross-embedded in the corresponding weekly schedule pages. Such cross-embedded extracts usually appear in expandable panels and can be identified by the symbol {{ icon_embedding }} in the panel title.
 
 </div>
 <!-- =============================================================== -->
@@ -192,7 +192,7 @@ You can add the corresponding tags to the same commit.<br>
 Optionally, if you haven't pushed the commit to the fork yet, you can try to figure out how to split that commit into multiple commits.
 </div>
 <!-- =============================================================== -->
-<div id="faq-ipIncrementAlreadyDone-Q">The requirements of an increment scheduled for this week is already satisfied by the work I did in an earlier week. What now?</div>
+<div id="faq-ipIncrementAlreadyDone-Q">The requirements of an increment scheduled for this week are already satisfied by the work I did in an earlier week. What now?</div>
 <div id="faq-ipIncrementAlreadyDone-A">
 
 You can add the corresponding tag to the earlier commit (or the latest commit -- it doesn't matter) and push the tag.
@@ -275,7 +275,7 @@ Not to worry. You are welcome to (but not _required_ to) try to rectify it. Ther
 <div id="faq-ipAspectsNotCoveredByTheStandard-Q">What to do if a certain aspect is not covered by the Java/Git standard?</div>
 <div id="faq-ipAspectsNotCoveredByTheStandard-A">
 
-When something is not covered by the given standard/convention, you are free to choose which style you want to follow for that, but try to be consistent with the existing code (if any), and ensure everyone in the team follows the same (if it is a team project).
+When something is not covered by the given standard/convention, you are free to choose the style you prefer, but try to be consistent with the existing code (if any), and ensure everyone in the team follows the same convention (if it is a team project).
 </div>
 <!-- =============================================================== -->
 <div id="faq-ipCheckstyleMismatchWithCodingStandard-Q">What if the given sample Checkstyle config file doesn't match exactly with the Java coding standard?</div>
@@ -312,7 +312,7 @@ That said, a resubmission is likely to be held to a higher bar than the standard
 <div id="faq-ipEvaluationNoJar-Q">What if the student has not uploaded a JAR file, or the JAR file doesn't work at all?</div>
 <div id="faq-ipEvaluationNoJar-A">
 
-When you submit the evaluation (step 8 below), there will be a way to indicate that the JAR was not available, or any other serious issues you faced.
+When you submit the evaluation (step 8 below), there will be a way to report that the JAR was not available, or that you faced any other serious issues.
 </div>
 <!-- =============================================================== -->
 <div id="faq-ipDeadlineExtensions-Q">How to get a deadline extension for the iP final submission?</div>
@@ -373,7 +373,7 @@ TLDR: In this course, tutor's main job is to deliver tutorials. Hence, tutors ca
 * {{ good }} *This is how I understood coupling. Is that correct?*<br>
   %%**Reason**: This question shows you have put in some effort to learn the topic and seeking further clarification from the tutor.%%
 * {{ bad }} *What is coupling?* | *What is SLAP?*<br>
-  %%**Reason**: These are concept covered in the textbook and other resources provided.%%{% if cs2103 %}
+  %%**Reason**: These are concepts covered in the textbook and other resources provided.%%{% if cs2103 %}
 * {{ bad }} *How will this be graded?* | *What happens if this submission is late?*<br>
   %%**Reason**: Tutors are not allowed to answer admin questions.%%
 * {{ bad }} *My program crashes with this error; what to do?*<br>
@@ -463,13 +463,13 @@ However, you can request (by emailing `{{ course_email }}`) to attend the tutori
 There is no penalty, but that tutorial will not count for participation. See [here](participation.html#:~:text=Sufficient%20tutorial%20attendance/participation) for the bar you need to meet for tutorial participation.
 </div>
 <!-- =============================================================== -->
-<div id="faq-tutorialWhyF2f-Q">Why we need F2F tutorials? Why not do all tutorials via Zoom?</div>
+<div id="faq-tutorialWhyF2f-Q">Why do we need F2F tutorials? Why not do all tutorials via Zoom?</div>
 <div id="faq-tutorialWhyF2f-A">
 
 There are several reasons:
 
 1. NUS policy requires all small classes to be F2F. Physical interaction with peers is an essential part of the university experience.
-1. While Zoom is more convenient, they are not as effective in achieving some learning outcomes. For example, we are training you for working in team projects, and in technical communications, both of which sometimes need to be done in the F2F mode.
+1. While Zoom is more convenient, it is not as effective in achieving some learning outcomes. For example, we are training you for working in team projects, and in technical communications, both of which sometimes need to be done in the F2F mode.
 1. Your physical presence allows the tutor to observe team dynamics better. To give an example, sometimes even a team's seating positions can tell us the level of team cohesion.
 
 </div>
@@ -498,12 +498,12 @@ We use the downloaded workspace files to identify students who consistently come
 If you frequently find yourself being unable to finish task 1 in time, consider doing it in advance.
 </div>
 <!-- =============================================================== -->
-<div id="faq-tutorialWhyTutorCannotGiveTechHelp-Q">Why tutors are not allowed to give tech help?</div>
+<div id="faq-tutorialWhyTutorCannotGiveTechHelp-Q">Why are tutors not allowed to give tech help?</div>
 <div id="faq-tutorialWhyTutorCannotGiveTechHelp-A">
 
 The pedagogical reason: Learning how to solve technical problems, and <tooltip content="e.g., explaining the problem well">seek</tooltip>/give/receive help, **are learning outcomes of this course, and are critical skills for software engineers**. So, we want you to practice those things in this course as much as possible.
 
-A practical reason: Unlike in lower-level programming courses, the technical problem you encounter in this course are varied and dependent on your OS and tool choices. It is not possible for one person (e.g., your tutor) to know how to help with problems related to all OS'es and all tools used by students under his/her care. It is more practical to troubleshoot such problems via the course forum, as that gives you a way to get help from all your peers in the class, the entire teaching team, and a group of past students who have volunteered to help current students solve technical problems. Based on past data, we know that more than 90% of the problems posted in the course forum get resolved within 24 hours. So, **by not allowing you to get tech help from tutors, we are directing you to a more effective way to resolve those issues, while learning valuable skills at the same time**.
+A practical reason: Unlike in lower-level programming courses, the technical problems you encounter in this course are varied and dependent on your OS and tool choices. It is not possible for one person (e.g., your tutor) to know how to help with problems related to all OS'es and all tools used by students under his/her care. It is more practical to troubleshoot such problems via the course forum, as that gives you a way to get help from all your peers in the class, the entire teaching team, and a group of past students who have volunteered to help current students solve technical problems. Based on past data, we know that more than 90% of the problems posted in the course forum get resolved within 24 hours. So, **by not allowing you to get tech help from tutors, we are directing you to a more effective way to resolve those issues, while learning valuable skills at the same time**.
 </div>
 <!-- =============================================================== -->
 
@@ -738,7 +738,7 @@ Not surprisingly, a common question tutors receive is "can you look at our proje
 If you surpass the above bars (in your own estimation), you should be in a good position to receive full marks for the effort. But keep in mind that there are many other components in the [tP grading](tp-grading.md), not just the effort.
 </div>
 <!-- =============================================================== -->
-<div id="faq-tpNotEnoughWorkToDivide-Q">What if the chosen user stories for MVP is not enough to do a meaningful work division among team members?</div>
+<div id="faq-tpNotEnoughWorkToDivide-Q">What if the chosen user stories for MVP are not enough to do a meaningful work division among team members?</div>
 <div id="faq-tpNotEnoughWorkToDivide-A">
 
 In that case, at a later stage, you can add more user stories until there is enough for a meaningful work distribution. But at this point focus on selecting the smallest sub-set of _must_have_ user stories only.
@@ -1112,14 +1112,14 @@ Note that you can send no more than 6 bugs to the dev team anyway, and the produ
 </div>
 <!-- =============================================================== -->
 
-<div id="faq-peOtherCommitments-Q">Isn't it unfair to students who have other committments during the PE/PE-D period?</div>
+<div id="faq-peOtherCommitments-Q">Isn't it unfair to students who have other commitments during the PE/PE-D period?</div>
 <div id="faq-peOtherCommitments-A">
 
 The product testing part of the PE (and the PE-D) is expected to take no more than 2 hours, and hence, can be done during the lecture slot of the course.
 </div>
 <!-- =============================================================== -->
 
-<div id="faq-peMorePowerfulTools-Q">Will students using more powerful (e.g., paid) tools for testing will have an unfair advantage?</div>
+<div id="faq-peMorePowerfulTools-Q">Will students using more powerful (e.g., paid) tools for testing have an unfair advantage?</div>
 <div id="faq-peMorePowerfulTools-A">
 
 Given the nature of the product you are testing (small, simple), we expect that everyone will be able to find enough bugs to qualify for full marks for the product testing portion of the tP, even if you are not using any tools at all (i.e., manual testing only). At this scale, and at the current state of the art, we estimate the difference between using AI tools and manual testing to be negligible.
@@ -1310,9 +1310,9 @@ Caution: The scope of the course and the exam format evolve over time and some p
 
 Not to worry; we understand that this restriction can make the exam feel 'harder' than otherwise. We have the following **measures to compensate:**
 
-* **There is a buffer of two extra questions**, to cushion the impact of making a mistake in question, realizing it later, and not being able to go back to fix it. {{ bullet_tick_green }}
+* **There is a buffer of two extra questions**, to cushion the impact of making a mistake in a question, realizing it later, and not being able to go back to fix it. {{ bullet_tick_green }}
 * **There is a buffer of six extra minutes** (on top of the two extra questions), to cushion the impact of needing to spend extra time on a question to ensure the answer is correct before moving to the next question.
-* **The question difficulty is calibrated to match this mode of testing** i.e., the questions are easy enough that can be done one shot in a short time.
+* **The question difficulty is calibrated to match this mode of testing** i.e., the questions are easy enough to be done in one shot in a short time.
 * **Our tutorials prepare you for this mode of testing** (provided you do them sincerely), as our tutorials get you to answer a series of small MCQ-like questions and short-answer questions.
 </div>
 

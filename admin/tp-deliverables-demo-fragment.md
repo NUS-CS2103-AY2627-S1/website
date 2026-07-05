@@ -4,12 +4,12 @@
 {% endif %}
 
 * **Record a demo** of all the product features, in a reasonable order. Some options:
-  * Screen record each feature and tie it up (see the  "Suggested tools" below for tool options).
+  * Screen record each feature and tie it up (see the "Suggested tools" below for tool options).
   * Schedule + record a zoom meeting within the team, where you share your screens and do the demo.
 * **The quality of the demo will not affect marks** as long as it serves the purpose (i.e., demonstrates the product features). Hence, don't waste too much time on creating the video.
 * **Audio explanations** are strongly encouraged{% if not cs2113 %} (but not compulsory) -- alternatively, you can switch between slides and the app to give additional explanations{% endif %}.
 * **Annotations and other enhancements** to the video are optional (those will not earn any extra marks).
-* **All members taking part** in the demo video is encouraged but not compulsory.
+* **All members taking part** in the demo video are encouraged but not compulsory.
 * **File name:** `[TEAM_ID][product Name].mp4`  %%e.g., [{{ example_team_id }}][ContactsPlus].mp4%% (other video formats are acceptable but use a format that works on all major OS'es).
 * **File size:** Recommended to keep below 200MB. You can use a low resolution as long as the video is in usable quality.
 * **Submission:** Submit to Canvas (via the corresponding assignment).

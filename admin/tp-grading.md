@@ -65,11 +65,11 @@ Note that 'product design' or 'functionality' are not critical learning outcomes
   * assertions{% if cs2103 %}
   * defensive coding{% endif %}
 
-* No [coding standard]({{url_java_coding_standard}}) violations %%e.g., all boolean variables/methods sounds like booleans%%. Checkstyle can prevent only _some_ coding standard violations; others need to be checked manually.
+* No [coding standard]({{url_java_coding_standard}}) violations %%e.g., all boolean variables/methods sound like booleans%%. Checkstyle can prevent only _some_ coding standard violations; others need to be checked manually.
 
 * [SLAP]({{baseUrl}}/se-book-adapted/chapters/codeQuality.html#slap-hard) is applied at a reasonable level. Long methods or deeply-nested code are symptoms of low-SLAP.
 
-* No noticeable code duplications %%i.e., if there multiple blocks of code that vary only in minor ways, try to extract out similarities into one place%%, especially in test code.
+* No noticeable code duplications %%i.e., if there are multiple blocks of code that vary only in minor ways, try to extract out similarities into one place%%, especially in test code.
 
 * Evidence of applying [code quality guidelines covered in the course](../book/codeQuality/).
 

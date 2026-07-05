@@ -83,13 +83,13 @@ While PE and PE-D are primarily _manual_ testing sessions, **you may also use an
 <tabs active="{{ pe_active_tab }}">
 <tab header="PE Dry Run (at **{{ version_penultimate }}**)">
 
-A few hours before the PE-D starts, you will be notified via email which team you will be testing in the PE-D. After sending out those emails. we'll also announce it in Canvas. %%FYI, team members will be given different teams to test, and the team you test in PE-D is different from the team you test in the PE.%%
+A few hours before the PE-D starts, you will be notified via email which team you will be testing in the PE-D. After sending out those emails, we'll also announce it in Canvas. %%FYI, team members will be given different teams to test, and the team you test in PE-D is different from the team you test in the PE.%%
 
 {{ icon_important_big_red }} #r#You are not allowed to##,
 
 * reveal the team you are testing in the PE-D/PE to anyone or put that information in a place where others can see it. {{ bullet_x_red }}
-* to share your PE-D/PE bug reports with anyone.
-* to involve anyone else in your PE-D or PE tasks -- both are individual assignments, to be done by yourself.
+* share your PE-D/PE bug reports with anyone.
+* involve anyone else in your PE-D or PE tasks -- both are individual assignments, to be done by yourself.
 
 Do the following steps ==#r#after 12 noon on the PE-D day -- get started at least by 4pm##==.
 * First, download the _latest_ `.jar` file and UG/DG `.pdf` files from the team's releases page, if you haven't done this already.
@@ -150,7 +150,7 @@ Do the following steps ==#r#after 12 noon on the PE-D day -- get started at leas
 
 #g#In the scope of PE/PE-D## | #r#Not in the scope##
 -------------------|---------------------
-{{ icon_tick_green }} The behaviour of product jar file<br>{{ icon_tick_green }} UG (pdf file only)<br>{{ icon_tick_green }} DG (pdf file only) | {{ icon_x_red }} The product website, including `.md` files such as README.md<br>{{ icon_x_red }} Data and config files that comes with the app (unless they affect the app behavior)<br>{{ icon_x_red }} Terminal output (unless it attracts the attention of the user and worries/alarms him/her unnecessarily)<br>{{ icon_x_red }} Code quality issues (but there is no restriction on examining code to identify product/UG/DG bugs)
+{{ icon_tick_green }} The behavior of product jar file<br>{{ icon_tick_green }} UG (pdf file only)<br>{{ icon_tick_green }} DG (pdf file only) | {{ icon_x_red }} The product website, including `.md` files such as README.md<br>{{ icon_x_red }} Data and config files that come with the app (unless they affect the app behavior)<br>{{ icon_x_red }} Terminal output (unless it attracts the attention of the user and worries/alarms him/her unnecessarily)<br>{{ icon_x_red }} Code quality issues (but there is no restriction on examining code to identify product/UG/DG bugs)
 
 * **Test ==based on the Developer Guide== (Appendix named _Instructions for Manual Testing_) ==and the User Guide== PDF files.** The testing instructions in the Developer Guide can provide you some guidance but if you follow those instructions strictly, you are unlikely to find many bugs. You can deviate from the instructions to probe areas that are more likely to have bugs.<br>
  **If the provided UG/DG PDF files have serious issues** (e.g., some parts seem to be missing) you can report it as a bug, and then, use the Web versions of UG/DG for the testing.{% if cs2103 and pe_session=='pe' %}
@@ -215,15 +215,15 @@ Do the following steps ==#r#after 12 noon on the PE-D day -- get started at leas
 
 * **Assign exactly one `severity.*` label.**<br>
   If multiple `severity.*` labels are assigned, we'll pick the one with the lowest severity.<br>
-  If no `severity.*` labels is assigned, we'll pick `severity.Low` as the default.
+  If no `severity.*` labels are assigned, we'll pick `severity.Low` as the default.
 
 <div class="indented-level1">
 <include src="appendixE-gitHub.md#bug-severity" />
 </div>
 
 * **Assign exactly one `type.*` label.**<br>
-  If multiple `type.*` labels are assigned, we'll pick on of the selected ones at random.<br>
-  If no `type.*` labels is assigned, we'll pick one at random.
+  If multiple `type.*` labels are assigned, we'll pick one of the selected ones at random.<br>
+  If no `type.*` labels are assigned, we'll pick one at random.
 
 <div class="indented-level1">
 <include src="tp-pe-fragment.md#type-labels" />
@@ -298,7 +298,7 @@ Use the pain of dealing with this kind of bug reports as an opportunity to devel
 </box>
 <box type="info" tags="m--cs2103" seamless>
 
-**Even bugs inherited from AB3 need to be fixed.** As mentioned in a previous week, even bugs you inherited from AB3 need fixing %%(because "we inherited it from the previous dev team" is not a valid excuse to leave a bug unfixed)%%. If you are unsure if something is such a bug that need fixing, please post in the forum.
+**Even bugs inherited from AB3 need to be fixed.** As mentioned in a previous week, even bugs you inherited from AB3 need fixing %%(because "we inherited it from the previous dev team" is not a valid excuse to leave a bug unfixed)%%. If you are unsure if something is such a bug that needs fixing, please post in the forum.
 </box>
 <box type="tip" seamless>
 

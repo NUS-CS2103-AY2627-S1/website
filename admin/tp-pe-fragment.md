@@ -9,14 +9,14 @@
 <panel header="more details on the motivation and objectives..." minimized>
 
 * **The upfront objective of the PE is to increase the rigor of project grading.** Assessing most aspects of the project involves an element of subjectivity. As the project counts for a large percentage of the final grade, it is not prudent to rely on evaluations of tutors alone as there can be significant variations between how different tutors assess projects. That is why we collect more data points via the PE to minimize the chance of your project being affected by evaluator-bias.
-* **PE also evaluates your testing skills**, done as the following two-parts:
-  1. **You will be given a chance to find bugs in a different software.** Furthermore, you will be given an opportunity to ~~defend your bug reports against any possible objections~~ interact with the developers (anonymously) to refine the bug report further %%e.g., correct the severity level if the level you chose initially was incorrect%%. If you report possible bugs that turn out to be actual bugs, you earn marks (provided the product actually had bugs in the first place).
+* **PE also evaluates your testing skills**, done as the following two parts:
+  1. **You will be given a chance to find bugs in a different piece of software.** Furthermore, you will be given an opportunity to ~~defend your bug reports against any possible objections~~ interact with the developers (anonymously) to refine the bug report further %%e.g., correct the severity level if the level you chose initially was incorrect%%. If you report possible bugs that turn out to be actual bugs, you earn marks (provided the product actually had bugs in the first place).
   2. **Your product will be subjected to a rigorous testing** and you will be given a chance to point out any inaccuracies in the bugs reported. You will lose marks for any bugs that turned out to be real bugs, but only if your work has more bugs than a certain bar.
-* **The above two can lead to high-rigor, <tooltip content="based on how well you achieve the objectives of testing, as opposed to indirect measures such as number of test cases">_outcome-based_</tooltip> evaluation of your testing skills**. The alternative is to rely solely on other easy-to-measure metrics %%(e.g., the number of test cases, test coverage, test LoC etc.)%% which we don't think as good representations of your actual testing skills.
+* **The above two can lead to high-rigor, <tooltip content="based on how well you achieve the objectives of testing, as opposed to indirect measures such as number of test cases">_outcome-based_</tooltip> evaluation of your testing skills**. The alternative is to rely solely on other easy-to-measure metrics %%(e.g., the number of test cases, test coverage, test LoC etc.)%% which we don't think are as good representations of your actual testing skills.
 **The _ultimate_ objective of the PE is not even the higher rigor of grading.** Because of the PE, you will realize that any bugs are very likely to be detected, which means you will work extra hard to avoid bugs; and THAT is the real benefit. Ultimately, <span class="text-success">**what we want is for you to internalize a higher standard for testing and a lower tolerance for bugs in your own code**</span> -- something that can have a longer-lasting impact on your future careers, beyond the mere course grade.
 * **Problem: There is no way we can carry out the above-mentioned** two-part evaluation at a high-level of rigor if using tutors as testers, or using an automated testing script. %%e.g., some tutors might not have the motivation to try hard enough to find bugs, and it will be hard to find tutors willing to spend many hours testing products so near to their own exams.%%<br>
-  **Solution: Get the two parts of the evaluation to feed each other** by getting student to test each other's products.
-* **The fact that you are testing products created by your classmates and objecting to bugs reported by your classmates can make this a rather 'unpleasant' experience**. You might feel like _being pitted against each other_, or as if _you are forced to bring down each other_. But as you read above, it is a necessary evil for this evaluation to be even possible. Given the actual goal is to get you to create products with very few bugs, we think switching off the 'collaborative learning' mode for just a few days is a price worth paying to achieve that goal. After all, the PE is an evaluation activity (not a _learning activity_) and happens _after_ the regular learning period is over.
+  **Solution: Get the two parts of the evaluation to feed each other** by getting students to test each other's products.
+* **The fact that you are testing products created by your classmates and objecting to bugs reported by your classmates can make this a rather 'unpleasant' experience**. You might feel like _being pitted against each other_, or as if _you are forced to bring each other down_. But as you read above, it is a necessary evil for this evaluation to be even possible. Given the actual goal is to get you to create products with very few bugs, we think switching off the 'collaborative learning' mode for just a few days is a price worth paying to achieve that goal. After all, the PE is an evaluation activity (not a _learning activity_) and happens _after_ the regular learning period is over.
 * **You are not taking marks from someone else** -- at least, don't think of it that way. The point of contention is 'is this really a bug?' which is independent of the people involved. Furthermore, the reward for detecting a bug and the penalty for having a bug in your code are calculated independently.
 * **Still, _none of us_ likes it when others point out problems of our work**. Some of us don't even like pointing out problems of others' work. But ==we just have to learn not to take bug reports personally==. Another important intended outcome is to be able to report bugs in a way that doesn't feel like you are _attacking_ or trying to _sabotage_ the dev team.
 * **PE also evaluates aspects other than testing** e.g., your product evaluation skills, effort estimation skills etc. When evaluating those aspects in particular, they are ==not graded solely based on peer ratings==. Rather, PE data are cross-validated with tutors' grades to identify cases that need further investigation. When peer inputs are used for grading, they are usually combined with tutors' grades with appropriate weight for each. In some cases ratings from team members are given a higher weight compared to ratings from other peers, if that is appropriate.
@@ -24,18 +24,18 @@
 </div>
 
 * **The PE is divided into four phases, and is of the form 'take-home assignment'**:
-  * ****Phase 1: Bug Reporting****{.text-success}: <span id="pe-p1-desc">In this phase, you will test the allocated product, report bugs, and ==select upto 6 bugs to send to the dev team==.<br>
+  * ****Phase 1: Bug Reporting****{.text-success}: <span id="pe-p1-desc">In this phase, you will test the allocated product, report bugs, and ==select up to 6 bugs to send to the dev team==.<br>
     This phase is divided further into parts I, II, III, and IV.<br>
-    the recommended order and the recommended duration of each part is given below. you will be given about **24 hours (Friday 12 noon to Saturday 12 noon) to finish this phase**.<br>
+    The recommended order and the recommended duration of each part is given below. You will be given about **24 hours (Friday 12 noon to Saturday 12 noon) to finish this phase**.<br>
     **We recommend that you ==do the bulk of the PE during the lecture slot, or earlier==** (Reason: Support from the teaching team will be available only during that time).<br>
     **We recommend that you ==aim to finish this phase by Friday 23:59==**, and use Saturday portion as a buffer only (Reason: We'll send you a status report of your PE bug reports at the end of Friday, alerting you to any problems in the bug reports you have filed -- if there are any such issues, you can use the Saturday portion to fix those problems).</span>
     * <span class="badge bg-success">Phase 1 - part I</span> **Product Testing** [60 minutes] -- to focus on reporting bugs in the product (but can report documentation bugs too)
     * <span class="badge bg-success">Phase 1 - part II</span> **Evaluating Documents** [30 minutes] -- to focus on reporting bugs in the UG and DG (but can report product bugs too)
     * <span class="badge bg-success">Phase 1 - part III</span> **Overall Evaluation** [15 minutes] -- to give overall evaluation of the product, documentation, effort, etc.
-    * <span class="badge bg-success">Phase 1 - part IV</span> **Bug trimming** [15 minutes] -- to choose upto {{ tp_pe_bug_count }} bugs that you wish to send to the dev team.
+    * <span class="badge bg-success">Phase 1 - part IV</span> **Bug trimming** [15 minutes] -- to choose up to {{ tp_pe_bug_count }} bugs that you wish to send to the dev team.
 
-  * ****Phase 2: Developer Response****{.text-success}: <span id="pe-p2-desc">This phase is for you to respond to the bug reports you received. Done during Sunday - Tuesday period after PE </span>
-  * ****Phase 3: Tester Response****{.text-success}: <span id="pe-p3-desc">In this phase you will receive the dev teams response to the bugs you reported, and will give your own counter-response (if needed). Done during Wednesday - Friday period after the PE.</span>
+  * ****Phase 2: Developer Response****{.text-success}: <span id="pe-p2-desc">This phase is for you to respond to the bug reports you received. Done during Sunday - Tuesday period after PE</span>
+  * ****Phase 3: Tester Response****{.text-success}: <span id="pe-p3-desc">In this phase you will receive the dev team's response to the bugs you reported, and will give your own counter-response (if needed). Done during Wednesday - Friday period after the PE.</span>
   * ****Phase 4: Tutor Moderation****{.text-secondary}: <span id="pe-p4-desc">In this phase tutors will look through all dev responses you objected to in the previous phase and decide on a final outcome. Students are not usually involved in this phase.</span><br><br>
 
 {{ show_faq('peTooLong', is_compact=1) }}
@@ -116,7 +116,7 @@ Unlike the PE-D, you can send #r#no more than 6 bugs to the dev team## in the PE
 
 
 * =={{ icon_tip }} **When in doubt, choose the lower severity:**== If the severity of a bug seems to be smack in the _middle_ of two severity levels, choose the lower severity (unless much closer to the higher one than the lower one).
-  * Reason: The teaching team follow the same policy when adjudicating disputed severity levels in the last phase of the PE.
+  * Reason: The teaching team follows the same policy when adjudicating disputed severity levels in the last phase of the PE.
   * As the tester, you might feel like you are throwing away marks by choosing a lower priority; but the lower priority has a lower risk of being disputed by the dev team, giving you (and the dev team) a better chance of earning bonus marks for accuracy.
 
 <div id="pe-questions-we-cannot-answer">
@@ -150,7 +150,7 @@ The above **applies to this and all remaining PE phases**.
 {{ embed_topic("tp-grading-bugs-fragment.md#dgBugs", "Admin " + icon_embedding + " tP Grading → **Possible DG Bugs**", "3", indent="1") }}
 <p/>
 
-* **You _may_ report grammar issues** as bugs but note that minor grammar issues that don't hinder the reader are allowed to be categorized as `response.NotInScope` (by the receiving team) -- such bugs earn only small amount or credit for the tester (hence, do not waste time reporting too many minor grammar errors).
+* **You _may_ report grammar issues** as bugs but note that minor grammar issues that don't hinder the reader are allowed to be categorized as `response.NotInScope` (by the receiving team) -- such bugs earn only a small amount of credit for the tester (hence, do not waste time reporting too many minor grammar errors).
 
 
 -------------------------------------------------------------------------{.border-success}
@@ -243,7 +243,7 @@ Use the person's PPP and RepoSense page to evaluate the effort.
 
 #### <span class="badge bg-success">&rarr; PE Phase 1 - Part IV</span> <span class="text-success">Trimming bugs</span>
 
-**In this part testers choose ==upto {{ tp_pe_bug_count }} bugs== that they wish to send to the dev team.**
+**In this part testers choose ==up to {{ tp_pe_bug_count }} bugs== that they wish to send to the dev team.**
 
 <box type="tip" seamless>
 
@@ -304,14 +304,14 @@ You will receive bonus marks if a high percentage (e.g., some bonus if >50%, a s
 
 **Bonus marks for high accuracy rates!**{.text-success}
 
-You will receive bonus marks if a high percentage (e.g., some bonus if >60% substantial bonus if >80%) of bugs are _**accepted as triaged**_ (i.e., the eventual ~~`type.*`,~~ `severity.*`, and `response.*` of the bug match the ones you chose).
+You will receive bonus marks if a high percentage (e.g., some bonus if >60%, a substantial bonus if >80%) of bugs are _**accepted as triaged**_ (i.e., the eventual ~~`type.*`,~~ `severity.*`, and `response.*` of the bug match the ones you chose).
 </box>
 
 <box type="important" seamless>
 
 **It's not bargaining!**{.text-danger}
 
-When the tester and the dev team cannot reach a consensus, the teaching team will select either the dev team position or the tester position as the final state of the bug, whichever appear to be closer to being reasonable. <span class="text-danger">The teaching team will not come up with our own position, or choose a middle ground.</span>
+When the tester and the dev team cannot reach a consensus, the teaching team will select either the dev team position or the tester position as the final state of the bug, whichever appears to be closer to being reasonable. <span class="text-danger">The teaching team will not come up with our own position, or choose a middle ground.</span>
 
 Hence, do not be tempted to argue for an unreasonable position in the hope that you'll receive something less than asked but still in your favor e.g., if the tester chose `severity.High` but you think it should be `severity.Medium`, don't argue for `severity.VeryLow` in the hope that the teaching team will decide a middle ground of `severity.Low` or `severity.Medium`. It's more likely that the teaching team will choose the tester's position as yours seems unreasonable.
 
@@ -324,7 +324,7 @@ More importantly, this is not a bargaining between two parties; it's **an attemp
 
 If there is even the slightest chance that the change directly suggested (or indirectly hinted at) by a bug report is an improvement that you *might* consider doing in a future version of the product, choose `response.NotInScope`.<br/>
  Choose `response.Rejected` only for bug reports that are clearly incorrect (e.g., the tester misunderstood something).<br>
-Accordingly, it is typical a team to have a lot more `response.NotInScope` bugs and very few `response.Rejected` bugs.
+Accordingly, it is typical for a team to have a lot more `response.NotInScope` bugs and very few `response.Rejected` bugs.
 
 Note that `response.NotInScope` bugs earn a small amount of credit for the tester without any penalty for the dev team, unless there is an unusually high number of such bugs for a team.
 </box>
@@ -336,7 +336,7 @@ Note that `response.NotInScope` bugs earn a small amount of credit for the teste
 
 * We will create a private repo `pe-{your team ID}` in the [course's GitHub org]({{ url_course_org }}) containing all bug reports your team received. Only your team members will be able to access it. We'll let you know (via a Canvas announcement) when it is ready.
 * The issue tracker will already contain the necessary labels.
-  * #r#Do not change the text/colour of labels## that we have provided.
+  * #r#Do not change the text/color of labels## that we have provided.
   * #g#You may add more labels.## We will ignore those extra labels.<br>
     #r#Do not use `type.` and `severity.` as prefixes## of extra labels you add.
 * #r#Do not use the 'transfer bug' feature## to transfer the bug to another repo (to your team repo, for example).
@@ -434,7 +434,7 @@ Only the `response.Accepted` bugs are counted against the dev team. While `respo
   I think this bug report is unprofessional because ...
   ```
   {{ icon_important_big_red }} Use this option sparingly. Complaining about trivial things is unprofessional too. If the teaching team deems either party is acting unprofessionally, a penalty will be applied.<br>
-  Don't use this route to flag out weak/incorrect/incomplete bug reports -- reason: such bug reports are more likely attributable to incompetence than unprofessional behaviour.
+  Don't use this route to flag out weak/incorrect/incomplete bug reports -- reason: such bug reports are more likely attributable to incompetence than unprofessional behavior.
 
 * **You may use issue comments to discuss the bug with team members.**<br>
      If there are multiple comments in the issue thread, we will take the latest comment that starts with `# T` as the team's response.<br>
@@ -504,7 +504,7 @@ Duplicate2 <-- Duplicate3: "sub-issue of"
 1. After the deadline, assign the remaining bugs based on team consensus (e.g., discuss through a team meeting).
 1. Optionally, you can help team members by reviewing how they have responded to the bugs assigned to them, and providing suggestions on their choice of `response.*` label and justifications.
 
-* Must read: Guidelines for bug triaging is given below:
+* Must read: Guidelines for bug triaging are given below:
 
 <div class="indented-level1" id="additionalGuidelinesForBugTriaging">
 
@@ -561,7 +561,7 @@ However, ==if the dev team's argument is not too far from 'reasonable', it may b
   * the bug was not selected to send to the dev team in the first place.
 
 * When the phase has been announced as open, go to your PE bug reporting issue tracker. Then, for each issue, check the comment posted by our script, informing you of the team's response. If there is any aspect for which we can consider your objections for, they will be listed under the heading **Aspects You Can Object To:**
-  * **If the team has downgraded the severity**, and you agree with the downgrade, no action needed. If you disagree, explain your objection using exactly one comment, starting with the line `# S` (<kbd>#</kbd><kbd> space </kbd><kbd>S</kbd>)e.g.,
+  * **If the team has downgraded the severity**, and you agree with the downgrade, no action needed. If you disagree, explain your objection using exactly one comment, starting with the line `# S` (<kbd>#</kbd><kbd> space </kbd><kbd>S</kbd>) e.g.,
     ```markdown
     # S
 
@@ -590,7 +590,7 @@ However, ==if the dev team's argument is not too far from 'reasonable', it may b
     I think the team responded unprofessionally because ...
     ```
     {{ icon_important_big_red }} Use this option sparingly. Complaining about trivial things is unprofessional too. If the teaching team deems either party is acting unprofessionally, a penalty will be applied.<br>
-    Don't use this route to flag out a weak/missing justification from the dev team -- reason: there is no need to do so as weak/missing justifications are already penalised by ruling the corresponding dispute in favour of the tester.
+    Don't use this route to flag out a weak/missing justification from the dev team -- reason: there is no need to do so as weak/missing justifications are already penalized by ruling the corresponding dispute in favor of the tester.
   * **You need to submit ==one comment per each aspect== you object to.** #r#Do not combine multiple objections into one comment##.<br>
     * {{ good }}:
       ```
@@ -617,7 +617,7 @@ However, ==if the dev team's argument is not too far from 'reasonable', it may b
     You are also welcome to (but not required to) formally indicate your agreement by ticking the `[ ] - I agree with the dev team's position ...` checkbox, for each aspect.
 * #r#Do not##,
    * #r#change the subject, labels, or the description## of the original issue.
-   * #r#edit the labels text/colour of the labels that we have provided,<br>
+   * #r#edit the labels text/color of the labels that we have provided,<br>
      add new labels to the repo, or<br>
      delete labels in the repo##.
    * #r#close bug reports##.
@@ -644,13 +644,13 @@ Not accepted| agreed        |                     | {{ up }}           | no effe
 Not accepted| disagreed     | Accepted            | {{ down }}         | {{ up }}
 Not accepted| disagreed     | Not accepted        | {{ up }}           | {{ down }}
 
- <span class="badge rounded-pill bg-warning text-dark">Caution:</span> **Don't be tempted to contest every severity downgrade, thinking that there is 'no harm trying'** to overturn the downgrade because there is no additional penalty for trying to do so. If the teaching team feels that a tester is contesting a severity without a good basis, there will be an additional heavy penalty for the 'unreasonable' behaviour. So if you feel the dev team's justification for the severity downgrade is somewhat reasonable, it is in your interest to agree rather than to contest.
+ <span class="badge rounded-pill bg-warning text-dark">Caution:</span> **Don't be tempted to contest every severity downgrade, thinking that there is 'no harm trying'** to overturn the downgrade because there is no additional penalty for trying to do so. If the teaching team feels that a tester is contesting a severity without a good basis, there will be an additional heavy penalty for the 'unreasonable' behavior. So if you feel the dev team's justification for the severity downgrade is somewhat reasonable, it is in your interest to agree rather than to contest.
 
 {{ icon_info }} Dev accuracy is calculated individually (not per team), based on assignees.
 </div>
 
 * **To <tooltip content="i.e., previously you raised an objection but now you wish to agree with the dev team.">retract</tooltip> an objection**, either delete the <popover content="i.e., your comment stating the objection -- the one starting with `# R`, `# S`, `# D`">objection-comment</popover>, or remove the <tooltip content="i.e., `# R`, `# S`, `# D`">special heading</tooltip> that marks it as an objection-heading.<br>
-  #r#Simply 'hiding' an objection-comment will not be interpreted as a retraction.## Ticking the `I agree ...` checkbox will also not retract the objection, as we prioritise the objection-comment over the checkbox.
+  #r#Simply 'hiding' an objection-comment will not be interpreted as a retraction.## Ticking the `I agree ...` checkbox will also not retract the objection, as we prioritize the objection-comment over the checkbox.
 
 
 {{ show_faq("tpPeAccuracyForNotInScope", is_compact=1) }}

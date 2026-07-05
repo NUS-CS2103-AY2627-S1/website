@@ -9,12 +9,12 @@ These are some of the main principles underlying the course structure.
 The product is you, NOT what you build.
 </box>
 
-The software product you build is a side effect only. You are the product of this course. This means,
+The software product you build is only a side effect. You are the product of this course. This means,
 
 * We may not take the most efficient route to building the software product. **We take the route that allows you to learn the most**.
 * Building a software product that is unique, creative, and shiny is not our priority (although we try to do a bit of that too). **Learning to take pride in, and discovering the joy of, high quality software engineering work is our priority**.
 
-Following from that, we evaluate you on not just how much you've done, but also, how well you've done those things. Here are some of the aspects in which we focus on:
+Following from that, we evaluate you on not just how much you've done, but also, how well you've done those things. Here are some of the aspects we focus on:
 
 <table class="table table-bordered" cellpadding="0" cellspacing="0">
 
@@ -94,7 +94,7 @@ Ability to burn the midnight oil to meet a deadline
 
 <td colspan="1" rowspan="1">
 
-Ability to schedule work so that the need for 'last minute heroics' is minimal
+Ability to schedule work so that the need for 'last-minute heroics' is minimal
 
 </td>
 
@@ -144,11 +144,11 @@ Learn from each other. That is why we open-source your submissions.
 
 Teach each other, even those in other teams. Those who do it well can become tutors next time.
 
-**Continuously engage, NOT last minute heroics.**
+**Continuously engage, NOT last-minute heroics.**
 
-We want to train you to do software engineering in a steady and repeatable manner that does not require 'last minute heroics'.
+We want to train you to do software engineering in a steady and repeatable manner that does not require 'last-minute heroics'.
 
-In this course, last minute heroics will not earn you a good project grade, and last minute mugging will not earn you a good exam grade.
+In this course, last-minute heroics will not earn you a good project grade, and last-minute mugging will not earn you a good exam grade.
 
 **Where you reach at the end matters, NOT what you knew at the beginning.**
 

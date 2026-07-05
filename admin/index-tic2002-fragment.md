@@ -301,7 +301,7 @@ We'll be using IntelliJ IDEA for programming. While using IntelliJ is not compul
   * **Weekly quizzes**:
     * When awarding participation points for quizzes, we look for two conditions:
       * Condition 1: submitted **_early_** i.e., before the next lecture
-      * Condition 2: answered **_correctly_** i.e., least 70% of the answers are correct %%(reason: to discourage random answers)%%
+      * Condition 2: answered **_correctly_** i.e., at least 70% of the answers are correct %%(reason: to discourage random answers)%%
     * You earn:
       * 3 points if you satisfy both conditions.
       * 2 points if only one of the conditions is satisfied.

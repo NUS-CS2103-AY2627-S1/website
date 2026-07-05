@@ -13,7 +13,7 @@
 
 <div tags="m--cs2103" id="functionality-expectations">
 
-**The expected level of _functionality_ is what you could achieve if each member puts in about ==50% of the implementation effort they put into the iP==** (reason for setting it much less than 100%: even after adding the extra overheads of doing the project as a team, and working with an exising codebase, we don't want the tP to take more effort than the iP). This is the primary measure we will use when grading your tP implementation effort.<br>
+**The expected level of _functionality_ is what you could achieve if each member puts in about ==50% of the implementation effort they put into the iP==** (reason for setting it much less than 100%: even after adding the extra overheads of doing the project as a team, and working with an existing codebase, we don't want the tP to take more effort than the iP). This is the primary measure we will use when grading your tP implementation effort.<br>
 Furthermore, we estimate that the above-mentioned bar is roughly _equivalent_ to **writing about 300-400 lines of functional code** (excluding testing and documentation) per person. This is a secondary ballpark measure you can keep an eye on, in conjunction with the primary measure mentioned above.
 
 <box type="important" seamless>
@@ -49,7 +49,7 @@ In fact, here is the grading criterion for the individual project effort:
 
 <box tags="m--cs2103">
 
-{{ icon_tip }} If you wish to add the following features to your app, we recommend (but not require) you to follow similar features in AB4 (not AB3) in order to reduce the effort required.
+{{ icon_tip }} If you wish to add the following features to your app, we recommend (but not require) that you follow similar features in AB4 (not AB3) in order to reduce the effort required.
   * [Undo/redo](https://se-education.org/addressbook-level4/DeveloperGuide.html#undo-redo-feature)
   * [Automated GUI tests](https://se-education.org/addressbook-level4/Testing.html#types-of-tests)
 </box>
@@ -77,7 +77,7 @@ In fact, here is the grading criterion for the individual project effort:
 #### <span class="badge bg-info">{{ icon_individual }} Individual</span> <span class="text-info">Expectations on Implementation</span>
 
 * <span class="badge bg-info">Expectation</span> <span class="text-info">**Contribute to the functional code of the product.**</span>
-  * User-visible features are preferred, but it is not a strict requirement.:
+  * User-visible features are preferred, but it is not a strict requirement:
   * **The enhancement(s) should fit with the rest of the software** (and the target user profile) and should have the consent of the team members. %%You will lose marks if you go 'rogue' and add things that don't fit with the product.%%
 
 <div tags="m--cs2103" class="indented-level2">
@@ -85,7 +85,7 @@ In fact, here is the grading criterion for the individual project effort:
 <panel type="seamless" header="Some example enhancements" >
 
   * Add a new feature %%e.g., add the ability to view statistics%%
-  * Tweak an existing features %%e.g., make the command syntax more user-friendly and closer to natural language%%
+  * Tweak an existing feature %%e.g., make the command syntax more user-friendly and closer to natural language%%
   * A redesign of the GUI %%e.g., make it work like a chat application (note: chat is a form of CLI)%%
   * A redesign of the code %%e.g., Improve the design to improve the code quality.%%
 
@@ -177,7 +177,7 @@ _Roles_ indicate aspects you are in charge of and responsible for. %%E.g., if yo
 This is a non-exhaustive list; you may define additional roles.
 
 * _Team lead_: Responsible for overall project coordination.
-* _Documentation_ (short for ‘in charge of documentation’): Responsible for the quality of various project documents.
+* _Documentation_ (short for 'in charge of documentation'): Responsible for the quality of various project documents.
 * _Testing_: Ensures the testing of the project is done properly and on time.
 * _Code quality_: Looks after code quality, ensures adherence to coding standards, etc.
 * _Deliverables and deadlines_: Ensure project deliverables are done on time and in the right format.
@@ -191,16 +191,16 @@ This is a non-exhaustive list; you may define additional roles.
 </div>
 <div tags="m--cs2113">
 
-* _In charge of[Area XYZ]_ of the code: %%e.g. In charge of the code that deals with storage, etc.%% If you are in charge of an area, you are expected to know that area well, and review changes done to that code.
+* _In charge of [Area XYZ]_ of the code: %%e.g. In charge of the code that deals with storage, etc.%% If you are in charge of an area, you are expected to know that area well, and review changes done to that code.
 </div>
 </panel><p/>
 
-{{ icon_tip }} Ensure each of the important roles are assigned to one person in the team. It is OK to have a 'backup' for each role, but **for each aspect there should be one person who is unequivocally the person responsible for it**. %%Reason: when _everyone is responsible for everything_, no one is.%%
+{{ icon_tip }} Ensure each of the important roles is assigned to one person in the team. It is OK to have a 'backup' for each role, but **for each aspect there should be one person who is unequivocally the person responsible for it**. %%Reason: when _everyone is responsible for everything_, no one is.%%
 </span>
 </box>
 </div>
 
-* <span class="badge bg-info">Expectation</span> <span class="text-info">**Review each others work**.</span> %%Reason: reviewing skills is a learning outcome, and it is mutually beneficial.%%
+* <span class="badge bg-info">Expectation</span> <span class="text-info">**Review each other's work**.</span> %%Reason: reviewing skills is a learning outcome, and it is mutually beneficial.%%
 
 </div>
 <!-- ==================================================================================================== -->

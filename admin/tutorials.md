@@ -79,13 +79,13 @@ If you continue to face recurring Wi-Fi issues at certain NUS locations while yo
 * The Zoom recording of a tutorial will be made available to you after the tutorial.{% endif %}
 * <span class="text-danger">Slides used in tutorials will not be distributed to students.</span> You are expected to take notes {% if cs2103 %}(or screenshots){% else %}(and not take photos of the screen){% endif %} during the tutorial as necessary.<br>
   Reasons:
-  1. Tutorial slides are meant to help the tutor deliver the tutorial, and not meant to be used as reference materials for you to study later). ==When some content is suitable as a reference material, we'll provide you a copy of it.==
+  1. Tutorial slides are meant to help the tutor deliver the tutorial, and not meant to be used as reference materials for you to study later. ==When some content is suitable as a reference material, we'll provide you a copy of it.==
   1. To encourage some level of active engagement with the materials (e.g., taking notes) which is known to increase retention.
   1. To discourage 'no need to bother now; can look at the slides near the exam' attitude -- because most of the materials covered in tutorials are applicable to the project immediately.
 
 ##### Tutor's role
 
-The role of our tutor's is different from tutors in other courses.
+The role of our tutors is different from tutors in other courses.
 
 * **Not a source of admin information**, as per the course policy given below:
 

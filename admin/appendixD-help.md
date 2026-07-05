@@ -7,19 +7,19 @@
 {% set negative_icon = '{icon="fas-thumbs-down" i-class="text-white badge rounded-pill bg-danger" i-size="12px"}' %}
 {% set positive_icon = '{icon="fas-thumbs-up" i-class="text-white badge rounded-pill bg-success" i-size="12px"}' %}
 
-%%{{ icon_info }} This guide is mostly about getting tech help, but it also applies to getting clarifications on course topics too. e.g., what is the difference between _refactoring_ and _rewriting_ ?%%
+%%{{ icon_info }} This guide is mostly about getting tech help, but it also applies to getting clarifications on course topics too. e.g., what is the difference between _refactoring_ and _rewriting_?%%
 
 <span class="float-end">
 
 <pic eager src="{{baseUrl}}/admin/images/the good reasons to get home early.png" width="300"></pic><br>
 </span>
 
-**Keep in mind that instructors don't have ready solutions to all technical problems**. Unlike tutorial questions for which instructors have model solutions, given the complexity of industry tools we use (Gradle, GitHub, Git, ...) and the rapid pace they are updated, instructors don't have ready solutions to most technical problems you face in this course. The only realistic way to solve those problems at a large scale is crowdsourcing i.e., someone else who faced a similar problem might know how to fix it.
+**Keep in mind that instructors don't have ready solutions to all technical problems**. Unlike tutorial questions for which instructors have model solutions, given the complexity of industry tools we use (Gradle, GitHub, Git, ...) and the rapid pace they are updated, instructors don't have ready solutions to most technical problems you face in this course. The only realistic way to solve those problems at a large scale is crowdsourcing, i.e., someone else who faced a similar problem might know how to fix it.
 
 
 ### <span class="text-danger"><span class="text-white badge rounded-pill bg-danger">{{ icon_dislike }}</span> **What not to do:**</span>
 
-* **Send a help request to an instructor**: When faced with a technical problem or a doubt about a concept, don't fire off an email lecturer/tutor immediately, unless it is something only the lecturer/tutor is supposed to know.{{ negative_icon }}
+* **Send a help request to an instructor**: When faced with a technical problem or a doubt about a concept, don't fire off an email to the lecturer/tutor immediately, unless it is something only the lecturer/tutor is supposed to know.{{ negative_icon }}
 
 * **Request to meet the instructor to solve the problem**: That can only work if the person is supposed to know how to solve _all_ technical problems, which is often not the case.
 
@@ -31,7 +31,7 @@
 
 * **Get your team to meet for a weekly work-together session**. When you do course tasks together, it is easy to compare with each other and figure out what deviation is causing the problem. That is, crowdsource your team first.
 
-* **Search**: It is very likely the answer already exists somewhere in the cyberspace. Almost every programming-related question has been answered in places like [stackoverflow](http://stackoverflow.com/). Don't give an opportunity for someone to ask you to [STFW](http://www.jibble.org/stfw/).
+* **Search**: It is very likely the answer already exists somewhere in cyberspace. Almost every programming-related question has been answered in places like [stackoverflow](http://stackoverflow.com/). Don't give an opportunity for someone to ask you to [STFW](http://www.jibble.org/stfw/).
   Pay attention to the error message you encounter. Sometimes it also contains hints as to how to fix the problem. Even if not, a web search on the error message is a good starting point.<br>
   <pic eager src="{{baseUrl}}/admin/images/how to google it.png" width="600"/>
 
@@ -47,13 +47,13 @@
   **==If your problem remains unsolved 24 hours after posting in the forum==**, please alert `{{ course_email }}` so that the teaching team can look into it.
   </box>
 
-  * **Give full details of the problem** Conversations via online forums take time. If you post everything that is relevant to your problem, your chances of getting an answer in the first try is higher. If others have to ask you more questions before they can help you, it will take longer. But this doesn't mean you dump too much information into the thread either.
+  * **Give full details of the problem**. Conversations via online forums take time. If you post everything that is relevant to your problem, your chances of getting an answer in the first try are higher. If others have to ask you more questions before they can help you, it will take longer. But this doesn't mean you dump too much information into the thread either.
     * Give a meaningful title to the post. Be as specific as you can.<br>
       {{ bad }} `testing problem`<br>
       {{ good }} `runtest.bat fails with ClassNotFound error`
     * Include full error message, screenshots, screen recordings, code snippets, stack traces, etc.<br>
       {{ icon_tip }} Use [GFMD (GitHub-Flavored Markdown)](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) syntax writing a post in the GitHub issue tracker (which we use for the forum) to format the text appropriately.
-    * If the problem is code-related, share the full code if possible (e.g., push the current state of the code to a branch in your fork and give the link to the branch). That gives a chance for someone to reproduce the state of your project in their computer. Sharing just a snippet of your choosing might not be enough as the problem may not be where you think it is.
+    * If the problem is code-related, share the full code if possible (e.g., push the current state of the code to a branch in your fork and give the link to the branch). That gives a chance for someone to reproduce the state of your project on their computer. Sharing just a snippet of your choosing might not be enough as the problem may not be where you think it is.
   * **Avoid showing text as screenshots**: If you want to show some text in your post %%(e.g., a code snippet, an error message)%%, it is better to copy-paste the actual text rather than a _screenshot_ of the text<br>
     Reason: so that others can easily quote/copy/modify the code in their answers.<br>
     Remember to use [_fenced code blocks_ feature](https://docs.github.com/en/github/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks) so that the code is syntax-highlighted as well.<br>

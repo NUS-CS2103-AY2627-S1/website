@@ -63,14 +63,14 @@ Create a GitHub account (if you don't have one yet), as explained in the panel b
 
 ## Tools: for communication
 
-##### :fas-envelope: Course email %%(for course related queries, etc.)%%
+##### :fas-envelope: Course email %%(for course-related queries, etc.)%%
 
 * **Send all course-related emails to `{{ course | lower }}[at]nus.edu.sg`**.{% if cs2103 %}<br>
   Even if your course code is `CS2103T`, the email to use is `cs2103@...` (i.e., not `cs2103t@...`).
 {% endif %}
 
 ##### :fas-comment: Forum %%(for discussions, asking admin questions, seeking help, etc.)%%
-* **The preferred channels for course-related communication is the `forum` on GitHub** ==[{{url_forum}}]({{url_forum}})== (not the Canvas forum)
+* **The preferred channel for course-related communication is the `forum` on GitHub** ==[{{url_forum}}]({{url_forum}})== (not the Canvas forum)
 * When communicating with instructors, use the forum. Use private channels (e.g., emails, private messages, face-to-face, private chat groups) only when the forum is not suitable. %%Rationale: 1. More classmates can benefit from the discussions, 2. It is also safer because the prof can monitor information you receive for accuracy%%.
 <div tags="m--cs2103 m--cs2113">
 
@@ -113,7 +113,7 @@ We encourage all to ==_watch_ [the forum]({{ url_forum }})== to get alerts when 
 
 **[IntelliJ IDEA](https://www.jetbrains.com/idea/) is the recommended IDE** for course-related programming work. Using an IDE is strongly recommended but is not compulsory.
 
-Our Intellij **IDEA resources can be found at [se-edu/guides](https://se-education.org/guides/)**.
+Our IntelliJ **IDEA resources can be found at [se-edu/guides](https://se-education.org/guides/)**.
 
 <box type="warning" seamless>
 

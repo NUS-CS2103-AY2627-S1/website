@@ -21,8 +21,8 @@
 
 * **We allow some freedom in choosing team members**, subject to these constraints:
   * **All team members should be in the same tutorial.** ==Delay forming teams until your place in a tutorial is confirmed.== We do not allow changing tutorials to team up with your preferred teammates.
-  * **Teams of a single nationality are not allowed**  unless the only language common among all team members is English. e.g., an all-Singaporean team that include both Chinese and Malay students. %%Rationale: to train you to work in multicultural teams, to ensure that English is used for all project communication%%
-  * **No more than one exchange students per team** %%Rationale: to increase interaction between exchange students and NUS students.%%
+  * **Teams of a single nationality are not allowed**  unless the only language common among all team members is English. e.g., an all-Singaporean team that includes both Chinese and Malay students. %%Rationale: to train you to work in multicultural teams, to ensure that English is used for all project communication%%
+  * **No more than one exchange student per team** %%Rationale: to increase interaction between exchange students and NUS students.%%
   * **Same gender teams are discouraged but allowed.** %%Rationale: to train you for mixed-gender work environments.%%
 * **If you prefer not to form teams yourselves**, not to worry; we'll put you in a team.
 * **We may have to modify teams** when circumstances call for it. There is no avenue for you to object. Staying with your preferred team is not guaranteed.
@@ -33,7 +33,7 @@
 #### Team ID
 
 * **To be given to you after forming teams.**
-* **Has the form `TUTORIAL_ID-TEAM_NUMBER`** e.g, `{{ course }}-W14-2` means you are in tutorial `{{ course }}-W14` (i.e., in course `{{ course }}`, on `Wednesday`, at `1400-1500`), team `2`.
+* **Has the form `TUTORIAL_ID-TEAM_NUMBER`** e.g., `{{ course }}-W14-2` means you are in tutorial `{{ course }}-W14` (i.e., in course `{{ course }}`, on `Wednesday`, at `1400-1500`), team `2`.
 
 <div class="indented-level1">
 

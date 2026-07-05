@@ -150,7 +150,7 @@ Teaching Assistant<br>
 
 ### Tan **Yugin**
 
-{{ show_role("Gradute Tutor") }}
+{{ show_role("Graduate Tutor") }}
 
 
 PhD Candidate<br>

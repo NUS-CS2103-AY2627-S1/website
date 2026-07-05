@@ -14,12 +14,12 @@
 ****Full marks for the iP is `{{ marks_ip }}`****.{.text-info}
 
 {% if cs2103 %}
-* **Meeting all the bars specified below** you earn your iP full  `{{ marks_ip }}` marks.
+* **Meeting all the bars specified below**, you earn your iP full `{{ marks_ip }}` marks.
 * **Falling below _any_ of the bars specified below** will limit your iP score to less than half the marks.{.text-danger}
 
 That is, you either get full marks, or less than half the marks.
 {% elseif cs2113 %}
-* **Meeting the bars specified below for each aspect** will earn you full  `{{ marks_ip }}` marks for iP.
+* **Meeting the bars specified below for each aspect** will earn you full `{{ marks_ip }}` marks for iP.
 * **Falling below the bars specified for _any_ of the aspects below** will limit your iP score to less than half the marks in that aspect.{.text-danger}
 
 That is, you either get full marks, or less than half the marks for each aspect.
@@ -30,7 +30,7 @@ That is, you either get full marks, or less than half the marks for each aspect.
 
 * **More than 90% of all deliverables** have been completed in the final version of the iP submitted.<br>
     Requirements marked as <span class="badge rounded-pill bg-secondary">optional</span> or <span class="badge rounded-pill bg-secondary">if-applicable</span> are not counted when calculating the percentage of deliverables.<br>
-    When a requirement specifies a `minimal` version of it, simply reaching that minimal version of the requirement is enough for it to be counted for grading -- however, we recommend you to go beyond the minimal; the farther you go, the more practice you will get.{% if cs2103 %}
+    When a requirement specifies a `minimal` version of it, simply reaching that minimal version of the requirement is enough for it to be counted for grading -- however, we recommend you go beyond the minimal; the farther you go, the more practice you will get.{% if cs2103 %}
 * **Has a GUI** that is at least as good as the one reached by the JavaFx tutorial !!part 4!! (i.e., no need to have features covered in part 5) and <tooltip content="i.e., a user can use the chatbot via the GUI">fit-for-purpose</tooltip>.{% endif %}
 * **No major bugs.**
 * **Reasonable use of OOP** e.g., at least some use of inheritance, code divided into classes in a sensible way (e.g., `Ui`, `Storage`, `Parser`, `Todo`, `Deadline`, `Event` etc.).

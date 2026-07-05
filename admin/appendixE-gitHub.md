@@ -16,7 +16,7 @@ Create a personal GitHub account if you don't have one yet.
 
    <panel type="seamless" header="%%Why am I being encouraged to complete my GitHub profile?%%" >
 
-   The GitHub profile is useful for the tutors and classmates to identify you. If you are reluctant to share your info in your long-term GitHub account, you can remove those details after the course is over or create a separate GitHub account just for the course.
+   The GitHub profile helps tutors and classmates identify you. If you are reluctant to share your info in your long-term GitHub account, you can remove those details after the course is over or create a separate GitHub account just for the course.
 
    </panel>
 3. ==Please do not change your GitHub username during the semester/exam/grading period== as it can cause our auto-grading scripts to miss your GitHub activities. If you change your GitHub username during that period due to an unavoidable reason, please let us know immediately.
@@ -86,7 +86,7 @@ The tP project template given to you is a variation of the iP repo you used for 
    **Set up codecov**, as explained in the [DevOps guide]({{ url_ab3_fork_website }}/DevOps.html).{% endif %}
 {% if cs2103 %}
 1. **Set up the project website**<br>
-   There are two options for the project website: [Jekyll](https://jekyllrb.com/), [MarkBind](https://markbind.org). You can choose either one. More info are given in the panels below:
+   There are two options for the project website: [Jekyll](https://jekyllrb.com/), [MarkBind](https://markbind.org). You can choose either one. More info is given in the panels below:
 
 <div class="indented-level2">
 
@@ -136,7 +136,7 @@ Example AB3 website using MarkBind: [here](https://damithc.github.io/ab3-markbin
 1. **Create a _team PR_** for us to track your project progress: i.e., create a PR from your ==team repo `master` branch== to [[{{ course_org }}/{{ tp_repo_name }}]({{url_course_org}}/{{ tp_repo_name }})] `master` branch. PR name: `[Team ID] Product Name` e.g., `[{{ example_team_id }}] InsureList`. %%As you merge code to your team repo's `master` branch, this PR will auto-update to reflect how much your team's product has progressed.%%<br>
    Please fill in these details as specified because they are used by our grading scripts.
    * **PR subject: the name of your product** e.g., `[{{ example_team_id }}] InsureList`
-   * **Description: a 1-2 sentence overview** (plain text only, no formatting or links) of your project indicating the target user and the value proposition e.g., `InsureList helps insurance agents manage detail of their clients. It is optimized for CLI users so that frequent tasks can be done faster by typing in commands.`
+   * **Description: a 1-2 sentence overview** (plain text only, no formatting or links) of your project indicating the target user and the value proposition e.g., `InsureList helps insurance agents manage details of their clients. It is optimized for CLI users so that frequent tasks can be done faster by typing in commands.`
 1. [Optional, recommended] **Protect the `master` branch**: Use GitHub's [_Protected Branches_](https://help.github.com/articles/about-protected-branches/) feature to protect your `master` branch against rogue PRs. We suggest the following:
    * Go to the {{ show_as_rounded_tab(':octicon-gear: settings') }} of your team repo.{ texts="['i.', 'ii.', 'iii.']" }
    * Click on the `Branches` option on the navigation menu on the left.
@@ -181,14 +181,14 @@ We recommend you configure the issue tracker of the tP team repo as follows:
 <box>
 
 **Bug Severity** labels:
-* `severity.VeryLow` : A flaw that is purely cosmetic and does not affect usage e.g., a typo/spacing/layout/color/font issues in the docs or the UI that doesn't affect usage.
+* `severity.VeryLow` : A flaw that is purely cosmetic and does not affect usage e.g., typo/spacing/layout/color/font issues in the docs or the UI that don't affect usage.
   ==Only cosmetic problems should have this label==.
 * `severity.Low` : A flaw that is unlikely to affect normal operations of the product. Appears only in very rare situations and causes a minor inconvenience only.
 * `severity.Medium` : A flaw that causes occasional inconvenience to some users, but they can continue to use the product.
 * `severity.High` : A flaw that affects most users and causes major problems for users. i.e., only problems that make the product ==almost unusable for most users== should have this label.
 
 {{ icon_info }} **You may consider the impact on product's credibility**, in addition to the impact on the user, when deciding the severity level %%e.g., obvious and visible bugs hurt the product's credibility more%%.<br>
-{{ icon_info }} **When determining severity documentation bugs**, replace _user_ with _reader_ %%e.g., when deciding severity of DG bugs, consider the impact of the bug on developers reading the DG%%.
+{{ icon_info }} **When determining severity of documentation bugs**, replace _user_ with _reader_ %%e.g., when deciding severity of DG bugs, consider the impact of the bug on developers reading the DG%%.
 
 </box>
 </div>
@@ -338,7 +338,7 @@ In our project, we use _user stories_ to track user requirements. Instead of usi
 * **When reviewing others' PRs**:
   * **Follow the** [_**Best practices** for reviewing PRs_ @SE-EDU/guides](https://se-education.org/guides/guidelines/PRs-reviewing.html).
   * **Give comments at specific locations** of the code changes, in addition to adding an overall comment for the entire PR. Reason: location-specific comments are valued more in grading.
-  * {{ icon_tip }} `LGTM` is common abbreviation you can use in the review comments to mean `Looks Good To Me`.
+  * {{ icon_tip }} `LGTM` is a common abbreviation you can use in the review comments to mean `Looks Good To Me`.
 
 </div>
 <div id="tp-schedule-tracking-prs-merging">
@@ -347,7 +347,7 @@ In our project, we use _user stories_ to track user requirements. Instead of usi
 
 * **Do not merge PRs failing <tooltip content="Continuous Integration e.g., GitHub Actions">CI</tooltip>.** The CI status of a PR is reported at the bottom of the {{ show_as_rounded_tab(":octicon-comment-discussion: conversation")}} tab of the PR page. Here's an example:<br>
   ![](images/gitHubPrStatus.png)
-  * **If there is a failure**, you can click on the `Details` link in corresponding line to find out more about the failure. Once you figure out the cause of the failure, push a fix to the PR.
+  * **If there is a failure**, you can click on the `Details` link in the corresponding line to find out more about the failure. Once you figure out the cause of the failure, push a fix to the PR.
   * An exception to this guideline is when the failure is confirmed to be due to something you can afford to ignore %%e.g., when CI fails due to a drop in code coverage but the code section that is causing the coverage drop is not practical to be covered by automated tests, or you plan to write the relevant tests at a later time%%.
 * **Avoid rebasing/squashing** when merging PRs. While both are good alternatives to the default behavior of creating a merge commit, rebasing/squashing can affect the timestamp of the commits, which can interfere with the progress tracking that we do for grading purposes %%i.e., the commits can get detected under a week different from the week they were actually done%%.
 * **After merging a PR**,

@@ -12,12 +12,12 @@ pageNav: 5
 
 **First, some general principles related to handling teamwork issues:**
 
-* **tP is graded almost entirely based on individual work.**{.text-info} Even when a component is evaluated for the entire team (e.g., product design), each member will be given a mark based on that members' contribution to the component, and the quality of that contribution. This also means **your tP grade is determined almost entirely by your own work**, not the work of your team members. Even if all other team members are low-performing, you should still be able to get a good grade without increasing your workload significantly than otherwise, in theory.{texts="['GP1.', 'GP2.', 'GP3.', 'GP4.', 'GP5.', 'GP6.']" t-class="fw-bold text-info"}
+* **tP is graded almost entirely based on individual work.**{.text-info} Even when a component is evaluated for the entire team (e.g., product design), each member will be given a mark based on that members' contribution to the component, and the quality of that contribution. This also means **your tP grade is determined almost entirely by your own work**, not the work of your team members. Even if all other team members are low-performing, you should still be able to get a good grade without increasing your workload significantly more than otherwise, in theory.{texts="['GP1.', 'GP2.', 'GP3.', 'GP4.', 'GP5.', 'GP6.']" t-class="fw-bold text-info"}
 * **Team members are NOT _required_ to do an equal share of work.**{.text-info} Following from GP1, every member can decide how much they want to contribute to the project. This gives students the flexibility to control their tP workload based on their own expectations and motivations.
 * **Managing team issues is a learning outcome.**{.text-info} You are recommended to keep the teaching team informed of any teamwork issues you are facing but keep in mind that solving such issues is part of the 'project management' aspect, which is a tP deliverable. So, the teaching team will refrain from direct interventions except in severe cases.
-* **Be professional, kind, and civil to the team members, even if they are not meeting your expectations.**{.text-info} A below par performances in the tP does not make someone a 'bad person'. In some cases, the person might be fighting other battles that we are unaware of %%(e.g., mental health issues, family problems, financial problems)%%. The best we can do is to be kind and supportive.<br>
+* **Be professional, kind, and civil to the team members, even if they are not meeting your expectations.**{.text-info} A below-par performance in the tP does not make someone a 'bad person'. In some cases, the person might be fighting other battles that we are unaware of %%(e.g., mental health issues, family problems, financial problems)%%. The best we can do is to be kind and supportive.<br>
 **Be firm and assertive too**, when you need to. Being civil does not mean you let others walk all over you.
-* **Willful negative behaviors will be graded harshly.**{.text-info} Willful negative behaviors will be graded harshly. Examples: promising things without intending to deliver, sabotaging others' work, not following what the team agreed on (i.e., going 'rogue'), using offensive language when communicating with team members.
+* **Willful negative behaviors will be graded harshly.**{.text-info} Examples: promising things without intending to deliver, sabotaging others' work, not following what the team agreed on (i.e., going 'rogue'), using offensive language when communicating with team members.
 
 <box>
 
@@ -64,7 +64,7 @@ If the missing member reappears later (by which time you may have redistributed 
 
 Try not to feel angry or 'wronged'. A low performing member cannot bring others' grade down, or necessitate others to pick up their slack. As mentioned above, your grade is based on your individual work. Just do your best for the project and assume everyone else is doing their best too, although their best may be lower than yours.
 
-Once you identified a low-performing member, you will need to adapt your project targets and plans to match this reality that your available manpower resources is less than you anticipated before (see the 'A general strategy for adapting the project based on available manpower' box above).
+Once you have identified a low-performing member, you will need to adapt your project targets and plans to match this reality that your available manpower resources are less than you anticipated before (see the 'A general strategy for adapting the project based on available manpower' box above).
 
 ----
 
@@ -98,11 +98,11 @@ If the team refused to accept your work, you can still earn marks for that code.
 </panel> <!-- ============================================================================= -->
 <panel type="danger" header="##### CP4. Technically-weak members" expanded>
 
-**Problem:** A team member is not technically strong as the others.
+**Problem:** A team member is not as technically strong as the others.
 
 **Guidance for the team:**
 
-* You are encouraged to help this member level up. Mentorship within the team is rewarded and will improve your peer feedback, which are used not only in grading but also in selecting tutors.
+* You are encouraged to help this member level up. Mentorship within the team is rewarded and will improve your peer feedback, which is used not only in grading but also in selecting tutors.
 
 ----
 
@@ -131,7 +131,7 @@ If the team refused to accept your work, you can still earn marks for that code.
 
 **Problem:** The project is not moving forward because no one is taking charge. Everyone seems to be waiting for someone else to take charge.
 
-**Guidance for the team:** There is no choice but some members (at least one) has to take charge. Those who take charge are likely to score more in the 'Project Management' component.
+**Guidance for the team:** There is no choice but for some members (at least one) to take charge. Those who take charge are likely to score more in the 'Project Management' component.
 
 
 </panel><!-- ============================================================================= -->
@@ -173,7 +173,7 @@ If the team refused to accept your work, you can still earn marks for that code.
 Suggested steps:
 
 * Adjust project targets accordingly (e.g., cut down targets).
-* Redistribute any essential work assigned to that member. New assignees can cut down on less-important work that were previously assigned to them, to make room for this additional work.
+* Redistribute any essential work assigned to that member. New assignees can cut down on less-important work that was previously assigned to them, to make room for this additional work.
 * If that member has done some work already, you have two options:
 * Some of you take over and continue that work: In this case, you (i.e., the new assignee) should not take credit for work done by the previous assignee (but you can take credit for additional work that you did _after_ taking over). However, someone in the team still needs to take responsibility for any bugs in that work (i.e., you cannot blame bugs on someone who is no longer part of the team -- the current team is responsible for the quality of the _entire_ product).
 * Remove the work done by the outgoing member: In that case, the person(s) doing the removal can take credit for the extra effort required for removing the work.

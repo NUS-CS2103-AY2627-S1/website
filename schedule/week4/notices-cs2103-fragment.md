@@ -14,7 +14,7 @@ As usual, the _weekly_ briefing will be hybrid mode.
 
 <box dismissible>
 
-{{ icon_important_big_red }} We strongly recommend you to **have a team project meeting _before_ the tutorial**. Keep notes of the meeting, and update project documents -- the tutor will ask for those during the tutorial.
+{{ icon_important_big_red }} We strongly recommend that you **have a team project meeting _before_ the tutorial**. Keep notes of the meeting, and update project documents -- the tutor will ask for those during the tutorial.
 
 Do the following during the meeting:
 * **Finish the tP tasks allocated for the week.**

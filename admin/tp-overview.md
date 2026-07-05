@@ -83,9 +83,8 @@ For example, an app to manage one of these:{% if cs2113 %}
 * Introduce relationships between contacts e.g., members of a team
 * Make existing general features _really_ strong, worthy of a real product e.g.,
   * make the commands more natural, easier to type/remember, allow aliases, etc.
-  * make the search feature more powerful (e.g, fuzzy search)
-  * tweak the GUI to be more useful (e.g., highlight the contact added/edited
-  * provide GUI alternatives to CLI commands where appropriate)
+  * make the search feature more powerful (e.g., fuzzy search)
+  * tweak the GUI to be more useful (e.g., highlight the contact added/edited, provide GUI alternatives to CLI commands where appropriate)
 * Add more general features e.g.,
   * import/export data from other formats
   * archive old data
@@ -110,7 +109,7 @@ For example, an app to manage one of these:{% if cs2113 %}
 {{ cons }} more changes to the existing code at the start while you are still not very familiar with the codebase, morphing is less common in real projects (compared to direction 1).~~
 </div>
 
-Note that **creating a novel/unique/interesting product will NOT earn you extra marks** in this course. While those qualities are important in real world projects, and we do allow you room to go in those directions in this course, they are not the focus of this course {% if cs2103 %}%%(there are other courses such as CS3216, CS3217 that focus on those aspects)%%. Focus your energy on creating a _solid product at a high quality level_, which actually take a lot more energy than you might realize at first. Go for novelty/uniqueness/interesting etc. only if you have energy to spare and can do so without compromising the quality. For example, a bland feature/product implemented well will score more marks than a novel product that is buggy, even if the novel features were harder to implement.
+Note that **creating a novel/unique/interesting product will NOT earn you extra marks** in this course. While those qualities are important in real world projects, and we do allow you room to go in those directions in this course, they are not the focus of this course {% if cs2103 %}%%(there are other courses such as CS3216, CS3217 that focus on those aspects)%%. Focus your energy on creating a _solid product at a high quality level_, which actually takes a lot more energy than you might realize at first. Go for novelty/uniqueness/interesting etc. only if you have energy to spare and can do so without compromising the quality. For example, a bland feature/product implemented well will score more marks than a novel product that is buggy, even if the novel features were harder to implement.
 
 {% endif %}
 <div tags="m--cs2113">
@@ -130,7 +129,7 @@ Note that **creating a novel/unique/interesting product will NOT earn you extra 
 ## Target User & Value Proposition
 
 You are expected to:
-* **Define a very specific _target user profile_.** <br> ==We require you to narrow down the target user profile==  %%as opposed to trying to make it as general as possible. Here is an example of progressively narrowing down target user: anybody → teachers → university teachers → tech-savvy university teachers → instructors of course CS____.%%<br><br>
+* **Define a very specific _target user profile_.** <br> ==We require you to narrow down the target user profile== %%as opposed to trying to make it as general as possible. Here is an example of progressively narrowing down target user: anybody → teachers → university teachers → tech-savvy university teachers → instructors of course CS____.%%<br><br>
  {{ icon_important_big_red }} Be careful not to contradict given [project constraints]({{ baseUrl }}/admin/tp-constraints.html) when defining the user profile %%e.g., the target user should still prefer typing to mouse actions%%.
 
 <box type="warning" seamless>
@@ -145,7 +144,7 @@ You are expected to:
 </div>
 
 * **Define a clear _value proposition_** that matches the target user profile i.e., what problem does the product solve? how does it make the user's life easier?<br>
-  You should also define the _scope_ clearly i.e., boundary beyond which the app will not help %%e.g., the app will manage contact details of a small number of JC-level students (which means the there is no support for managing large number of students or primary/adult students, and will only manage contact details -- not other details such as grades)%%.
+  You should also define the _scope_ clearly i.e., boundary beyond which the app will not help %%e.g., the app will manage contact details of a small number of JC-level students (which means there is no support for managing large number of students or primary/adult students, and will only manage contact details -- not other details such as grades)%%.
 * **Aim to optimize the product to the chosen target users** Although you should not decide specific features yet, keep in mind that eventually you should optimize the product for the chosen target user %%i.e., add/tweak features that are especially/only applicable for target users (to make the app especially attractive to them)%%.
   * Example 1: If the product targets {{ course_pair }} instructors, there can be features that are applicable to them only, %%such as the ability to see a link to a student's project on GitHub%%
   * Example 2: If your app manages contacts, you can optimize its features based on,

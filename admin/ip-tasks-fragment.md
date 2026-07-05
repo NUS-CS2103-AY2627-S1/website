@@ -67,7 +67,7 @@
 
 <box type="info">
 
-The individual project (iP) and the team project (tP) undergoes changes after each semester. As such, teething issues are a possibility. If you encounter any problem while doing the iP/tP, please post in the [forum]({{ url_forum }}) so that we can take necessary actions.
+The individual project (iP) and the team project (tP) undergo changes after each semester. As such, teething issues are a possibility. If you encounter any problem while doing the iP/tP, please post in the [forum]({{ url_forum }}) so that we can take the necessary action.
 </box>
 </div>
 <div id="no-jumping-ahead">
@@ -75,7 +75,7 @@ The individual project (iP) and the team project (tP) undergoes changes after ea
 <box>
 
 {{ icon_important_big_red }} We discourage you from doing project tasks allocated to future weeks, although it is fine to stay ahead of the schedule a bit (but no more than a week ahead).<br>
-Reasons: In order to help you gain <tooltip content="the ability to apply knowledge or do tasks effortlessly as if you have been doing them for a long time">_fluency_</tooltip> (and also to better simulate real projects), **we want the project work to be <tooltip content="done at multiple times with time gaps in between">_spaced_</tooltip> and spanned over a longer period**, rather than to be done as a short burst.
+Reasons: In order to help you gain <tooltip content="the ability to apply knowledge or do tasks effortlessly as if you have been doing them for a long time">_fluency_</tooltip> (and also to better simulate real projects), **we want the project work to be <tooltip content="done in multiple sittings with gaps in between">_spaced_</tooltip> and spanned over a longer period**, rather than to be done as a short burst.
 
 Reminder: As per iP grading criteria, _some_ increments need to be done in each week. Clumping all the iP work into a short burst of work will not earn you full marks.
 </box>
@@ -102,7 +102,7 @@ Reminder: As per iP grading criteria, _some_ increments need to be done in each 
 
 **:fas-clock: Deadline:**
 
-Note the typical deadline weekly project tasks:
+Note the typical deadline for weekly project tasks:
 {{ embed_topic("weeklySchedule.md#deadline-definition", "Admin " + icon_embedding + " Weekly schedule → **Deadline for weekly tasks**", "1") }}
 <p/>
 
@@ -146,7 +146,7 @@ As per the above, ==you have until the {{ lecture_name }}== at the end of this w
 
 **:fas-clock: Deadline:**
 
-Note the typical deadline weekly project tasks:
+Note the typical deadline for weekly project tasks:
 {{ embed_topic("weeklySchedule.md#deadline-definition", "Admin " + icon_embedding + " Weekly schedule → **Deadline for weekly tasks**", "1") }}
 <p/>
 
@@ -320,7 +320,7 @@ If you are new to Git branching, before attempting this iP increment, first lear
 
 {% call topic_preamble(reuse=false) %}
 
-As you know, one main goal of the iP is to prepare for you for the tP. The task below is heavy on the 'training for tP' aspect.
+As you know, one main goal of the iP is to prepare you for the tP. The task below is heavy on the 'training for tP' aspect.
 
 In previous iP increments, you learned:
 
@@ -331,7 +331,7 @@ In the following iP task you will learn how to do the following new things, whic
 
 * How to merge branches in the remote repo, and pull the merged branch to your local repo
 * How to create PRs from branches other than `master`
-* How to manage PRs that your repo receive
+* How to manage PRs that your repo receives
 * How to work with parallel PRs
 
 Due to the above learning goals, this iP task is a bit complicated. Pay attention and try to achieve all learning goals along the way.
@@ -399,7 +399,7 @@ When you are doing the next step, you can run into merge conflicts. In some case
    checkout master
    merge branch-A-Assertions tag: "A-Assertions"
    </mermaid>
-   * Note how the remaining <tooltip content="i.e., branches not merged to the `master` branch yet">un-merged branches</tooltip> are no longer in sync with the latest `master`. To rectify, merge the `master` branch on to each of them. Resolve merge conflicts, if any. The outcome will be something like the below:{ texts="['3.3)']" }
+   * Note how the remaining <tooltip content="i.e., branches not merged to the `master` branch yet">un-merged branches</tooltip> are no longer in sync with the latest `master`. To rectify, merge the `master` branch onto each of them. Resolve merge conflicts, if any. The outcome will be something like the below:{ texts="['3.3)']" }
    <mermaid>
    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
    gitGraph
@@ -483,7 +483,7 @@ When you are doing the next step, you can run into merge conflicts. In some case
 
 {% if cs2103 %}
 * While not required, you are encouraged to use separate branches for each increment.
-  <br>Reason: that way, the `master` branch will always stay in a 'unbroken' state as the work-in-progress will be in a separate branch till such work is ready to be merged.{% endif %}
+  <br>Reason: that way, the `master` branch will always stay in an 'unbroken' state as the work-in-progress will be in a separate branch till such work is ready to be merged.{% endif %}
 * As before, commit, tag, and push, after each increment.
 </div>
 {#-------------------------------------------------------------------#}
@@ -536,7 +536,7 @@ commit id: "m6"
 </mermaid>
 
 * The Java and Git standards to follow (for `A-CodingStandard`) are given in [this page](standardsAndConventions.html).
-* After finishing, assuming you encountered merge conflicts (and some were rather painful to resolve), think of how such conflicts could have been reduced %%(e.g., by changing the order of merging, or minimizing parallel branches when certain type of changes are being done to the code)%%.
+* After finishing, assuming you encountered merge conflicts (and some were rather painful to resolve), think of how such conflicts could have been reduced %%(e.g., by changing the order of merging, or minimizing parallel branches when certain types of changes are being done to the code)%%.
 </div>
 </div>
 {#====================================================================================================================#}
@@ -591,7 +591,7 @@ If your fork doesn't have the `add-gradle-support` branch (i.e., you did not cop
 
 * **Follow the sample [build.gradle given in JavaFX tutorial](https://se-education.org/guides/tutorials/javaFxPart1.html#setting-up-java-fx)** closely, instead of following suggestions from AI tools.<br>
   %%Reason: As there are different ways of achieving this, following AI tools' advice can result in a 'Frankenstein' solution (i.e., a mixture of different approaches) that might work on your computer but might not work in other OS'es.%% {{ bullet_important_red }}
-* **You no longer need to keep the text-based UI** after adding a GUI (although you are welcome to). Similarly, there is no need to keep the I/O redirection style automated testing added via `A-TextUiTesting`) anymore -- that technique is suited for text UIs only.{{ bullet_info }}
+* **You no longer need to keep the text-based UI** after adding a GUI (although you are welcome to). Similarly, there is no need to keep the I/O redirection style automated testing added via `A-TextUiTesting` anymore -- that technique is suited for text UIs only.{{ bullet_info }}
 * **Is the `bye` command still needed**, now that the GUI can be closed in other ways?<br>
   Yes, we recommend keeping it. Reason: Being able to close the app by typing a command is consistent with the app's CLI-style <tooltip content="i.e., User Experience">UX</tooltip>.{{ bullet_Q }}
 </div>
@@ -612,7 +612,7 @@ If your fork doesn't have the `add-gradle-support` branch (i.e., you did not cop
 <div id="pre_A-AiAssisted">
 {% set ip_ai_link = "[iP.AI route](../schedule/week2/project.html#:~:text=iP.AI%3A%20an%20AI%2Dassisted%20approach%20to%20the%20iP)" %}
 * If you are already following the {{ ip_ai_link }}, you may add the `A-AiAssisted` tag to the latest commit of your repo without needing any further work.
-* Otherwise (i.e., if you haven't been using AI tools in the iP until now), the increment below is an opportunity for you to use the iP to explore how AI tools can help with programming tasks. If you take it up, in places where you use AI-assisted code, give some details (e.g., which tool you used how it helped) as a code comment. Alternatively, you can add an `AI.md` file, similar to the {{ ip_ai_link }}.
+* Otherwise (i.e., if you haven't been using AI tools in the iP until now), the increment below is an opportunity for you to use the iP to explore how AI tools can help with programming tasks. If you take it up, in places where you use AI-assisted code, give some details (e.g., which tool you used and how it helped) as a code comment. Alternatively, you can add an `AI.md` file, similar to the {{ ip_ai_link }}.
 * You may also do this increment in combination with optional increments given later in this page. For example, you can do the `A-BetterGui` using AI assistance.
 </div>
 
@@ -653,14 +653,14 @@ Read through this week's topics before starting the project.<br>
 </div>
 
 1. **Fork** [{{ url_course_org }}/{{ ip_repo_name }}]({{ url_course_org }}/{{ ip_repo_name }}), while noting the points below:<br>
-   <box type="important" seamless><md>==**Keep the fork name as `{{ ip_repo_name }}`**== or else our grading scripts will not be able to detect it. You can change the fork name to something else after the semester (and the grading) is over e.g., after receiving your grade for the course.<br>==**Keep the default branch name as `master`**==. While Git-Mastery uses `main` as the default branch name, iP and tP uses `master`. As both these are used widely in the industry, it is good for you to be comfortable using both.<br>==**Keep the source location as `[project root]/src`**==. Our grading scripts look for code in this folder.</md></box>
+   <box type="important" seamless><md>==**Keep the fork name as `{{ ip_repo_name }}`**== or else our grading scripts will not be able to detect it. You can change the fork name to something else after the semester (and the grading) is over e.g., after receiving your grade for the course.<br>==**Keep the default branch name as `master`**==. While Git-Mastery uses `main` as the default branch name, iP and tP use `master`. As both these are used widely in the industry, it is good for you to be comfortable using both.<br>==**Keep the source location as `[project root]/src`**==. Our grading scripts look for code in this folder.</md></box>
    <box type="tip" seamless><md>**Untick the `[ ] Copy the master branch only` option** so that you get a copy of the full repo.</md></box>
 1. ==**Enable the issue tracker** of your fork== (Go to `Settings` of your fork, scroll to the `Features` section, and tick the `Issues` checkbox). %%Reason: at times we post feedback on your issue tracker.%%<br>
    <box type="tip" seamless><md> If the issue tracker is enabled, you should be able to visit the following URL `https://github.com/{your_user_name}/{{ ip_repo_name }}/issues/new`<br> e.g., `https://github.com/johnDoe/{{ ip_repo_name }}/issues/new`</md></box>
 1. **Clone the fork** onto your computer.
    <box type="warning" seamless><md>**Avoid putting Git-controlled files inside cloud-synced (e.g., OneDrive, Dropbox) folders.** Reason: Multiple tools trying to detect/sync changes in the same folder can cause conflicts and unexpected behaviors.<br> If you want to access project files from multiple computers, use Git to do that (rather than cloud syncing tools).</md></box>
 1. **Set up the project in your IDE** as explained in [the README file]({{ url_course_org }}/{{ ip_repo_name }}/blob/master/README.md), if you plan to use an IDE for the project.
-   <box type="tip" seamless><md>**Not willing to lose Vim power?** Vim users worried about losing access to powerful Vim features if you use an IDE for the project: Most IDEs have a Vim plugin (e.g., [IdeaVim plugin](https://github.com/JetBrains/ideavim)) for using Vim features within the IDE i.e, it is possible to access both IDE features and Vim features at the same time!</md></box>
+   <box type="tip" seamless><md>**Not willing to lose Vim power?** Vim users worried about losing access to powerful Vim features if you use an IDE for the project: Most IDEs have a Vim plugin (e.g., [IdeaVim plugin](https://github.com/JetBrains/ideavim)) for using Vim features within the IDE i.e., it is possible to access both IDE features and Vim features at the same time!</md></box>
 
 </div>
 {#====================================================================================================================#}
@@ -681,7 +681,7 @@ Read through this week's topics before starting the project.<br>
     You may leave the description empty.<br>
     You may leave the `Allow edits by maintainers` box unchecked. %%If checked, maintainers of the upstream repo can push small fixes to your PR (for example, to resolve minor issues before merging).%%
   * If you created the PR correctly, it should appear in the list of PRs [here]({{ url_course_org }}/{{ ip_repo_name }}/pulls).
-  * Steps for creating a PR is given in {{ show_gm_lesson_link("prsCreate", "T9L1. Creating Pull Requests") }} (==omit the 'preparation' step==):
+  * Steps for creating a PR are given in {{ show_gm_lesson_link("prsCreate", "T9L1. Creating Pull Requests") }} (==omit the 'preparation' step==):
 
 <div class="indented-level2">
 
@@ -719,7 +719,7 @@ If you can spare some time, start learning JavaFX by following the [_JavaFX tuto
 <div id="desc_use_gfmd_in_pr_description">
 
 * [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/) (and Markdown in general) is useful in many places when using GitHub %%e.g., issue tracker, PR reviews, writing documentation%%. The aim of this task is to ensure that you are sufficiently familiar with the GFMD syntax.
-* Requirements: **Update  the description of the [iP ==PR==]({{ url_course_org }}/ip/pulls)** <tooltip content="go to the PR, click on the `...` icon on the top right corner of the previous description and choose `Edit`">(how?)</tooltip> you created earlier (<span class="text-danger">do not add a new comment</span>) so that it contains the following GFMD elements:
+* Requirements: **Update the description of the [iP ==PR==]({{ url_course_org }}/ip/pulls)** <tooltip content="go to the PR, click on the `...` icon on the top right corner of the previous description and choose `Edit`">(how?)</tooltip> you created earlier (<span class="text-danger">do not add a new comment</span>) so that it contains the following GFMD elements:
   1. a heading
   1. a bullet list
   1. a numbered list
@@ -832,7 +832,7 @@ This task is worth `2x2=4` participation points.
 <span id="heading_learn_from_others">Learn from others (optional)</span>
 <div id="desc_learn_from_others">
 
-* **You can use the [iP Code Dashboard]({{ url_ip_dashboard }}) to view others' iP code**, using the `Links → iP Code Dashboard` item in the top navigation menu of this course website.We encourage you to read others’ code and learn from them. If you adopt solutions from others (also encouraged), please follow our reuse policy. <br>
+* **You can use the [iP Code Dashboard]({{ url_ip_dashboard }}) to view others' iP code**, using the `Links → iP Code Dashboard` item in the top navigation menu of this course website. We encourage you to read others' code and learn from them. If you adopt solutions from others (also encouraged), please follow our reuse policy. <br>
 
 
 <box type="tip" seamless>
@@ -858,7 +858,7 @@ This activity is worth `2x2=4` participation points.
 
 </div>
 
-1. {% if cs2113 %}**The allocation will be sent via email**, by Monday 2359.{% else %}**Wait for the email notifying you which iPs are allocated for you to evaluate**. When the email is sent out, it will also be announced via course announcements.{% endif %}
+1. {% if cs2113 %}**The allocation will be sent via email**, by Monday 2359.{% else %}**Wait for the email notifying you which iPs are allocated for you to evaluate**. The allocation will also be announced via course announcements.{% endif %}
 1. **Download the _latest_ JAR file** of the first iP by following the link provided.
    {{ show_faq("ipEvaluationNoJar") }}
 3. **Locate the User Guide** of the app by following the link provided in that email.
@@ -874,7 +874,7 @@ This activity is worth `2x2=4` participation points.
      ```
      java -jar "my task manager.jar"
      ```
-1. **Do a light testing of the app** (not more than 10 minutes) to ensure the claimed features actually exist and there are no obvious bugs.<br>
+1. **Do some light testing of the app** (not more than 10 minutes) to ensure the claimed features actually exist and there are no obvious bugs.<br>
 1. **Do a quick examination of the code** (~ 5 minutes) by following the provided link.
 1. **Submit your evaluation** using the survey.
 1. **Repeat the above steps for the 2nd iP** allocated to you (use the survey `iP Peer Evaluation 2`).<br>
@@ -885,7 +885,7 @@ This activity is worth `2x2=4` participation points.
 <span id="heading_generate_new_jar">Generate a new JAR file</span>
 <div id="desc_generate_new_jar">
 
-* Generate a new JAR file using Gradle %%(Gradle can bundle the JavaFX third-party library into the jar file. If you do not bundle JavaFX with the JAR file, the application will not work in computers that don't have JavaFX installed)%%. Refer to the [_Gradle tutorial_ @SE-EDU/guides](https://se-education.org/guides/tutorials/gradle.html#creating-jar-files) to find how.<br>
+* Generate a new JAR file using Gradle %%(Gradle can bundle the JavaFX third-party library into the jar file. If you do not bundle JavaFX with the JAR file, the application will not work on computers that don't have JavaFX installed)%%. Refer to the [_Gradle tutorial_ @SE-EDU/guides](https://se-education.org/guides/tutorials/gradle.html#creating-jar-files) to find how.<br>
 ==If the `.jar`  file is smaller than 5MB==, most likely JavaFX libraries are not inside it.
 * There is no need to create a [_release_ in GitHub](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository) with this JAR file (although you are welcome to).
 </div>
@@ -893,7 +893,7 @@ This activity is worth `2x2=4` participation points.
 <span id="heading_write_full_commit_messages">Write some full commit messages</span>
 <div id="desc_write_full_commit_messages">
 
-* While we do not require you to write _full_ commit messages (i.e., including a message body) in the work done in this course, it is still good to learn how to write such commit message. The purpose of this task is to give you some practice in writing such full and well-written commit messages.
+* While we do not require you to write _full_ commit messages (i.e., including a message body) in the work done in this course, it is still good to learn how to write such a commit message. The purpose of this task is to give you some practice in writing such full and well-written commit messages.
 * Requirements:
   1. Write full commit messages for at least 2-3 commits that you push this week.
   1. Follow these [_Git conventions for the commit message body_ as specified by @SE-EDU/guides](https://se-education.org/guides/conventions/git.html#commit-message-body) when writing them.
@@ -904,10 +904,10 @@ This activity is worth `2x2=4` participation points.
 <div id="desc_finalize_features">
 
 * **Ensure the product can handle common errors <tooltip content="should not crash the app or render it unusable; user should be notified of the problem">gracefully</tooltip>**, such as the user making an unintentional error in the command, or the data file not being found in the expected location.
-* {{ icon_important_big_red }} **Ensure that the name of the product name is not `Duke`** (as required by [Level-0](../se-book-adapted/projectDuke/index.html#level-0-rename-greet-exit)){% if cs2103 %}<br>
+* {{ icon_important_big_red }} **Ensure that the product name is not `Duke`** (as required by [Level-0](../se-book-adapted/projectDuke/index.html#level-0-rename-greet-exit)){% if cs2103 %}<br>
    and the name is shown correctly everywhere it appears in the UI e.g., title bar of the GUI{% endif %}.
   * Reminder: You may give the product any name, but do not rename the repo.
-  * Reminder: You can give the chatbot any personality (there is no need to follow the exact command/response formats given)
+  * Reminder: You can give the chatbot any personality (there is no need to follow the exact command/response formats given).
 * {{ icon_important_big_red }} **Remember to give credit for any code you reused** or solutions you adopted from others. Reuse without giving credit is plagiarism and **will be reported to the university for disciplinary action**.
 
 {{ embed_topic("appendixB-policies.md#policy-reuse", "Admin " + icon_embedding + " **Course Policies → Policy on Reuse**", "1", indent="1") }}
@@ -928,7 +928,7 @@ Your GitHub username : <cv-placeholder-input name="username" appearance="underli
   class="cv-bind"
   alt="GitHub Avatar"
 /><br>
-%%<small>Note: Type your GitHub username in the blank above so that we can customise sample commands to fit you.</small>%%
+%%<small>Note: Type your GitHub username in the blank above so that we can customize sample commands to fit you.</small>%%
 </box>
 </div>
 
@@ -986,7 +986,7 @@ If you added the `Ui.png` correctly and set up the product website correctly, ==
 3. **Do the following [_smoke tests_](https://en.wikipedia.org/wiki/Smoke_testing_(software))** to ensure the jar file works %%(reason: a similar flow will be used when grading your iP)%%.<br>
    * Copy the jar file to an empty folder and test it from there. This should surface issues with hard-coded file paths.<br>
       When running the jar file for smoke testing, instead of double-clicking the jar file, do the following: open a terminal → navigate to the jar location → run the `java -jar "JAR_FILE_NAME"` command. {{ numbers_roman }}
-   * Pass the jar file to team members and ask them to do a test drive. Assuming some of your team members' OS differ from yours, this should verify if the app is cross-platform.<br>
+   * Pass the jar file to team members and ask them to do a test drive. Assuming some of your team members use a different OS from yours, this should verify if the app is cross-platform.<br>
       {{ icon_tip }} If you don't have ready access to a specific OS, you can ask others' help to smoke-test it by [posting a smoke-testing request in the forum]({{ url_forum }}/new?template=smoke.md) -- some of them will even appreciate the opportunity to help a classmate.<br>
      {{ icon_info }} Note that concepts you encounter while doing course project tasks (e.g., _smoke testing_) are in the [scope of the final exam](exams.html#:~:text=you%20are%20expected%20to%20be%20aware%20of%20SE%2Drelated%20things%20(i.e.%2C%20tools%2C%20techniques%2C%20concepts)%20encountered%20while%20dong%20the%20iP%20and%20the%20tP).
 
@@ -1025,7 +1025,7 @@ If you added the `Ui.png` correctly and set up the product website correctly, ==
 <div id="desc_add_ai_features_to_the_ip">
 <div class="indented">
 
-**Interested to add AI features to the iP?** Example:
+**Interested in adding AI features to the iP?** Example:
 
 ```
 User: @ai is there a command to add priorities to tasks?
@@ -1044,7 +1044,7 @@ Recommended: Add this feature in a separate branch, just to explore how far you 
 <div id="desc_get_more_out_of_the_ip">
 <div class="indented">
 
-**If you wish to cite the iP in your resume**, you can do more to make it look more impressive to a potential employer. These improvements are not considered for grading and can be done after the semester is over. Some ideas:
+**If you wish to cite the iP in your resume**, you can do more to make it more impressive to a potential employer. These improvements are not considered for grading and can be done after the semester ends. Some ideas:
 * **Improve the GUI**: Make the UI look nicer, unique, and memorable. You can get inspiration from [what others have done](ip-showcase.html) (but remember to give credit if you reuse any code from them).
 * **Add a demo** video or an animated gif to your user guide to show how the app works.
 * **Improve code quality**: iP is the right size to cite as an example of your code quality. You can use the RepoSense link (<span class="badge rounded-pill bg-light text-dark text-monospace">**&lt;/>**</span>) in the [iP showcase page](ip-showcase.html) to point to your iP code.

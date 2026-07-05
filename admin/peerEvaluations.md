@@ -40,8 +40,8 @@ This course leverages peer feedback/evaluations in many ways. In particular, we 
 * Peer evaluations are rarely used directly to calculate marks. They are mostly used to flag cases that need further investigation.
 * When investigating such cases to decide if and how much the marks should be adjusted based on peer evaluations, we consider factors such as the following:
   * Is there a consensus among team members? We do not want an extreme input from one team member to unduly affect the outcome. In many cases, we discard the highest and lowest ratings received before calculating the average.
-  * Do the other data points (e.g., LoC written, tutor feedback, commit history) corroborates the peer evaluations?
-* In some cases, a lower contribution rating given by peers (even if corroborated by other data) might not affect marks at all  e.g., if the lower contribution still meets the bar for earning full marks for that component.
+  * Do the other data points (e.g., LoC written, tutor feedback, commit history) corroborate the peer evaluations?
+* In some cases, a lower contribution rating given by peers (even if corroborated by other data) might not affect marks at all, e.g., if the lower contribution still meets the bar for earning full marks for that component.
 </div>
 
 ### Guidelines for giving peer feedback
@@ -51,7 +51,7 @@ Giving constructive feedback to others is a valuable skill for software engineer
 Here are some things to keep in mind:
 
 * Assume you are giving feedback to a colleague, not a friend. Keep the tone of your feedback reasonably professional. Do not use offensive language or slang.
-* The feedback should be honest and consistent. Giving positive qualitative feedback (e.g., `Thanks for all the hard work!` and negative ratings (e.g., `Equal share - 40%`) to the same team member is not being honest.
+* The feedback should be honest and consistent. Giving positive qualitative feedback (e.g., `Thanks for all the hard work!`) and negative ratings (e.g., `Equal share - 40%`) to the same team member is not being honest.
 * State your expectations early. All too often students give positive/neutral feedback early (hoping that the team member will improve later) and trash the team member in the final evaluation (because he/she did not improve as expected). However, this could be confusing to the recipient. It is better to give negative feedback early so that the team member gets a clear signal that he/she needs to improve.
 
 ### Guidelines for interpreting contribution ratings

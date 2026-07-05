@@ -15,7 +15,7 @@
 
 We try to _layer_ information so that readers have the freedom to omit less important layers if they wish to. Some 'layering' techniques used are explained below:
 
-**{{ icon_layers }} More important information are in bold** or ==highlighted== while %%less important information are dimmed%% or in collapsed panels such as the below.
+**{{ icon_layers }} More important information is in bold** or ==highlighted== while %%less important information is dimmed%% or in collapsed panels such as the ones below.
 
 <div class="indented-level2">
 <box>
@@ -26,7 +26,7 @@ Less important info
 
 </panel><p/>
 
-<panel header="%%Some less important info in a boarder-less panel%%" type="seamless">
+<panel header="%%Some less important info in a border-less panel%%" type="seamless">
 
 Less important info
 
@@ -104,7 +104,7 @@ Use the search box in the top navigation bar to search for keywords in the websi
 
 ### Printing Textbook Content{.text-white .bg-secondary .p-2}
 
-**[The Textbook page]({{ baseUrl }}/se-book-adapted/index.html) provides a printer-friendly and a study-friendly version** — omitting non-examinable topics, and limiting to things more relevant to studying for the exam — for each chapter and the whole book %%(indicated by {{icon_print}} icon)%%. You can use them for saving as pdf files or printing.
+**[The Textbook page]({{ baseUrl }}/se-book-adapted/index.html) provides a printer-friendly and a study-friendly version** — omitting non-examinable topics, and limiting to things more relevant to studying for the exam — for each chapter and the whole book %%(indicated by {{icon_print}} icon)%%. You can use them for saving as PDF files or printing.
 
 ### Making this Website Better{.text-white .bg-secondary .p-2}
 

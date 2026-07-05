@@ -1,5 +1,5 @@
 {% if cs2103 %}
-~~At the end of the project each student is required to submit a _Project Portfolio Page_.~~ ==**To reduce workload, this deliverable <span class="text-success">has been made optional</span> this semester.**== You need to submit this only if you think your team members are not fully aware of your contribution to the tP. Also, we will ask you to submit this if  there is a dispute about your contribution level.
+~~At the end of the project each student is required to submit a _Project Portfolio Page_.~~ ==**To reduce workload, this deliverable <span class="text-success">has been made optional</span> this semester.**== You need to submit this only if you think your team members are not fully aware of your contribution to the tP. Also, we will ask you to submit this if there is a dispute about your contribution level.
 
 <panel type="secondary" header="Details ... (read only if you opted to submit this deliverable)" peek>
 {% else %}
@@ -61,7 +61,7 @@ Overview + Summary of contributions | 0.5-1 | 2
 [Optional] Contributions to the Developer Guide | {{ dg_pages_per_person }}
 </div>
 
-* The ==page limits given above are _after_ converting to PDF format==. The actual amount of content you require is actually less than what these numbers suggest because the HTML → PDF conversion adds a lot of spacing around content.
+* The ==page limits given above are _after_ converting to PDF format==. The actual amount of content you require is less than what these numbers suggest because the HTML → PDF conversion adds a lot of spacing around content.
 {% else %}* PDF file submission: not required.{% endif %}
 {% if cs2103 %}
 </panel><p/>

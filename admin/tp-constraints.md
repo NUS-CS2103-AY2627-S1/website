@@ -89,14 +89,14 @@ The software should not depend on your own remote server.<br>
 The use of third-party frameworks/libraries/services is allowed but only if they,
 * are free, open-source (this doesn't apply to services), and have permissive license terms %%(E.g., trial version of libraries that require purchase after N days/uses are not allowed)%%.
 * do not require any installation by the user of your software.<br>
-  In case of services, requiring the user to create an account on a third-party service is strongly discouraged as it can result in your product for 'low testability'.
+  In case of services, requiring the user to create an account on a third-party service is strongly discouraged as it can result in your product getting a 'low testability' rating.
 * do not violate other constraints.
 
 and is subjected to prior approval by the teaching team.<br>
 %%**Reason:** We will not allow third-party software that can interfere with the learning objectives of the course.%%
 
 Please ==post in the [forum]({{url_course_org}}/forum/issues) your request to use a third-party libraries/services== _before_ you start using the library. Once a specific software has been approved for one team, other teams may use it without requesting permission again.<br/>
-%%**Reason:** The whole class should know which external software are used by others so that they can do the same if they wish to.%%
+%%**Reason:** The whole class should know which external software is used by others so that they can do the same if they wish to.%%
 {%- endcall  %}
 
 
@@ -161,7 +161,7 @@ It is OK to use a reliable public API %%e.g., Google Search%%, but we recommend 
 Avoid implementing hard-to-test (both for manual testing as well as automated testing) features or features that make your product hard-to-test.<br>
 %%**Reason**: ==_testability_ is a grading criterion.== If you choose to implement such a feature, you will need to spend an extra effort to reach an acceptable level of testability.%%
 Here are some examples of features that are hard-to-test:
-* Features that depend heavily on remote APIs: Those APIs can block your access if they mistake your automated tests as a bot attack. Some remote APIs require setting up accounts, keys, login etc., that will irritate the testers of your product and give a low rating to the testability of your work.
+* Features that depend heavily on remote APIs: Those APIs can block your access if they mistake your automated tests as a bot attack. Some remote APIs require setting up accounts, keys, logins etc., that will irritate the testers of your product and give a low rating to the testability of your work.
 * Audio-related features: The peer testing of your product is done under exam conditions where it is not appropriate to play audio.
 * Features that require creating user accounts, login, logout etc.
 {%- endcall %}
