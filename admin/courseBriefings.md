@@ -21,7 +21,7 @@
 <box seamless>
 
 **{{ icon_graded }} Watching course briefing videos counts for participation.**<br>
-When watching a briefing video for the first time, avoid <tooltip content="dragging the slider or timeline bar back and forth">scrubbing</tooltip> or jumping ahead/around in the video timeline, as this can interfere with the video platform's tracking of which parts of the video you actually watched. However, watching at faster speeds is fine.
+When watching a briefing video for the first time, avoid <tooltip content="dragging the slider or timeline bar back and forth">scrubbing</tooltip> or jumping ahead or around in the video timeline, as this can interfere with the video platform's tracking of which parts of the video you actually watched. However, watching at faster speeds is fine.
 
 **:fas-closed-captioning: We have added closed captioning support** for course briefing videos.
 
@@ -31,7 +31,7 @@ When watching a briefing video for the first time, avoid <tooltip content="dragg
 ****1. Welcome to the Course****:{.text-info}
 {{ panopto(desc="1 min", "edb318e2-ebe4-4985-9916-b3cd005e664b", start_week="0") }}
 
-<span class="text-info">****2. Course Goals****</span>: How the goals of this course shape its structure (possibly different from other courses), and how it should be approached by students.
+<span class="text-info">****2. Course Goals****</span>: How the goals of this course shape its structure (possibly different from other courses), and how students should approach it.
 {{ panopto(desc="9 mins", "a4d6f92e-b12f-4046-853b-b0fb01058143", start_week="0") }}
 
 
