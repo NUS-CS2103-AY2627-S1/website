@@ -210,7 +210,7 @@
       {location: ["errorHandling", "assertions", "what"], panopto: "cc9a700d-d611-4519-a4e1-ac2a00612a33"},
       {location: ["errorHandling", "assertions", "how"]},
       {location: ["errorHandling", "assertions", "when"]},
-    {heading: "Java: streams"},
+    {heading: "Java: Streams"},
       {location: ["cppToJava", "misc", "streams"]},
     {name: "Project Management"},
       {heading: "RCS: Managing Pull Requests II"},

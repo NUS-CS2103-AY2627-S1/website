@@ -17,9 +17,9 @@ Java for all programming activities, the project, and exam answers.
 
 <span tags="m--cs2103">
 
-The course doesn’t “teach” Java. We assume you already know Java basics.
+This course does not teach Java directly. We assume you already know Java basics.
 We expect you to learn on your own any Java constructs not covered in your previous courses.
-The exam expects you to know Java to the extent that you should be familiar with it as a result of using it in the course exercises/projects.
+The exam expects Java knowledge you would normally gain from using it in the course exercises and projects.
 </span>
 
 </td>
@@ -31,19 +31,19 @@ The exam expects you to know Java to the extent that you should be familiar with
 
 <span style="color:purple">**:fas-hard-hat: Preparation:**</span>
 
-We require you to use **Java 17** (the [Oracle version](https://www.oracle.com/java/technologies/downloads/#java17) or another alternative such as the OpenJDK version) for all course work. It is your responsibility to ensure the code you write (and executables you produce) are compatible with that version of Java. ==Any incompatibilities will be considered as bugs==.
+We require you to use **Java 17** (the [Oracle version](https://www.oracle.com/java/technologies/downloads/#java17) or an alternative such as OpenJDK) for all coursework. It is your responsibility to ensure the code you write (and executables you produce) is compatible with that version of Java. ==Any incompatibilities will be considered bugs==.
 
 **You are strongly discouraged from using a Java version other than 17.** If you need to use a different version for another course, use this as an opportunity to learn how to manage multiple Java versions on your computer.
 
-Refer to [se-edu/guides Java installation guides](https://se-education.org/guides/tutorials/javaInstallation.html) for more help on installing, verifying, configuring, and switching between Java versions.
+Refer to the [se-edu/guides Java installation guides](https://se-education.org/guides/tutorials/javaInstallation.html) for help with installing, verifying, configuring, and switching between Java versions.
 
 {% if cs2103 %}
 
 <panel type="danger" header="[IMPORTANT] Advisory for :fab-apple: Mac users" expanded >
 
-Mac users should use the specific Azul JDK 17 distribution specified in [this guide](https://se-education.org/guides/tutorials/javaInstallationMac.html).
+Mac users should use the specific Azul JDK 17 distribution recommended in [this guide](https://se-education.org/guides/tutorials/javaInstallationMac.html).
 
-To reiterate, #r#it is not enough that you have Java 17##, it needs to be ==the precise **Azul** JDK<strong>+JavaFX</strong> version specified== in the page linked above.
+To reiterate, #r#having Java 17 is not enough##; you need ==the precise **Azul** JDK<strong>+JavaFX</strong> version specified== in the page linked above.
 
 <!--
 **The problem:** You might not be able to run the JAR files produced by some of the classmates due to various incompatibility issues between your environment and theirs, although you can still get your own JAR files to work on your computer.

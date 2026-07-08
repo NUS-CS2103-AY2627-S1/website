@@ -3,24 +3,24 @@
 
 <panel type="info" header="##### ==[MUST-WATCH]== Course Briefing Segment - tP (8 minutes)" expanded >
 
-This week, we cover one more course briefing segment, given below. As with other _course_ briefing segments, it is compulsory to watch.
+This week, we cover one more course briefing segment, given below. Like the other _course_ briefing segments, this one is compulsory.
 
 <include src="../../admin/courseBriefings.md#course-briefing-w4" />
 
 
-As usual, the _weekly_ briefing will be hybrid mode.
+As usual, the _weekly_ briefing will be held in hybrid mode.
 </panel>
 <p/>
 
 <box dismissible>
 
-{{ icon_important_big_red }} We strongly recommend that you **have a team project meeting _before_ the tutorial**. Keep notes of the meeting, and update project documents -- the tutor will ask for those during the tutorial.
+{{ icon_important_big_red }} We strongly recommend that you **have a team project meeting _before_ the tutorial**. Keep meeting notes and update project documents; the tutor will ask for those during the tutorial.
 
 Do the following during the meeting:
 * **Finish the tP tasks allocated for the week.**
-* **Help each other finish iP tasks.** Tasks allocated to this week are especially troublesome and some peer help can be very useful.<br>
+* **Help each other finish iP tasks.** The tasks allocated for this week are especially troublesome, so peer help can be useful.<br>
 
-On a separate note, our guidelines on dealing with technical problems:
+On a separate note, see our guidelines on dealing with technical problems:
 
 {{ embed_topic(baseUrl+"/admin//appendixD-help.md#main", "Admin " + icon_embedding + " Appendix D: Getting Help", "4", indent="0") }}
 </box>

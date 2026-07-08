@@ -59,7 +59,7 @@ After receiving your team ID, one team member should do the following steps:
   * Plan: Open Source ($0/month)
   * This organization belongs to: My personal account
 * Add members to the organization:
-  * Create a team called`developers`to your organization.
+  * Create a team called `developers` to your organization.
   * Add your team members to the developers team.
 
 </div>
@@ -174,20 +174,20 @@ We recommend you configure the issue tracker of the tP team repo as follows:
 **Priority** labels:
 * `priority.High`: Must do
 * `priority.Medium`: Nice to have
-* `priority.Low`:Unlikely to do
+* `priority.Low`: Unlikely to do
 
 </box>
 <div id="bug-severity">
 <box>
 
 **Bug Severity** labels:
-* `severity.VeryLow` : A flaw that is purely cosmetic and does not affect usage e.g., typo/spacing/layout/color/font issues in the docs or the UI that don't affect usage.
+* `severity.VeryLow` : A flaw that is purely cosmetic and does not affect usage e.g., typo/spacing/layout/color/font issues in the docs or the UI.
   ==Only cosmetic problems should have this label==.
 * `severity.Low` : A flaw that is unlikely to affect normal operations of the product. Appears only in very rare situations and causes a minor inconvenience only.
 * `severity.Medium` : A flaw that causes occasional inconvenience to some users, but they can continue to use the product.
-* `severity.High` : A flaw that affects most users and causes major problems for users. i.e., only problems that make the product ==almost unusable for most users== should have this label.
+* `severity.High` : A flaw that affects most users and causes major problems for them, i.e., only problems that make the product ==almost unusable for most users== should have this label.
 
-{{ icon_info }} **You may consider the impact on product's credibility**, in addition to the impact on the user, when deciding the severity level %%e.g., obvious and visible bugs hurt the product's credibility more%%.<br>
+{{ icon_info }} **You may consider the impact on the product's credibility**, in addition to the impact on the user, when deciding the severity level %%e.g., obvious and visible bugs hurt the product's credibility more%%.<br>
 {{ icon_info }} **When determining severity of documentation bugs**, replace _user_ with _reader_ %%e.g., when deciding severity of DG bugs, consider the impact of the bug on developers reading the DG%%.
 
 </box>
@@ -254,7 +254,7 @@ The sections below describe a-e in more details.
 #### {{ thumb("a", thumb_style="primary") }} Using issues to track project tasks
 
 * **Define project tasks as issues**. When you start implementing a feature/fix/enhancement etc., break it down to smaller tasks if necessary. Define reasonably sized, standalone tasks.  ==Create issues for each== of those tasks so that they can be tracked.
-  * A typical task should be small enough for one person to do in a few hours. %%eg.,%%
+  * A typical task should be small enough for one person to do in a few hours. %%e.g.,%%
     * %%{{ bad }}: `Write the Developer Guide` (reasons: not a one-person task, not small enough)%%
     * %%{{ good }}: `Implement parser support for adding events`%%
 * **Ensure the issue details are 'good enough'**:
@@ -317,13 +317,13 @@ In our project, we use _user stories_ to track user requirements. Instead of usi
 ****Creating PRs****:
 
 * **Create a PR when you implement a project task** that updates the code.
-  * Use the [forking workflow (with branching)](https://git-mastery.org/lessons/forkingWorkflow/) when creating PRs in early iterations %%(after completing {{ version_mvp }}, you can switch to a more [centralised workflow](https://git-mastery.org/lessons/workflows/) in which you bypass the forks and create branches/PRs directly in the team repo, if you wish)%%.<br>
+  * Use the [forking workflow (with branching)](https://git-mastery.org/lessons/forkingWorkflow/) when creating PRs in early iterations %%(after completing {{ version_mvp }}, you can switch to a more [centralized workflow](https://git-mastery.org/lessons/workflows/) in which you bypass the forks and create branches/PRs directly in the team repo, if you wish)%%.<br>
   =={{ icon_alert }} This means each PR should come from a _separate branch_ (i.e., not the `master` branch) of your _own fork_ (not the team repo), as that is an essential part of the forking workflow.==
-  * Suggestion: Make the PR title same as the title of the corresponding issue (for easier matching between PRs and issues).
+  * Suggestion: Make the PR title the same as the title of the corresponding issue (for easier matching between PRs and issues).
   * {{ icon_tip }} You can use GitHub's [_draft PRs_](https://github.blog/2019-02-14-introducing-draft-pull-requests/) feature to indicate that a PR is not yet ready for merging.
   * {{ icon_tip }} You can use GitHub's [`Fixes #123` trick](https://help.github.com/en/articles/closing-issues-using-keywords) to get the issue to close automatically when the PR is merged.
 * **Assign the PR to a milestone.** This allows the PR to become visible under the milestone progress.<br>
-  There is no need to assign the PR to a person. The PR author is considered as the owner of the PR.
+  There is no need to assign the PR to a person. The PR author is considered the owner of the PR.
 * **While waiting for one PR to be merged, you can send more PRs.** If you do, remember to use a separate branch for each PR, and try to reduce overlaps between parallel PRs %%(so that each can be reviewed/merged independently of the others)%%.
 
 {{ show_faq("githubIssueForEachPr") }}

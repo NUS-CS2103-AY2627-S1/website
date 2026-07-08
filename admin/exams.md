@@ -12,7 +12,7 @@
 {% if (current_week | int) < 8 %}
 <box type="important">
 
-Instructions below are from the previous semester. Will be updated closer to the exam.
+The instructions below are from the previous semester. They will be updated closer to the exam.
 </box>
 {% endif %}
 
@@ -65,23 +65,23 @@ The final exam has two types of questions:
    * See [NUS Guides on Examplify](https://nus.atlassian.net/wiki/spaces/DAstudent/overview).
    * Try a few practice exams provided in the above link.
    * Write to NUS CIT (citbox25@nus.edu.sg) if you run into any technical issues.
-   * If you do not have a working laptop for the exam, please contact IT Care itcare@nus.edu.sg directly for a laptop loan (for exam purpose only).
+   * If you do not have a working laptop for the exam, please contact IT Care itcare@nus.edu.sg directly for a laptop loan (for exam purposes only).
 1. ==**Examplify will use the {{ 'full' if is_full_lockdown else '~~full~~ simulated' }} lock-down**== mode during the exam i.e., no access to the Internet, and
-   {{ 'no' if is_full_lockdown else 'not allowed to' }} access any applications/files on your computer during the exam {{ '==except the _Exam Reference_ PDF file==' if not is_full_lockdown }}.<br>
+   {{ 'no access to' if is_full_lockdown else 'not allowed to access' }} any applications/files on your computer during the exam {{ '==except the _Exam Reference_ PDF file==' if not is_full_lockdown }}.<br>
    %%Reason: Because of the risk of locally-installed LLMs affecting the integrity of the exam, NUS recommends using full-lockdown mode.%%
 1. **This is a 'cheatsheet' exam**: **You are allowed the usual one A4 size cheatsheet** (both sides). There is no restriction on what it can contain.<br>
    In addition,
    * **[this exam-reference-sheet](exam-reference-sheet.html) will be made available inside Examplify**, as an exam-wide PDF file attachment.
    * **Java and Git coding standards will be given as question-specific attachments**, if the question is related to either of them.
-1. **==You need to check the exam-compatibility of your device early==** (as given in the panel below) -- even if you have used Examplify for other exams before, as the Examplify behaviour varies based on the specific exam configuration -- and work with NUS CIT to resolve any issues you encounter.{% if is_full_lockdown %}<br>
+1. **==You need to check the exam compatibility of your device early==** (as given in the panel below) -- even if you have used Examplify for other exams before, as the Examplify behavior varies based on the specific exam configuration -- and work with NUS CIT to resolve any issues you encounter.{% if is_full_lockdown %}<br>
    Issues encountered by past students include problems in viewing and searching the _exam reference_ PDF file inside Examplify.{% endif %}
 
 <div class="indented-level1">
 
 <panel type="info" header="**How to check the compatibility of your device**" expanded>
 
-* **Ensure you have Examplify installed**{.text-info} in your exam device. {texts="['i.', 'ii.', 'iii.', 'iv.', 'v.']" t-class="fw-bold text-info"}{% if not is_full_lockdown %}
-* **:fab-windows:/:fab-linux: Windows/Linux users: Ensure you have Adobe Acrobat Reader installed**{.text-info} in your exam device -- no other PDF software allowed during the exam.<br>
+* **Ensure you have Examplify installed**{.text-info} on your exam device. {texts="['i.', 'ii.', 'iii.', 'iv.', 'v.']" t-class="fw-bold text-info"}{% if not is_full_lockdown %}
+* **:fab-windows:/:fab-linux: Windows/Linux users: Ensure you have Adobe Acrobat Reader installed**{.text-info} on your exam device -- no other PDF software allowed during the exam.<br>
   :fab-apple: Mac users: You may use the Preview app that comes with macOS or the Adobe Acrobat Reader.<br>
   :fab-windows: Windows users: When downloading the Adobe Acrobat installer, you may want to opt out of installing additional bundled
    software (e.g., McAfee Virus Scanner) -- this option is given when downloading, not when installing.{% endif %}
@@ -99,7 +99,7 @@ Deadline to complete the compatibility check (including liaising with CIT): #r#a
 7. **You are not required to record the screen**. Doing so can cause problems (lag, crashes, lockout etc.).
 1. **Download all parts of the exam before you come to the exam** (i.e., parts 1, 2). We'll give you the password for opening each part at the exam, at the starting time of each part.<br>
   You will be notified when they are ready for download (typically, around 24 hours before the exam start time).
-1. **If you have a doubt/query about a question**, or want to make an assumption about a question, please write it down in the 'NOTES' text box. ==Do not try to communicate those with the invigilator during the exam.== %%(reason: at an exam of this scale, it is not practical to clarify such doubts on-the-spot in a timely manner)%%. We'll take your doubt/query/assumption into account when grading. For example, if many had queries about a specific question, we can conclude that the question is unclear and omit it from grading.
+1. **If you have a doubt/query about a question**, or want to make an assumption about a question, please write it down in the 'NOTES' text box. ==Do not try to communicate those to the invigilator during the exam.== %%(reason: at an exam of this scale, it is not practical to clarify such doubts on-the-spot in a timely manner)%%. We'll take your doubt/query/assumption into account when grading. For example, if many students had queries about a specific question, we can conclude that the question is unclear and omit it from grading.
 
 <include src="exam-doubts-fragment.md" />
 
@@ -222,7 +222,7 @@ The following exam resources will be **available from the start of week 13**.
   You can use it to get familiar with the quiz format that will be used for the final exam.
   Password: `Hello123`<br>
   Model answers are in {{ handouts_link }}.
-* **A practice exam** of same format/length/difficulty<sup>[see caveat]</sup> as the actual exam will be available at least one week before the exam.<br>
+* **A practice exam** of the same format/length/difficulty<sup>[see caveat]</sup> as the actual exam will be available at least one week before the exam.<br>
   You can use it to practice your timing/pace. Multiple attempts are allowed.
   * Recommended:
       * Watch the exam briefing video and finish studying the topics before
@@ -242,7 +242,7 @@ So, ensure you can do the practice exam fairly comfortably within the given time
 
 * **Some extra practice questions** for exam part 1 are in
   {{ handouts_link }} -- look for the file `Additional practice questions for part 1.pdf`
-* **UML Worked Examples** that you previously encountered (also given in the panel below) too are a suitable tool to prepare for the exam. For example, you can watch the first few minutes to see the code that will be the basis for the diagram, then draw the diagram yourself, and watch the remainder of the video to compare your answer to the model answer.
+* **The UML Worked Examples** that you previously encountered (also given in the panel below) are also a suitable tool to prepare for the exam. For example, you can watch the first few minutes to see the code that will be the basis for the diagram, then draw the diagram yourself, and watch the remainder of the video to compare your answer to the model answer.
 <div class="indented-level1">
 <panel type="seamless" header=":fab-youtube: UML Worked Examples">
 
@@ -263,7 +263,7 @@ So, ensure you can do the practice exam fairly comfortably within the given time
 
 <include src="courseBriefings.md#topics-video" />
 
-* **Forum questions useful for exam preparations** are listed [here]({{ url_forum }}?q=label%3AsuitableForExamPrep) (marked with the label `suitableForExamPrep`).<br>
+* **Forum questions useful for exam preparation** are listed [here]({{ url_forum }}?q=label%3AsuitableForExamPrep) (marked with the label `suitableForExamPrep`).<br>
    You are strongly encouraged to join those discussions -- it will help with exam prep, and earn you forum participation credit as well.
 
 {{ show_faq("examMorePastPapersAndAnswers") }}

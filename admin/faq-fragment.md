@@ -67,7 +67,7 @@ Slides are not meant to be documents to print and study for exams (the textbook 
 **UML is not used very frequently by practitioners.** In particular, most would not bother to draw detailed UML diagrams _before_ (or in parallel to) coding.<br>
 **UML diagrams can still provide practical value in some situations** e.g., when documenting internal design details, when discussing design alternatives. However, even when using UML is beneficial, some may avoid using it due to lack of proficiency. In fact an average programmer is likely to be able to survive without drawing any UML diagrams, and only occasionally having to interpret UML diagrams drawn by others.
 
-However, **being able to communicate about code/design without referring to actual code is an essential skill**, as the code is not always available %%(e.g., it may not exist yet or the codebase may be too big for to be used for such communications)%%. While in some cases we can use ad hoc notations (simple boxes, arrows, labels) for such communications, using a standard modeling notation can make such communications universally understood. **UML is the leading general-purpose notation used for modelling software design.** It can be used for basic modelling irrespective of the domain of the software project. For more intense modeling needs, we can go for a domain-specific modelling notation %%e.g., Business Process Model and Notation (BPMN)%%.<br>
+However, **being able to communicate about code/design without referring to actual code is an essential skill**, as the code is not always available %%(e.g., it may not exist yet or the codebase may be too big to be used for such communications)%%. While in some cases we can use ad hoc notations (simple boxes, arrows, labels) for such communications, using a standard modeling notation can make such communications universally understood. **UML is the leading general-purpose notation used for modeling software design.** It can be used for basic modeling irrespective of the domain of the software project. For more intense modeling needs, we can go for a domain-specific modeling notation %%e.g., Business Process Model and Notation (BPMN)%%.<br>
 
 Besides, **UML is just a tool that we use to learn a more fundamental SE skill: the ability to model code visually**, especially at higher abstraction levels. This skill is necessary to be able to build mental models of large code bases in our head, even if you don't actually draw physical diagrams, UML or otherwise.
 
@@ -133,7 +133,7 @@ We have chosen a basic set of tools after considering ease of learning, availabi
 Pedagogical reasons:
 
 * **Sometimes 'good enough', not necessarily the best, tools are a better fit for beginners**: Most bleeding edge, most specialized, or most sophisticated tools are not suitable for a beginner course. After mastering our toolset, you will find it easy to upgrade to such high-end tools by yourself. We do expect you to eventually (after this course) migrate to better tools and, having learned more than one tool, to attain a more general understanding about a family of tools.
-* **We want you to learn to thrive under given conditions**: As a professional Software Engineer, you must learn to be productive in any given tool environment, rather than insist on using your preferred tools. It is usually in small companies doing less important work that you get to chose your own toolset. Bigger companies working on mature products often impose some choices on developers, such as the project management tool, code repository, IDE, language etc. For example, Google used SVN as their revision control software until very recently, long after SVN fell out of popularity among developers. Sometimes this is due to cost reasons (tool licensing cost), and sometimes due to legacy reasons (because the tool is already entrenched in their codebase).
+* **We want you to learn to thrive under given conditions**: As a professional Software Engineer, you must learn to be productive in any given tool environment, rather than insist on using your preferred tools. It is usually in small companies doing less important work that you get to choose your own toolset. Bigger companies working on mature products often impose some choices on developers, such as the project management tool, code repository, IDE, language etc. For example, Google used SVN as their revision control software until very recently, long after SVN fell out of popularity among developers. Sometimes this is due to cost reasons (tool licensing cost), and sometimes due to legacy reasons (because the tool is already entrenched in their codebase).
  While programming in school is often a solo sport, programming in the industry is a team sport. As we are training you to become professional software engineers, it is important to get over the psychological hurdle of needing to satisfy individual preferences and get used to making the best of a given environment.
 
 Practical reasons:
@@ -209,10 +209,10 @@ Not to worry. Just push the tags now. They will be detected by the dashboard at 
 
 **Good news:** Even if an item in the iP dashboard turns red, it does not affect your marks if you fix it soon, turning it back to green subsequently.
 
-**It is difficult to increase the dashboard update frequency** due to following reasons:
+**It is difficult to increase the dashboard update frequency** for the following reasons:
 
 * **Resource limitations** e.g., limits on the number of GitHub API calls, GitHub Actions minutes, GitHub Actions bandwidth used, etc.
-* **The updates cannot be fully automated** as some data sources do not allow programmatic access or require a staff account to access them (e.g., Canvas). Therefore, dashboard updates require some manual work, and is run in a local computer (not running on a server somewhere).<br>
+* **The updates cannot be fully automated** as some data sources do not allow programmatic access or require a staff account to access them (e.g., Canvas). Therefore, dashboard updates require some manual work and are run on a local computer (not on a server somewhere).<br>
   {{ icon_info }} While the stated update frequency is 24 hours, we do update it a few times each day.
 
 **A high frequency of dashboard updates is also not _desirable_** because an over-reliance on an external verification mechanism to confirm if you 'did something correctly' is not conducive to learning.
@@ -242,7 +242,7 @@ Not to worry. Here are the steps to fix:
 1. Push to the fork. This will push your new commits to your new fork.
 </div>
 <!-- =============================================================== -->
-<div id="faq-ipIncorrectTagOrBranch-Q">Oh no! used the wrong tag/branch name.</div>
+<div id="faq-ipIncorrectTagOrBranch-Q">Oh no! I used the wrong tag/branch name.</div>
 <div id="faq-ipIncorrectTagOrBranch-A">
 
 It's OK; correct it now.<br>
@@ -320,10 +320,10 @@ When you submit the evaluation (step 8 below), there will be a way to report tha
 
 #r#**There is no need to ask for extensions**## to the iP final submission deadline.
 
-**It is ideal if you finish the iP by original deadline**, but if you could not
-finish it by that deadline, we'll be giving you an automatic 3-day deadline extension.
-Further deadline extensions beyond that might be possible too, provided we see evidence of
-you trying to progress in the previous deadline extension (and not simply postponing work to take advantage of the
+**It is ideal if you finish the iP by the original deadline**, but if you could not
+finish it by that deadline, we'll give you an automatic 3-day deadline extension.
+Further deadline extensions beyond that might be possible too, provided we see evidence that
+you tried to make progress during the previous deadline extension (and not simply postponing work to take advantage of the
 deadline extensions).
 
 * While there will be no penalty for such a deadline extension, keep in mind that the longer you take to finish the iP, the less time you'll have for the tP.
@@ -389,10 +389,10 @@ The course has MANY admin details and there are subtle changes from semester to 
 <div id="faq-tutorialWhyTutorsCannotGiveProjectFeedback-Q">Why are tutors not allowed to give feedback on project deliverables?</div>
 <div id="faq-tutorialWhyTutorsCannotGiveProjectFeedback-A">
 
-**Tutors are not allowed to give ad hoc feedback on yet-to-be-graded components** (e.g., iP or tP components, which accounts for a very high percentage of the overall grade),
+**Tutors are not allowed to give ad hoc feedback on yet-to-be-graded components** (e.g., iP or tP components, which account for a very high percentage of the overall grade),
 
 * **to ensure the work you submit for grading is entirely your own** %%(for the same reasons why you are not allowed to ask invigilators for 'feedback' on your answers while you are answering the final exam paper)%%.
-* **to ensure fairness across teams** %%(because if tutors were allowed to give feedback on their own, it will be impossible to ensure all tutors give the same level of feedback)%%.
+* **to ensure fairness across teams** %%(because if tutors were allowed to give feedback on their own, it would be impossible to ensure all tutors give the same level of feedback)%%.
 </div>
 <!-- =============================================================== -->
 <div id="faq-tutorialHowToImproveProjectWithoutTutorFeedback-Q">Huh? If tutors are not giving feedback on project deliverables, how can we improve our project work?</div>
@@ -401,10 +401,10 @@ The course has MANY admin details and there are subtle changes from semester to 
 It is true that the teaching team will not give _ad hoc_ feedback on yet-to-be-graded project deliverables. **But you will receive systematic feedback at various points of the project**, in a way that ensures all of you receive the same level of feedback about the same things.
 
 **More importantly, we aim to develop your <tooltip content="i.e., the ability to make decisions about the quality of one's own work
-   and that of others">_evaluative judgement_ skills</tooltip>** thus reducing your reliance on someone else's feedback to decide how to improve. To this end, we have set up various learning tasks to help you judge your own work. Examples:
+   and that of others">_evaluative judgment_ skills</tooltip>** thus reducing your reliance on someone else's feedback to decide how to improve. To this end, we have set up various learning tasks to help you judge your own work. Examples:
 
 * Tutorial tasks that go through a 'sample' project aspect/artifact (e.g., use cases of a sample project) and find problems in it. This way, we can ensure that all of you encounter all the important learning points related to that aspect/artifact, even if some may not be relevant to your own project (which means you wouldn't have encountered them on your own).
-* Peer evaluations of each other's work, within teams and between teams. This gives you a way to exercise your evaluative judgement skills.
+* Peer evaluations of each other's work, within teams and between teams. This gives you a way to exercise your evaluative judgment skills.
 
 </div>
 <!-- =============================================================== -->
@@ -523,7 +523,7 @@ A practical reason: Unlike in lower-level programming courses, the technical pro
 The size of the target market is not a grading criterion. You can make it as narrow as you want. Even a single user target market is fine as long as you can define that single user in a way others can understand (reason: project evaluators need to evaluate the project from the point of view of the target users).
 </div>
 =============================================================== -->
-<div id="faq-dgDetailsLevel-Q">How detailed the DG should be? Do we have to describe every feature/component?</div>
+<div id="faq-dgDetailsLevel-Q">How detailed should the DG be? Do we have to describe every feature/component?</div>
 <div id="faq-dgDetailsLevel-A">
 
 <box type="info" seamless>
@@ -535,7 +535,7 @@ That said, such judgment calls are not easy, especially for inexperienced develo
 
 The DG is primarily meant to help current/future developers. In general, the DG is expected to provide minimal yet sufficient guidance  for developers, serving them in the following ways:
 
-* It act as a starting point for developers, before they can dive into the code itself %%e.g., by providing an architecture-level overview of the system%%
+* It acts as a starting point for developers, before they can dive into the code itself %%e.g., by providing an architecture-level overview of the system%%
 * It provides a roadmap to developers %%e.g., pointing out where important information can be found in the code%%
 * It complements the code, providing info/perspectives not specified in the code %%(e.g., rationale for high-level design choices, details of dev ops)%%<br>
   or not easy to grasp from the code %%(e.g., architecture level view, visual models)%%.
@@ -625,14 +625,14 @@ Most long-running projects in real world will establish their own policies/norms
 
 </div>
 <!-- =============================================================== -->
-<div id="faq-tpMultiStepCmd-Q">Why not allow user to input the command one field at a time?</div>
+<div id="faq-tpMultiStepCmd-Q">Why not allow the user to input the command one field at a time?</div>
 <div id="faq-tpMultiStepCmd-A">
 
 While this _multistep-command_ approach (i.e., giving the user a series of prompts to enter various data elements required to perform an action) has its benefits (e.g., no need to memorize the command format), a deeper look reveals why the _one-shot-command_ approach is better.
 
 Before delving any further, note how leading CLI-centric software such as Git and Linux don't use the multistep approach either. Why?
 
-The multistep approach basically results in a 'text-based GUI simulation' that is harder to use than an actual GUI (obviously), whereas a well-designed CLI in an expert's hands can perform tasks faster than an equivalent GUI (which is what we are going for). A person good at typing and remembers the command can type a command faster than a user going through a type-read-type-read sequence required by the multistep-command. Now imagine user made a mistake in the response to an earlier prompt -- correcting that would take a lot more work.
+The multistep approach basically results in a 'text-based GUI simulation' that is harder to use than an actual GUI (obviously), whereas a well-designed CLI in an expert's hands can perform tasks faster than an equivalent GUI (which is what we are going for). A person who is good at typing and remembers the command can type a command faster than a user going through a type-read-type-read sequence required by the multistep-command. Now imagine the user made a mistake in the response to an earlier prompt -- correcting that would take a lot more work.
 
 That being said, multistep commands can complement the one-shot-command approach in specific cases e.g.,
 
@@ -652,13 +652,13 @@ Some options:
 1. Dig into the Git and GitHub history to find if there are any clues there e.g., commit message of the relevant commit, or the discussion in the relevant PR. Git _blame_ feature can help you locate the relevant commit.
 1. Try to speculate the possible motives, get views from other developers.
 1. These days, you can also ask AI tools.
-1. Play it safe and delay the refactoring until you have worked with the code for a while, in case the reason becomes apparent after working with the code for a while.
+1. Play it safe and delay the refactoring until you have worked with the code for a while, in case the reason becomes apparent during that time.
 1. Tentatively refactor it, to see the effect. Sometimes this helps you discover why the code was in the original form in the first place.
 1. Go ahead and refactor it, but do it in a way it can be easily reverted later e.g., break the refactoring into a series of small/medium stand-alone design changes and do them as separate PRs (or separate commits) so that they can be reverted later, if needed.
 
 </div>
 <!-- =============================================================== -->
-<div id="faq-tpEnoughFeatures-Q">If our team implement features x, y, and z, is that enough?</div>
+<div id="faq-tpEnoughFeatures-Q">If our team implements features x, y, and z, is that enough?</div>
 <div id="faq-tpEnoughFeatures-A">
 
 Yes, if it requires each member to put in an implementation effort that is about 50% of the implementation effort you put into the iP.
@@ -731,14 +731,14 @@ Ideally, all three. But if you can't finish all three by the iteration deadline,
 
 Not surprisingly, a common question tutors receive is "can you look at our project and tell us if we have done enough to get full marks?". Here's the answer to that question:
 
-**The tP _effort_ is graded primarily based on peer judgements** (tutor judgements are used too). That means you will be judging the effort of another team later, which also means you should be able to make a similar judgement for your own project now. While we understand effort estimating is hard for software projects, it is an essential SE skill, and we must practice it when we can.
+**The tP _effort_ is graded primarily based on peer judgments** (tutor judgments are used too). That means you will be judging the effort of another team later, which also means you should be able to make a similar judgment for your own project now. While we understand effort estimating is hard for software projects, it is an essential SE skill, and we must practice it when we can.
 
 **The expected minimum bar to get full marks for _effort_** is given [here](tp-expectations.md).
 
 If you surpass the above bars (in your own estimation), you should be in a good position to receive full marks for the effort. But keep in mind that there are many other components in the [tP grading](tp-grading.md), not just the effort.
 </div>
 <!-- =============================================================== -->
-<div id="faq-tpNotEnoughWorkToDivide-Q">What if the chosen user stories for MVP are not enough to do a meaningful work division among team members?</div>
+<div id="faq-tpNotEnoughWorkToDivide-Q">What if the chosen user stories for the MVP are not enough for a meaningful division of work among team members?</div>
 <div id="faq-tpNotEnoughWorkToDivide-A">
 
 In that case, at a later stage, you can add more user stories until there is enough for a meaningful work distribution. But at this point focus on selecting the smallest sub-set of _must_have_ user stories only.
@@ -747,10 +747,10 @@ In that case, at a later stage, you can add more user stories until there is eno
 <div id="faq-tpNotEnoughMvpFeaturesToDivide-Q">What if the MVP feature list is smaller than team size? How to divide work?</div>
 <div id="faq-tpNotEnoughMvpFeaturesToDivide-A">
 
-In that case, you can add more features, taking higher priority features from the features not-yet-selected for the MVP.
+In that case, you can add more features, taking higher-priority features from those not yet selected for the MVP.
 </div>
 <!-- =============================================================== -->
-<div id="faq-tpShouldWeStartCoding-Q">Should we start implementing MVP now?</div>
+<div id="faq-tpShouldWeStartCoding-Q">Should we start implementing the MVP now?</div>
 <div id="faq-tpShouldWeStartCoding-A">
 
 Not at all. That is scheduled several weeks later. For now, just figure out the minimal feature set required for the product. We'll let you know when it is time to start working on the MVP.
@@ -762,7 +762,7 @@ Not at all. That is scheduled several weeks later. For now, just figure out the 
 No, you should still include them. Reason: The existing implementation might still require some work before it fits your product.
 </div>
 <!-- =============================================================== -->
-<div id="faq-tpAllStoriesInAb3-Q">All the user stories we selected for MVP are already supported by AB3. What now?</div>
+<div id="faq-tpAllStoriesInAb3-Q">All the user stories we selected for the MVP are already supported by AB3. What now?</div>
 <div id="faq-tpAllStoriesInAb3-A">
 
 That's fine. It means you can get to MVP with very little effort, which is a good thing. Once you've finished the MVP, if there is time left, you can add more things to it at that time.
@@ -786,7 +786,7 @@ Then you can do the following:
 * Ignore those warnings, and merge the PR (a member with admin permissions can merge a CI-failing PR). Suitable for cases such as,
   * the coverage drop is in code that is not normally covered by automated tests and/or 'not worth the effort to' test automatically (e.g., GUI).
   * you deem that automated testing of that part of the code can be done at a later time (i.e., not a priority at the current time).
-* Alternatively, update tests until the coverage is raised back to  sufficient level.
+* Alternatively, update tests until the coverage is raised back to a sufficient level.
 
 Note that Codecov is there to help you manage code coverage -- it is not graded. You may lower the test coverage targets set for Codecov as well.
 
@@ -800,7 +800,7 @@ For reference,
 
 Among other things, CI functions as **a safety mechanism that alerts you when a PR is introducing regressions to the codebase**. If your CI is failing continuously, you will lose the benefit of this important safety mechanism.
 
-Therefore, if you break CI accidentally (or even deliberately -- e.g., CodeCov dropping due to changes in an 'untestable' part of the code), **we recommended that you get CI back to a passing state** soon after.
+Therefore, if you break CI accidentally (or even deliberately -- e.g., Codecov dropping due to changes in an 'untestable' part of the code), **we recommend that you get CI back to a passing state** soon after.
 
 There is no direct penalty for occasionally failing CI. But #r#extended periods of CI failures can cost you marks directly or indirectly## (e.g., the failure could be due to a coding standard violation that can cost you marks if not fixed).
 </div>
@@ -808,11 +808,11 @@ There is no direct penalty for occasionally failing CI. But #r#extended periods 
 <div id="faq-tpAddChangesInFeatureBranch-Q">Can we PR against a branch other than `master`, and merge that branch to `master` in a later iteration?</div>
 <div id="faq-tpAddChangesInFeatureBranch-A">
 
-While doing PRs against a separate 'feature branch' is not explicitly prohibited, it is discouraged because the longer you keep evolving a feature away from the main code base, the more,
+While doing PRs against a separate 'feature branch' is not explicitly prohibited, it is discouraged because the longer you keep evolving a feature away from the main codebase, the more,
 
 * it brings in elements of a _depth-first iterative_ approach (instead of the intended _breadth-first iterative_ approach). Although technically you are doing multiple features in parallel, they are not synchronized with each other.<br>
   Note: **The ability to divide implementation work into small breadth-first incremental changes is one of the important intended learning outcomes we are aiming for** -- even more important than the mechanics of following the workflow correctly. Using feature branches is not aligned with this learning outcome.
-* it moves towards [_big-bang integration_]({{ baseUrl }}/book/integration/approaches/bigBangVsIncremental/) (instead of the intended _incremental integration_) and [_late-and-one-time integration_]({{ baseUrl }}/book/integration/approaches/lateVsEarly/) (instead of the intended _early-and-frequent_ integration). Although you feature branch is running CI at each commit, when you integrate feature branches to the `master` branch at a later time, it can result in a 'big bang'.
+* it moves towards [_big-bang integration_]({{ baseUrl }}/book/integration/approaches/bigBangVsIncremental/) (instead of the intended _incremental integration_) and [_late-and-one-time integration_]({{ baseUrl }}/book/integration/approaches/lateVsEarly/) (instead of the intended _early-and-frequent_ integration). Although your feature branch is running CI at each commit, when you integrate feature branches to the `master` branch at a later time, it can result in a 'big bang'.
 
 So, even if you use feature branches,
 
@@ -834,7 +834,7 @@ Not a strict requirement, but given the purpose of this tutorial is to learn the
 
 Yes, the submitted _MVP Feature Specification_ is not binding (its purpose was to get you to think about feature details early -- we will not be looking at it again). You may change features as needed along the way. Just ensure your changes do not violate [tp constraints]({{ baseUrl }}/admin/tp-constraints.html).
 
-No need to resubmit the Feature Spec either. However, if you change the product name, target user, or the value proposition, (which is allowed too) please email the updated values to `{{ course_email }}`.
+No need to resubmit the Feature Spec either. However, if you change the product name, target user, or the value proposition (which is allowed too), please email the updated values to `{{ course_email }}`.
 </div>
 <!-- =============================================================== -->
 
@@ -896,7 +896,7 @@ If a team member fails to do this within a reasonable time, try to help that tea
 <div id="faq-tpNoPrInIteration-Q">Will I lose marks if I couldn't merge any PRs in an iteration?</div>
 <div id="faq-tpNoPrInIteration-A">
 
-As it is the case with other similar tP requirements, there is no penalty for missing this expectation occasionally. But try not to miss it too often.
+As is the case with other similar tP requirements, there is no penalty for missing this expectation occasionally. But try not to miss it too often.
 </div>
 <!-- =============================================================== -->
 
@@ -999,7 +999,7 @@ However, if the dev team went with an inferior choice while another superior cho
 <div id="faq-tpHowMuchCodeInV12-Q">How much code changes is 'enough' for this iteration?</div>
 <div id="faq-tpHowMuchCodeInV12-A">
 
-The bar is, each member to merge at least one PR containing functional code changes. The more you do in the current iteration, the less you need to do in future iteration. So, try to do as much as your time/resources allow. But the more important thing in `{{ version_first }}` is to do those changes in small steps, without breaking the codebase.
+The bar is for each member to merge at least one PR containing functional code changes. The more you do in the current iteration, the less you need to do in future iterations. So, try to do as much as your time/resources allow. But the more important thing in `{{ version_first }}` is to do those changes in small steps, without breaking the codebase.
 </div>
 <!-- =============================================================== -->
 
@@ -1039,7 +1039,7 @@ Not a good idea. Given below are three reasons each of which can be reported by 
 
 This round is for your info only (i.e., no direct impact on grades). After the final tP peer evaluation session (which is done at the end of the semester, and can affect the tP grading) results are published, you will get a chance to submit your objections if you don't agree with the evaluations you received.
 
-{{ icon_tip }} Receiving ‘lower than expected’ feedback early is actually a good thing. It highlights the areas where your team members are less satisfied with your contribution or conduct, while there is still time to take corrective action. What is far worse is when team members give positive ratings for aspects they are unhappy about — just to avoid conflict — and hold back negative feedback until the project ends. In such cases, you may be caught off guard (“Hey! I thought everything was fine!”) with no time left to address the problem.
+{{ icon_tip }} Receiving 'lower than expected' feedback early is actually a good thing. It highlights the areas where your team members are less satisfied with your contribution or conduct, while there is still time to take corrective action. What is far worse is when team members give positive ratings for aspects they are unhappy about -- just to avoid conflict -- and hold back negative feedback until the project ends. In such cases, you may be caught off guard ("Hey! I thought everything was fine!") with no time left to address the problem.
 </div>
 <!-- =============================================================== -->
 
@@ -1058,7 +1058,7 @@ While we don't require you to automate GUI testing in your tP (i.e., it is fine 
 * Even if you get it working in only some OS'es only, and only in local environment, it is still a useful way to test the GUI quickly.
 * It is possible to run tests selectively, which means you can still run them in environments they work and skip them in other environments.
 
-Feel free to reuse/refer AB4 code too. If you manage to make some headway in this direction, you are encouraged to share it with others via the forum.
+Feel free to reuse/refer to AB4 code too. If you manage to make some headway in this direction, you are encouraged to share it with others via the forum.
 </div>
 <!-- =============================================================== -->
 
@@ -1102,7 +1102,7 @@ Caution: Mass renaming can disrupt authorship tracking. So, it is best to do any
 </div>
 <!-- =============================================================== -->
 
-<div id="faq-peTooLong-Q">Isn't it unreasonable to expect us to spend so many hours for the PE/PE-D?</div>
+<div id="faq-peTooLong-Q">Isn't it unreasonable to expect us to spend so many hours on the PE/PE-D?</div>
 <div id="faq-peTooLong-A">
 
 The product testing part of the PE (and the PE-D) is expected to take no more than 2 hours. Typically, the bugs you can find within 2 hours should be enough to get full marks for the product testing component of the tP. The additional time is given as a buffer, and to reduce stress.
@@ -1267,7 +1267,7 @@ In rare cases the answer to the follow-up question can be used to give partial m
 <div id="faq-examMissedFollowUpQuestion-A">
 
 In that case you will not be able to go back to type the answer, because our exam does not allow backward navigation.<br>
-Not to worry. We realise that this can happen under exam pressure. Therefore, we will overlook up to two missing/incorrect answers to follow-up questions. This also means if the timer is running out, it may be OK to skip the follow-up question in the last two questions.
+Do not worry. We realize that this can happen under exam pressure. Therefore, we will overlook up to two missing/incorrect answers to follow-up questions. This also means if the timer is running out, it may be OK to skip the follow-up question in the last two questions.
 </div>
 <!-- =============================================================== -->
 <div id="faq-examPartialMarksForMsq-Q">Do I get partial marks for checkbox style questions?</div>
@@ -1288,7 +1288,7 @@ For example, if the answer is [A,B],
 <div id="faq-examSitNearChargingPoint-Q">My laptop battery is weak. Can I be put in a seat near a charging point?</div>
 <div id="faq-examSitNearChargingPoint-A">
 
-The standard operation procedure for digital exams: Some venues have charging points within reach of every seat. If that's not the case, you will be moved to another location with a charging point when your laptop power level reaches a low level. Pre-allocating you a seat with a charging point is not feasible, as the number of such requests can easily exceed the number of charging points in the venue.
+The standard operating procedure for digital exams is as follows: Some venues have charging points within reach of every seat. If that's not the case, you will be moved to another location with a charging point when your laptop power level reaches a low level. Pre-allocating you a seat with a charging point is not feasible, as the number of such requests can easily exceed the number of charging points in the venue.
 </div>
 <!-- =============================================================== -->
 <div id="faq-examMorePastPapersAndAnswers-Q">Can we have more past year papers and model answers?</div>
@@ -1305,14 +1305,14 @@ Caution: The scope of the course and the exam format evolve over time and some p
 **Reasons:**
 
 1. **To minimize opportunities for collusion or over-the-shoulder copying** from others (the risk of the latter is higher in this type of exam due to the upright exam device screens being easily visible to other exam takers).<br>
-1. **Not unreasonable for the materials tested, nature of the questions, and the proficiency level expected** -- i.e., when using this knowledge in a real life SE project discussion, it will be rare for you to go back to revise what you said earlier in the discussion, nor will you be able to 'answer the easy questions first and come back to harder questions later'.<br>
-  Note that you are allowed to go back and modify diagrams you drew in part 1, just like in a real life project scenario.
+1. **Not unreasonable for the materials tested, nature of the questions, and the proficiency level expected** -- i.e., when using this knowledge in a real-life SE project discussion, it will be rare for you to go back to revise what you said earlier in the discussion, nor will you be able to 'answer the easy questions first and come back to harder questions later'.<br>
+  Note that you are allowed to go back and modify diagrams you drew in part 1, just like in a real-life project scenario.
 
 Not to worry; we understand that this restriction can make the exam feel 'harder' than otherwise. We have the following **measures to compensate:**
 
 * **There is a buffer of two extra questions**, to cushion the impact of making a mistake in a question, realizing it later, and not being able to go back to fix it. {{ bullet_tick_green }}
 * **There is a buffer of six extra minutes** (on top of the two extra questions), to cushion the impact of needing to spend extra time on a question to ensure the answer is correct before moving to the next question.
-* **The question difficulty is calibrated to match this mode of testing** i.e., the questions are easy enough to be done in one shot in a short time.
+* **The question difficulty is calibrated to match this mode of testing** i.e., the questions are straightforward enough to be answered on the first attempt within a short time.
 * **Our tutorials prepare you for this mode of testing** (provided you do them sincerely), as our tutorials get you to answer a series of small MCQ-like questions and short-answer questions.
 </div>
 

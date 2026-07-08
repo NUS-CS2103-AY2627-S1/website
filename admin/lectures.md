@@ -9,11 +9,11 @@
 
 <div tags="m--cs2103">
 
-<p class="lead text-secondary"><em>Weekly briefings</em> are short weekly sessions (>1hr) conducted by the course lecturer(s) to wrap up the current week and brief you about the upcoming week.</p>
+<p class="lead text-secondary"><em>Weekly briefings</em> are short weekly sessions (about 1 hour) conducted by the course lecturer(s) to wrap up the current week and brief you about the upcoming week.</p>
 
-****This course does not have _lectures_****, as the course is using the _blended learning_ mode. Course content is delivered as an online textbook accompanied by pre-recorded videos, instead of using lectures as the main method of content delivery. We still have a lecture slot/venue though.
+****This course does not have _lectures_****, as the course uses the _blended learning_ mode. Course content is delivered through an online textbook and pre-recorded videos, instead of lectures being the main way to deliver content. We still have a lecture slot/venue, which we use for other course activities.
 
-**In most weeks we use the lecture slot/venue for _weekly briefings_.** In some weeks we use it for important events such as the practical exam.
+**In most weeks, we use the lecture slot/venue for _weekly briefings_.** In some weeks, we use it for important events such as the practical exam.
 </div>
 
 ****Timing/venue****: <include src="../_course-{{ course }}/timetables-fragment.md#lectures-s{{ S }}" inline/>
@@ -27,7 +27,7 @@
 ****Mode****:
 {% if cs2103 %}
 * The first {{ lecture_name }} will be released as a pre-recorded video.
-* From week 2, {{ lecture_name }} will be in _hybrid_ mode (i.e., you can attend F2F or via Zoom or watch the recording later). The Zoom link will be available in [Canvas course homepage]({{ url_canvas_home }}).
+* From Week 2 onward, the {{ lecture_name }} will be in _hybrid_ mode (i.e., you can attend F2F, join via Zoom, or watch the recording later). The Zoom link will be available on the [Canvas course homepage]({{ url_canvas_home }}).
 {% elseif cs2113 %}
 * Lectures will be conducted on-campus (i.e., F2F)
 {% else %}
@@ -36,16 +36,16 @@
 
 <div tags="m--cs2103">
 
-****Scope****: A weekly briefing is usually about 1 hour, and aims to,
+****Scope****: A weekly briefing is usually about 1 hour and aims to:
 
-* **recap** the past week, clarify common doubts
+* **recap** the past week and clarify common doubts
 * **preview** the next week
-* **motivate** you to tackle the weekly tasks coming up
-* **contextualize** various 'moving parts' of the course and keep you anchored to the 'big picture'
+* **motivate** you to tackle the upcoming weekly tasks
+* **contextualize** the various moving parts of the course and keep you anchored to the big picture
 
-****Slides****: Briefing slides will be uploaded to Canvas *after* the briefing. Those slides are not suited for printing or to be used as a reference during the lecture/exams. They are only an aid for briefing delivery.
+****Slides****: Briefing slides will be uploaded to Canvas *after* the briefing. They are not meant for printing or as reference material for weekly briefings or exams. They are only an aid for briefing delivery.
 
-****Attendance****: Weekly briefings are optional to attend/watch. You are free to speed-watch the recording to save time (instead of joining live) or skip them altogether (if you are already saturated by the rest of the course activities).
+****Attendance****: Weekly briefings are optional. You may watch the recording at a higher speed to save time (instead of joining live) or skip them altogether if the rest of the course activities already give you enough support.
 
 </div>
 <div tags="m--cs2113">

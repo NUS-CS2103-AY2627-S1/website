@@ -5,13 +5,13 @@
 
 * **Record a demo** of all the product features, in a reasonable order. Some options:
   * Screen record each feature and tie it up (see the "Suggested tools" below for tool options).
-  * Schedule + record a zoom meeting within the team, where you share your screens and do the demo.
+  * Schedule + record a Zoom meeting within the team, where you share your screens and do the demo.
 * **The quality of the demo will not affect marks** as long as it serves the purpose (i.e., demonstrates the product features). Hence, don't waste too much time on creating the video.
 * **Audio explanations** are strongly encouraged{% if not cs2113 %} (but not compulsory) -- alternatively, you can switch between slides and the app to give additional explanations{% endif %}.
 * **Annotations and other enhancements** to the video are optional (those will not earn any extra marks).
-* **All members taking part** in the demo video are encouraged but not compulsory.
-* **File name:** `[TEAM_ID][product Name].mp4`  %%e.g., [{{ example_team_id }}][ContactsPlus].mp4%% (other video formats are acceptable but use a format that works on all major OS'es).
-* **File size:** Recommended to keep below 200MB. You can use a low resolution as long as the video is in usable quality.
+* **Having all members take part** in the demo video is encouraged but not compulsory.
+* **File name:** `[TEAM_ID][product Name].mp4`  %%e.g., [{{ example_team_id }}][ContactsPlus].mp4%% (other video formats are acceptable, but use a format that works on all major OSes).
+* **File size:** Recommended to keep below 200MB. You can use a low resolution as long as the video is of usable quality.
 * **Submission:** Submit to Canvas (via the corresponding assignment).
 * **Deadline:** 2 days after the main deadline
 * **Suggested tools:**
@@ -27,14 +27,14 @@
 
 #### <span class="badge bg-info">Demo</span> <span class="text-info">Target audience</span>
 
-* **Assume you are giving a demo to a higher-level manager of your company**, to brief them on the current capabilities of the product. This is the first time they are seeing the new product you developed. The actual audience are the evaluators (two tutors).
+* **Assume you are giving a demo to a higher-level manager of your company**, to brief them on the current capabilities of the product. This is the first time they are seeing the new product you developed. The actual audience is the evaluators (two tutors).
 
 #### <span class="badge bg-info">Demo</span> <span class="text-info">Scope</span>
 
 * ==**Start by giving an overview of the product**== so that the evaluators get a sense of the full picture early. Include the following:
   * **What** is it? %%e.g., FooBar is a product to ensure the user takes frequent standing-breaks while working.%%
   * **Who** is it for? %%e.g., It is for someone who works at a PC, prefers typing, and wants to avoid prolonged periods of sitting.%%
-  * **How** does it help? Give an overview of how the product's features help to solve the target problem for the target user
+  * **How** does it help? Give an overview of how the product's features help to solve the target problem for the target user.
 
 <div class="indented-level2">
 
@@ -63,7 +63,7 @@ sitting periods, and alerts the user if ...
 #### <span class="badge bg-info">Demo</span> <span class="text-info">Structure</span>
 
 * **Demo the product using the same executable** you submitted <!--, on your own laptop, using the TV.-->
-* **Use a sufficient amount of <tooltip content="`Mr aaa` is not a realistic person name">_realistic_</tooltip> demo data.** %%e.g at least 20 data items%%. Trying to demo a product using just 1-2 sample data creates a bad impression.
+* **Use a sufficient amount of <tooltip content="`Mr aaa` is not a realistic person name">_realistic_</tooltip> demo data.** %%e.g., at least 20 data items%%. Trying to demo a product using just 1-2 sample data items creates a bad impression.
 <!--
 * **It can be a _sitting down_ demo.** You'll be demonstrating the features using the TV while sitting down. But you may stand around the TV if you prefer that way.
 * **It will be an uninterrupted demo.** The audience members will not interrupt you during the demo. That means you should finish within the given time.

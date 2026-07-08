@@ -15,7 +15,7 @@ This course website is the main source of information for the course. In additio
 {% if not cs2113 %}
 ## Tool: Zoom (for {{ lecture_name }}s)
 
-Install Zoom on your computer. Installation and login instructions are [here](https://wiki.nus.edu.sg/pages/viewpage.action?spaceKey=THES&title=Proctoring+with+Zoom). Remember to login using your NUSNET account.
+Install Zoom on your computer. Installation and login instructions are [here](https://wiki.nus.edu.sg/pages/viewpage.action?spaceKey=THES&title=Proctoring+with+Zoom). Remember to log in using your NUSNET account.
 {% endif %}
 <!-- ----------------------------------------------------------------------------------------------------- -->
 <div id="github">
@@ -89,7 +89,7 @@ We encourage all to ==_watch_ [the forum]({{ url_forum }})== to get alerts when 
 ##### :fas-users-cog: MS Teams {% if cs2103 %}%%(for tutorials)%%{% endif %}
 
 * **MS Teams is used in our tutorials**.<br>
-  Install MST on your computer. Installation and login instructions are [here](https://nus.atlassian.net/wiki/spaces/CTS/pages/36388874/Getting+Started+with+Teams). Remember to log in using your NUSNET account.
+  Install MS Teams on your computer. Installation and login instructions are [here](https://nus.atlassian.net/wiki/spaces/CTS/pages/36388874/Getting+Started+with+Teams). Remember to log in using your NUSNET account.
 
 
 <div tags="m--cs2113">
@@ -121,7 +121,7 @@ Our IntelliJ **IDEA resources can be found at [se-edu/guides](https://se-educati
 a) course materials are optimized for IntelliJ, and,<br>
 b) we won't be able to help you if you run into problems while using any other IDE.
 
-That said, we have also provided a good amount of **resources for VS Code at [se-edu/guides](https://se-education.org/guides/)**.
+That said, we have also provided many **resources for VS Code at [se-edu/guides](https://se-education.org/guides/)**.
 </box>
 
 <box>

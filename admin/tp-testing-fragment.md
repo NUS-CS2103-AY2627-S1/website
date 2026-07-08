@@ -1,7 +1,7 @@
 <div id="testingPreparations">
 
 * Ensure that you have accepted the invitation to join the GitHub org used by the course. Go to [{{ url_course_org }}]({{ url_course_org }}) to accept the invitation.
-* Ensure you have access to a **computer that is able to run course projects** %%e.g., has the right Java version%%.
+* Ensure you have access to a **computer that can run course projects** %%e.g., has the right Java version%%.
 <div id="pe-create-repo">
 
 * We will create a private repo `{{ pe_session }}-{your GitHub username}` in the [course's GitHub org]({{ url_course_org }}) about 24 hours before the {{ pe_session_name }} session starts. We'll let you know when it is ready. You will use that repo's issue tracker to report your {{ pe_session_name }} bugs.
@@ -36,10 +36,10 @@
 
 The files you need for the PE (i.e., `.jar` file, UG and DG `.pdf` files) will be **given to you as an encrypted zip file**. Here are the two steps involved in using it.
 
-1. **Downloading the zip file**: After we inform you the details (via email), go to the download location (a Dropbox folder), and download the zip file bearing your partial student number (e.g., `A---0000X.zip`).
-   * The **dropbox password needed to download this** file is `{{ course | lower }}`.
+1. **Downloading the zip file**: After we inform you of the details (via email), go to the download location (a Dropbox folder), and download the zip file bearing your partial student number (e.g., `A---0000X.zip`).
+   * The **Dropbox password needed to download this** file is `{{ course | lower }}`.
    * ==You must download this file in advance.== Trying to download it during the PE can cause Dropbox to block you due to 'too many attempts'.
-1. **Unzipping the zip file**: You will **need a second two-part password** to unzip this file. That password has two parts.
+1. **Unzipping the zip file**: You will **need a second password** to unzip this file. That password has two parts.
    * The second part will be unique to each student, and will be given in the same email mentioned above.
    * The first part of the password (common to all) will only be announced in Canvas at the start of the PE period.
 </box>

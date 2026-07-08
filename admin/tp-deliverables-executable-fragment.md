@@ -1,6 +1,6 @@
 {% from "common/macros.njk" import embed_topic with context %}
 
-* **Should be an executable jar file**.
+* **Should be an executable JAR file**.
 * **Should be <tooltip content=" i.e., it can be used by end-users">_releasable_</tooltip>**. While some features may be scheduled for later versions, the features in {{ version_final }} should be good enough to make it usable by at least some of the target users.
 * Also note the following constraint:
 

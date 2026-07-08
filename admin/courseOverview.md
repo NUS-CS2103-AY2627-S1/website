@@ -25,14 +25,14 @@
 
 ****What does it mean to 'follow an iterative approach in covering topics'?****
 
-While **the course contents can be neatly arranged sequentially based on different aspects of an SE project** (as shown [here]({{ baseUrl }}/admin/exam-reference-sheet.html)), we will not be covering them in that sequence.
+While **the course content can be neatly arranged sequentially based on different aspects of an SE project** (as shown [here]({{ baseUrl }}/admin/exam-reference-sheet.html)), we will not be covering them in that sequence.
 
 **Instead, we cover a little bit of <tooltip content="i.e., requirements, design, testing, project management, ...">all SE aspects</tooltip> at first and then iteratively go deeper into them later**, revisiting each aspect many times over the course of the semester. In contrast, a _sequential_ approach would have covered one SE aspect before moving to the next (e.g., teach the _requirements_ aspect completely before moving to the _design_ aspect).<br>
 
-**In each week, we cover topics that are most relevant to the project tasks** that you are expected to do around that time.
+**Each week, we cover topics that are most relevant to the project tasks** that you are expected to do around that time.
 
-**This way of 'jumping around' topics feels chaotic but consider the benefits**:
-* It allows you to start doing SE projects early, and do it iteratively too. That is, you can start with a small project from the very start and make it bigger progressively, learning from earlier mistakes, and getting multiple chances to improve on previous attempts.
+**This way of 'jumping around' topics feels chaotic, but consider the benefits**:
+* It allows you to start doing SE projects early, and work on them iteratively too. That is, you can start with a small project from the very start and grow it progressively, learning from earlier mistakes, and getting multiple chances to improve on previous attempts.
 * Important SE aspects such as testing can be practiced from the very beginning. If we followed a sequential approach, you could only learn it near the end of the semester.
 * It lowers the risk of missing out on some SE aspects altogether. For example, suppose your schedule got heavier in the second half of the semester, and you could barely keep up with the course during that half. You still come away with the basic knowledge of _all_ SE aspects rather than knowing some aspects deeply while missing some other aspects altogether.
 
@@ -50,13 +50,13 @@ Topic | {{ icon_tick_green }} Covered | {{ icon_x_red }} Not covered
 ------|---------|------------
 Java | Used heavily, but not taught | syntax %%(reason: expected prerequisite knowledge)%%
 OOP | Used in a non-trivial project, <tooltip content="e.g., Single Responsibility Principle, Open-Closed Principle">intermediate OOP principles</tooltip> | basics %%(reason: expected prerequisite knowledge)%%
-SE tools/practices | <tooltip content="e.g., revision control, continuous integration, practices, test automation, code reviews, pull requests">those typically used in a mature, high-rigor SE project</tooltip> | those specific to start-ups</md></td>
-Modeling | <tooltip content="e.g., class diagrams, sequence diagrams, activity diagrams">Some UML notations</tooltip> (sufficient to be able to describe SE artifacts using models, such as seen in [this Developer Guide of AB3](https://se-edu.github.io/addressbook-level3/DeveloperGuide.html#design)) | intensive <tooltip content="creating detailed UML models before starting to code">upfront design modeling</tooltip>
+SE tools/practices | <tooltip content="e.g., revision control, continuous integration, practices, test automation, code reviews, pull requests">those typically used in a mature, high-rigor SE project</tooltip> | those specific to start-ups
+Modeling | <tooltip content="e.g., class diagrams, sequence diagrams, activity diagrams">Some UML notations</tooltip> (sufficient to be able to describe SE artifacts using models, as shown in [this Developer Guide of AB3](https://se-edu.github.io/addressbook-level3/DeveloperGuide.html#design)) | intensive <tooltip content="creating detailed UML models before starting to code">upfront design modeling</tooltip>
 Requirements | <tooltip content="e.g., user stories, use cases">Some lightweight techniques</tooltip> to gather and document project requirements | rapid prototyping, heavy UI design, designing a product from scratch
-Documentation | Documentation targeting end users ([example](https://se-edu.github.io/addressbook-level3/UserGuide.html)) as well as those targeting developers ([example](https://se-edu.github.io/addressbook-level3/DeveloperGuide.html)) | Marketing materials
+Documentation | Documentation targeting end users ([example](https://se-edu.github.io/addressbook-level3/UserGuide.html)) as well as documentation targeting developers ([example](https://se-edu.github.io/addressbook-level3/DeveloperGuide.html)) | Marketing materials
 Project Management | Iterative delivery of a product, working collaboratively with team members, on-site as well as remotely | Setting up project infrastructure from scratch
 Testing | <tooltip content="e.g., automated unit/integration/system testing">basic developer testing</tooltip> and <tooltip content="e.g., acceptance testing">user testing</tooltip> | <tooltip content="e.g., security testing, performance testing, usability testing">testing for non-functional aspects</tooltip>
-Applications domains | Cross-platform desktop applications | Web programming, Mobile programming, Database programming
+Application domains | Cross-platform desktop applications | Web programming, Mobile programming, Database programming
 
 <br>
 {{ show_faq("tVsNonT") }}

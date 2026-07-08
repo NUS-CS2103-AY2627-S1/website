@@ -13,16 +13,16 @@ At the end of the project each student is required to submit a _Project Portfoli
 
 #### <span class="badge bg-info">PPP</span> <span class="text-info">Sections to include</span>
 
-* **Overview**: A short overview of your product to provide some context to the reader. The opening 1-2 sentences may be reused by all team members. If your product overview extends beyond 1-2 sentences, the remainder should be written by yourself.
-* **Summary of Contributions** --Suggested items to include:
+* **Overview**: A short overview of your product to provide some context to the reader. The opening 1-2 sentences may be reused by all team members. If your product overview extends beyond 1-2 sentences, you should write the remainder yourself.
+* **Summary of Contributions** -- Suggested items to include:
   * **Code contributed**: Give a link to your code on [tP Code Dashboard]({{ url_tp_dashboard }}). The link is available in the [Project List Page]({{ url_team_list }}) -- linked to the %%:fas-code:%% icon under your profile picture.
   * **Enhancements implemented:** A summary of the enhancements you implemented.
   * **Contributions to the UG:** Which sections did you contribute to the UG?
-  * **Contributions to the DG:** Which sections did you contribute to the DG? Which UML diagrams did you add/updated?
+  * **Contributions to the DG:** Which sections did you contribute to the DG? Which UML diagrams did you add/update?
   * **Contributions to <trigger trigger="click" for="modal:deliverablesPPP-teamTasks">team-based tasks </trigger>**
   * **Review/mentoring contributions:** Links to PRs reviewed, instances of helping team members in other ways.
   * **Contributions beyond the project team:**
-    * Evidence of helping others %%e.g., responses you posted in our forum, bugs you reported in other team's products%%,
+    * Evidence of helping others %%e.g., responses you posted in our forum, bugs you reported in other teams' products%%
     * Evidence of technical leadership %%e.g., sharing useful information in the forum%%
 
 <modal large header="Team-Based Tasks" id="modal:deliverablesPPP-teamTasks">
@@ -32,7 +32,7 @@ At the end of the project each student is required to submit a _Project Portfoli
 <div class="indented-level2">
 <box type="tip" seamless>
 
-Keep in mind that evaluators will use the PPP to estimate your project effort. We recommend that you mention things that will earn you a fair score %%e.g., explain how deep the enhancement is, why it is _complete_, how hard it was to implement etc.%%
+Keep in mind that evaluators will use the PPP to estimate your project effort. We recommend that you mention things that will earn you a fair score %%e.g., explain how deep the enhancement is, why it is _complete_, how hard it was to implement, etc.%%
 </box>
 </div>
 

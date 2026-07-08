@@ -12,12 +12,12 @@
 {% endcall %}
 
 {% call show_common_error("error-commit-message-subject") %}
-**Not following the [convention for Git commit message subject](https://se-education.org/guides/conventions/git.html#:~:text=Commit%20message%3A%20Subject)**.<br>
-Caution: This is <span class="text-danger">very hard to rectify later</span>, after the PR containing the commits have been merged. %%Reason: While Git allows editing past commits, doing so changes their timestamp, which affects your weekly code contribution stats (which are factored into evaluating the consistency of your coding work over the project duration).%% { icon="fas-skull" i-class="text-danger" }
+**Not following the [convention for Git commit message subjects](https://se-education.org/guides/conventions/git.html#:~:text=Commit%20message%3A%20Subject)**.<br>
+Caution: This is <span class="text-danger">very hard to rectify later</span>, after the PR containing the commits has been merged. %%Reason: While Git allows editing past commits, doing so changes their timestamp, which affects your weekly code contribution stats (which are factored into evaluating the consistency of your coding work over the project duration).%% { icon="fas-skull" i-class="text-danger" }
 {% endcall %}
 
 {% call show_common_error("error-pr-from-master") %}
-**Forgetting to do each PR from a separate branch** (i.e., send PR from the `master` branch) of your fork. This error means your PR will not be considered as _following the forking workflow correctly_. { icon="fas-skull" i-class="text-danger" }
+**Forgetting to create each PR from a separate branch of your fork** (i.e., sending the PR from the `master` branch). This error means your PR will not be considered as _following the forking workflow correctly_. { icon="fas-skull" i-class="text-danger" }
 {% endcall %}
 
 {% call show_common_error("error-low-pr-comments") %}

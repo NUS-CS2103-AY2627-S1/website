@@ -20,7 +20,7 @@
 <p/>
 <box type="info">
 
-****Week 2→3 Briefing**** (Week 2 Recap + Week 3 Preview) will be done in hybrid mode -- you can attend it F2F %%(@{{ lecture_venue }} {{ get_date(date_w2_start, 4, format=format_normal, time="from 4pm") }})%%, join via Zoom, or watch the recording later).<br>
+****Week 2→3 Briefing**** (Week 2 Recap + Week 3 Preview) will be done in hybrid mode -- you can attend it F2F %%(@{{ lecture_venue }} {{ get_date(date_w2_start, 4, format=format_normal, time="from 4pm") }})%%, join via Zoom, or watch the recording later.<br>
 
 ==**iP Help Session**== %%({{ get_date(date_w2_start, 4, format=format_normal, time="from 4.50pm") }})%%: The above weekly briefing will be followed by an F2F session to help those who are stuck in the iP due to technical difficulties. To attend that help session, be in {{ lecture_venue }} at least by 4.50pm.
 
@@ -34,7 +34,7 @@
 
 <box type="info" seamless>
 
-**Week 2 Canvas quiz will open by week 1 Wednesday** (earlier than the normal opening time of Friday 4pm).
+**Week 2 Canvas quiz will open by Week 1 Wednesday** (earlier than the normal opening time of Friday 4pm).
 
 </box>
 <p/>

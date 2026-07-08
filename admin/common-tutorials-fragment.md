@@ -173,7 +173,7 @@ During the tutorial, **demo your ability to do debugging using an IDE** by perfo
 
 {{ embed_topic("appendixE-gitHub.md#organization-setup", "Admin " + icon_embedding + " Appendix E (extract): **Organization Setup**", "1", indent="2") }}
 {{ embed_topic("appendixE-gitHub.md#tp-team-repo-setup", "Admin " + icon_embedding + " Appendix E (extract): **tP Team Repo Setup**", "1", indent="2") }}
-{{ embed_topic("appendixE-gitHub.md#tp-individual-fork-setup", "Admin " + icon_embedding + " Appendix E (extract): **tP Individual Fork Setup**", "1", indent="2") }}
+{{ embed_topic("appendixE-gitHub.md#tp-individual-fork-setup", "Admin " + icon_embedding + " Appendix E(extract): **tP Individual Fork Setup**", "1", indent="2") }}
 
 * **[Each person] Verify that you know how to do the following** by performing each on your computer and posting a screenshot in the _tutorial workspace_ document:
   * run the code in your IDE

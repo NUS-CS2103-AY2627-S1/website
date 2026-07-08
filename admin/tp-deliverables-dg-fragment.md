@@ -27,7 +27,7 @@
 * **{{ icon_important_big_red }} Include an appendix named _Instructions for Manual Testing_**, to give some guidance to the tester to chart a path through the features, and provide some important test inputs the tester can copy-paste into the app.
   * **Cover all user-testable features**<span tags="m--cs2103"> but no need to cover existing AB3 features if you did not touch them</span>.
   * **No need to give a long list of test cases** including all possible variations. It is up to the tester to come up with those variations.
-  * Information in this appendix should _complement_ the UG. ==Minimize repeating information that are already mentioned in the UG.==
+  * Information in this appendix should _complement_ the UG. ==Minimize repeating information that is already mentioned in the UG.==
   * **Inaccurate instructions will be considered bugs**.
 <div tags="m--cs2103">
 
@@ -60,14 +60,14 @@
 
 {{ show_faq("tpCountingSimilarPlannedEnhancements") }}
 
-* <span class="text-danger">If the team has exceeded the allowed count in the planned enhancements</span>, only the first N items (where N is `team size x 2`) in that list will have immunity. The rest can be reported as bugs. In addition, exceeding the count can be reported as a separate DG bug.
+* <span class="text-danger">If the team has exceeded the allowed count in the planned enhancements</span>, only the first N items (where N is `team_size x 2`) in that list will have immunity. The rest can be reported as bugs. In addition, exceeding the count can be reported as a separate DG bug.
 </div>
 <div tags="m--cs2103">
 
 * **What to do with other dev docs** linked from the DG e.g., [_Setting up and getting started_ guide](https://se-education.org/addressbook-level3/SettingUp.html)?
   * They are not part of the tP deliverables, and are not graded.
   * You are welcome to (but not required to) update them. If you do, the work can be counted as a tP contribution.
-  * The normal course of action is to just leave them be. It's fine if they are outdated and doesn't match with your current product anymore.
+  * The normal course of action is to just leave them be. It's fine if they are outdated and don't match your current product anymore.
   * But best not to delete them altogether, as that can result in broken links in your DG page.
 
 {{ show_faq("tpDgKeepingProposedFeatures") }}
@@ -77,8 +77,8 @@
    * Requirements yet to be implemented: keep these as well, as this is an ongoing project and these are meant to be implemented in future iterations.
    * More on user stories: You need to document all user stories for the current version, and possibly, for near-future versions.<br>Reason: It is essential to capture all user needs.
    * More on use cases: Use cases are complementary to user stories. Their purpose is to capture non-trivial interactions. Hence, a use case is _important_ if it involves a user interaction that is worthy of documenting e.g., it has multiple extensions -- this is not the same as the feature being important.<br>
-      So, you need not document use cases that have simple interactions. Also, avoid documenting multiple use cases with very similar interactions either %%(it is enough to document one of them and mention how others are similar/vary)%%.<br>
-      In sum, use cases should cover all non-trivial and unique user interaction patterns covering features that are in the current system at least, but can also cover upcoming features too if you wish.
+      So, you need not document use cases that have simple interactions. Also, avoid documenting multiple use cases with very similar interactions %%(it is enough to document one of them and mention how others are similar/vary)%%.<br>
+      In sum, use cases should cover all non-trivial and unique user interaction patterns covering features that are in the current system at least, but can also cover upcoming features if you wish.
 </div>
 
 ##### DG Tips
@@ -108,7 +108,7 @@
     * a sequence diagram can omit less important interactions, self-calls, method parameters, etc.<br>
       {{ icon_tip }} You can use `...` (e.g., `foo(...)`) to indicate parameters have been omitted.<br>
       {{ icon_tip }} You can use pseudocode instead of exact method calls e.g., `save data in file` instead of `saveData(content, filename)`.<br>
-      {{ icon_tip }} Omit intricate details that complicate the diagram unnecessarily when they add to it e.g., exception handling (`throw`/`catch`), lambdas, calls to anonymous methods, etc.<br>
+      {{ icon_tip }} Omit intricate details that complicate the diagram unnecessarily while adding little value to it e.g., exception handling (`throw`/`catch`), lambdas, calls to anonymous methods, etc.<br>
       If you feel they are important to the purpose of the diagram (i.e., omitting them can mislead the reader), you can use a UML note to mention that information (as plain text) in the diagram.
   * **Omit repetitive details** e.g., a class diagram can show only a few representative ones in place of many similar classes (note how the <trigger trigger="click" for="modal:ipWeek10-logicClassDiagram">AB3 Logic class diagram</trigger> shows concrete `*Command` classes using a placeholder `XYZCommand`).
   * **Limit the scope of a diagram.** Decide the purpose of the diagram (i.e., what does it help to explain?) and omit details not related to it.<span tags="m--cs2103"> In particular, avoid showing lower-level details of multiple components in the same diagram unless strictly necessary e.g., note how  <trigger trigger="click" for="modal:ipWeek10-deleteSd">this sequence diagram</trigger> shows only the detailed interactions within the Logic component i.e., does not show detailed interactions within the model component.</span>
@@ -119,8 +119,8 @@
   * **Use visual representations** as much as possible. E.g., show associations and navigabilities using lines and arrows connecting classes, rather than adding a variable in one of the classes.
   * For some more examples of what NOT to do, see <trigger trigger="click" for="modal:ipWeek10-umlExamples">here</trigger>.
 * **Integrate diagrams into the description.** Place the diagram close to where it is being described.
-* **Use code snippets sparingly.** The more you use code snippets in the DG, and longer the code snippet, the higher the risk of it getting outdated quickly. Instead, use code snippets only when necessary and cite only the strictly relevant parts only. You can also use pseudocode instead of actual programming code.
-* **Resize diagrams** so that the text size in the diagram matches the text size of the main text of the diagram. See <trigger trigger="click" for="modal:ipWeek10-diagramSizeNegative">example</trigger>.
+* **Use code snippets sparingly.** The more you use code snippets in the DG, and the longer the code snippet, the higher the risk of it getting outdated quickly. Instead, use code snippets only when necessary and cite only the strictly relevant parts. You can also use pseudocode instead of actual programming code.
+* **Resize diagrams** so that the text size in the diagram matches the text size of the main text of the document. See <trigger trigger="click" for="modal:ipWeek10-diagramSizeNegative">example</trigger>.
 
 
 <modal large header="UML Diagrams: Negative Examples " id="modal:ipWeek10-umlExamples">

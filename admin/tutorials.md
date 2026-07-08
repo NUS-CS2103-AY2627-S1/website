@@ -10,8 +10,8 @@
 
 <box>
 
-{{ icon_important_big_red }} Our tutorial IDs are different from Canvas. Format: `{{ course }}{{ "T" if cs2103 }}-W11` means a tutorial of `{{ course }}{{ "T" if cs2103 }}` course, held on `Wednesday` at `1100`, and so on.<br>
-If there are parallel slots for the same course code, a suffix of `a` or `b` is added e.g., `{{ course }}{{ "T" if cs2103 }}-W11a`
+{{ icon_important_big_red }} Our tutorial IDs are different from Canvas. Format: `{{ course }}{{ "T" if cs2103 }}-W11` means a tutorial for the `{{ course }}{{ "T" if cs2103 }}` course, held on `Wednesday` at `1100`, and so on.<br>
+If there are parallel slots for the same course code, a suffix of `a` or `b` is added, e.g., `{{ course }}{{ "T" if cs2103 }}-W11a`
 
 </box>
 
@@ -19,12 +19,12 @@ If there are parallel slots for the same course code, a suffix of `a` or `b` is 
 
 **The first two tutorials (i.e., weeks 3 and 4) will be conducted fully online (via Zoom).**
 {% if (current_week | int) <= 4 %}
-* Zoom links for tutorial sessions will be available in [Canvas course homepage]({{ url_canvas_home }}), from week 3 Tuesday %%(i.e., 1 day before the first tutorial of the semester)%%.
-* Zoom tutorials require you to **use a video camera**. Use a device with a camera, or have a second device (e.g., hand phone) to use as a video camera.
+* Zoom links for tutorial sessions will be available on the [Canvas course homepage]({{ url_canvas_home }}), from week 3 Tuesday %%(i.e., 1 day before the first tutorial of the semester)%%.
+* Zoom tutorials require you to **use a video camera**. Use a device with a camera, or have a second device (e.g., mobile phone) to use as a video camera.
 * You may use the tutorial venue (given in the table below) to join the Zoom session if you wish, but if you do,
     * please keep the noise level low, as there will be other students doing the same.
     * while you may sit together with team members, you should ==participate in the tutorial _individually_== e.g., do not project one person's screen to the TV, or discuss answers with others unless the tutor prompts you to.
-    * if you face Wi-Fi connectivity issues, try connecting to SSID `eduroam` (you need to use your full NUSNET email address and password `e____@u.nus.edu/*****` to login).
+    * if you face Wi-Fi connectivity issues, try connecting to SSID `eduroam` (you need to use your full NUSNET email address and password `e____@u.nus.edu/*****` to log in).
 {% endif %}
 
 **The subsequent tutorials will be conducted in F2F mode**. {% if (current_week | int) <= 4 %}More info coming soon ...{% else %}Note the following about F2F tutorials:
@@ -79,8 +79,8 @@ If you continue to face recurring Wi-Fi issues at certain NUS locations while yo
 * The Zoom recording of a tutorial will be made available to you after the tutorial.{% endif %}
 * <span class="text-danger">Slides used in tutorials will not be distributed to students.</span> You are expected to take notes {% if cs2103 %}(or screenshots){% else %}(and not take photos of the screen){% endif %} during the tutorial as necessary.<br>
   Reasons:
-  1. Tutorial slides are meant to help the tutor deliver the tutorial, and not meant to be used as reference materials for you to study later. ==When some content is suitable as a reference material, we'll provide you a copy of it.==
-  1. To encourage some level of active engagement with the materials (e.g., taking notes) which is known to increase retention.
+  1. Tutorial slides are meant to help the tutor deliver the tutorial, and not meant to be used as reference materials for you to study later. ==When some content is suitable as reference material, we'll provide you a copy of it.==
+  1. To encourage some level of active engagement with the materials (e.g., taking notes), which is known to increase retention.
   1. To discourage 'no need to bother now; can look at the slides near the exam' attitude -- because most of the materials covered in tutorials are applicable to the project immediately.
 
 ##### Tutor's role
@@ -91,11 +91,11 @@ The role of our tutors is different from tutors in other courses.
 
 {{ embed_topic("policies-fragment.md#policy-adminQuestions", "Admin " + icon_embedding + " Policies → **Policy on admin questions**", "1", indent=1) }}
 
-* **No feedback/help for yet-to-be-graded components**: Tutors are prohibited from giving inputs for components not graded yet, as per the course policy given below:
+* **No feedback/help for yet-to-be-graded components**: Tutors are prohibited from giving input for components not graded yet, as per the course policy given below:
 
 {{ embed_topic("appendixB-policies.md#policy-feedbackOnProjectWork", "Admin " + icon_embedding + " **Policy on feedback for project work**", indent=1, level=2) }}
 
-* **No direct tech help**: Tutors are prohibited from giving direct technical help, other than to give you some general direction to finding a solution.
+* **No direct tech help**: Tutors are prohibited from giving direct technical help, other than to give you some general guidance on finding a solution.
 
 {{ show_faq("tutorialWhyTutorCannotGiveTechHelp") }}
 
@@ -119,7 +119,7 @@ The role of our tutors is different from tutors in other courses.
 
 ##### Grading:
 
-* Your conduct in tutorials will be evaluated by team members and the tutor which can affect your [Participation marks](participation.md).
+* Your conduct in tutorials will be evaluated by team members and the tutor, which can affect your [Participation marks](participation.md).
 * You are expected to be present on time. ==Punctuality is considered for participation marks.==
 
 {{ show_faq("tutorialWhatIfMissedDueToValidReason", is_compact=1) }}

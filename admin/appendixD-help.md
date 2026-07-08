@@ -14,7 +14,7 @@
 <pic eager src="{{baseUrl}}/admin/images/the good reasons to get home early.png" width="300"></pic><br>
 </span>
 
-**Keep in mind that instructors don't have ready solutions to all technical problems**. Unlike tutorial questions for which instructors have model solutions, given the complexity of industry tools we use (Gradle, GitHub, Git, ...) and the rapid pace they are updated, instructors don't have ready solutions to most technical problems you face in this course. The only realistic way to solve those problems at a large scale is crowdsourcing, i.e., someone else who faced a similar problem might know how to fix it.
+**Keep in mind that instructors don't have ready solutions to all technical problems**. Unlike tutorial questions for which instructors have model solutions, given the complexity of the industry tools we use (Gradle, GitHub, Git, ...) and the rapid pace at which they are updated, instructors don't have ready solutions to most technical problems you face in this course. The only realistic way to solve those problems at a large scale is crowdsourcing, i.e., someone else who faced a similar problem might know how to fix it.
 
 
 ### <span class="text-danger"><span class="text-white badge rounded-pill bg-danger">{{ icon_dislike }}</span> **What not to do:**</span>
@@ -29,13 +29,13 @@
 
 * **Double-check the given instructions**: Often, technical problems arise due to deviations in how you perform a step or a difference in your environment.{{ positive_icon }}
 
-* **Get your team to meet for a weekly work-together session**. When you do course tasks together, it is easy to compare with each other and figure out what deviation is causing the problem. That is, crowdsource your team first.
+* **Get your team to meet for a weekly work-together session**. When you do course tasks together, it is easy to compare notes with each other and figure out what deviation is causing the problem. That is, crowdsource your team first.
 
 * **Search**: It is very likely the answer already exists somewhere in cyberspace. Almost every programming-related question has been answered in places like [stackoverflow](http://stackoverflow.com/). Don't give an opportunity for someone to ask you to [STFW](http://www.jibble.org/stfw/).
   Pay attention to the error message you encounter. Sometimes it also contains hints as to how to fix the problem. Even if not, a web search on the error message is a good starting point.<br>
   <pic eager src="{{baseUrl}}/admin/images/how to google it.png" width="600"/>
 
-* **Ask AI** tools such as ChatGPT. If the question is not too specific to the course, AI tools such as ChatGPT might be able to give you a solution. It will help you hone your prompt engineering skills, and also, keep abreast with the current capabilities of such tools.
+* **Ask AI tools such as ChatGPT**. If the question is not too specific to the course, they might be able to give you a solution. It will also help you hone your prompt engineering skills and keep you abreast of the current capabilities of such tools.
 
 * **Ask in the [course forum]({{ url_forum }})**:
   <box type="tip" seamless>
@@ -52,7 +52,7 @@
       {{ bad }} `testing problem`<br>
       {{ good }} `runtest.bat fails with ClassNotFound error`
     * Include full error message, screenshots, screen recordings, code snippets, stack traces, etc.<br>
-      {{ icon_tip }} Use [GFMD (GitHub-Flavored Markdown)](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) syntax writing a post in the GitHub issue tracker (which we use for the forum) to format the text appropriately.
+      {{ icon_tip }} Use [GFMD (GitHub-Flavored Markdown)](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) syntax when writing a post in the GitHub issue tracker (which we use for the forum) to format the text appropriately.
     * If the problem is code-related, share the full code if possible (e.g., push the current state of the code to a branch in your fork and give the link to the branch). That gives a chance for someone to reproduce the state of your project on their computer. Sharing just a snippet of your choosing might not be enough as the problem may not be where you think it is.
   * **Avoid showing text as screenshots**: If you want to show some text in your post %%(e.g., a code snippet, an error message)%%, it is better to copy-paste the actual text rather than a _screenshot_ of the text<br>
     Reason: so that others can easily quote/copy/modify the code in their answers.<br>

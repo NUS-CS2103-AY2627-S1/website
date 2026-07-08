@@ -10,7 +10,7 @@ When setting up your team repo, you would be configuring **the GitHub Pages feat
 
 <div tags="m--cs2103">
 
-* ==Ensure the `Ui.png` matches the current product==
+* ==Ensure the `Ui.png` matches the current product==.
 </div>
 <div tags="m--cs2113">
 
@@ -31,10 +31,10 @@ When setting up your team repo, you would be configuring **the GitHub Pages feat
   * if the UI shows text, don't use trivial/garbage values such as `test 123` or values a
   typical user is unlikely to use.
 * **Use data that make the product _look good_** e.g., if the product doesn't have nice line wrapping for long inputs/outputs, don't use such inputs/outputs for the screenshot.
-* **Avoid too many blank areas**. If you show the product in a well-populated state there shouldn't be largely blank areas that could be filled up instead.
+* **Avoid too many blank areas**. If you show the product in a well-populated state, there shouldn't be large blank areas that could be filled up instead.
 * Choose a state that showcases the main features of the product %%i.e., the login screen is not usually a good choice%%.
 * **Take a _clean_ screenshot with a decent resolution.** Some screenshot tools can capture a specified window only. If your tool cannot do that, make sure you **crop away the extraneous parts** captured by the screenshot.
-* **Avoid annotations** (arrows, callouts, explanatory text etc.); it should look like the product is in use for real.
+* **Avoid annotations** (arrows, callouts, explanatory text, etc.); it should look like the product is in use for real.
 
 <panel tags="m--cs2103" type="seamless" header="Examples" expanded >
 
@@ -55,7 +55,7 @@ Reason: Not enough data. Should have used real profile pictures instead of place
 </tab>
 <tab header=":-1: Not Good">
 
-Reason: screenshot not cropped cleanly (contains extra background details)
+Reason: Screenshot not cropped cleanly (contains extra background details).
 
 <pic eager src="images/Ui-notGood3.png" width="600" />
 

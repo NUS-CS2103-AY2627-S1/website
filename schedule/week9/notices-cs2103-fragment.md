@@ -3,5 +3,5 @@
 
 <box type="info">
 
-Similar to the previous week, you are encouraged to ==try this week's tutorial questions _before_ the actual tutorial==. Otherwise, we might not have enough time to finish all the questions during the tutorial hour.
+**Try this week's tutorial questions _before_ the tutorial.** Otherwise, there might not be enough time to finish all the questions during the tutorial hour.
 </box>

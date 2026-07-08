@@ -5,13 +5,13 @@
 {% call show_admin_page("courseBriefings") %}
 <div id="main">
 
-<p class="lead text-secondary"><em>Course briefing videos</em> cover general admin instructions and aim to guide you on important components of the course.</p>
+<p class="lead text-secondary"><em>Course briefing videos</em> cover general administrative instructions and highlight important parts of the course.</p>
 
-**Course briefings are delivered as pre-recorded videos**, so that they can be made shorter, and you can speed-watch them to save time if you wish.
+**Course briefings are delivered as pre-recorded videos** so they can be shorter, and you can watch them at a faster speed to save time if you wish.
 
-**Most course briefing videos are categorized MUST-WATCH** as they contain important information you need to increase your effort-to-gain ratio and get the best out of this course.
+**Most course briefing videos are categorized MUST-WATCH** as they contain important information you need to increase your effort-to-gain ratio and get the most out of this course.
 
-**They are listed below for reference only.** When it is time for you to watch a certain course briefing video, it will appear in the current schedule page of the course website.
+**They are listed below for reference.** When it is time for you to watch a specific course briefing video, it will appear in the current schedule page of the course website.
 
 
 <!-- ==================================================== -->
@@ -21,7 +21,7 @@
 <box seamless>
 
 **{{ icon_graded }} Watching course briefing videos counts for participation.**<br>
-When watching a briefing video for the first time, avoid <tooltip content="dragging the slider or timeline bar back and forth">scrubbing</tooltip> or jumping ahead or around in the video timeline, as this can interfere with the video platform's tracking of which parts of the video you actually watched. However, watching at faster speeds is fine.
+When watching a briefing video for the first time, avoid <tooltip content="dragging the slider or timeline bar back and forth">scrubbing</tooltip> or jumping around in the video timeline, as this can interfere with the video platform's tracking of which parts of the video you actually watched. However, watching at faster speeds is fine.
 
 **:fas-closed-captioning: We have added closed captioning support** for course briefing videos.
 
@@ -31,7 +31,7 @@ When watching a briefing video for the first time, avoid <tooltip content="dragg
 ****1. Welcome to the Course****:{.text-info}
 {{ panopto(desc="1 min", "edb318e2-ebe4-4985-9916-b3cd005e664b", start_week="0") }}
 
-<span class="text-info">****2. Course Goals****</span>: How the goals of this course shape its structure (possibly different from other courses), and how students should approach it.
+<span class="text-info">****2. Course Goals****</span>: How the goals of this course shape its structure (which may differ from other courses) and how students should approach it.
 {{ panopto(desc="9 mins", "a4d6f92e-b12f-4046-853b-b0fb01058143", start_week="0") }}
 
 
@@ -52,23 +52,23 @@ This week's briefing videos start with a detour.
 
 ---
 
-<span class="text-info">****0. Detour: SDLC Basics****</span>: Watch the following video covering the [week 2 topic 'SDLC Process Models Basics']({{ baseUrl }}/schedule/week2/topics.html#W2-2), as the concepts covered there are referenced in the rest of the course briefing.
+<span class="text-info">****0. Detour: SDLC Basics****</span>: Watch the following video covering the [week 2 topic 'SDLC Process Models Basics']({{ baseUrl }}/schedule/week2/topics.html#W2-2), as the rest of the course briefing refers to those concepts.
 {{ panopto(desc="6 mins -- %%Detour: **SDLC Basics**%%", "84a0119c-8f76-46fc-a256-b0f90098e59f", start_week="1") }}
 
 ---
 </div>
 
 
-<span class="text-info">****1. Iterative + Brownfield = ???****</span>: How the iterative and brownfield approach taken by the course impacts your learning experience.
+<span class="text-info">****1. Iterative + Brownfield = ???****</span>: How the iterative and brownfield approach used in the course affects your learning experience.
 {{ panopto(desc="6 mins", "e074cbed-2afb-46f6-81bc-b0fb01057eb8", start_week="1") }}
 
-<span class="text-info">****2. Challenges and Solutions****</span>: How to tackle three challenges you'll face in the course, namely, _information overload_, _workload_, and _technical problems_.
+<span class="text-info">****2. Challenges and Solutions****</span>: How to tackle three challenges you will face in the course: _information overload_, _workload_, and _technical problems_.
 {{ panopto(desc="11 mins", "bfea6b66-ecf1-4846-9f13-b26500800818", start_week="1") }}
 
 ---
 
 <span class="text-info">****3. Week 1->2 Briefing****</span> (Week 1 Recap + Week 2 Preview): This video recaps Week 1 and gives a preview of what you need to do in Week 2.<br>
-%%Note: While weekly briefings are normally done in hybrid mode, this week's briefing is released as a pre-recorded video to allow you to get started with week 2 tasks early.%%
+%%Note: While weekly briefings are normally done in hybrid mode, this week's briefing is released as a pre-recorded video so you can start week 2 tasks early.%%
 
 {{ panopto(desc="4 mins", "8548228b-dc17-4eaa-8aa2-b335010eea89", start_week="1") }}
 </div>
@@ -107,7 +107,7 @@ This week's briefing videos start with a detour.
 
 <box type="warning" header="Noticed anything odd about the videos below?" seamless>
 
-In these two videos, we used an ==AI-driven text-to-speech tool== to create some parts of the narrations, as an experiment. See if you can spot which parts are AI-generated and which parts are not.
+In these two videos, we used an ==AI-driven text-to-speech tool== to create parts of the narration as an experiment. See if you can spot the AI-generated parts.
 </box>
 
 ****tP Briefing (Part 2a -- v1.1, Workflow)****{.text-info}
@@ -127,14 +127,14 @@ In these two videos, we used an ==AI-driven text-to-speech tool== to create some
 <panel type="info" header="#### Week 13 Course Briefings" expanded>
 <div id="course-briefing-w13">
 
-****Final Exam:****{.text-info} This video is an overview of the final exam structure and resources that you can use to prepare for it.
+****Final Exam:****{.text-info} This video gives an overview of the final exam structure and resources you can use to prepare for it.
 
 <div id="exam-briefing-video">
 
 {{ panopto("659fa8f5-e1e3-42ba-9452-b4280057bdeb", desc="[Course Briefing Video] Final Exam %%(10 minutes)%%", start_week="12") }}
 </div>
 
-****Course Topics Recap aka the 'Big Picture':****{.text-info} This video explains how course topics fit into a big picture, and as a bonus, ==touches on some exam-like questions== as well.
+****Course Topics Recap, aka the 'Big Picture':****{.text-info} This video explains how course topics fit into the big picture and, as a bonus, ==discusses some exam-like questions==.
 
 <div id="topics-video">
 

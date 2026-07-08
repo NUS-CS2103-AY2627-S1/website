@@ -13,7 +13,7 @@
 
 ## Dev Team
 
-This course is supported by a number of software tools developed by our students:
+This course is supported by several student-developed software tools:
 
 * [**Git-Mastery** dev team](https://git-mastery.org/about/)
 * [**MarkBind** dev team](https://markbind.org/about.html)

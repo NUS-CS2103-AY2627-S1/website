@@ -4,7 +4,7 @@
 {% call show_admin_page("tp-deliverables") %}
 <div id="main">
 
-Here is a list of main deliverables of the project; their details are given in the subsequent sections.
+Here is a list of the main deliverables of the project; their details are given in the subsequent sections.
 * Product
   * [Executable](#deliverable-executable)
   * [Source code](#deliverable-source-code)

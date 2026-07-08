@@ -101,12 +101,12 @@ then [{{ g.iter3 }}] lasts 3 days
 
 {% macro badge(text) %}<span class="badge bg-dark">{{ text }}</span>{% endmacro %}
 
-The tP spans ten weeks, and is to be done in _breadth-first iterative_ fashion.
+The tP spans ten weeks and follows a _breadth-first iterative_ approach.
 
-****The first portion of the tP**** **will be spent on laying out the foundation for the iterations**, as illustrated below. This portion of the tP is light because you will be doing the individual project (iP) in parallel during this time.
+****The first portion of the tP**** **lays the foundation for the iterations**, as illustrated below. This portion of the tP is light because you will be doing the individual project (iP) in parallel.
 
 {{ project_gantt_pre(g) }}
---Note that the diagrams above show the relative size of tasks i.e., smaller tasks are shown as shorter bars--
+--Note that the diagram above shows the relative size of tasks; i.e., smaller tasks are shown as shorter bars.--
 
 {% set tfw = (tp_first_week | int) %}
 
@@ -119,7 +119,7 @@ The tP spans ten weeks, and is to be done in _breadth-first iterative_ fashion.
 
 #### {{ badge("Week " + (tfw + 1))}} {{ weekly_tp_themes.w4.name }}
 
-* Decide on a general direction for the project %%(i.e., target user profile, and problem addressed)%%.{{ bullet_target_green }}
+* Decide on a general direction for the project %%(i.e., target user profile and problem addressed)%%.{{ bullet_target_green }}
 
 #### {{ badge("Week " + (tfw + 2))}} {{ weekly_tp_themes.w5.name }}
 
@@ -135,7 +135,7 @@ The tP spans ten weeks, and is to be done in _breadth-first iterative_ fashion.
 </div>
 
 
-****The second portion of the tP**** **is divided into multiple iterations**, each of which is expected to produce a working version of the product by evolving the product delivered in the previous iteration.
+****The second portion of the tP**** **is divided into multiple iterations**, each of which is expected to produce a working version of the product by evolving the version delivered in the previous iteration.
 
 {{ project_gantt_iterations(g) }}
 <p/>
@@ -182,7 +182,7 @@ The tP spans ten weeks, and is to be done in _breadth-first iterative_ fashion.
 <box id="lo-above-product" type="info" seamless>
 
 **Aim to do 'just enough':**{.text-info}
-Note how the <span class="text-success">:fas-crosshairs: **Product goal**</span> (together with the <span class="text-success">:fas-crosshairs: **Strategy**</span>) is simply a means to achieve the <span class="text-success">:fas-crosshairs: **Learning outcome**</span>. Unlike in a real SE project, the product in the tP exists only to help you achieve the learning outcome. Hence, aim to **do 'just enough' work on the product to achieve the intended learning outcome of the iteration** %%(e.g., don't make features bigger than necessary)%% so that the tP doesn't add to your workload more than necessary.
+Note how the <span class="text-success">:fas-crosshairs: **Product goal**</span> (together with the <span class="text-success">:fas-crosshairs: **Strategy**</span>) is simply a means to achieve the <span class="text-success">:fas-crosshairs: **Learning outcome**</span>. Unlike in a real SE project, the product in the tP exists only to help you achieve the learning outcome. Hence, aim to **do 'just enough' work on the product to achieve the intended learning outcome of the iteration** %%(e.g., don't make features bigger than needed)%% so that the tP doesn't increase your workload more than necessary.
 </box>
 
 
@@ -191,8 +191,8 @@ Note how the <span class="text-success">:fas-crosshairs: **Product goal**</span>
 <div id="v12-goals" class="indented">
 
 * **#g#Learning outcome##**: Able to update functional code while working in parallel.{{ bullet_target_green }}
-* **#g#Product goal##**: Take the first step towards an MVP by delivering at least _some_ functionality changes.
-* **#g#Strategy##**: Define the smallest possible MVP (==!!simplest versions!! of !!_must-have_ features!! only==). Each member tries to merge at least one PR that moves the product towards that MVP.
+* **#g#Product goal##**: Take the first step toward an MVP by delivering at least _some_ functionality changes.
+* **#g#Strategy##**: Define the smallest possible MVP (==!!simplest versions!! of !!_must-have_ features!! only==). Each member tries to merge at least one PR that moves the product toward that MVP.
 </div>
 
 #### {{ badge("&nbsp;W" + (tfw + 6)+ "&nbsp;")}} Iter.3 %%[ --{{ weekly_tp_themes.w9.name }}-- ]%%
@@ -210,7 +210,7 @@ Note how the <span class="text-success">:fas-crosshairs: **Product goal**</span>
 <div id="v14-goals" class="indented">
 
 * **Learning outcome**: Able to tweak the product/project plan to match the available time/resources.{{ bullet_target_green }}
-* **Product goal**: Implement <popover content="i.e., _almost_ complete implementation of the feature, even if not fully polished">fully-fledged</popover> versions of _all_ the features intended for final release.
+* **Product goal**: Implement <popover content="i.e., _almost_ complete implementation of the feature, even if not fully polished">full-fledged</popover> versions of _all_ the features intended for final release.
 * **Strategy**: Add features based on priority, while maintaining a working product. It is OK if the features are rough around the edges, as they can be tweaked in the next iteration.
 </div>
 
@@ -222,14 +222,14 @@ Note how the <span class="text-success">:fas-crosshairs: **Product goal**</span>
 <div id="v15-goals" class="indented">
 
 * **Learning outcome**: Able to apply internal quality control.{{ bullet_target_green }}
-* **Product goal**: Reach the _release candidate (RC)_ version, ready for a public beta testing (i.e., the product quality should be sufficiently high %%e.g., no obvious bugs%%).
-* **Strategy**: Do an <popover content="A full-product testing conducted by internal testers (in this case, project members themselves) acting as target users">alpha test</popover> internally, and refine features as necessary. Improve tests, documentation, code quality.
+* **Product goal**: Reach the _release candidate (RC)_ version, ready for public beta testing (i.e., the product quality should be sufficiently high, %%e.g., no obvious bugs%%).
+* **Strategy**: Do an <popover content="A full-product test conducted by internal testers (in this case, project members themselves) acting as target users">alpha test</popover> internally, and refine features as necessary. Improve tests, documentation, and code quality.
 
 </div>
 
 <box type="info" seamless>
 
-This version (i.e., {{ version_penultimate }}) will undergo a limited beta testing (done by other teams) and you will receive the bug reports without any penalty.
+This version (i.e., {{ version_penultimate }}) will undergo limited beta testing (done by other teams), and you will receive the bug reports without any penalty.
 </box>
 
 
@@ -237,7 +237,7 @@ This version (i.e., {{ version_penultimate }}) will undergo a limited beta testi
 
 <div id="v16-goals" class="indented">
 
-* **Learning outcome**: Able to put in final touches while minimizing delivery risks %%i.e., risks of regressions or deadline overruns%%.{{ bullet_target_green }}
+* **Learning outcome**: Able to put in the final touches while minimizing delivery risks %%i.e., risks of regressions or deadline overruns%%.{{ bullet_target_green }}
 * **Product goal**: Reach the quality necessary for a public release.
 * **Strategy**: Freeze features. Avoid code changes unless strictly necessary.
 </div>
@@ -245,9 +245,9 @@ This version (i.e., {{ version_penultimate }}) will undergo a limited beta testi
 <box type="warning" seamless>
 
 * This iteration is <span class="text-danger">very short</span> (just a few days).<br>
-  ==**Even minor/cosmetic changes to features are not allowed** in this iteration== due to the _feature freeze_ enforced.
-* This version will be subjected to an intensive peer testing (the so-called [_practical exam_](tp-pe.html#tp-practical-exam-pe)).
-  You will get credit for finding bugs in others' tP deliverables and penalized for bugs found in your deliverables.
+  ==**Even minor/cosmetic changes to features are not allowed** in this iteration== due to the _feature freeze_ in effect.
+* This version will undergo intensive peer testing (the so-called [_practical exam_](tp-pe.html#tp-practical-exam-pe)).
+  You will get credit for finding bugs in others' tP deliverables and be penalized for bugs found in your deliverables.
 </box>
 
 </div>

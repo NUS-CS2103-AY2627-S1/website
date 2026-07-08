@@ -28,10 +28,10 @@ Due to the Good Friday holiday, the [team project practical exam](../../admin/tp
 
 <panel type="info" header="##### ==[MUST-WATCH]== Course Briefing Videos" expanded >
 
-One course briefing video to watch this week, given below:
+There is one course briefing video to watch this week:
 
 <include src="../../admin/courseBriefings.md#course-briefing-w3" />
 
-As usual, the _weekly_ briefing (i.e., Week 3->4 transition, covering a recap of Week 3 and a preview of Week 4) will be in hybrid mode.{% if semester=="AY2425S2" %} But it will start around 5pm, to make room for the mass tutorial that starts at 4pm.{% endif %}
+As usual, the _weekly_ briefing (i.e., the Week 3-to-4 transition, covering a recap of Week 3 and a preview of Week 4) will be in hybrid mode.{% if semester=="AY2425S2" %} It will start around 5pm to make room for the mass tutorial that starts at 4pm.{% endif %}
 </panel>
 <p/>

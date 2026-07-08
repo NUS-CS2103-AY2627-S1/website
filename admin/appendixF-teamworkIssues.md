@@ -12,7 +12,7 @@ pageNav: 5
 
 **First, some general principles related to handling teamwork issues:**
 
-* **tP is graded almost entirely based on individual work.**{.text-info} Even when a component is evaluated for the entire team (e.g., product design), each member will be given a mark based on that members' contribution to the component, and the quality of that contribution. This also means **your tP grade is determined almost entirely by your own work**, not the work of your team members. Even if all other team members are low-performing, you should still be able to get a good grade without increasing your workload significantly more than otherwise, in theory.{texts="['GP1.', 'GP2.', 'GP3.', 'GP4.', 'GP5.', 'GP6.']" t-class="fw-bold text-info"}
+* **tP is graded almost entirely based on individual work.**{.text-info} Even when a component is evaluated for the entire team (e.g., product design), each member will be given a mark based on that member's contribution to the component, and the quality of that contribution. This also means **your tP grade is determined almost entirely by your own work**, not the work of your team members. Even if all other team members are low-performing, you should still be able to get a good grade without increasing your workload significantly more than otherwise, in theory.{texts="['GP1.', 'GP2.', 'GP3.', 'GP4.', 'GP5.', 'GP6.']" t-class="fw-bold text-info"}
 * **Team members are NOT _required_ to do an equal share of work.**{.text-info} Following from GP1, every member can decide how much they want to contribute to the project. This gives students the flexibility to control their tP workload based on their own expectations and motivations.
 * **Managing team issues is a learning outcome.**{.text-info} You are recommended to keep the teaching team informed of any teamwork issues you are facing but keep in mind that solving such issues is part of the 'project management' aspect, which is a tP deliverable. So, the teaching team will refrain from direct interventions except in severe cases.
 * **Be professional, kind, and civil to the team members, even if they are not meeting your expectations.**{.text-info} A below-par performance in the tP does not make someone a 'bad person'. In some cases, the person might be fighting other battles that we are unaware of %%(e.g., mental health issues, family problems, financial problems)%%. The best we can do is to be kind and supportive.<br>
@@ -70,7 +70,7 @@ Once you have identified a low-performing member, you will need to adapt your pr
 
 **Guidance for the member:**
 
-* Be sincere about how much you plan to contribute to the project, you availability, your skill level etc. and keep the team informed if circumstances change.
+* Be sincere about how much you plan to contribute to the project, your availability, your skill level etc. and keep the team informed if circumstances change.
 * ==If you are unable to do a project task (due to lack of time, skill, or other issue), inform the team promptly, rather than keep silent.== It will allow the team to plan around your inability to do the task, rather than waste more time waiting for you to respond/deliver.
 * Promise only what you can do, and do what you promised, on time, and up to the expected quality. Sloppy work or late work is worse than no work.
 
@@ -150,7 +150,7 @@ If the team refused to accept your work, you can still earn marks for that code.
   * Set deadlines for completing critical tasks (e.g., features that other features depend on) with the understanding that others will need to takeover those features if not done on time.
 
 </panel> <!-- ============================================================================= -->
-<panel type="danger" header="##### CP7. Rude member behaviours" expanded>
+<panel type="danger" header="##### CP7. Rude member behaviors" expanded>
 
 **Problem:** A team member is behaving rudely, using abusive language, raising voice unnecessarily, etc.
 

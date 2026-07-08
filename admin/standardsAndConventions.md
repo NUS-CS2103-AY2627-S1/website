@@ -4,7 +4,7 @@
 {% call show_admin_page("standardsAndConventions") %}
 <div id="main">
 
-Given below are the standards and conventions to follow in this course.
+Below are the standards and conventions to follow in this course.
 
 
 {{ show_faq("ipAspectsNotCoveredByTheStandard") }}
@@ -32,21 +32,21 @@ Given below are the standards and conventions to follow in this course.
 ##### Git
 
 * {{ required }} Follow the Git ==commit message _subject_ conventions== in the [SE-EDU Git conventions](https://se-education.org/guides/conventions/git.html).
-* {{ conditional }} Writing a commit message body is optional, but if you do write one, follow at least basic conventions for the commit message body.
+* {{ conditional }} Writing a commit message body is optional, but if you do write one, follow at least the basic conventions for the commit message body.
 
 </span>
 <span tags="m--cs2103 m--cs2113">
 
 ##### Markdown
 
-* {{ optional }}  Follow [Markdown style guide at SE-EDU](https://se-education.org/guides/conventions/markdown.html).
+* {{ optional }}  Follow the [Markdown style guide at SE-EDU](https://se-education.org/guides/conventions/markdown.html).
 
 </span>
 <span tags="m--cs2103 m--cs2113">
 
 ##### Documentation
 
-* {{ optional }}  Follow [Google developer documentation style guide](https://developers.google.com/style).
+* {{ optional }}  Follow the [Google developer documentation style guide](https://developers.google.com/style).
 </span>
 
 </div>

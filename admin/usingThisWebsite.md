@@ -7,7 +7,7 @@
 
 {{ icon_important_big_red }} The [_Weekly Schedule Page_]({{baseUrl}}/schedule/index.html) is your main source of information for {{ course_pair }}. You will need to refer to it weekly. For an overview of the full semester's schedule, refer to the [Full Timeline](../schedule/timeline.html) page.
 
-{{ icon_info }} More details for the upcoming weeks will be added as the weeks progress. In general, ==information given for more than 1 week into the future should be treated as _tentative_==.
+{{ icon_info }} More details for the upcoming weeks will be added as the weeks progress. In general, ==information given more than one week in advance should be treated as _tentative_==.
 
 <include src="../book/about/usage.md#browsers" />
 {% set icon_layers = ":fas-layer-group:" %}
@@ -40,7 +40,7 @@ Less important info
 
 </box>
 
-<span id="tip-about-popup-url">You can use the <span class="btn btn-light ps-1 pe-1 pb-0 pt-0 border"><small>:glyphicon-new-window:</small></span> button in a panel to open it as a new tab (it can be expanded in-place too). This feature is available only for panels containing another _full_ page of the website (i.e., not available if the panel contains an _extract_ of a page).</span> e.g.,
+<span id="tip-about-popup-url">You can use the <span class="btn btn-light ps-1 pe-1 pb-0 pt-0 border"><small>:glyphicon-new-window:</small></span> button in a panel to open it as a new tab (it can be expanded in place too). This feature is available only for panels containing another _full_ page of the website (i.e., not available if the panel contains an _extract_ of a page).</span> For example,
 
 <panel header="A panel that can be opened as another tab" popup-url="acknowledgements.html">
 <include src="acknowledgements.md" />
@@ -69,7 +69,7 @@ Video describing X
 </box>
 </div>
 
-**{{ icon_layers }} Dotted underlines indicate <popover content="some additional info">tool tips</popover>** (activated by hovering over it) and **dashed underlines indicate <trigger for="modal:modal-example" trigger="click">modal windows</trigger>** (activated by clicking) containing additional information.
+**{{ icon_layers }} Dotted underlines indicate <popover content="some additional info">tooltips</popover>** (activated by hovering over them) and **dashed underlines indicate <trigger for="modal:modal-example" trigger="click">modal windows</trigger>** (activated by clicking them) containing additional information.
 
 <popover id="pop:tooltip-example" header="Tooltip Example" placement="top">
 <div slot="content">
@@ -98,13 +98,13 @@ Additional information
 
 ### Searching for keywords{.text-white .bg-secondary .p-2}
 
-Use the search box in the top navigation bar to search for keywords in the website pages. If you cannot find the content related to a keyword, let us know by posting [in the forum]({{url_forum}}) so that we can add the missing keyword to our search index.
+Use the search box in the top navigation bar to search for keywords in the website pages. If you cannot find content related to a keyword, let us know by posting [in the forum]({{url_forum}}) so that we can add the missing keyword to our search index.
 
 <include src="../book/about/usage.md#saving" />
 
 ### Printing Textbook Content{.text-white .bg-secondary .p-2}
 
-**[The Textbook page]({{ baseUrl }}/se-book-adapted/index.html) provides a printer-friendly and a study-friendly version** — omitting non-examinable topics, and limiting to things more relevant to studying for the exam — for each chapter and the whole book %%(indicated by {{icon_print}} icon)%%. You can use them for saving as PDF files or printing.
+**[The Textbook page]({{ baseUrl }}/se-book-adapted/index.html) provides printer-friendly and study-friendly versions** — omitting non-examinable topics and focusing on content more relevant to studying for the exam — for each chapter and the whole book %%(indicated by {{icon_print}} icon)%%. You can use them for saving as PDF files or printing.
 
 ### Making this Website Better{.text-white .bg-secondary .p-2}
 

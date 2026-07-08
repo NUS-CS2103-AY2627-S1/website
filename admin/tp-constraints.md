@@ -23,19 +23,19 @@
 <span tags="m--cs2103">
 
 {% call show_constraint("Constraint-Brownfield") -%}
-The final product should be a result of evolving the given codebase. However, you are not barred from doing major changes to the code, provided it is done incrementally. %%e.g., done in small steps, each producing a working product%%<br/>
+The final product should be the result of evolving the given codebase. However, you are not barred from making major changes to the code, provided they are done incrementally. %%e.g., done in small steps, each producing a working product%%<br/>
 %%**Reason:** To simulate a brownfield project.%%
 {%- endcall  %}
 </span>
 
 {% call show_constraint("Constraint-Typing-Preferred") -%}
-The product should be targeting users who can type fast and prefer typing to other means of input.<br>
+The product should target users who can type fast and prefer typing over other means of input.<br>
 %%**Reason**: by enforcing some similarity among target users of the projects, we hope to make the projects more comparable with each other.%%
 {%- endcall  %}
 
 {% call show_constraint("Constraint-Single-User") -%}
-The product should be for a single user i.e., (not a multi-user product).<br>
-Not allowed: Application running in a shared computer and different people using it at different times.<br>
+The product should be for a single user (i.e., not a multi-user product).<br>
+Not allowed: Application running on a shared computer and different people using it at different times.<br>
 Not allowed: The data file created by one user being accessed by another user during regular operations (e.g., through a shared file storage mechanism).<br>
 %%**Reason**: multi-user systems are hard to test, which is unfair for peer testers who will be graded based on the number of bugs they find.%%
 {%- endcall  %}
@@ -46,7 +46,7 @@ The product needs to be developed in a breadth-first incremental manner over the
 {%- endcall  %}
 
 {% call show_constraint("Constraint-Human-Editable-File") -%}
-The data should be stored locally and should be in a human editable text file.<br/>
+The data should be stored locally and should be in a human-editable text file.<br/>
 {% if cs2103 %}Furthermore, the level of support for editing the data file should be **at least [that of AB3](https://se-education.org/addressbook-level3/UserGuide.html#editing-the-data-file)**.<br>{% endif %}
 %%**Reason:** To allow advanced users to manipulate the data by editing the data file.%%
 
@@ -55,14 +55,14 @@ The data should be stored locally and should be in a human editable text file.<b
 {%- endcall  %}
 
 {% call show_constraint("Constraint-No-DBMS") -%}
-Do not use a <tooltip content="Database Management System e.g., MySQL">DBMS</tooltip> to store data.<br/>
-%%**Reason:** Using a DBMS to store data will reduce the room to apply OOP techniques to manage data. It is true that most real world systems use a DBMS, but given the small size of this project, we
+Do not use a <tooltip content="Database Management System, e.g., MySQL">DBMS</tooltip> to store data.<br/>
+%%**Reason:** Using a DBMS to store data will reduce the room to apply OOP techniques to manage data. It is true that most real-world systems use a DBMS, but given the small size of this project, we
 need to optimize it for {{ course_pair }}
 course learning outcomes; covering DBMS-related topics will have to be left to database courses or level 3 project courses.%%
 {%- endcall  %}
 
 {% call show_constraint("Constraint-OO") -%}
-The software should follow the Object-oriented paradigm primarily (but you are allowed to mix in a bit other styles when justifiable).<br/>
+The software should follow the Object-oriented paradigm primarily (but you are allowed to mix in a bit of other styles when justifiable).<br/>
 %%**Reason:** For you to practice using OOP in a non-trivial project.%%
 {%- endcall  %}
 
@@ -72,7 +72,7 @@ The software should work on the Windows, Linux, and OS-X platforms. Even if you 
 {%- endcall  %}
 
 {% call show_constraint("Constraint-Java-Version") -%}
-The software should work on a computer that has version 17 of Java %%i.e., no other Java version installed%%.
+The software should work on a computer that has Java 17 %%i.e., no other Java version installed%%.
 {%- endcall  %}
 
 {% call show_constraint("Constraint-Portable") -%}
@@ -86,16 +86,16 @@ The software should not depend on your own remote server.<br>
 {%- endcall  %}
 
 {% call show_constraint("Constraint-External-Software") -%}
-The use of third-party frameworks/libraries/services is allowed but only if they,
-* are free, open-source (this doesn't apply to services), and have permissive license terms %%(E.g., trial version of libraries that require purchase after N days/uses are not allowed)%%.
+The use of third-party frameworks/libraries/services is allowed only if they:
+* are free, open-source (this doesn't apply to services), and have permissive license terms %%(e.g., trial versions of libraries that require purchase after N days/uses are not allowed)%%.
 * do not require any installation by the user of your software.<br>
-  In case of services, requiring the user to create an account on a third-party service is strongly discouraged as it can result in your product getting a 'low testability' rating.
+  In the case of services, requiring the user to create an account on a third-party service is strongly discouraged as it can result in your product getting a 'low testability' rating.
 * do not violate other constraints.
 
-and is subjected to prior approval by the teaching team.<br>
+Their use is subject to prior approval by the teaching team.<br>
 %%**Reason:** We will not allow third-party software that can interfere with the learning objectives of the course.%%
 
-Please ==post in the [forum]({{url_course_org}}/forum/issues) your request to use a third-party libraries/services== _before_ you start using the library. Once a specific software has been approved for one team, other teams may use it without requesting permission again.<br/>
+Please ==post in the [forum]({{url_course_org}}/forum/issues) your request to use third-party libraries/services== _before_ you start using the library. Once a specific library/service has been approved for one team, other teams may use it without requesting permission again.<br/>
 %%**Reason:** The whole class should know which external software is used by others so that they can do the same if they wish to.%%
 {%- endcall  %}
 
@@ -103,13 +103,13 @@ Please ==post in the [forum]({{url_course_org}}/forum/issues) your request to us
 <span tags="m--cs2103">
 
 {% call show_constraint("Constraint-Screen-Resolution") -%}
-The GUI should _work well_ (i.e., should not cause any resolution-related inconveniences to the user) for,
-* standard screen resolutions 1920x1080 and higher, and,
-* for screen scales 100% and 125%.
+The GUI should _work well_ (i.e., should not cause any resolution-related inconveniences to the user) at:
+* standard screen resolutions 1920x1080 and higher, and
+* screen scales 100% and 125%.
 
-In addition, the GUI should be _usable_ (i.e., all functions can be used even if the user experience is not optimal) for,
-* resolutions 1280x720 and higher, and,
-* for screen scales 150%.
+In addition, the GUI should be _usable_ (i.e., all functions can be used even if the user experience is not optimal) at:
+* resolutions 1280x720 and higher, and
+* screen scales 150%.
 
 
 {%- endcall %}
@@ -117,9 +117,9 @@ In addition, the GUI should be _usable_ (i.e., all functions can be used even if
 
 {% call show_constraint("Constraint-Single-File") -%}
 Package everything into a single JAR file.<br>
-%%**Reason:** Requiring the users to download more files can cause complications in the final peer testing session.%%
+%%**Reason:** Requiring the users to download more files can cause complications in the final peer-testing session.%%
 
-If you are unable to package everything into a JAR file, package the JAR file and other files needed into a single zip file.
+If you are unable to package everything into a JAR file, package the JAR file and any other needed files into a single ZIP file.
 {%- endcall  %}
 
 {% call show_constraint("Constraint-File-Size") -%}
@@ -130,21 +130,21 @@ The file sizes of the deliverables should be reasonable and not exceed the limit
 
 * <span class="text-danger">Product (i.e., the JAR/ZIP file): 100MB</span> (Some third-party software -- e.g., Stanford NLP library, certain graphics libraries -- can cause you to exceed this limit)
 
-* <span class="text-danger">Documents (i.e., PDF files): 15MB/file</span> (Not following [the recommended method of converting to PDF format](https://se-education.org/guides/tutorials/savingPdf.html) can cause big PDF files. Another cause is using unnecessarily high resolution images for screenshots).
+* <span class="text-danger">Documents (i.e., PDF files): 15MB/file</span> (Not following [the recommended method of converting to PDF format](https://se-education.org/guides/tutorials/savingPdf.html) can cause big PDF files. Another cause is using unnecessarily high-resolution images for screenshots).
 
 In addition, do ==ensure that the final JAR/PDF files are not bloated unnecessarily==. Such <span class="text-danger">bloat can be reported as a bug</span>.
 Some suggestions:
 
-* Check if the assets (e.g., images, audio, data) included in the JAR files are all strictly necessary and the quality is not unnecessarily high (e.g., images with higher resolution than necessary).
-* Check if the third-party libraries in the JAR file are strictly necessary or whether they have lighter versions that are still enough for your purpose.
+* Check if the assets (e.g., images, audio, data) included in the JAR files are all strictly necessary and that their quality is not unnecessarily high (e.g., images with higher resolution than necessary).
+* Check if the third-party libraries in the JAR file are strictly necessary or whether lighter versions are still enough for your purpose.
 
-{{ icon_important_big_red }} **Using [JavaFX WebView](http://tutorials.jenkov.com/javafx/webview.html)** allows you to display a Web page within your application, but it is very likely to cause you to violate this constraint. If you decide to use that library, ensure the benefit is worth the increase in size (in particular, using it just to show an HTML view of the User Guide is not worth the increase in size it causes).
+{{ icon_important_big_red }} **Using [JavaFX WebView](http://tutorials.jenkov.com/javafx/webview.html)** allows you to display a Web page within your application, but it is very likely to cause you to violate this constraint. If you decide to use that library, ensure the benefit is worth the increase in size (in particular, using it just to show an HTML view of the User Guide is not worth it).
 {%- endcall  %}
 
 {% call show_constraint("Constraint-PDF-Friendly") -%}
-The DG and UG should be PDF-friendly. Don't use expandable panels, embedded videos, animated GIFs etc. Do not split them into further multiple pages.<br>
+The DG and UG should be PDF-friendly. Don't use expandable panels, embedded videos, animated GIFs, etc. Do not split them further into multiple pages.<br>
 
-%%**Reason:** You need to submit UG and DG as two single PDF files respectively, for the final submission%%
+%%**Reason:** You need to submit the UG and DG as one PDF file each for the final submission.%%
 {%- endcall  %}
 
 -----------------------------------------------------------------------------------------------------------------------
@@ -152,16 +152,16 @@ The DG and UG should be PDF-friendly. Don't use expandable panels, embedded vide
 **In addition, you are strongly encouraged to follow these recommendations** as they can help increase your project score.
 
 {% call show_constraint("Recommendation-Minimal-Network", recommendation=true) -%}
-It is OK to use a reliable public API %%e.g., Google Search%%, but we recommend that you have a fallback mechanism (e.g., able to load data using a data file if the network is down).<br>
-  %%**Reason:** During the mass peer-testing session, the network access can be intermittent due to high load. If your feature cannot be tested due to lack of Internet, that will have to be counted as a major bug, to be fair to those whose app is being tested and bugs found being penalized.%%<br>
-  ==If you use NUS data== (e.g., scrape data from an NUS website), please work with [NUS IT](https://nusit.nus.edu.sg/contact/) directly to get their approval first. Even well-intentioned use of NUS data without approval can get you into serious trouble (has happened before). The teaching team will not be able to get approval for you as the use of NUS data is not a course requirement.
+It is OK to use a reliable public API %%e.g., Google Search%%, but we recommend that you have a fallback mechanism (e.g., the ability to load data from a data file if the network is down).<br>
+  %%**Reason:** During the mass peer-testing session, network access can be intermittent due to high load. If your feature cannot be tested due to a lack of Internet access, that will have to be counted as a major bug, to be fair to those whose apps are being tested and who are penalized for the bugs found.%%<br>
+  ==If you use NUS data== (e.g., scrape data from an NUS website), please work with [NUS IT](https://nusit.nus.edu.sg/contact/) directly to get their approval first. Even well-intentioned use of NUS data without approval can get you into serious trouble (this has happened before). The teaching team will not be able to get approval for you as the use of NUS data is not a course requirement.
 {%- endcall %}
 
 {% call show_constraint("Recommendation-Testability", recommendation=true) -%}
-Avoid implementing hard-to-test (both for manual testing as well as automated testing) features or features that make your product hard-to-test.<br>
-%%**Reason**: ==_testability_ is a grading criterion.== If you choose to implement such a feature, you will need to spend an extra effort to reach an acceptable level of testability.%%
+Avoid implementing hard-to-test (for both manual and automated testing) features or features that make your product hard to test.<br>
+%%**Reason**: ==_testability_ is a grading criterion.== If you choose to implement such a feature, you will need to spend extra effort to reach an acceptable level of testability.%%
 Here are some examples of features that are hard-to-test:
-* Features that depend heavily on remote APIs: Those APIs can block your access if they mistake your automated tests as a bot attack. Some remote APIs require setting up accounts, keys, logins etc., that will irritate the testers of your product and give a low rating to the testability of your work.
+* Features that depend heavily on remote APIs: Those APIs can block your access if they mistake your automated tests for a bot attack. Some remote APIs require setting up accounts, keys, logins, etc., which will irritate the testers of your product and lead them to give a low rating to the testability of your work.
 * Audio-related features: The peer testing of your product is done under exam conditions where it is not appropriate to play audio.
 * Features that require creating user accounts, login, logout etc.
 {%- endcall %}
@@ -175,22 +175,22 @@ Creating a good Java GUI takes a lot of extra effort, which can easily push the 
 
 
 {% call show_constraint("Recommendation-CLI-First", recommendation=true) -%}
-Following from the _Constraint-Typing-Preferred_, if the app is optimized for the target user (graded under the _product design_ criterion), ==a user who can type fast should be able to accomplish most tasks faster via a command line interface (CLI), compared to a hypothetical GUI-only version of the app.== %%For example, adding a new entity via the CLI should be faster than entering the same data through a GUI form.%%<br>
-Therefore, the input to the app needs to be primarily CLI. <span tags="m--cs2103">The GUI is used primarily to give visual feedback to the user. This does not mean the app need to have a text UI (CLI is not the same as text UI) or it needs to work in a command console -- it simply means the input to the app should be a text command, which can even be entered using a GUI (similar to how AB3 does it).</span><span tags="m--cs2113">If you do implement a GUI, that GUI should primarily be used to give visual feedback to the user.</span> While we don't prohibit non-CLI inputs (e.g., clicking of a button), note that such inputs will reduce the suitability of the product to target users. Therefore, give CLI alternatives to mouse/GUI inputs, if applicable.<br>
+Following from _Constraint-Typing-Preferred_, if the app is optimized for the target user (graded under the _product design_ criterion), ==a user who can type fast should be able to accomplish most tasks faster via a command line interface (CLI), compared to a hypothetical GUI-only version of the app.== %%For example, adding a new entity via the CLI should be faster than entering the same data through a GUI form.%%<br>
+Therefore, the input to the app needs to be primarily CLI. <span tags="m--cs2103">The GUI is used primarily to give visual feedback to the user. This does not mean the app needs to have a text UI (CLI is not the same as text UI) or it needs to work in a command console -- it simply means the input to the app should be a text command, which can even be entered using a GUI (similar to how AB3 does it).</span><span tags="m--cs2113">If you do implement a GUI, that GUI should primarily be used to give visual feedback to the user.</span> While we don't prohibit non-CLI inputs (e.g., clicking a button), note that such inputs will reduce the suitability of the product to target users. Therefore, give CLI alternatives to mouse/GUI inputs, if applicable.<br>
 Also keep in mind:
 * Regular typing is usually faster than using key combinations.
-* <tooltip content="typing the full command and hitting ENTER will complete the task">One-shot commands</tooltip> are faster over <tooltip content="prompting the user to input one parameter at a time">multi-step commands</tooltip>. If you provide a multistep command to help new users, it is recommended that you also provide a one-shot equivalent for regular/expert users.<br>
+* <tooltip content="typing the full command and hitting ENTER will complete the task">One-shot commands</tooltip> are faster than <tooltip content="prompting the user to input one parameter at a time">multi-step commands</tooltip>. If you provide a multi-step command to help new users, it is recommended that you also provide a one-shot equivalent for regular/expert users.<br>
 
 {{ show_faq('tpMultiStepCmd') }}
 {%- endcall %}
 
 {% call show_constraint("Recommendation-Realistic", recommendation=true) -%}
-Keeping the target usage of the application 'realistic' can be helpful when making product design decisions later. For example, _a patient tracking app for a big hospital_ is not realistic usage scenario because a big hospital is unlikely to use a small standalone desktop application for that purpose. However, it is more realistic for an independent home-based healthcare worker (e.g., a physical therapist) to use such an app to keep track of his/her patients.
+Keeping the target usage of the application 'realistic' can be helpful when making product design decisions later. For example, _a patient tracking app for a big hospital_ is not a realistic usage scenario because a big hospital is unlikely to use a small standalone desktop application for that purpose. However, it is more realistic for an independent home-based healthcare worker (e.g., a physical therapist) to use such an app to keep track of their patients.
 {%- endcall %}
 
 <box type="warning">
 
-If you are not sure if your product complies with a certain constraint/recommendation, please seek clarification by posting in the [forum]({{url_course_org}}/forum/issues) (preferred) or email prof.
+If you are not sure if your product complies with a certain constraint/recommendation, please seek clarification by posting in the [forum]({{url_course_org}}/forum/issues) (preferred) or emailing the professor.
 </box>
 
 </div>

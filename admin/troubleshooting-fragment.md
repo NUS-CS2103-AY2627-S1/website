@@ -12,8 +12,8 @@ Ensure your `build.gradle` specifies JavaFX dependencies for all three OSes, as 
 <div id="ts-uiPngRed-S">
 
 * Ensure you've named it exactly as `Ui.png` (case-sensitive) and put it in the expected folder.
-* If you changed the case of your local file, ensure the file in your remote repo has the same upper/lower case in its name as the local file. Git does not propagate case changes in file names through pushes. You'll need to do some extra Git actions to propagate the case change to the remote repo.<br>
-  e.g., Although you changed `UI.png` to `Ui.png` in your local file, the remote repo's copy will remain `UI.png` even after you push changes to the remote repo.
+* If you changed the case of your local file, ensure your remote repo has the same upper/lower case in its file name. Git does not propagate case changes in file names through pushes, so you'll need extra Git actions to update the remote repo.<br>
+  e.g., Although you changed `UI.png` to `Ui.png` locally, the remote copy will remain `UI.png` even after you push.
 * Ensure you have published your iP website using GitHub pages, and the screenshot appears in the [iP Showcase page](ip-showcase.md).
 
 </div>
