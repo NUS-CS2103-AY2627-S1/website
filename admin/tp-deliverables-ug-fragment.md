@@ -8,7 +8,7 @@
 
 <div tags="m--cs2103 m--cs2113">
 
-**{{ course }}T does not require you to indicate author name of DG/UG sections**{% if cs2103%} (CS2101 requirements may differ){% endif %}. We recommend (but do not require) that you ensure the code dashboard reflects the authorship of doc files accurately.
+**{{ course }}T does not require you to indicate the author names of DG/UG sections**{% if cs2103%} (CS2101 requirements may differ){% endif %}. We recommend (but do not require) that you ensure the code dashboard reflects the authorship of doc files accurately.
 </div>
 
 </box>

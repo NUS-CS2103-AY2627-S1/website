@@ -10,7 +10,7 @@
 * **Audio explanations** are strongly encouraged{% if not cs2113 %} (but not compulsory) -- alternatively, you can switch between slides and the app to give additional explanations{% endif %}.
 * **Annotations and other enhancements** to the video are optional (those will not earn any extra marks).
 * **Having all members take part** in the demo video is encouraged but not compulsory.
-* **File name:** `[TEAM_ID][product Name].mp4`  %%e.g., [{{ example_team_id }}][ContactsPlus].mp4%% (other video formats are acceptable, but use a format that works on all major OSes).
+* **File name:** `[TEAM_ID][ProductName].mp4`  %%e.g., [{{ example_team_id }}][ContactsPlus].mp4%% (other video formats are acceptable, but use a format that works on all major OSes).
 * **File size:** Recommended to keep below 200MB. You can use a low resolution as long as the video is of usable quality.
 * **Submission:** Submit to Canvas (via the corresponding assignment).
 * **Deadline:** 2 days after the main deadline
@@ -72,7 +72,7 @@ sitting periods, and alerts the user if ...
 
 #### <span class="badge bg-info">Demo</span> <span class="text-info">Tips</span>
 
-* **Plan the demo to be in sync with the impression you want to create.** For example, if you are trying to convince that the product is easy to use, show the easiest way to perform a task before you show the full command with all the bells and whistles.
+* **Plan the demo to be in sync with the impression you want to create.** For example, if you are trying to convince the audience that the product is easy to use, show the easiest way to perform a task before you show the full command with all the bells and whistles.
 
 <!--
 * **Spend as much time as possible on demonstrating the actual product.** Not recommended to use slides (if you do, use them sparingly) or videos or lengthy narrations.

@@ -237,7 +237,7 @@ This version (i.e., {{ version_penultimate }}) will undergo limited beta testing
 
 <div id="v16-goals" class="indented">
 
-* **Learning outcome**: Able to put in the final touches while minimizing delivery risks %%i.e., risks of regressions or deadline overruns%%.{{ bullet_target_green }}
+* **Learning outcome**: Able to put in the final touches while minimizing delivery risks %%i.e., regressions or deadline overruns%%.{{ bullet_target_green }}
 * **Product goal**: Reach the quality necessary for a public release.
 * **Strategy**: Freeze features. Avoid code changes unless strictly necessary.
 </div>
@@ -245,7 +245,7 @@ This version (i.e., {{ version_penultimate }}) will undergo limited beta testing
 <box type="warning" seamless>
 
 * This iteration is <span class="text-danger">very short</span> (just a few days).<br>
-  ==**Even minor/cosmetic changes to features are not allowed** in this iteration== due to the _feature freeze_ in effect.
+  ==**Even minor/cosmetic changes to features are not allowed** in this iteration== due to the _feature freeze_.
 * This version will undergo intensive peer testing (the so-called [_practical exam_](tp-pe.html#tp-practical-exam-pe)).
   You will get credit for finding bugs in others' tP deliverables and be penalized for bugs found in your deliverables.
 </box>

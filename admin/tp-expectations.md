@@ -13,12 +13,12 @@
 
 <div tags="m--cs2103" id="functionality-expectations">
 
-**The expected level of _functionality_ is what you could achieve if each member puts in about ==50% of the implementation effort they put into the iP==** (reason for setting it much less than 100%: even after adding the extra overheads of doing the project as a team, and working with an existing codebase, we don't want the tP to take more effort than the iP). This is the primary measure we will use when grading your tP implementation effort.<br>
-Furthermore, we estimate that the above-mentioned bar is roughly _equivalent_ to **writing about 300-400 lines of functional code** (excluding testing and documentation) per person. This is a secondary ballpark measure you can keep an eye on, alongside the primary measure mentioned above.
+**The expected level of _functionality_ is what you could achieve if each member puts in about ==50% of the implementation effort they put into the iP==** (reason for setting it much less than 100%: even after adding the extra overhead of doing the project as a team and working with an existing codebase, we don't want the tP to take more effort than the iP). This is the primary measure we will use when grading your tP implementation effort.<br>
+Furthermore, we estimate that this bar is roughly _equivalent_ to **writing about 300-400 lines of functional code** (excluding testing and documentation) per person. This is a secondary ballpark measure you can keep an eye on, alongside the primary measure mentioned above.
 
 <box type="important" seamless>
 
-  In case you happen to look at tPs of past batches (2023 and before) to gauge the required effort, note that the above reflects a ==drastically lower bar than in those semesters==. For reference, the bar given to previous batches was 'same as iP effort' (not half), and the median LoC of functional code written by a student was about 850 LoC.
+  If you happen to look at tPs of past batches (2023 and before) to gauge the required effort, note that the above reflects a ==drastically lower bar than in those semesters==. For reference, the bar given to previous batches was 'same as iP effort' (not half), and the median amount of functional code written by a student was about 850 LoC.
 </box>
 </div>
 <div tags="m--cs2113">
@@ -26,7 +26,7 @@ Furthermore, we estimate that the above-mentioned bar is roughly _equivalent_ to
 **The expected level of _functionality_ from a team is roughly ==what you can achieve if each member contributes about the same amount of functional code that a <tooltip content="i.e., if all requirements were met at the _minimal_ level specified">typical iP</tooltip> requires==**.
 </div>
 
-==There are no extra marks for exceeding the implementation _effort_ bar== stated above. Hence, _effort_ is graded mostly on an S/U basis -- it is the _quality_ of the code that really determines the marks for the _implementation_ component (more info <trigger trigger="click" for="modal:tPexpectations-implementationGrading">here</trigger>).  Try to avoid adding more features than necessary, unless you are doing it out of interest; you are better off spending more effort on improving other aspects of the project instead. As mentioned elsewhere, a feature that is just the right size and of high quality will earn more marks than a feature that is bigger (or more difficult, or more interesting/novel) but of lower quality.
+==There are no extra marks for exceeding the implementation _effort_ bar== stated above. Hence, _effort_ is graded mostly on an S/U basis -- it is the _quality_ of the code that really determines the marks for the _implementation_ component (more info <trigger trigger="click" for="modal:tPexpectations-implementationGrading">here</trigger>). Try to avoid adding more features than necessary, unless you are doing it out of interest; you are better off spending more effort on improving other aspects of the project instead. As mentioned elsewhere, a feature that is just the right size and of high quality will earn more marks than a feature that is bigger (or more difficult, or more interesting/novel) but of lower quality.
 
 <div tags="m--cs2103">
 
@@ -77,7 +77,7 @@ In fact, here is the grading criterion for the individual project effort:
 #### <span class="badge bg-info">{{ icon_individual }} Individual</span> <span class="text-info">Expectations on Implementation</span>
 
 * <span class="badge bg-info">Expectation</span> <span class="text-info">**Contribute to the functional code of the product.**</span>
-  * User-visible features are preferred, but it is not a strict requirement.
+  * User-visible features are preferred, but not strictly required.
   * **The enhancement(s) should fit with the rest of the software** (and the target user profile) and should have the consent of the team members. %%You will lose marks if you go 'rogue' and add things that don't fit with the product.%%
 
 <div tags="m--cs2103" class="indented-level2">
@@ -98,19 +98,19 @@ In fact, here is the grading criterion for the individual project effort:
   In other words, ==we recommend that the work be divided primarily based on _features/enhancements_== rather than _components_. The latter has problems such as the following:<br>
  (a) Higher risk of a team member becoming a _single point of failure_ %%e.g., what if the person assigned to an important component doesn't deliver on time?%%<br>
  (b) You become _too reliant_ on other team members %%e.g., a feature can't be delivered until all members have done their part%%<br>
- (c) Hard to keep tests passing %%i.e., tests break when one component is updated without the others%%<br>
- (d) Integration becomes harder/riskier %%i.e., moving from _continuous integration_ (safer) towards _big-bang integration_ (riskier)%%<br>
- (e) Not aligned with the breadth-first iterative approach %%i.e., evolving components separately moves you towards a depth-first iterative approach instead%%
+ (c) Hard to keep tests passing %%i.e., tests break when one component is updated but not the others%%<br>
+ (d) Integration becomes harder/riskier %%i.e., moving from _continuous integration_ (safer) toward _big-bang integration_ (riskier)%%<br>
+ (e) Not aligned with the breadth-first iterative approach %%i.e., evolving components separately moves you toward a depth-first iterative approach instead%%
 
 <div tags="m--cs2103">
 
-* **Recommended: Divide the components of the product among team members**. Notwithstanding the above, we still recommend dividing the components of the product among team members so that each team member is _in charge_ of one or more components. While others will be modifying those components to fit their features, your role as the person _in charge_ of a component is to guide others who modify that component %%(reason: you are supposed to be the most knowledgeable about that component)%% and protect that component from degrading %%e.g., you can review others' changes to your component and suggest possible changes%%.
+* **Recommended: Divide the components of the product among team members**. Notwithstanding the above, we still recommend that each team member be _in charge_ of one or more components. While others will be modifying those components to fit their features, your role as the person _in charge_ of a component is to guide others who modify that component %%(reason: you are supposed to be the most knowledgeable about that component)%% and protect that component from degrading %%e.g., you can review others' changes to your component and suggest possible changes%%.
 </div>
 
 
 #### <span class="badge bg-info">{{ icon_individual }} Individual</span> <span class="text-info">Expectations on Documentation</span>
 
-* **Objective:** showcase your ability to write both _user-facing documentation_ and _developer-facing documentation_.
+* **Objective:** showcase your ability to write both _user-facing_ and _developer-facing documentation_.
 * <span class="badge bg-info">Expectation</span> <span class="text-info">**Update the User Guide (UG) and the Developer Guide (DG) parts**</span> that are related to the enhancements you added.
 * **Optional: If the UG/DG updates for your enhancements are not enough to meet the above requirements**, you can make up the shortfall by documenting 'proposed' features and alternative designs/implementations.{% if cs2113 %}
 * <span class="badge bg-info">Expectation</span> <span class="text-info">**Use at least {{ uml_diagrams_per_person }} UML diagrams in your DG updates**</span> i.e., diagrams you added yourself or those you modified significantly.{% endif %}
@@ -126,7 +126,7 @@ In fact, here is the grading criterion for the individual project effort:
 <box>
 
 **:thinking: How much testing is enough?** We expect you to decide. As you learn different types of testing and what each type tries to achieve, you should decide how much of each type is worth having. Similarly, you can decide to what extent you want to automate tests, depending on the benefits and the effort required.<br>
-There is no requirement for a minimum test coverage level. Note that in a high-end production environment you might be required to have high levels of test coverage (e.g., 90%). In this project, it can be less. ==Caveat: The weaker your tests are, the higher the risk of undetected bugs/regressions, which will cost you marks if not detected/fixed before the final submission.==
+There is no minimum test coverage requirement. Note that in a high-end production environment you might be required to have high levels of test coverage (e.g., 90%). In this project, it can be less. ==Caveat: The weaker your tests are, the higher the risk of undetected bugs/regressions, which will cost you marks if not detected/fixed before the final submission.==
 </box>
 </div>
 
@@ -150,13 +150,13 @@ Here is a non-exhaustive list of team-tasks:
 
 1. Setting up the GitHub team org/repo
 1. Necessary general code enhancements{% if cs2103 %} e.g.,
-   1. Work related to renaming the product
-   1. Work related to changing the product icon{% endif %}
+   1. Renaming the product
+   1. Changing the product icon{% endif %}
 1. Setting up tools e.g., GitHub, Gradle
 1. Maintaining the issue tracker
 1. Release management
 1. Updating user/developer docs that are not specific to a feature %%e.g., documenting the target user profile%%
-1. Incorporating more useful tools/libraries/frameworks into the product or the project workflow %%(e.g. automate more aspects of the project workflow using a GitHub plugin)%%
+1. Incorporating more useful tools/libraries/frameworks into the product or the project workflow %%(e.g., automate more aspects of the project workflow using a GitHub plugin)%%
 
 </span>
 </panel><p/>
@@ -170,7 +170,7 @@ Here is a non-exhaustive list of team-tasks:
 <box>
 <span id="roles">
 
-_Roles_ indicate aspects you are in charge of and responsible for. %%E.g., if you are in charge of documentation, you are the person who should allocate which parts of the documentation are to be done by whom, ensure the document is in the right format, ensure consistency, etc.%%
+_Roles_ indicate aspects you are in charge of and responsible for. %%E.g., if you are in charge of documentation, you are the person who should decide which parts of the documentation are to be done by whom, ensure the document is in the right format, ensure consistency, etc.%%
 
 <panel type="seamless" header="{{ icon_example }} Example roles and responsibilities">
 
@@ -181,13 +181,13 @@ This is a non-exhaustive list; you may define additional roles.
 * _Testing_: Ensures the testing of the project is done properly and on time.
 * _Code quality_: Looks after code quality, ensures adherence to coding standards, etc.
 * _Deliverables and deadlines_: Ensures project deliverables are done on time and in the right format.
-* _Integration_: In charge of versioning of the code, maintaining the code repository, integrating various parts of the software to create a whole.
+* _Integration_: In charge of versioning the code, maintaining the code repository, and integrating various parts of the software to create a whole.
 * _Scheduling and tracking_: In charge of defining, assigning, and tracking project tasks.
-* _[Tool ABC] expert_: %%e.g. IntelliJ expert, Git expert, etc.%% Helps other team members with matters related to the specific tool.
+* _[Tool ABC] expert_: %%e.g., IntelliJ expert, Git expert, etc.%% Helps other team members with matters related to the specific tool.
 
 <div tags="m--cs2103">
 
-* _In charge of [Component XYZ]_: %%e.g. In charge of `Model`, `UI`, `Storage`, etc.%% Note that being _in charge_ of a component doesn't mean you are the only one who should be modifying that component. Rather, you are the one who's expected to know that component best, review changes made to that component in {{ version_penultimate }}-{{ version_final }}, act as the gatekeeper of its quality, help others when they face difficulties while modifying that component, etc.
+* _In charge of [Component XYZ]_: %%e.g., In charge of `Model`, `UI`, `Storage`, etc.%% Note that being _in charge_ of a component doesn't mean you are the only one who should be modifying that component. Rather, you are the one who's expected to know that component best, review changes made to that component in {{ version_penultimate }}-{{ version_final }}, act as the gatekeeper of its quality, help others when they face difficulties while modifying that component, etc.
 </div>
 <div tags="m--cs2113">
 
@@ -195,12 +195,12 @@ This is a non-exhaustive list; you may define additional roles.
 </div>
 </panel><p/>
 
-{{ icon_tip }} Ensure each of the important roles is assigned to one person in the team. It is OK to have a 'backup' for each role, but **for each aspect there should be one person who is unequivocally the person responsible for it**. %%Reason: when _everyone is responsible for everything_, no one is.%%
+{{ icon_tip }} Ensure each of the important roles is assigned to one person in the team. It is OK to have a 'backup' for each role, but **for each aspect there should be one person who is unequivocally responsible for it**. %%Reason: when _everyone is responsible for everything_, no one is.%%
 </span>
 </box>
 </div>
 
-* <span class="badge bg-info">Expectation</span> <span class="text-info">**Review each other's work**.</span> %%Reason: reviewing skills is a learning outcome, and it is mutually beneficial.%%
+* <span class="badge bg-info">Expectation</span> <span class="text-info">**Review each other's work**.</span> %%Reason: developing review skills is a learning outcome, and it is mutually beneficial.%%
 
 </div>
 <!-- ==================================================================================================== -->

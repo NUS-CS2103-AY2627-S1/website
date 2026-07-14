@@ -11,7 +11,7 @@ Instructions below are from the previous semester. Will be updated closer to the
 
 **Weightage:** {{ marks_exam }}% of the final grade
 
-**Schedule/venue:** The final exam will be as per the normal exam schedule, which will be sent to you by the Registrar's Office (or you can find via EduRec -> Academics -> Exams -> View exam schedule). You can find the date/time from [NUSMODS](https://nusmods.com/modules/{{ course }}).
+**Schedule/venue:** The final exam will be as per the normal exam schedule, which will be sent to you by the Registrar's Office (or you can find it via EduRec -> Academics -> Exams -> View exam schedule). You can find the date/time from [NUSMODS](https://nusmods.com/modules/{{ course }}).
 
 **Structure:**
 

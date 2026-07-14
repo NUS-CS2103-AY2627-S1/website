@@ -1,10 +1,10 @@
 {% from "common/macros.njk" import as_tag, embed_topic, thumb_small with context %}
 
 <!-- =============================================================== -->
-<div id="ts-jarBreaksOnOtherOs-E">My JAR file works on my OS, but not other OSes</div>
+<div id="ts-jarBreaksOnOtherOs-E">My JAR file works on my OS, but not on other OSes</div>
 <div id="ts-jarBreaksOnOtherOs-S">
 
-Ensure your `build.gradle` specifies JavaFX dependencies for all three OSes, as specified in our [JavaFX tutorials](https://se-education.org/guides/tutorials/javaFxPart1.html#setting-up-java-fx).
+Ensure your `build.gradle` declares JavaFX dependencies for all three OSes, as specified in our [JavaFX tutorials](https://se-education.org/guides/tutorials/javaFxPart1.html#setting-up-java-fx).
 
 </div>
 <!-- =============================================================== -->
@@ -12,16 +12,16 @@ Ensure your `build.gradle` specifies JavaFX dependencies for all three OSes, as 
 <div id="ts-uiPngRed-S">
 
 * Ensure you've named it exactly as `Ui.png` (case-sensitive) and put it in the expected folder.
-* If you changed the case of your local file, ensure your remote repo has the same upper/lower case in its file name. Git does not propagate case changes in file names through pushes, so you'll need extra Git actions to update the remote repo.<br>
-  e.g., Although you changed `UI.png` to `Ui.png` locally, the remote copy will remain `UI.png` even after you push.
-* Ensure you have published your iP website using GitHub pages, and the screenshot appears in the [iP Showcase page](ip-showcase.md).
+* If you changed the case of your local file, ensure your remote repo uses the same letter case in its file name. Git does not propagate case changes in file names through pushes, so you'll need extra Git actions to update the remote repo.<br>
+  For example, although you changed `UI.png` to `Ui.png` locally, the remote copy will remain `UI.png` even after you push.
+* Ensure you have published your iP website using GitHub Pages, and that the screenshot appears in the [iP Showcase page](ip-showcase.md).
 
 </div>
 <!-- =============================================================== -->
 <div id="ts-markdownTablesNotRendering-E">Markdown tables render correctly in GitHub file preview but not in the iP website.</div>
 <div id="ts-markdownTablesNotRendering-S">
 
-Ensure there is a blank line that separates the table from the content just above it. This is a requirement of the Markdown syntax -- the Markdown parser used by GitHub's file preview forgives violations of this rule but not the parser used by the website renderer.
+Ensure there is a blank line that separates the table from the content just above it. This is a requirement of the Markdown syntax -- the Markdown parser used by GitHub's file preview forgives violations of this rule, but the parser used by the website renderer does not.
 
 </div>
 

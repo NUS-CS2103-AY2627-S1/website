@@ -9,7 +9,7 @@
 
 **Course briefings are delivered as pre-recorded videos** so they can be shorter, and you can watch them at a faster speed to save time if you wish.
 
-**Most course briefing videos are categorized MUST-WATCH** as they contain important information you need to increase your effort-to-gain ratio and get the most out of this course.
+**Most course briefing videos are categorized as MUST-WATCH** as they contain important information you need to increase your effort-to-gain ratio and get the most out of this course.
 
 **They are listed below for reference.** When it is time for you to watch a specific course briefing video, it will appear in the current schedule page of the course website.
 

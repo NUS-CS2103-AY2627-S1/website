@@ -23,8 +23,8 @@ If there are parallel slots for the same course code, a suffix of `a` or `b` is 
 * Zoom tutorials require you to **use a video camera**. Use a device with a camera, or have a second device (e.g., mobile phone) to use as a video camera.
 * You may use the tutorial venue (given in the table below) to join the Zoom session if you wish, but if you do,
     * please keep the noise level low, as there will be other students doing the same.
-    * while you may sit together with team members, you should ==participate in the tutorial _individually_== e.g., do not project one person's screen to the TV, or discuss answers with others unless the tutor prompts you to.
-    * if you face Wi-Fi connectivity issues, try connecting to SSID `eduroam` (you need to use your full NUSNET email address and password `e____@u.nus.edu/*****` to log in).
+    * While you may sit together with team members, you should ==participate in the tutorial _individually_==; e.g., do not project one person's screen to the TV, or discuss answers with others unless the tutor prompts you to.
+    * If you face Wi-Fi connectivity issues, try connecting to SSID `eduroam` (you need to use your full NUSNET email address and password `e____@u.nus.edu/*****` to log in).
 {% endif %}
 
 **The subsequent tutorials will be conducted in F2F mode**. {% if (current_week | int) <= 4 %}More info coming soon ...{% else %}Note the following about F2F tutorials:
@@ -79,7 +79,7 @@ If you continue to face recurring Wi-Fi issues at certain NUS locations while yo
 * The Zoom recording of a tutorial will be made available to you after the tutorial.{% endif %}
 * <span class="text-danger">Slides used in tutorials will not be distributed to students.</span> You are expected to take notes {% if cs2103 %}(or screenshots){% else %}(and not take photos of the screen){% endif %} during the tutorial as necessary.<br>
   Reasons:
-  1. Tutorial slides are meant to help the tutor deliver the tutorial, and not meant to be used as reference materials for you to study later. ==When some content is suitable as reference material, we'll provide you a copy of it.==
+  1. Tutorial slides are meant to help the tutor deliver the tutorial, and not meant to be used as reference materials for you to study later. ==When some content is suitable as reference material, we'll provide you with a copy of it.==
   1. To encourage some level of active engagement with the materials (e.g., taking notes), which is known to increase retention.
   1. To discourage 'no need to bother now; can look at the slides near the exam' attitude -- because most of the materials covered in tutorials are applicable to the project immediately.
 

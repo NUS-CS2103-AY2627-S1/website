@@ -7,7 +7,7 @@
 
 <panel type="info" header="##### Course Briefing Videos" expanded >
 
-There is no weekly briefing this week. Instead, we have the following two course briefing videos. We highly recommend watching both, as ==both can help you prepare for the exam==.
+There is no weekly briefing this week. Instead, we have the following two course briefing videos. We highly recommend watching both, as ==they can help you prepare for the exam==.
 
 <include src="../../admin/courseBriefings.md#course-briefing-w13" />
 

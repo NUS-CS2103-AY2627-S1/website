@@ -14,7 +14,7 @@
 </panel><p/>
 </div>
 
-* **Have a good screen grab tool** with annotation features so that you can quickly take a screenshot of a bug, annotate it, and post in using CATcher.<br>
+* **Have a good screen grab tool** with annotation features so that you can quickly take a screenshot of a bug, annotate it, and post it using CATcher.<br>
   {{ icon_tip }} You can use <kbd>Ctrl</kbd>+<kbd>V</kbd> to paste a picture from the clipboard into a text box in a bug report.
 
 * **[Optional] Have a good screen recording tool** if you plan to use screen recording clips as part of your bug reports.
@@ -57,9 +57,9 @@ The files you need for the PE (i.e., `.jar` file, UG and DG `.pdf` files) will b
 
 {% set tip %}<span class="text-success">**:fas-lightbulb:**</span>{% endset %}
 
-{{ tip }} **Use easy-to-remember patterns in test data.** For example, if you use `12345678` as a test input, and it appears as `2345678` somewhere else in the UI, you can easily spot that the first digit has gone missing. But if you used a random number instead, detecting that bug won't be as easy.<br> Similarly, if you use `Alice Bee`, `Benny Choo`, `Charles Darwin` as test data (note how the names start with letters A B, B C, C D), it will be easy to detect if one goes missing, or if the app mix them up in some way.
+{{ tip }} **Use easy-to-remember patterns in test data.** For example, if you use `12345678` as a test input, and it appears as `2345678` somewhere else in the UI, you can easily spot that the first digit has gone missing. But if you used a random number instead, detecting that bug won't be as easy.<br> Similarly, if you use `Alice Bee`, `Benny Choo`, `Charles Darwin` as test data (note how the names start with letters A B, B C, C D), it will be easy to detect if one goes missing, or if the app mixes them up in some way.
 
-{{ tip }} **Go wide before you go deep**. Do a light testing of all features first. That will give you a better idea of which features are likely to be more buggy. Spending equal time for all features or testing in the order the features appear in the UG is not always the best approach.
+{{ tip }} **Go wide before you go deep**. Do light testing of all features first. That will give you a better idea of which features are likely to be more buggy. Spending equal time for all features or testing in the order the features appear in the UG is not always the best approach.
 
 </box>
 </div>

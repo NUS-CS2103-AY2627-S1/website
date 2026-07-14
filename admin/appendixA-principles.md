@@ -12,7 +12,7 @@ The product is you, NOT what you build.
 The software product you build is only a side effect. You are the product of this course. This means:
 
 * We may not take the most efficient route to building the software product. **We take the route that allows you to learn the most**.
-* Building a software product that is unique, creative, and shiny is not our priority (although we try to do a bit of that too). **Learning to take pride in, and discovering the joy of, high quality software engineering work is our priority**.
+* Building a software product that is unique, creative, and shiny is not our priority (although we try to do a bit of that too). **Learning to take pride in, and discovering the joy of, high-quality software engineering work is our priority**.
 
 Following from that, we evaluate you not just on how much you've done, but also on how well you've done it. Here are some of the aspects we focus on:
 
@@ -56,7 +56,7 @@ Ability to abstract over details, generalize, see the big picture
 
 <td colspan="1" rowspan="1">
 
-A drive to learn latest and greatest technologies
+A drive to learn the latest and greatest technologies
 
 </td>
 
@@ -110,7 +110,7 @@ Preference to do things you like or things you are good at
 
 <td colspan="1" rowspan="1">
 
-Ability to buckle down and deliver on important things that you don't necessarily like or are good at
+Ability to buckle down and deliver on important things that you don't necessarily like or aren't good at
 
 </td>
 

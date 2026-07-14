@@ -78,7 +78,7 @@ For example, an app to manage one of these:{% if cs2113 %}
   * a teacher/tutor managing students (can be further optimized for a specific course or type of teaching)
   * a secretary of an organization managing member details
   * an event organizer managing participants
-* Manage more entity types related to contacts %%e.g., Tasks allocated to contacts, loans given, grades, etc.%%<br>
+* Manage more entity types related to contacts %%e.g., tasks allocated to contacts, loans given, grades, etc.%%<br>
   Note: contacts should remain the primary focus, even if the app manages other things. For example, an address book app can be optimized for a user who lends out money to those contacts without becoming a loan management app.
 * Introduce relationships between contacts e.g., members of a team
 * Make existing general features _really_ strong, worthy of a real product e.g.,
@@ -88,7 +88,7 @@ For example, an app to manage one of these:{% if cs2113 %}
 * Add more general features e.g.,
   * import/export data from other formats
   * archive old data
-  * more help: guided tours, tooltips, tip of the day etc.
+  * more help: guided tours, tooltips, tip of the day, etc.
   * stats, analytics, visualizations
   * undo/redo
   * result preview (i.e., show what would happen if the current command is executed)
@@ -96,7 +96,7 @@ For example, an app to manage one of these:{% if cs2113 %}
 
 <div class="indented-level1">
 
-{{ pros }} fewer changes to existing code at the start of the project (i.e., progress will be smoother at the start), and can result in a more mature product with deeper features as the product functionality moves forward from the start.<br><br>
+{{ pros }} fewer changes to existing code at the start of the project (i.e., progress will be smoother at the start), and can result in a more mature product with deeper features as the project progresses.<br><br>
 {{ cons }} less flexibility in product design.
 </div>
 
@@ -109,7 +109,7 @@ For example, an app to manage one of these:{% if cs2113 %}
 {{ cons }} more changes to the existing code at the start while you are still not very familiar with the codebase, morphing is less common in real projects (compared to direction 1).~~
 </div>
 
-Note that **creating a novel/unique/interesting product will NOT earn you extra marks** in this course. While those qualities are important in real-world projects, and we do allow you room to explore those directions, they are not the focus of this course {% if cs2103 %}%%(there are other courses such as CS3216, CS3217 that focus on those aspects)%%. Focus your energy on creating a _solid product at a high quality level_, which takes more effort than you might realize at first. Pursue novelty or uniqueness only if you have energy to spare and can do so without compromising quality. For example, a bland feature/product implemented well will score more marks than a novel product that is buggy, even if the novel features were harder to implement.
+Note that **creating a novel/unique/interesting product will NOT earn you extra marks** in this course. While those qualities are important in real-world projects, and we do allow you room to explore those directions, they are not the focus of this course {% if cs2103 %}%%(there are other courses such as CS3216 and CS3217 that focus on those aspects)%%. Focus your energy on creating a _solid product at a high quality level_, which takes more effort than you might realize at first. Pursue novelty or uniqueness only if you have energy to spare and can do so without compromising quality. For example, a bland feature/product implemented well will score more marks than a novel product that is buggy, even if the novel features were harder to implement.
 
 {% endif %}
 <div tags="m--cs2113">
@@ -147,8 +147,8 @@ You are expected to:
   You should also define the _scope_ clearly: the boundary beyond which the app will not help %%e.g., the app will manage contact details of a small number of JC-level students (which means there is no support for managing a large number of students or primary/adult students, and it will only manage contact details -- not other details such as grades)%%.
 * **Aim to optimize the product for the chosen target users.** Although you should not decide specific features yet, keep in mind that eventually you should optimize the product for the chosen target user %%i.e., add/tweak features that are especially/only applicable to target users (to make the app especially attractive to them)%%.
   * Example 1: If the product targets {{ course_pair }} instructors, there can be features that are applicable to them only, %%such as the ability to see a link to a student's project on GitHub%%
-  * Example 2: If your app manages contacts, you can optimize its features based on,
-    * the profession of the target user %%e.g., doctors, salesmen, teachers, etc.%%
+  * Example 2: If your app manages contacts, you can optimize its features based on
+    * the profession of the target user %%e.g., doctors, salespeople, teachers, etc.%%
     * the nature/scale of contacts %%e.g., huge number of contacts (for HR admins, user group admins), mostly incomplete contacts, highly volatile contact details, contacts become inactive after a specific period (e.g., contract employees)%%
     * what users do with the contacts %%e.g., organize group events, share info, do business, do analytics%%
 

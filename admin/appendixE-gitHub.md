@@ -9,7 +9,7 @@
 <div id="githubAccount">
 
 Create a personal GitHub account if you don't have one yet.
-1. Choose a sensible GitHub username as you are likely to use it for years to come in professional contexts e.g., in job applications.
+1. Choose a sensible GitHub username as you are likely to use it for years to come in professional contexts, e.g., in job applications.
 2. Recommended (but not required): Complete your GitHub profile. In particular,
    * Specify your name.
    * Upload a profile photo that matches <trigger trigger="click" for="modal:creatingGitHubAccount-photoCriteria">our requirements</trigger>.
@@ -54,12 +54,12 @@ Please follow the organization/repo name format precisely or else our grading sc
 
 After receiving your team ID, one team member should do the following steps:
 * Create a GitHub organization with the following details:
-  * **Organization name** ==(all UPPER CASE) :`{{ semester }}-TEAM_ID`==. e.g., {% if has_t %}`{{ semester }}-{{ course }}T-W12-1`, `{{ semester }}-{{ course }}T-F10a-1`,{% endif %} `{{ semester }}-{{ example_team_id }}`{% if cs2103 %}<br>
+  * **Organization name** ==(all UPPER CASE): `{{ semester }}-TEAM_ID`==. e.g., {% if has_t %}`{{ semester }}-{{ course }}T-W12-1`, `{{ semester }}-{{ course }}T-F10a-1`,{% endif %} `{{ semester }}-{{ example_team_id }}`{% if cs2103 %}<br>
   {{ icon_warning }} The `TEAM_ID` should use `CS2103` or `CS2103T` based on the course code you are enrolled under. You can also find the precise team ID from the [Team List]({{ baseUrl }}/admin/teamList.html) page.{% endif %}
   * Plan: Open Source ($0/month)
   * This organization belongs to: My personal account
 * Add members to the organization:
-  * Create a team called `developers` to your organization.
+  * Create a team called `developers` in your organization.
   * Add your team members to the developers team.
 
 </div>
@@ -74,16 +74,16 @@ After receiving your team ID, one team member should do the following steps:
 
 <box tags="m--cs2113" seamless type="important">
 
-The tP project template given to you is a variation of the iP repo you used for the iP, but ==with some important differences==. Please follow instructions carefully, rather than follow what you remember from the iP.
+The tP project template given to you is a variation of the iP repo you used, but ==with some important differences==. Please follow instructions carefully, rather than follow what you remember from the iP.
 
 </box>
 
 1. **Fork** the [{{url_course_org}}/{{ tp_repo_name }}]({{url_course_org}}/{{ tp_repo_name }}) repo to your team org.
-   * This repo (let's call it the _team repo_) is to be used as the repo for your project.
+   * This repo (let's call it the _team repo_) will be used for your project.
    * <span id="do-not-rename">{{ icon_important_big_red }} Please do not rename the fork %%Reason: our grading scripts rely on the repo name.%%</span>
 1. **Enable the issue tracker**.
 1. **Enable GitHub Actions**: Go to the {{ show_as_rounded_tab(':fas-play-circle: Actions') }} tab and enable workflows by clicking the {{ button('Enable actions', button_style="success") }} button (or the {{ button('I understand ... enable them', button_style="success") }} button). That will enable the GitHub Actions that are already included in the repo you forked.{% if cs2103 %}<br>
-   **Set up codecov**, as explained in the [DevOps guide]({{ url_ab3_fork_website }}/DevOps.html).{% endif %}
+   **Set up Codecov**, as explained in the [DevOps guide]({{ url_ab3_fork_website }}/DevOps.html).{% endif %}
 {% if cs2103 %}
 1. **Set up the project website**<br>
    There are two options for the project website: [Jekyll](https://jekyllrb.com/), [MarkBind](https://markbind.org). You can choose either one. More info is given in the panels below:
@@ -102,7 +102,7 @@ The tP project template given to you is a variation of the iP repo you used for 
 
 Example AB3 website using Jekyll: [here](https://se-education.org/addressbook-level3/)
 
-**How to set up:** Follow instructions in the [_Documentation guide_ page]({{ url_ab3_fork_website }}/Documentation.html) of AB3 developer guide.
+**How to set up:** Follow the instructions in the [_Documentation guide_ page]({{ url_ab3_fork_website }}/Documentation.html) of the AB3 developer guide.
 </panel>
 
 <panel header="##### MarkBind" expanded>
@@ -118,12 +118,12 @@ Example AB3 website using Jekyll: [here](https://se-education.org/addressbook-le
 Example AB3 website using MarkBind: [here](https://damithc.github.io/ab3-markbind/)
 
 **How to set up:**
-1. Merge the given `switch-docs-to-markbind` branch to the `master` branch.
-1. After that, follow instructions in the [this se-edu/guide](https://se-education.org/guides/tutorials/markbind-forked-sites.html).
+1. Merge the given `switch-docs-to-markbind` branch into the `master` branch.
+1. After that, follow the instructions in [this se-edu guide](https://se-education.org/guides/tutorials/markbind-forked-sites.html).
 </panel>
 <p/>
 
-{{ icon_tip }} When set up correctly, your project website should be available via the URL  `https://{{ semester | lower }}-{team-id}.github.io/{{ tp_repo_name }}`<br>
+{{ icon_tip }} When set up correctly, your project website should be available via the URL `https://{{ semester | lower }}-{team-id}.github.io/{{ tp_repo_name }}`<br>
  e.g., `https://{{ semester | lower }}-{{ course | lower }}-w13-1.github.io/{{ tp_repo_name }}`.
 </div>
 {% elseif course == "CS2113"%}
@@ -183,7 +183,7 @@ We recommend you configure the issue tracker of the tP team repo as follows:
 **Bug Severity** labels:
 * `severity.VeryLow` : A flaw that is purely cosmetic and does not affect usage e.g., typo/spacing/layout/color/font issues in the docs or the UI.
   ==Only cosmetic problems should have this label==.
-* `severity.Low` : A flaw that is unlikely to affect normal operations of the product. Appears only in very rare situations and causes a minor inconvenience only.
+* `severity.Low` : A flaw that is unlikely to affect normal operations of the product. Appears only in very rare situations and causes only a minor inconvenience.
 * `severity.Medium` : A flaw that causes occasional inconvenience to some users, but they can continue to use the product.
 * `severity.High` : A flaw that affects most users and causes major problems for them, i.e., only problems that make the product ==almost unusable for most users== should have this label.
 
@@ -194,9 +194,9 @@ We recommend you configure the issue tracker of the tP team repo as follows:
 </div>
 </div>
 
-3. **Create following milestones** : {% if cs2103 %}`{{ version_practice }}`{% endif %} {% if cs2103 %}`{{ version_first }}`{% endif %} `{{ version_mvp }}` {% if cs2103 %}`{{ version_alpha }}`{% endif %} `{{ version_penultimate }}` `{{ version_final }}`
+3. **Create the following milestones**: {% if cs2103 %}`{{ version_practice }}`{% endif %} {% if cs2103 %}`{{ version_first }}`{% endif %} `{{ version_mvp }}` {% if cs2103 %}`{{ version_alpha }}`{% endif %} `{{ version_penultimate }}` `{{ version_final }}`
 
-4. You may configure other project settings as you wish. e.g., more labels, more milestones
+4. You may configure other project settings as you wish, such as more labels or milestones.
 
 </div>
 
@@ -212,7 +212,7 @@ We recommend you configure the issue tracker of the tP team repo as follows:
    <include src="appendixE-gitHub.md#do-not-rename" inline />
 1. **Clone** the fork to your computer.
 1. **Set up** the developer environment on your computer by following the
-   <span tags="m--cs2103">[_Setting up and getting started_ page]({{ url_ab3_fork_website }}/SettingUp.html) of AB3 developer guide.</span><span tags="m--cs2113">the [README]({{url_course_org}}/{{ tp_repo_name }}) carefully as the ==steps are different from the iP==.</span>
+   <span tags="m--cs2103">[_Setting up and getting started_ page]({{ url_ab3_fork_website }}/SettingUp.html) of the AB3 developer guide.</span><span tags="m--cs2113">the [README]({{url_course_org}}/{{ tp_repo_name }}) carefully as the ==steps are different from the iP==.</span>
 
 <box type="wrong" seamless>
 
@@ -231,13 +231,13 @@ We recommend you configure the issue tracker of the tP team repo as follows:
 
 ## tP Project Schedule Tracking
 
-**For tP schedule tracking, our strategy is to leverage tools already available in the GitHub platform**, rather than bring in an entirely separate tool for it. Given below is a summary of the most basic needs related to this aspect, and which GitHub tool is used for each.
+**For tP schedule tracking, our strategy is to leverage tools already available in the GitHub platform**, rather than bring in an entirely separate tool for it. The table below summarizes the most basic needs related to this aspect, and which GitHub tool is used for each.
 
 Tracking need | GitHub tool used
 -----|------------
 {{ thumb_small("a", thumb_style="primary") }} **WHAT** needs to be done? i.e., project tasks | Tasks are posted as **issues** in the GitHub issue tracker.
-{{ thumb_small("b", thumb_style="primary") }} **WHO** should do which task? i.e., tasks assignment | Issues are given **assignees**.
-{{ thumb_small("c", thumb_style="primary") }} **WHEN** is a task to be done? i.e., task scheduling | Issues are assigned to a GitHub **milestones**, which in turn has a **deadline**.
+{{ thumb_small("b", thumb_style="primary") }} **WHO** should do which task? i.e., task assignment | Issues are given **assignees**.
+{{ thumb_small("c", thumb_style="primary") }} **WHEN** is a task to be done? i.e., task scheduling | Issues are assigned to a GitHub **milestone**, which in turn has a **deadline**.
 {{ thumb_small("d", thumb_style="primary") }} **HOW** is a task progressing? | **PRs** are created to match tasks in progress.<br>**Merging** the PR (and closing of the matching issue) indicates task completion.
 {{ thumb_small("e", thumb_style="primary") }} **WHERE** are you now? | A GitHub **milestone** is used to track an iteration.<br>A GitHub **release** represents the iteration deliverables.<br>Closing the milestone indicates the completion of the iteration.<br> The progress of an iteration can be estimated from the number of closed and open issues/PRs attached to the milestone.
 
@@ -246,25 +246,25 @@ Tracking need | GitHub tool used
 [Optional] **You can also use GitHub's [Projects feature](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects)** (which works like a layer on top of GitHub issues/PRs) to manage the project. If you do, keep it linked to the issue tracker as much as you can.
 </box>
 </div>
-The sections below describe a-e in more details.
+The sections below describe a-e in more detail.
 <!-- ------------------------------------------------------------------------------------------------------ -->
 
 <div id="tp-schedule-tracking-issues">
 
 #### {{ thumb("a", thumb_style="primary") }} Using issues to track project tasks
 
-* **Define project tasks as issues**. When you start implementing a feature/fix/enhancement etc., break it down to smaller tasks if necessary. Define reasonably sized, standalone tasks.  ==Create issues for each== of those tasks so that they can be tracked.
+* **Define project tasks as issues**. When you start implementing a feature, fix, enhancement, etc., break it down into smaller tasks if necessary. Define reasonably sized, standalone tasks. ==Create issues for each== of those tasks so that they can be tracked.
   * A typical task should be small enough for one person to do in a few hours. %%e.g.,%%
     * %%{{ bad }}: `Write the Developer Guide` (reasons: not a one-person task, not small enough)%%
     * %%{{ good }}: `Implement parser support for adding events`%%
 * **Ensure the issue details are 'good enough'**:
   * **Write a descriptive title** for the issue.
-    * %%{{ bad }}: `Update parser`(reason: not specific enough)%%
+    * %%{{ bad }}: `Update parser` (reason: not specific enough)%%
     * %%{{ good }}: `Add support for the 'undo' command to the parser`%%
   * **Assign the `type.*` and `priority.*` labels**, if applicable.
   * **Omit redundant details.**
     * There is no need for well-crafted and detailed descriptions for tasks. A minimal description is enough.
-    * If the issue title is enough to describe the task, no need to repeat it in the issue description.
+    * If the issue title is enough to describe the task, you do not need to repeat it in the issue description.
     * Similarly, labels such as `priority` can be omitted if you think they don't help you.
 * **No need to track things taken for granted.** %%e.g., `push code to repo` (reason: it is taken for granted that the code author will push the code to the repo).%%
 * **Ensure issues are compliant with the breadth-first iterative approach.** That is, ==a code merge to the `master` branch should take the product from one working version to another (slightly better) working version==.
@@ -333,8 +333,8 @@ In our project, we use _user stories_ to track user requirements. Instead of usi
 
 ****Reviewing PRs****:
 
-* **Get team members to review PRs**, to reduce the risk of problematic code, but also, to practice the important skill of reviewing code.
-  * **You can [request review](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/requesting-a-pull-request-review)** from specific team members, to expedite the PR progress.
+* **Get team members to review PRs** to reduce the risk of problematic code and practice the important skill of reviewing code.
+  * **You can [request a review](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/requesting-a-pull-request-review)** from specific team members to speed up PR progress.
 * **When reviewing others' PRs**:
   * **Follow the** [_**Best practices** for reviewing PRs_ @SE-EDU/guides](https://se-education.org/guides/guidelines/PRs-reviewing.html).
   * **Give comments at specific locations** of the code changes, in addition to adding an overall comment for the entire PR. Reason: location-specific comments are valued more in grading.
@@ -345,11 +345,11 @@ In our project, we use _user stories_ to track user requirements. Instead of usi
 
 ****Merging PRs****:
 
-* **Do not merge PRs failing <tooltip content="Continuous Integration e.g., GitHub Actions">CI</tooltip>.** The CI status of a PR is reported at the bottom of the {{ show_as_rounded_tab(":octicon-comment-discussion: conversation")}} tab of the PR page. Here's an example:<br>
+* **Do not merge PRs that are failing <tooltip content="Continuous Integration e.g., GitHub Actions">CI</tooltip>.** The CI status of a PR is reported at the bottom of the {{ show_as_rounded_tab(":octicon-comment-discussion: conversation")}} tab of the PR page. Here's an example:<br>
   ![](images/gitHubPrStatus.png)
   * **If there is a failure**, you can click on the `Details` link in the corresponding line to find out more about the failure. Once you figure out the cause of the failure, push a fix to the PR.
-  * An exception to this guideline is when the failure is confirmed to be due to something you can afford to ignore %%e.g., when CI fails due to a drop in code coverage but the code section that is causing the coverage drop is not practical to be covered by automated tests, or you plan to write the relevant tests at a later time%%.
-* **Avoid rebasing/squashing** when merging PRs. While both are good alternatives to the default behavior of creating a merge commit, rebasing/squashing can affect the timestamp of the commits, which can interfere with the progress tracking that we do for grading purposes %%i.e., the commits can get detected under a week different from the week they were actually done%%.
+  * An exception to this guideline is when the failure is confirmed to be due to something you can afford to ignore %%e.g., when CI fails due to a drop in code coverage but covering the affected code section with automated tests is not practical, or you plan to write the relevant tests at a later time%%.
+* **Avoid rebasing/squashing** when merging PRs. While both are good alternatives to the default behavior of creating a merge commit, rebasing/squashing can affect the timestamp of the commits, which can interfere with the progress tracking that we do for grading purposes %%i.e., the commits can get detected as work from a different week than the week they were actually done%%.
 * **After merging a PR**,
   * **close the corresponding issue** (which should happen automatically, if you followed [this trick](https://help.github.com/en/articles/closing-issues-using-keywords)).
   * **sync your individual repos/forks with the team repo** as follows:
@@ -359,9 +359,9 @@ In our project, we use _user stories_ to track user requirements. Instead of usi
       git push origin master
       ```
     * If there are any unmerged branches in your local repo, for each of them,<br>
-      merge `master` branch to it, and push the updated branch to your fork.<br>
+      merge the `master` branch into it, and push the updated branch to your fork.<br>
       %%{{ icon_info }} Another way to sync a branch with the `master` branch is to rebase it. But we discourage that approach as it will change the timestamp of your branch commits, affecting how our grading scripts track your work.%%
-  * <span class="text-danger">**don't delete the branch used by the PR**.</span> While it is common practice to delete a branch after merging it, we require you to keep those branches in the team repo so that our scripts can confirm that you used branches when adding changes.
+  * <span class="text-danger">**Do not delete the branch used by the PR**.</span> While it is common practice to delete a branch after merging it, we require you to keep those branches in the team repo so that our scripts can confirm that you used branches when adding changes.
 {% if course == "CS2113" %}
 * **As you add functionality, update the `input.txt` and `EXPECTED.txt` as well** so that the functionality you add gets regression tested automatically every time the code is updated from that point onwards.
 {% endif %}
@@ -376,7 +376,7 @@ In our project, we use _user stories_ to track user requirements. Instead of usi
 
 ****At the start of the iteration:****
 
-* **Create milestones to represent the iteration.** For example, if your next iteration will produce the version `{{ version_first }}` of the product, we can create a milestone named `v1.1` %%(for convenience, we use the product version as the milestone name as well)%%.
+* **Create milestones to represent the iteration.** For example, if your next iteration will produce the version `{{ version_first }}` of the product, we can create a milestone named `{{ version_first }}` %%(for convenience, we use the product version as the milestone name as well)%%.
 * **Set a deadline** for the milestone. %%This can be earlier than the deadlines set by the course, to give you a buffer.%%
 * **Create issues** for tasks to be done in that iteration.<br>
   **Assign them to team members.**<br>
@@ -389,7 +389,7 @@ In our project, we use _user stories_ to track user requirements. Instead of usi
 
 * **Ensure incoming PRs are assigned to the milestone** as well.<br>
   **Review and merge PRs**, and ensure the corresponding issue is closed when the PR is merged.
-* **Adjust iteration targets as necessary**, by assigning new issues/PR to the milestone, or removing them from the milestone.
+* **Adjust iteration targets as necessary**, by assigning new issues/PRs to the milestone, or removing them from the milestone.
 
 
 ****At the end of the iteration****:

@@ -9,6 +9,7 @@
   "disableHtmlBeautify": true,
   "ignore": [
     "_site/*",
+    "_temp/*",
     ".idea/*",
     ".gitignore",
     "README.md",

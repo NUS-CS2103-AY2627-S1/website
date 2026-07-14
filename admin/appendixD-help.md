@@ -7,7 +7,7 @@
 {% set negative_icon = '{icon="fas-thumbs-down" i-class="text-white badge rounded-pill bg-danger" i-size="12px"}' %}
 {% set positive_icon = '{icon="fas-thumbs-up" i-class="text-white badge rounded-pill bg-success" i-size="12px"}' %}
 
-%%{{ icon_info }} This guide is mostly about getting tech help, but it also applies to getting clarifications on course topics too. e.g., what is the difference between _refactoring_ and _rewriting_?%%
+%%{{ icon_info }} This guide is mostly about getting tech help, but it also applies to getting clarifications on course topics too, e.g., what is the difference between _refactoring_ and _rewriting_?%%
 
 <span class="float-end">
 
@@ -31,7 +31,7 @@
 
 * **Get your team to meet for a weekly work-together session**. When you do course tasks together, it is easy to compare notes with each other and figure out what deviation is causing the problem. That is, crowdsource your team first.
 
-* **Search**: It is very likely the answer already exists somewhere in cyberspace. Almost every programming-related question has been answered in places like [stackoverflow](http://stackoverflow.com/). Don't give an opportunity for someone to ask you to [STFW](http://www.jibble.org/stfw/).
+* **Search**: It is very likely the answer already exists somewhere in cyberspace. Almost every programming-related question has been answered in places like Stack Overflow. Don't give an opportunity for someone to ask you to [STFW](http://www.jibble.org/stfw/).
   Pay attention to the error message you encounter. Sometimes it also contains hints as to how to fix the problem. Even if not, a web search on the error message is a good starting point.<br>
   <pic eager src="{{baseUrl}}/admin/images/how to google it.png" width="600"/>
 
@@ -47,7 +47,7 @@
   **==If your problem remains unsolved 24 hours after posting in the forum==**, please alert `{{ course_email }}` so that the teaching team can look into it.
   </box>
 
-  * **Give full details of the problem**. Conversations via online forums take time. If you post everything that is relevant to your problem, your chances of getting an answer in the first try are higher. If others have to ask you more questions before they can help you, it will take longer. But this doesn't mean you dump too much information into the thread either.
+  * **Give full details of the problem**. Conversations via online forums take time. If you post everything that is relevant to your problem, your chances of getting an answer on the first try are higher. If others have to ask you more questions before they can help you, it will take longer. But this doesn't mean you dump too much information into the thread either.
     * Give a meaningful title to the post. Be as specific as you can.<br>
       {{ bad }} `testing problem`<br>
       {{ good }} `runtest.bat fails with ClassNotFound error`
@@ -56,7 +56,7 @@
     * If the problem is code-related, share the full code if possible (e.g., push the current state of the code to a branch in your fork and give the link to the branch). That gives a chance for someone to reproduce the state of your project on their computer. Sharing just a snippet of your choosing might not be enough as the problem may not be where you think it is.
   * **Avoid showing text as screenshots**: If you want to show some text in your post %%(e.g., a code snippet, an error message)%%, it is better to copy-paste the actual text rather than a _screenshot_ of the text<br>
     Reason: so that others can easily quote/copy/modify the code in their answers.<br>
-    Remember to use [_fenced code blocks_ feature](https://docs.github.com/en/github/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks) so that the code is syntax-highlighted as well.<br>
+    Remember to use [_the fenced code blocks_ feature](https://docs.github.com/en/github/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks) so that the code is syntax-highlighted as well.<br>
     * **not preferred**{.text-danger} (it's a screenshot)<br>
       <pic eager src="images/code-screenshot.png"/>
     * **OK**
@@ -84,7 +84,7 @@
     </box>
 
   * **Generalize the problem.** "How to write tasks to a text file using Java" is too specific to what you are working on. You are more likely to find help if you post a thread called (or search for) "How to write to a file using Java".
-  * **Remember to thank those who try to help, and close the issue** after the issue has been resolved.
+  * **Remember to thank those who try to help, and close the issue** after it has been resolved.
   * **Share the solution**. If you eventually managed to solve the problem on your own, share the solution in the thread for the benefit of others, and give closure to those who tried to help you. Don't leave the thread hanging or close it with something like `Never mind. I figured it out`.
   * **Don't _hijack_ other threads**: It is OK to chime in if you have the same problem as the <tooltip content="Original Poster">OP</tooltip> but don't ask a different (even if somewhat related) question in someone else's thread. That prevents the OP from closing the thread after the original question has been resolved. Instead, post your question as a separate thread.
 

@@ -90,7 +90,7 @@ Alternatively, you can use PR labels (if any) to filter PRs/Issues.<br>
 <pic eager src="images/filterPrsUsingLabels.png"></pic>
 </box>
 
-:fas-question-circle: FAQ: How many comments should I add? Answer: Depends on the code being reviewed but we expect most PRs would warrant at least 4-5 comments. If the PR is huge, you can stop when you think you've put in a fair amount of time on the job (~15 minutes) and added enough comments for the PR author to receive some value.
+:fas-question-circle: FAQ: How many comments should I add? Answer: Depends on the code being reviewed, but we expect most PRs would warrant at least 4-5 comments. If the PR is huge, you can stop when you think you've put in a fair amount of time on the job (~15 minutes) and added enough comments for the PR author to receive some value.
 </div>
 
 </div>

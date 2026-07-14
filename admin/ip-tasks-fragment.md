@@ -24,12 +24,12 @@
 </div>
 <div id="order">
 
-**Implement the <tooltip content="in this context, an _increment_ is a Duke _level_ or a Duke _extension_">increments</tooltip> given below ==in the given order==.**
+**Implement the <tooltip content="in this context, an _increment_ is a Duke _level_ or a Duke _extension_">increments</tooltip> below ==in the given order==.**
 </div>
 <div id="commit">
 
 * From this point onward, commit code at important points. ==Minimally, commit after completing each increment==.<br>
-  {{ icon_important_big_red }} Remember not to commit `.class` files and any other file that should not be revision controlled.
+  {{ icon_important_big_red }} Remember not to commit `.class` files and any other file that should not be revision-controlled.
 </div>
 <div id="tag-push">
 
@@ -77,14 +77,14 @@ The individual project (iP) and the team project (tP) undergo changes after each
 {{ icon_important_big_red }} We discourage you from doing project tasks allocated to future weeks, although it is fine to stay ahead of the schedule a bit (but no more than a week ahead).<br>
 Reasons: To help you gain <tooltip content="the ability to apply knowledge or do tasks effortlessly as if you have been doing them for a long time">_fluency_</tooltip> and better simulate real projects, **we want the project work to be <tooltip content="done in multiple sittings with gaps in between">_spaced_</tooltip> over a longer period**, rather than done as a short burst.
 
-Reminder: As stated in the iP grading criteria, _some_ increments need to be done each week. Clumping all the iP work into a short burst of work will not earn you full marks.
+Reminder: As stated in the iP grading criteria, _some_ increments need to be done each week. Clumping all the iP work into a short burst will not earn you full marks.
 </box>
 </div>
 <div id="follow-instructions">
 
 <box>
 
-{{ icon_important_big_red }} Please follow instructions carefully. Any deviations can cause our grading scripts to miss your work (and result in you not getting credit for the work).
+{{ icon_important_big_red }} Please follow instructions carefully. Any deviations can cause our grading scripts to miss your work (and result in you not getting credit for it).
 
 </box>
 </div>
@@ -111,8 +111,8 @@ As stated above, ==you have until the {{ lecture_name }}== at the end of this we
 </div>
 <div id="cs2103-week3-intro">
 
-**{{ icon_important_big_red }} You are required to follow the Git standard from this week**, as specified in [this page](standardsAndConventions.html).<br>
-  ==Only _future_ commits need to follow the Git standard.== Editing past commit messages (to make them comply with the Git standard) is discouraged as it changes the commit timestamp, which can alter your iP progress timeline (as seen by progress tracking scripts).
+**{{ icon_important_big_red }} You are required to follow the Git standard from this week**, as specified on [this page](standardsAndConventions.html).<br>
+  ==Only _future_ commits need to follow the Git standard.== Editing past commit messages (to make them comply with the Git standard) is discouraged since it changes the commit timestamp, which can alter your iP progress timeline (as seen by progress-tracking scripts).
 
 **:fas-clock: Reminder about the deadline for the weekly project tasks:**
 {{ embed_topic("weeklySchedule.md#deadline-definition", "Admin " + icon_embedding + " Weekly schedule → **Deadline for weekly tasks**", "1", indent=1) }}
@@ -184,7 +184,7 @@ But ==as there are no tutorials this week, you have until the next lecture== to 
 
 ##### iP feels like 'same same' ...?{.text-success}
 
-**As you do the iP, if you feel like you are not learning enough new stuff** as you've done similar work before (at least on the Java/OOP side), there is an alternative approach you can take to the iP. See the panel below if you are interested.
+**As you do the iP, if you feel like you are not learning enough new stuff** since you've done similar work before (at least on the Java/OOP side), there is an alternative approach you can take to the iP. See the panel below if you are interested.
 
 <panel type="seamless" header="****iP.AI****: an AI-assisted approach to the iP" minimized>
 
@@ -222,7 +222,7 @@ This alternative is only suitable for those who are already good at hand-coding.
   * Start a branch named `branch-{increment ID}` (e.g., `branch-Level-5`). You are recommended to have multiple commits in that branch. Follow the branch naming convention exactly or else our gradings scripts might miss your branch.
   * After the increment is ready, merge the `branch-Level-5` back on to `master`, ==without a _fast-forward_== so that git creates a separate commit for the merge. `git tag` that merge commit as `Level-5`.
   * Push the branch to your fork so that the grading script can detect it. As before, push the tag as well.
-  * {{ icon_important_big_red }} Advanced git users: do not delete the branch after merging.
+  * {{ icon_important_big_red }} Advanced Git users: do not delete the branch after merging.
 </div>
 </div>
 {#====================================================================================================================#}
@@ -244,7 +244,7 @@ This alternative is only suitable for those who are already good at hand-coding.
   1. As before, tag the commit (in the `master` branch, after merging) that achieves the respective deliverable, and push to your fork.
 * As before,
  {{ icon_tip }} Merge without a _fast-forward_ so that git creates a separate commit for the merge.<br>
- {{ icon_important_big_red }} Advanced git users: do not delete the branch after merging.
+ {{ icon_important_big_red }} Advanced Git users: do not delete the branch after merging.
 </div>
 
 </div>
@@ -258,7 +258,7 @@ This alternative is only suitable for those who are already good at hand-coding.
 <div id="post_A-Jar">
 <div tags="m--cs2103 m--cs2113" class="indented-level2">
 
-Note that if `A-Jar` increment does not require any code changes, you may tag the commit at which this was achieved as `A-Jar` (even if that commit has another tag already). Otherwise, tag the latest commit as usual. In both cases, push the tag to the fork.
+Note that if the `A-Jar` increment does not require any code changes, you may tag the commit at which this was achieved as `A-Jar` (even if that commit has another tag already). Otherwise, tag the latest commit as usual. In both cases, push the tag to the fork.
 </div>
 </div>
 {#====================================================================================================================#}
@@ -286,19 +286,19 @@ commit id: "m4"
 
 <box type="warning" seamless>
 
-If you are new to Git branching, before attempting this iP increment, first learn Git branching from [this week's textbook topics]({{ baseUrl }}/schedule/week3/topics.html). In particular, learn how to merge a branch without fast forwarding.
+If you are new to Git branching, before attempting this iP increment, first learn about it from [this week's textbook topics]({{ baseUrl }}/schedule/week3/topics.html). In particular, learn how to merge a branch without fast-forwarding.
 </box>
 
 * **Do Level 7 in a branch named `branch-Level-7`**. Here are the steps:
   1. Start a branch `branch-Level-7`.
   1. Implement Level 7 while committing to that branch at appropriate points.
-  1. Merge the branch back to the `master` branch (remember to create a merge commit i.e., ==no fast-forward==).
+  1. Merge the branch back to the `master` branch (remember to create a merge commit, i.e., ==no fast-forward==).
   1. Git tag the merge commit in the `master` branch as usual (i.e., add the tag `Level-7`).
   1. Push the following three things to your fork:<br>
      (a) the `master` branch,<br>
      (b) the `branch-Level-7` branch,<br>
      (c) the `Level-7` tag.<br>
-     {{ icon_important_big_red }} Advanced git users: do not delete the branch after merging.<br>
+     {{ icon_important_big_red }} Advanced Git users: do not delete the branch after merging.<br>
      {{ icon_important_big_red }} Only _merged_ branches are detected by the script. After merging a branch `b1` into the `master` branch, you need to push both the `master` and the `b1` branches to the fork. Pushing the `master` branch does not automatically take the `b1` branch along with it just because it is already merged into the `master` branch.
 
 </div>
@@ -327,7 +327,7 @@ In previous iP increments, you learned:
 * How to merge branches locally and push to your fork
 * How to create PRs from the `master` branch to an upstream repo
 
-In the following iP task you will learn how to do the following new things, which are relevant to the tP:
+In this iP task you will learn how to do the following new things, which are relevant to the tP:
 
 * How to merge branches in the remote repo, and pull the merged branch to your local repo
 * How to create PRs from branches other than `master`
@@ -341,7 +341,7 @@ Due to the above learning goals, this iP task is a bit complicated. Pay attentio
 * **Note how to merge PRs**: {{ show_gm_lesson_link("prsMerge", "T9L3. Merging Pull Requests") }}
 
 * **Practice using parallel git branches _and_ PRs**, as explained below:
-1. First, do each increment as a parallel branch (follow the branch naming convention you followed earlier `branch-Level-8` etc.), but do not merge any.
+1. First, do each increment as a parallel branch (follow the branch naming convention you followed earlier, e.g., `branch-Level-8`, etc.), but do not merge any.
    <mermaid>
    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
    gitGraph
@@ -367,7 +367,7 @@ Due to the above learning goals, this iP task is a bit complicated. Pay attentio
 
 <box type="tip" seamless>
 
-When you are doing the next step, you can run into merge conflicts. In some cases, GitHub will give you a way to resolve those conflicts using the Web interface. While this approach may be good enough for simple merge conflicts, **de-conflicting locally in the standard way is safer** (e.g., you can run tests to confirm the updated code is correct) and more standard (it's a standard Git feature that you can use even when you are not using GitHub for your project).
+When you are doing the next step, you can run into merge conflicts. In some cases, GitHub will give you a way to resolve those conflicts using the Web interface. While this approach may be good enough for simple merge conflicts, **de-conflicting locally in the usual way is safer** (e.g., you can run tests to confirm the updated code is correct) and more standard (it's a standard Git feature that you can use even when you are not using GitHub for your project).
 </box>
 
 3. Now, merge one of the PRs and update the remaining PRs accordingly, as given below:
@@ -399,7 +399,7 @@ When you are doing the next step, you can run into merge conflicts. In some case
    checkout master
    merge branch-A-Assertions tag: "A-Assertions"
    </mermaid>
-   * Note how the remaining <tooltip content="i.e., branches not merged to the `master` branch yet">un-merged branches</tooltip> are no longer in sync with the latest `master`. To rectify, merge the `master` branch into each of them. Resolve merge conflicts, if any. The outcome will be something like the below:{ texts="['3.3)']" }
+   * Note how the remaining <tooltip content="i.e., branches not merged to the `master` branch yet">unmerged branches</tooltip> are no longer in sync with the latest `master`. To rectify this, merge the `master` branch into each of them. Resolve merge conflicts, if any. The outcome will be something like the below:{ texts="['3.3)']" }
    <mermaid>
    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
    gitGraph
@@ -482,9 +482,9 @@ When you are doing the next step, you can run into merge conflicts. In some case
 <div id="pre_A-MoreOOP">
 
 {% if cs2103 %}
-* While not required, you are encouraged to use separate branches for each increment.
+* While not required, you are encouraged to use a separate branch for each increment.
   <br>Reason: that way, the `master` branch will stay in an 'unbroken' state, while work in progress remains in a separate branch until it is ready to be merged.{% endif %}
-* As before, commit, tag, and push, after each increment.
+* As before, commit, tag, and push after each increment.
 </div>
 {#-------------------------------------------------------------------#}
 <div id="post_A-MoreOOP">
@@ -493,12 +493,12 @@ When you are doing the next step, you can run into merge conflicts. In some case
 <panel type="seamless">
 <span slot="header" class="card-title text-info"><markdown>{{ icon_info }} **Why more OOP?**</markdown></span>
 
-One of the iP increments asks you to push the design more towards the OOP approach. This is a good point to remind you the following points:
+One of the iP increments asks you to push the design more toward the OOP approach. This is a good point to remind you of the following points:
 
-****Good OOP != OOP is good****: While the course pushes you to use _good OOP_, do not interpret it as a message of _OOP is good_; it's good for many situations but not so for some other situations. The best is usually a combination of approaches. Hence, you are encouraged to get better at other paradigms, the _functional_ paradigm in particular which has been rising in popularity in some areas such as big data, AI, parallel systems.<br>
-That said, it is also preferable to use one paradigm as the primary approach and fallback on others only when the primary paradigm is clearly sub-optimal. Reason: mixing everything in equal measures might make the system even harder to understand.
+****Good OOP != OOP is good****: While the course pushes you to use _good OOP_, do not interpret it as a message that _OOP is good_; it's good for many situations but not so for some other situations. The best is usually a combination of approaches. Hence, you are encouraged to get better at other paradigms, the _functional_ paradigm in particular, which has been rising in popularity in some areas such as big data, AI, and parallel systems.<br>
+That said, it is also preferable to use one paradigm as the primary approach and fall back on others only when the primary paradigm is clearly sub-optimal. Reason: mixing everything in equal measures might make the system even harder to understand.
 
-**OOP is primary paradigm for this course and you are expected to try to push it to its limits.** That should give you a first-hand experience of OOP's strengths and weaknesses. Furthermore, OOP (or any other paradigm) will appear worse than it really is if not used correctly, and learning to use it correctly in increasingly larger systems is another objective you can aim for in this course. {% if cs2103 %}As you do the tP later, you'll also realize that while OOP is used for the internal design of its components, the higher-level design is not specifically an OOP one.{% endif %}<br>
+**OOP is the primary paradigm for this course and you are expected to try to push it to its limits.** That should give you a first-hand experience of OOP's strengths and weaknesses. Furthermore, OOP (or any other paradigm) will appear worse than it really is if not used correctly, and learning to use it correctly in increasingly large systems is another objective you can aim for in this course. {% if cs2103 %}As you do the tP later, you'll also realize that while OOP is used for the internal design of its components, the higher-level design is not specifically an OOP one.{% endif %}<br>
 
 **We do not prohibit the use of other paradigms**, however. For example, if you find a place where the _functional_ approach is better, go ahead and use it. As you know, Java supports functional programming to a certain extent. {% if cs2103 %}In fact, the tP code given to you uses small snippets of functional-style code in several places.{% endif %}
 </panel>
@@ -508,7 +508,7 @@ That said, it is also preferable to use one paradigm as the primary approach and
 <div id="pre_A-JavaDoc">
 <div tags="m--cs2103">
 
-* Implement these three increments ==as three <popover content="i.e., start a branch, add some code to it, go back to the master branch (without merging the first branch), and start another branch, and so on">parallel</popover> branches== first (branch names: `branch-A-JavaDoc`, `branch-A-CodingStandard`, `branch-Level-9`), and then merge them one-by-one. Hopefully, you will encounter some merge conflicts so that you get to practice de-conflicting branches.
+* Implement these three increments ==as three <popover content="i.e., start a branch, add some code to it, go back to the master branch (without merging the first branch), and start another branch, and so on">parallel</popover> branches== first (branch names: `branch-A-JavaDoc`, `branch-A-CodingStandard`, `branch-Level-9`), and then merge them one by one. Hopefully, you will encounter some merge conflicts so that you get to practice de-conflicting branches.
 
 <mermaid>
 {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
@@ -535,8 +535,8 @@ merge branch-Level-9 tag: "Level-9"
 commit id: "m6"
 </mermaid>
 
-* The Java and Git standards to follow (for `A-CodingStandard`) are given in [this page](standardsAndConventions.html).
-* After finishing, assuming you encountered merge conflicts (and some were rather painful to resolve), think of how such conflicts could have been reduced %%(e.g., by changing the order of merging, or minimizing parallel branches when certain types of changes are being done to the code)%%.
+* The Java and Git standards to follow (for `A-CodingStandard`) are given on [this page](standardsAndConventions.html).
+* After finishing, assuming you encountered merge conflicts (and some were rather painful to resolve), think of how such conflicts could have been reduced %%(e.g., by changing the order of merging, or minimizing parallel branches when certain types of changes are being made to the code)%%.
 </div>
 </div>
 {#====================================================================================================================#}
@@ -549,7 +549,7 @@ commit id: "m6"
 <div tags="m--cs2103 m--tic2002">
 <p/>
 
-* Do the following increments in the given order because after doing `A-Gradle` you should #r#use the Gradle option (rather than the IntelliJ option)## when doing `A-JUnit` and `A-Jar`, because those increments are easier to do using Gradle.{ icon="glyphicon-exclamation-sign" i-class="text-danger" i-size="25px"}
+* Do the following increments in the given order: after doing `A-Gradle`, you should #r#use the Gradle option (rather than the IntelliJ option)## when doing `A-JUnit` and `A-Jar`, because those increments are easier to do using Gradle.{ icon="glyphicon-exclamation-sign" i-class="text-danger" i-size="25px"}
 
 <div class="indented-level2" id="pulling-branch-from-upstream">
 <panel type="seamless" >
@@ -567,7 +567,7 @@ If your fork doesn't have the `add-gradle-support` branch (i.e., you did not cop
 1. Add the upstream repo `{{ url_course_org }}/{{ ip_repo_name }}.git` as a remote, and give it the name `upstream`.<br>
    General instructions for adding a remote to your repo can be found in {{ show_gm_lesson_link("setRemote", "T2L4. Linking a Local Repo With a Remote Repo") }}.
 
-2. fetch the `add-gradle-support` from the remote `upstream`.<br>
+2. fetch the `add-gradle-support` branch from the remote `upstream`.<br>
    General instructions for fetching a new branch from a remote can be found in {{ show_gm_lesson_link("remoteBranchPull", "T8L2. Pulling Branches from a Remote") }}.
 </panel>
 <p/>
@@ -581,7 +581,7 @@ If your fork doesn't have the `add-gradle-support` branch (i.e., you did not cop
 <div class="indented-level1">
 <br>
 
-<span class="text-danger">**:fab-apple: Attention Mac users**</span>! If you are not using the ==exact **Azul** JDK distribution== (not any other JDK 17 distributions) specified by our advisory for Mac users in [this page](programmingLanguages.md), you are likely to run into problems while doing `Level-10`.
+<span class="text-danger">**:fab-apple: Attention Mac users**</span>! If you are not using the ==exact **Azul** JDK distribution== (not any other JDK 17 distribution) specified by our advisory for Mac users in [this page](programmingLanguages.md), you are likely to run into problems while doing `Level-10`.
 </div>
 </div>
 {#====================================================================================================================#}
@@ -589,7 +589,7 @@ If your fork doesn't have the `add-gradle-support` branch (i.e., you did not cop
 
 <div class="indented-level1">
 
-* **Follow the sample [build.gradle given in JavaFX tutorial](https://se-education.org/guides/tutorials/javaFxPart1.html#setting-up-java-fx)** closely, instead of following suggestions from AI tools.<br>
+* **Follow the sample [build.gradle given in the JavaFX tutorial](https://se-education.org/guides/tutorials/javaFxPart1.html#setting-up-java-fx)** closely, instead of following suggestions from AI tools.<br>
   %%Reason: As there are different ways of achieving this, following advice from AI tools can result in a 'Frankenstein' solution (i.e., a mixture of different approaches) that might work on your computer but might not work on other OSes.%% {{ bullet_important_red }}
 * **You no longer need to keep the text-based UI** after adding a GUI (although you are welcome to). Similarly, there is no need to keep the I/O redirection style automated testing added via `A-TextUiTesting` anymore -- that technique is suited for text UIs only.{{ bullet_info }}
 * **Is the `bye` command still needed**, now that the GUI can be closed in other ways?<br>
@@ -613,7 +613,7 @@ If your fork doesn't have the `add-gradle-support` branch (i.e., you did not cop
 {% set ip_ai_link = "[iP.AI route](../schedule/week2/project.html#:~:text=iP.AI%3A%20an%20AI%2Dassisted%20approach%20to%20the%20iP)" %}
 * If you are already following the {{ ip_ai_link }}, you may add the `A-AiAssisted` tag to the latest commit of your repo without needing any further work.
 * Otherwise (i.e., if you haven't been using AI tools in the iP until now), the increment below is an opportunity for you to use the iP to explore how AI tools can help with programming tasks. If you take it up, give some details in places where you use AI-assisted code (e.g., which tool you used and how it helped) as a code comment. Alternatively, you can add an `AI.md` file, similar to the {{ ip_ai_link }}.
-* You may also do this increment in combination with optional increments given later in this page. For example, you can do the `A-BetterGui` using AI assistance.
+* You may also do this increment in combination with optional increments given later on this page. For example, you can do the `A-BetterGui` increment using AI assistance.
 </div>
 
 {#====================================================================================================================#}
@@ -655,10 +655,10 @@ Read through this week's topics before starting the project.<br>
 1. **Fork** [{{ url_course_org }}/{{ ip_repo_name }}]({{ url_course_org }}/{{ ip_repo_name }}), while noting the points below:<br>
    <box type="important" seamless><md>==**Keep the fork name as `{{ ip_repo_name }}`**== or else our grading scripts will not be able to detect it. You can change the fork name to something else after the semester (and the grading) is over e.g., after receiving your grade for the course.<br>==**Keep the default branch name as `master`**==. While Git-Mastery uses `main` as the default branch name, iP and tP use `master`. As both these are used widely in the industry, it is good for you to be comfortable using both.<br>==**Keep the source location as `[project root]/src`**==. Our grading scripts look for code in this folder.</md></box>
    <box type="tip" seamless><md>**Uncheck the `[ ] Copy the master branch only` option** so that you get a copy of the full repo.</md></box>
-1. ==**Enable the issue tracker** of your fork== (Go to `Settings` of your fork, scroll to the `Features` section, and select the `Issues` checkbox). %%Reason: at times we post feedback on your issue tracker.%%<br>
-   <box type="tip" seamless><md> If the issue tracker is enabled, you should be able to visit the following URL `https://github.com/{your_user_name}/{{ ip_repo_name }}/issues/new`<br> e.g., `https://github.com/johnDoe/{{ ip_repo_name }}/issues/new`</md></box>
+1. ==**Enable the issue tracker** of your fork== (Go to `Settings`, scroll to the `Features` section, and select the `Issues` checkbox). %%Reason: At times we post feedback on your issue tracker.%%<br>
+   <box type="tip" seamless><md> If the issue tracker is enabled, you should be able to visit the following URL: `https://github.com/{your_user_name}/{{ ip_repo_name }}/issues/new`<br> e.g., `https://github.com/johnDoe/{{ ip_repo_name }}/issues/new`</md></box>
 1. **Clone the fork** onto your computer.
-   <box type="warning" seamless><md>**Avoid putting Git-controlled files inside cloud-synced (e.g., OneDrive, Dropbox) folders.** Reason: Multiple tools trying to detect/sync changes in the same folder can cause conflicts and unexpected behaviors.<br> If you want to access project files from multiple computers, use Git to do that (rather than cloud syncing tools).</md></box>
+   <box type="warning" seamless><md>**Avoid putting Git-controlled files inside cloud-synced (e.g., OneDrive, Dropbox) folders.** Reason: Multiple tools trying to detect/sync changes in the same folder can cause conflicts and unexpected behavior.<br> If you want to access project files from multiple computers, use Git to do that (rather than cloud-syncing tools).</md></box>
 1. **Set up the project in your IDE** as explained in [the README file]({{ url_course_org }}/{{ ip_repo_name }}/blob/master/README.md), if you plan to use an IDE for the project.
    <box type="tip" seamless><md>**Not willing to lose Vim power?** If you are worried about losing access to powerful Vim features when using an IDE for the project, note that most IDEs have a Vim plugin (e.g., [IdeaVim plugin](https://github.com/JetBrains/ideavim)) for using Vim features within the IDE. In other words, it is possible to access both IDE features and Vim features at the same time!</md></box>
 
@@ -773,7 +773,7 @@ public class Main {
 
 <box type="info" seamless>
 
-If you wish, **you _may_ write the PR description to be very similar to the example** given above -- as the goal here is to demonstrate your mastery of the GFMD syntax (not ad writing skills).
+If you wish, **you _may_ write the PR description to be very similar to the example** given above -- as the goal here is to demonstrate your mastery of the GFMD syntax (not advertising skills).
 </box>
 </div>
 {#====================================================================================================================#}
@@ -799,12 +799,12 @@ This task is worth `2x2=4` participation points.
 
 * {{ step(1) }} **Note these additional guidelines**:
   * Read the [_Best practices for reviewing PRs_ @SE-EDU/guides](https://se-education.org/guides/guidelines/PRs-reviewing.html). You are ==expected to follow all of them==.
-  * Make sure you ==add 'review comments' (not regular comments)== as only those are counted for participation. See step 4 in the panel above to find how to add 'review comments'.
+  * Make sure you ==add 'review comments' (not regular comments)== as only those are counted for participation. See step 4 in the panel above to find out how to add 'review comments'.
   * If the PR has received some review comments already, feel free to confirm/complement/question those comments in your review. Also, look for things the previous reviewers may have missed.
   * At the end of the review, choose `Comment` (i.e., not `Approve` or `Request changes`).
 
 * {{ step(2) }} **Do the first PR review** as follows.
-  * Comment only on issues related to ==[coding standard]({{ url_java_coding_standard }})==.<br>
+  * Comment only on issues related to the ==[coding standard]({{ url_java_coding_standard }})==.<br>
     Review comments don't always have to be about problems in the code. Other things you can do:
     * compliment the author on not making a common mistake
     * ask questions
@@ -858,18 +858,18 @@ This activity is worth `2x2=4` participation points.
 
 </div>
 
-1. {% if cs2113 %}**The allocation will be sent via email**, by Monday 2359.{% else %}**Wait for the email telling you which iPs are allocated to you for evaluation**. The allocation will also be announced via course announcements.{% endif %}
-1. **Download the _latest_ JAR file** of the first iP by following the link provided.
+1. {% if cs2113 %}**The allocation will be sent via email**, by Monday 2359.{% else %}**Wait for the email that tells you which iPs have been allocated to you for evaluation**. The allocation will also be posted in the course announcements.{% endif %}
+1. **Download the _latest_ JAR file** for the first iP from the provided link.
    {{ show_faq("ipEvaluationNoJar") }}
-3. **Locate the User Guide** of the app by following the link provided in that email.
+3. **Locate the app's User Guide** by following the link provided in that email.
 1. **Open the Canvas survey** (the one named `iP Peer Evaluation 1`) that you will use to submit your evaluation, and note the items you need to evaluate.
 1. **Run the JAR file** as follows:
    * Put the JAR file in an ==empty folder==<br>
      %%Reason: this prevents data files created by other JAR files you tested earlier from interfering with the current JAR file.%%{ texts="['5.1','5.2','5.3','5.4']" }
-   * Open a terminal, and ==navigate to the folder== you put the JAR file in (e.g., `cd smoke-test/ip1`)<br>
+   * Open a terminal and ==navigate to the folder== where you put the JAR file (e.g., `cd smoke-test/ip1`)<br>
      %%Reason: data files will be created relative to the folder the terminal is currently in.%%
    * {{ icon_important_big_red }} Run the ==`java -version` command== to confirm you are using Java 17.{% if cs2103 %}<br>
-      :fab-apple: Mac user, confirm you are using the exact Java distribution we have prescribed [here](programmingLanguages.md).{% endif %}
+      :fab-apple: Mac users, confirm you are using the exact Java distribution we have prescribed [here](programmingLanguages.md).{% endif %}
    * Run the JAR file using the ==`java -jar "{file_name}"` command== (rather than double-clicking) in the same terminal.<br>
      ```
      java -jar "my task manager.jar"
@@ -877,17 +877,17 @@ This activity is worth `2x2=4` participation points.
 1. **Do some light testing of the app** (no more than 10 minutes) to ensure the claimed features actually exist and there are no obvious bugs.<br>
 1. **Do a quick examination of the code** (~ 5 minutes) by following the provided link.
 1. **Submit your evaluation** using the survey.
-1. **Repeat the above steps for the second iP** allocated to you (use the survey `iP Peer Evaluation 2`).<br>
+1. **Repeat the above steps for the second iP** allocated to you (use the `iP Peer Evaluation 2` survey).<br>
    If _both_ iPs crash or fail severely in the same way, the problem may be on your side. Please contact the teaching team to ask how to proceed.
-1. %%**Take note of the effort required for a _typical_ iP**: After seeing two more iPs, you should now be in a better position to estimate how much you need to do for the tP (reason: the expected implementation effort for the tP is estimated with reference to the implementation effort required for a _typical_ iP).%%
+1. %%**Take note of the effort required for a _typical_ iP**: After evaluating two peer iPs, you should be in a better position to estimate the implementation effort expected for the tP (reason: that expectation is estimated with reference to the effort required for a _typical_ iP).%%
 </div>
 {#====================================================================================================================#}
 <span id="heading_generate_new_jar">Generate a new JAR file</span>
 <div id="desc_generate_new_jar">
 
-* Generate a new JAR file using Gradle %%(Gradle can bundle the JavaFX third-party library into the jar file. If you do not bundle JavaFX with the JAR file, the application will not work on computers that don't have JavaFX installed)%%. Refer to the [_Gradle tutorial_ @SE-EDU/guides](https://se-education.org/guides/tutorials/gradle.html#creating-jar-files) to learn how.<br>
+* Generate a new JAR file using Gradle %%(Gradle can bundle the JavaFX third-party library into the JAR file. If you do not bundle JavaFX with the JAR file, the application will not work on computers that don't have JavaFX installed)%%. Refer to the [_Gradle tutorial_ @SE-EDU/guides](https://se-education.org/guides/tutorials/gradle.html#creating-jar-files) to learn how.<br>
 ==If the `.jar` file is smaller than 5MB==, most likely JavaFX libraries are not inside it.
-* There is no need to create a [_release_ in GitHub](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository) with this JAR file (although you are welcome to).
+* There is no need to create a [_release_ on GitHub](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository) with this JAR file (although you are welcome to).
 </div>
 {#====================================================================================================================#}
 <span id="heading_write_full_commit_messages">Write some full commit messages</span>
@@ -905,7 +905,7 @@ This activity is worth `2x2=4` participation points.
 
 * **Ensure the product can handle common errors <tooltip content="should not crash the app or render it unusable; user should be notified of the problem">gracefully</tooltip>**, such as the user making an unintentional error in the command, or the data file not being found in the expected location.
 * {{ icon_important_big_red }} **Ensure that the product name is not `Duke`** (as required by [Level-0](../se-book-adapted/projectDuke/index.html#level-0-rename-greet-exit)){% if cs2103 %}<br>
-   and the name is shown correctly everywhere it appears in the UI e.g., title bar of the GUI{% endif %}.
+   and the name is shown correctly everywhere it appears in the UI e.g., the title bar of the GUI{% endif %}.
   * Reminder: You may give the product any name, but do not rename the repo.
   * Reminder: You can give the chatbot any personality (there is no need to follow the exact command/response formats given).
 * {{ icon_important_big_red }} **Remember to give credit for any code you reused** or solutions you adopted from others. Reuse without giving credit is plagiarism and **will be reported to the university for disciplinary action**.
@@ -980,13 +980,13 @@ If you added the `Ui.png` correctly and set up the product website correctly, ==
      * If you have added a GUI or using third-party libraries: [use Gradle](https://se-education.org/guides/tutorials/gradle.html).
      * Else: you can use IntelliJ.{% endif %}
    * The JAR file should be ==cross-platform and should work on a computer that has Java 17==. To avoid version compatibility issues, we strongly recommend the following approach:
-      * Open a terminal window, and navigate to the root of your project folder. {{ numbers_roman }}
+      * Open a terminal window and navigate to the root of your project folder. {{ numbers_roman }}
       * Run the `java -version` command to confirm the terminal is using Java 17.
       * Run the `./gradlew clean shadowJar` command to create the JAR file.
 3. **Do the following [_smoke tests_](https://en.wikipedia.org/wiki/Smoke_testing_(software))** to ensure the JAR file works %%(reason: a similar flow will be used when grading your iP)%%.<br>
    * Copy the JAR file to an empty folder and test it from there. This should surface issues with hard-coded file paths.<br>
       When running the JAR file for smoke testing, instead of double-clicking the JAR file, do the following: open a terminal → navigate to the JAR location → run the `java -jar "JAR_FILE_NAME"` command. {{ numbers_roman }}
-   * Pass the jar file to team members and ask them to do a test drive. Assuming some of your team members use a different OS from yours, this should verify if the app is cross-platform.<br>
+   * Pass the JAR file to team members and ask them to do a test drive. Assuming some of your team members use a different OS from yours, this should verify if the app is cross-platform.<br>
       {{ icon_tip }} If you don't have ready access to a specific OS, you can ask others to help smoke-test it by [posting a smoke-testing request in the forum]({{ url_forum }}/new?template=smoke.md) -- some of them will even appreciate the opportunity to help a classmate.<br>
      {{ icon_info }} Note that concepts you encounter while doing course project tasks (e.g., _smoke testing_) are in the [scope of the final exam](exams.html#:~:text=you%20are%20expected%20to%20be%20aware%20of%20SE%2Drelated%20things%20(i.e.%2C%20tools%2C%20techniques%2C%20concepts)%20encountered%20while%20dong%20the%20iP%20and%20the%20tP).
 
@@ -1035,7 +1035,7 @@ App: Currently, there is no built-in command to add priorities to tasks.
 
  You can follow [the SE-EDU guide _Adding AI Features to a Java App_](https://se-education.org/guides/tutorials/addingAiToJavaApp.html) to learn how to do that.
 
-**Recommended:** Add this feature in a separate branch, just to explore how far you can go. If you reach a version of this feature good enough for users (e.g., if the user does not have an API key for the LLM, the app can be used even without the AI feature), feel free to merge the feature and release a new JAR for the iP. In that case, remember to update the user guide on how to configure and use this feature.
+**Recommended:** Add this feature in a separate branch, just to explore how far you can go. If you reach a version of this feature that is good enough for users (e.g., the app can still be used even if the user does not have an API key for the LLM), feel free to merge the feature and release a new JAR for the iP. In that case, remember to update the user guide on how to configure and use this feature.
 
 </div>
 </div>
@@ -1044,13 +1044,13 @@ App: Currently, there is no built-in command to add priorities to tasks.
 <div id="desc_get_more_out_of_the_ip">
 <div class="indented">
 
-**If you want to cite the iP on your resume**, you can do more to make it more compelling to potential employers. These improvements are not considered for grading and can be done after the semester ends. Some ideas:
-* **Improve the GUI**: Make the UI look nicer, unique, and memorable. You can get inspiration from [what others have done](ip-showcase.html) (but remember to give credit if you reuse any code from them).
+**If you want to cite the iP on your resume**, you can make it more compelling to potential employers. These improvements are not considered for grading and can be done after the semester ends. Some ideas:
+* **Improve the GUI**: Make the UI look nicer, more distinctive, and memorable. You can get inspiration from [what others have done](ip-showcase.html) (but remember to give credit if you reuse any code from them).
 * **Add a demo** video or an animated GIF to your user guide to show how the app works.
-* **Improve code quality**: iP is the right size to cite as an example of your code quality. You can use the RepoSense link (<span class="badge rounded-pill bg-light text-dark text-monospace">**&lt;/>**</span>) in the [iP showcase page](ip-showcase.html) to point to your iP code.
+* **Improve code quality**: The iP is the right size to cite as an example of your code quality. You can use the RepoSense link (<span class="badge rounded-pill bg-light text-dark text-monospace">**&lt;/>**</span>) in the [iP Showcase page](ip-showcase.html) to point to your iP code.
 * **Add more features.**
 
-{{ icon_tip }} On a somewhat related note, you can also **create similar product websites for your other projects** (projects from other courses, pet projects).
+{{ icon_tip }} On a somewhat related note, you can also **create similar product websites for your other projects**, such as those from other courses or pet projects.
 
 </div>
 </div>
@@ -1058,10 +1058,10 @@ App: Currently, there is no built-in command to add priorities to tasks.
 <span id="heading_add_an_extension">Add an extension</span>
 <div id="desc_add_an_extension">
 
-* Add at least one extension of your choice, selected from [category B, C, or D](../se-book-adapted/projectDuke/index.html#extensions-category-b) i.e., pick just one item from one category (i.e., one extension in total, not one from _each_ category) e.g., `B-DoWithinPeriodTasks` or `C-Sort` or `D-Places`
-* We recommend adding the extension via a branch (branch name is up to you). You may optionally add it via a PR.
+* Add at least one extension of your choice, selected from [category B, C, or D](../se-book-adapted/projectDuke/index.html#extensions-category-b) i.e., pick just one item from one category, not one from _each_ category, e.g., `B-DoWithinPeriodTasks` or `C-Sort` or `D-Places`
+* We recommend adding the extension via a branch (branch name is up to you). You may add it via a PR.
 * Add a ==tag named `BCD-Extension`== to the corresponding commit.<br>
-Regardless of the exact extension you did, the tag name should be `BCD-Extension`.
+Regardless of the exact extension you added, the tag name should be `BCD-Extension`.
 
 <div class="indented-level2">
 

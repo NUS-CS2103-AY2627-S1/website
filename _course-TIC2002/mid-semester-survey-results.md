@@ -199,7 +199,7 @@ Good to see that the pace is mostly manageable for most too.
 <td style="border: 1px solid grey; border-collapse: collapse; padding:10px; text-align:left">
 <markdown>maybe release handout for the week before lecture not after</markdown>
 
-<box type="info" icon=":fas-comment:" light><span class="text-info"><markdown>The proper 'handout' is the weekly textbook topics, which we release in advance-- it's the 'Topics' page of the weekly schedule in the course website ([example](https://nus-tic2002-ay2526s1.github.io/website/schedule/week6/topics.html)). Slides are not meant to be documents to print and study for exams (the textbook is the resource more suitable for exam prep). Their purpose is to support the briefing delivery and keep you engaged during the briefing. That's why our slides are less detailed and more visual.</markdown>
+<box type="info" icon=":fas-comment:" light><span class="text-info"><markdown>The proper 'handout' is the weekly textbook topics, which we release in advance-- it's the 'Topics' page of the weekly schedule in the course website ([example](https://nus-tic2002-ay2526s1.github.io/website/schedule/week6/topics.html)). Slides are not meant to be documents to print and study for exams (the textbook is the more suitable resource for exam prep). Their purpose is to support the briefing delivery and keep you engaged during the briefing. That's why our slides are less detailed and more visual.</markdown>
 </span></box>
 </td>
 </tr>

@@ -38,7 +38,7 @@ This course uses peer feedback and peer evaluations in many ways. In particular,
 ### How peer evaluations are used
 
 * Peer evaluations are rarely used directly to calculate marks. They are mostly used to flag cases that need further investigation.
-* When investigating such cases to decide if and how much the marks should be adjusted based on peer evaluations, we consider factors such as the following:
+* When investigating such cases to decide whether the marks should be adjusted based on peer evaluations, and by how much, we consider factors such as the following:
   * Is there a consensus among team members? We do not want an extreme input from one team member to unduly affect the outcome. In many cases, we discard the highest and lowest ratings received before calculating the average.
   * Do the other data points (e.g., LoC written, tutor feedback, commit history) corroborate the peer evaluations?
 * In some cases, a lower contribution rating given by peers (even if corroborated by other data) might not affect marks at all, e.g., if the lower contribution still meets the bar for earning full marks for that component.

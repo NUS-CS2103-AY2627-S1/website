@@ -4,8 +4,8 @@
 {% call show_admin_page("tp-grading") %}
 <div id="main">
 
-Note that project grading is ==not competitive (not bell curved)==.<span tags="m--cs2103">
-{{ course }}T projects will be assessed separately from {{ course }} projects.</span> Given below is the marking scheme.
+Note that project grading is ==not competitive (not bell-curved)==.<span tags="m--cs2103">
+{{ course }}T projects will be assessed separately from {{ course }} projects.</span> Below is the marking scheme.
 
 ****Total****: {{ marks_tp }} marks ({{ icon_individual }} {{ marks_tp_individual }} individual marks + {{ icon_team }} {{ marks_tp_team }} team marks)
 
@@ -51,9 +51,9 @@ Note that 'product design' or 'functionality' are not critical learning outcomes
 
 **++2A. Code quality++**
 
-**Evaluates:** the quality of the parts of the code you claim as written by you
+**Evaluates:** the quality of the parts of the code you claim you wrote
 
-**Evaluation method:** manual inspection by tutors + automated-analysis by a script
+**Evaluation method:** manual inspection by tutors + automated analysis by a script
 
 **Criteria:**
 
@@ -67,9 +67,9 @@ Note that 'product design' or 'functionality' are not critical learning outcomes
 
 * No [coding standard]({{url_java_coding_standard}}) violations %%e.g., all boolean variables/methods sound like booleans%%. Checkstyle can prevent only _some_ coding standard violations; others need to be checked manually.
 
-* [SLAP]({{baseUrl}}/se-book-adapted/chapters/codeQuality.html#slap-hard) is applied at a reasonable level. Long methods or deeply-nested code are symptoms of low-SLAP.
+* [SLAP]({{baseUrl}}/se-book-adapted/chapters/codeQuality.html#slap-hard) is applied at a reasonable level. Long methods or deeply nested code are symptoms of low-SLAP.
 
-* No noticeable code duplications %%i.e., if there are multiple blocks of code that vary only in minor ways, try to extract out similarities into one place%%, especially in test code.
+* No noticeable code duplication %%i.e., if there are multiple blocks of code that vary only in minor ways, try to extract similarities into one place%%, especially in test code.
 
 * Evidence of applying [code quality guidelines covered in the course](../book/codeQuality/).
 
@@ -83,11 +83,11 @@ Note that 'product design' or 'functionality' are not critical learning outcomes
 
 <div tags="m--cs2103">
 
-* Step 1: Evaluate the effort for the entire project. This is evaluated by peers who tested your product, and tutors.
+* Step 1: Evaluate the effort for the entire project. This is evaluated by peers who tested your product, and by tutors.
 
 {{ embed_topic("tp-pe-fragment.md#projectGrading-effort-instructions", "Admin " + icon_embedding + " tP → PE → ==Questions used for Implementation Effort==", "3", indent="2") }}
 
-* Step 2: Evaluate how much of that effort can be attributed to you. This is evaluated by team members, and tutors. Cross-validated against Git and GitHub data.
+* Step 2: Evaluate how much of that effort can be attributed to you. This is evaluated by team members and tutors, and cross-validated against Git and GitHub data.
 
 {{ embed_topic("peerEvaluations-midterm-fragment.md#teamMemberEvaluation-implementation", "Admin " + icon_embedding + " Peer Evaluations → ==Questions used for Evaluating Implementation Effort==", "3", indent="2") }}
 
@@ -133,7 +133,7 @@ Note: Effort put into non-user-visible implementation work (e.g., major refactor
 
 ++**3B. System/Acceptance Testing:**++
 
-**Evaluates:** How well you can system-test/acceptance-test a product
+**Evaluates:** How well you can perform system testing or acceptance testing on a product
 
 **Based on:** bugs you found in the PE. In addition to functionality bugs, you get credit for reporting documentation bugs and feature flaws.
 
@@ -153,12 +153,12 @@ Note: Effort put into non-user-visible implementation work (e.g., major refactor
 
 **Method:** Evaluated in two steps.
 
-* Step 1: Evaluate the whole UG and DG. This is evaluated by peers who tested your product, and tutors.
+* Step 1: Evaluate the whole UG and DG. This is evaluated by peers who tested your product and tutors.
 
 {{ embed_topic("tp-pe-fragment.md#projectGrading-userGuide-instructions", "Admin " + icon_embedding + " tP → PE → ==Grading Instructions for User Guide==", "3", indent="2") }}
 {{ embed_topic("tp-pe-fragment.md#projectGrading-devGuide-instructions", "Admin " + icon_embedding + " tP → PE → ==Grading Instructions for Developer Guide==", "3", indent="2") }}
 
-* Step 2: Evaluate how much of that effort can be attributed to you. This is evaluated by team members, and tutors. Cross-validated against Git and GitHub data.
+* Step 2: Evaluate how much of that effort can be attributed to you. This is evaluated by team members and tutors, and cross-validated against Git and GitHub data.
 
 {{ embed_topic("peerEvaluations-midterm-fragment.md#teamMemberEvaluation-ug", "Admin " + icon_embedding + " Peer Evaluations → ==Questions used for Evaluating the Contribution to the UG==", "3", indent="2") }}
 {{ embed_topic("peerEvaluations-midterm-fragment.md#teamMemberEvaluation-dg", "Admin " + icon_embedding + " Peer Evaluations → ==Questions used for Evaluating the Contribution to the DG==", "3", indent="2") }}
@@ -186,7 +186,7 @@ Note: Effort put into non-user-visible implementation work (e.g., major refactor
 
 ++**5A. Process:**++
 
-**Evaluates:** How well you did in project management related aspects of the project, as an individual and as a team
+**Evaluates:** How well you handled project management-related aspects of the project, as an individual and as a team
 
 **Based on:** tutor/grading-script observations of project milestones and GitHub data
 
@@ -199,7 +199,7 @@ Note: Effort put into non-user-visible implementation work (e.g., major refactor
    * milestones
    * releases
    * issue tracker (with good task definition, assignment, and tracking)
-   * PRs, and PR reviews
+   * PRs and PR reviews
 * Good version control, based on the repo.
 * Reasonable attempt to use the prescribed workflows.
 * Good use of buffers %%(opposite: everything at the last minute)%%.
@@ -215,7 +215,7 @@ Note: Effort put into non-user-visible implementation work (e.g., major refactor
 
 **Grading criteria:** Do the following to get a good grade for this aspect:
 * Do close to an equal share of the team tasks.
-* Have commits in four of weeks 7, 8, 9, 10, 11, 12
+* Have commits in four of these weeks: 7, 8, 9, 10, 11, 12
 
 </div>
 

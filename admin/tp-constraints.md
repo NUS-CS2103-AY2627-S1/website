@@ -23,7 +23,7 @@
 <span tags="m--cs2103">
 
 {% call show_constraint("Constraint-Brownfield") -%}
-The final product should be the result of evolving the given codebase. However, you are not barred from making major changes to the code, provided they are done incrementally. %%e.g., done in small steps, each producing a working product%%<br/>
+The final product should be the result of evolving the given codebase. However, you are not barred from making major changes to the code, provided they are done incrementally, %%e.g., done in small steps, each producing a working product%%<br/>
 %%**Reason:** To simulate a brownfield project.%%
 {%- endcall  %}
 </span>
@@ -62,7 +62,7 @@ course learning outcomes; covering DBMS-related topics will have to be left to d
 {%- endcall  %}
 
 {% call show_constraint("Constraint-OO") -%}
-The software should follow the Object-oriented paradigm primarily (but you are allowed to mix in a bit of other styles when justifiable).<br/>
+The software should follow the object-oriented paradigm primarily (but you are allowed to mix in a bit of other styles when justifiable).<br/>
 %%**Reason:** For you to practice using OOP in a non-trivial project.%%
 {%- endcall  %}
 
@@ -95,7 +95,7 @@ The use of third-party frameworks/libraries/services is allowed only if they:
 Their use is subject to prior approval by the teaching team.<br>
 %%**Reason:** We will not allow third-party software that can interfere with the learning objectives of the course.%%
 
-Please ==post in the [forum]({{url_course_org}}/forum/issues) your request to use third-party libraries/services== _before_ you start using the library. Once a specific library/service has been approved for one team, other teams may use it without requesting permission again.<br/>
+Please ==post your request to use third-party libraries/services in the [forum]({{url_course_org}}/forum/issues)== _before_ you start using the library. Once a specific library/service has been approved for one team, other teams may use it without requesting permission again.<br/>
 %%**Reason:** The whole class should know which external software is used by others so that they can do the same if they wish to.%%
 {%- endcall  %}
 
@@ -135,10 +135,10 @@ The file sizes of the deliverables should be reasonable and not exceed the limit
 In addition, do ==ensure that the final JAR/PDF files are not bloated unnecessarily==. Such <span class="text-danger">bloat can be reported as a bug</span>.
 Some suggestions:
 
-* Check if the assets (e.g., images, audio, data) included in the JAR files are all strictly necessary and that their quality is not unnecessarily high (e.g., images with higher resolution than necessary).
-* Check if the third-party libraries in the JAR file are strictly necessary or whether lighter versions are still enough for your purpose.
+* Check that the assets (e.g., images, audio, data) included in the JAR files are all strictly necessary and that their quality is not unnecessarily high (e.g., images with higher resolution than necessary).
+* Check whether the third-party libraries in the JAR file are strictly necessary or whether lighter versions are still enough for your purpose.
 
-{{ icon_important_big_red }} **Using [JavaFX WebView](http://tutorials.jenkov.com/javafx/webview.html)** allows you to display a Web page within your application, but it is very likely to cause you to violate this constraint. If you decide to use that library, ensure the benefit is worth the increase in size (in particular, using it just to show an HTML view of the User Guide is not worth it).
+{{ icon_important_big_red }} **Using [JavaFX WebView](http://tutorials.jenkov.com/javafx/webview.html)** allows you to display a web page within your application, but it is very likely to cause you to violate this constraint. If you decide to use that library, ensure the benefit is worth the increase in size (in particular, using it just to show an HTML view of the User Guide is not worth it).
 {%- endcall  %}
 
 {% call show_constraint("Constraint-PDF-Friendly") -%}
@@ -160,10 +160,10 @@ It is OK to use a reliable public API %%e.g., Google Search%%, but we recommend 
 {% call show_constraint("Recommendation-Testability", recommendation=true) -%}
 Avoid implementing hard-to-test (for both manual and automated testing) features or features that make your product hard to test.<br>
 %%**Reason**: ==_testability_ is a grading criterion.== If you choose to implement such a feature, you will need to spend extra effort to reach an acceptable level of testability.%%
-Here are some examples of features that are hard-to-test:
+Here are some examples of features that are hard to test:
 * Features that depend heavily on remote APIs: Those APIs can block your access if they mistake your automated tests for a bot attack. Some remote APIs require setting up accounts, keys, logins, etc., which will irritate the testers of your product and lead them to give a low rating to the testability of your work.
 * Audio-related features: The peer testing of your product is done under exam conditions where it is not appropriate to play audio.
-* Features that require creating user accounts, login, logout etc.
+* Features that require creating user accounts, login, logout, etc.
 {%- endcall %}
 
 <span tags="m--cs2113">
@@ -176,7 +176,7 @@ Creating a good Java GUI takes a lot of extra effort, which can easily push the 
 
 {% call show_constraint("Recommendation-CLI-First", recommendation=true) -%}
 Following from _Constraint-Typing-Preferred_, if the app is optimized for the target user (graded under the _product design_ criterion), ==a user who can type fast should be able to accomplish most tasks faster via a command line interface (CLI), compared to a hypothetical GUI-only version of the app.== %%For example, adding a new entity via the CLI should be faster than entering the same data through a GUI form.%%<br>
-Therefore, the input to the app needs to be primarily CLI. <span tags="m--cs2103">The GUI is used primarily to give visual feedback to the user. This does not mean the app needs to have a text UI (CLI is not the same as text UI) or it needs to work in a command console -- it simply means the input to the app should be a text command, which can even be entered using a GUI (similar to how AB3 does it).</span><span tags="m--cs2113">If you do implement a GUI, that GUI should primarily be used to give visual feedback to the user.</span> While we don't prohibit non-CLI inputs (e.g., clicking a button), note that such inputs will reduce the suitability of the product to target users. Therefore, give CLI alternatives to mouse/GUI inputs, if applicable.<br>
+Therefore, the input to the app needs to be primarily CLI. <span tags="m--cs2103">The GUI is used primarily to give visual feedback to the user. This does not mean the app needs to have a text UI (CLI is not the same as text UI) or it needs to work in a command console -- it simply means the input to the app should be a text command, which can even be entered using a GUI (similar to how AB3 does it).</span><span tags="m--cs2113">If you do implement a GUI, that GUI should primarily be used to give visual feedback to the user.</span> While we don't prohibit non-CLI inputs (e.g., clicking a button), note that such inputs will reduce the suitability of the product for target users. Therefore, give CLI alternatives to mouse/GUI inputs, if applicable.<br>
 Also keep in mind:
 * Regular typing is usually faster than using key combinations.
 * <tooltip content="typing the full command and hitting ENTER will complete the task">One-shot commands</tooltip> are faster than <tooltip content="prompting the user to input one parameter at a time">multi-step commands</tooltip>. If you provide a multi-step command to help new users, it is recommended that you also provide a one-shot equivalent for regular/expert users.<br>

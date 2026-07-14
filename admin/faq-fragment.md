@@ -33,7 +33,7 @@ In {{ course_pair }}, A+ is not given simply based on the final score. To get an
 * score enough to be close to the higher end of the `A` grade band.
 * be considered technically competent by peers and tutor (based on peer evaluations and tutor observations).
 * be considered helpful by peers (based on peer evaluations and tutor observations).
-* In particular, you are encouraged to be active on the [forum]({{url_forum}}) and give your inputs to ongoing discussions so that other students can benefit from your relatively higher expertise that makes you deserve an A+.
+* In particular, you are encouraged to be active on the [forum]({{url_forum}}) and give your input to ongoing discussions so that other students can benefit from the relatively higher expertise that makes you deserve an A+.
 * Whenever you can, go out of your way to review pull requests created by other team members.
 </div>
 <!-- =============================================================== -->
@@ -42,7 +42,7 @@ In {{ course_pair }}, A+ is not given simply based on the final score. To get an
 
 <pic eager src="{{baseUrl}}/admin/images/small things matter.png" width="600" height="300"/>
 
-Sometimes, small things matter in big ways. e.g., all other things being equal, a job may be offered to the candidate who has the neater looking CV although both have the same qualifications. This may be unfair, but that's how the world works. Students forget this harsh reality when they are in the protected environment of the school and tend to get sloppy with their work habits. That is why we reward all positive behavior, even small ones (e.g., following precise submission instructions, arriving on time etc.).
+Sometimes, small things matter in big ways. For example, all other things being equal, a job may be offered to the candidate who has the neater-looking CV although both have the same qualifications. This may be unfair, but that's how the world works. Students forget this harsh reality when they are in the protected environment of the school and tend to get sloppy with their work habits. That is why we reward all positive behavior, even small ones (e.g., following precise submission instructions, arriving on time etc.).
 
 But unlike the real world, we are forgiving. That is why you can still earn full marks for participation even if you miss a few things here and there.
 </div>
@@ -53,19 +53,19 @@ But unlike the real world, we are forgiving. That is why you can still earn full
 We have a separate website because some of the course information does not fit into the structure imposed by Canvas.
 </div>
 <!-- =============================================================== -->
-<div id="faq-slideFormat-Q">Why slides are not detailed?</div>
+<div id="faq-slideFormat-Q">Why are slides not detailed?</div>
 <div id="faq-slideFormat-A">
 
 <pic eager src="{{baseUrl}}/admin/images/slides not detailed enough.png" width="733" height="221"/>
 
-Slides are not meant to be documents to print and study for exams (the textbook is the resource more suitable for exam prep). Their purpose is to support the {{ lecture_name_short }} delivery and keep you engaged during the {{ lecture_name_short }}. That's why our slides are less detailed and more visual.
+Slides are not meant to be documents to print and study for exams (the textbook is the more suitable resource for exam prep). Their purpose is to support the {{ lecture_name_short }} delivery and keep you engaged during the {{ lecture_name_short }}. That's why our slides are less detailed and more visual.
 </div>
 <!-- =============================================================== -->
 <div id="faq-umlIsItUsedInIndustry-Q">Is UML even used in the industry? Is there any point learning it?</div>
 <div id="faq-umlIsItUsedInIndustry-A">
 
 **UML is not used very frequently by practitioners.** In particular, most would not bother to draw detailed UML diagrams _before_ (or in parallel to) coding.<br>
-**UML diagrams can still provide practical value in some situations** e.g., when documenting internal design details, when discussing design alternatives. However, even when using UML is beneficial, some may avoid using it due to lack of proficiency. In fact an average programmer is likely to be able to survive without drawing any UML diagrams, and only occasionally having to interpret UML diagrams drawn by others.
+**UML diagrams can still provide practical value in some situations** e.g., when documenting internal design details, when discussing design alternatives. However, even when using UML is beneficial, some may avoid using it due to lack of proficiency. In fact, an average programmer is likely to be able to survive without drawing any UML diagrams, and only occasionally having to interpret UML diagrams drawn by others.
 
 However, **being able to communicate about code/design without referring to actual code is an essential skill**, as the code is not always available %%(e.g., it may not exist yet or the codebase may be too big to be used for such communications)%%. While in some cases we can use ad hoc notations (simple boxes, arrows, labels) for such communications, using a standard modeling notation can make such communications universally understood. **UML is the leading general-purpose notation used for modeling software design.** It can be used for basic modeling irrespective of the domain of the software project. For more intense modeling needs, we can go for a domain-specific modeling notation %%e.g., Business Process Model and Notation (BPMN)%%.<br>
 
@@ -114,11 +114,11 @@ In an exam question, the missing info will be provided as part of the question, 
 
 Defining your own unique project is more fun.
 
-But, wider scope → more diverse projects → harder for us to go deep into your project. The collective know-how we (i.e., students and the teaching team) have built up about SE issues related to the project become shallow and stretched too thinly. It also affects fairness of grading.
+But, wider scope → more diverse projects → harder for us to go deep into your project. The collective know-how we (i.e., students and the teaching team) have built up about SE issues related to the project becomes shallow and stretched too thinly. It also affects fairness of grading.
 
 <pic eager src="{{baseUrl}}/admin/images/limited project scope.png" width="772" height="296"/>
 
-That is why a strictly-defined project is more suitable for a first course in SE that focuses on nuts-and-bolts of SE. After learning those fundamentals, in higher level project courses you can focus more on the creative side of software projects without being dragged down by nuts-and-bolts SE issues (because you already know how to deal with them). However, we would like to allow some room for creativity too. That is why we let you build products that are slight variations of a given theme.
+That is why a strictly defined project is more suitable for a first course in SE that focuses on nuts-and-bolts of SE. After learning those fundamentals, in higher level project courses you can focus more on the creative side of software projects without being dragged down by nuts-and-bolts SE issues (because you already know how to deal with them). However, we would like to allow some room for creativity too. That is why we let you build products that are slight variations of a given theme.
 
 Also note: **The freedom to do 'anything' is not a necessary condition for creativity**. Do not mistake being different for being creative. In fact, the more constrained you are, the more you need creativity to stand out.
 </div>
@@ -133,14 +133,14 @@ We have chosen a basic set of tools after considering ease of learning, availabi
 Pedagogical reasons:
 
 * **Sometimes 'good enough', not necessarily the best, tools are a better fit for beginners**: Most bleeding edge, most specialized, or most sophisticated tools are not suitable for a beginner course. After mastering our toolset, you will find it easy to upgrade to such high-end tools by yourself. We do expect you to eventually (after this course) migrate to better tools and, having learned more than one tool, to attain a more general understanding about a family of tools.
-* **We want you to learn to thrive under given conditions**: As a professional Software Engineer, you must learn to be productive in any given tool environment, rather than insist on using your preferred tools. It is usually in small companies doing less important work that you get to choose your own toolset. Bigger companies working on mature products often impose some choices on developers, such as the project management tool, code repository, IDE, language etc. For example, Google used SVN as their revision control software until very recently, long after SVN fell out of popularity among developers. Sometimes this is due to cost reasons (tool licensing cost), and sometimes due to legacy reasons (because the tool is already entrenched in their codebase).
+* **We want you to learn to thrive under given conditions**: As a professional software engineer, you must learn to be productive in any given tool environment, rather than insist on using your preferred tools. It is usually in small companies doing less important work that you get to choose your own toolset. Bigger companies working on mature products often impose some choices on developers, such as the project management tool, code repository, IDE, language etc. For example, Google used SVN as their revision control software until very recently, long after SVN fell out of popularity among developers. Sometimes this is due to cost reasons (tool licensing cost), and sometimes due to legacy reasons (because the tool is already entrenched in their codebase).
  While programming in school is often a solo sport, programming in the industry is a team sport. As we are training you to become professional software engineers, it is important to get over the psychological hurdle of needing to satisfy individual preferences and get used to making the best of a given environment.
 
 Practical reasons:
 
 * Some of the topics are tightly coupled to tools. Allowing more tools means tutors need to learn more tools, which increases their workload.
-* We provide learning resources for tools. e.g., 'Git guides'. Allowing more tools means we need to produce more resources.
-* When all students use the same tool, the collective expertise of the tool is more, increasing the opportunities for you to learn from each others.
+* We provide learning resources for tools, e.g., 'Git guides'. Allowing more tools means we need to produce more resources.
+* When all students use the same tool, the collective expertise in the tool is greater, increasing the opportunities for you to learn from each other.
 
 Meanwhile, feel free to share with peers your experience of using other tools.
 
@@ -151,12 +151,12 @@ Meanwhile, feel free to share with peers your experience of using other tools.
 
 <pic eager src="{{baseUrl}}/admin/images/frequent submissions.png" width="759" height="359"/>
 
-The high number of submissions is not meant to increase workload but to spread it across the semester. Learning theory and applying them should be done in parallel to maximize the learning effect. That can happen only if we spread theory and 'application of theory' (i.e., project work) evenly across the semester.
+The high number of submissions is not meant to increase workload but to spread it across the semester. Learning theory and applying it should be done in parallel to maximize the learning effect. That can happen only if we spread theory and 'application of theory' (i.e., project work) evenly across the semester.
 
 In addition, spreading the work across the semester aligns with the <tooltip content="revisiting concepts at spaced intervals">'spaced repetition'</tooltip> technique that we apply in this course to increase your retention of concepts learned.
 </div>
 <!-- =============================================================== -->
-<div id="faq-cs2101Difference-Q">Why submission requirements differ between CS2103T and CS2101?</div>
+<div id="faq-cs2101Difference-Q">Why do submission requirements differ between CS2103T and CS2101?</div>
 <div id="faq-cs2101Difference-A">
 
 <pic eager src="{{baseUrl}}/admin/images/Submission requirements differ.png" width="300"/>
@@ -176,7 +176,7 @@ Related: The industry is slow to move to new Java versions. It is likely the leg
 <div id="faq-ipHowTagsUsed-Q">How are the iP git tags used in grading?</div>
 <div id="faq-ipHowTagsUsed-A">
 
-Adding a git tag in the iP is a self-declaration that you _think_ you are done with the iP increment. We take your word for it. We don't check the code to see if you have actually done the said increment. Therefore, it is just a mechanism for you to self-declare progress and for us to monitor those progress declarations.
+Adding a git tag in the iP is a self-declaration that you _think_ you are done with the iP increment. We take your word for it. We don't check the code to see if you have actually done that increment. Therefore, it is just a mechanism for you to self-declare progress and for us to monitor those progress declarations.
 </div>
 <!-- =============================================================== -->
 <div id="faq-ipBugAfterIncrementDone-Q">What if I discovered a bug after I finished an increment?</div>
@@ -207,11 +207,11 @@ Not to worry. Just push the tags now. They will be detected by the dashboard at 
 <div id="faq-ipIncreaseDashboardFrequency-Q">Can the iP dashboard be updated more frequently?</div>
 <div id="faq-ipIncreaseDashboardFrequency-A">
 
-**Good news:** Even if an item in the iP dashboard turns red, it does not affect your marks if you fix it soon, turning it back to green subsequently.
+**Good news:** Even if an item in the iP dashboard turns red, it does not affect your marks if you fix it soon, turning it back to green.
 
 **It is difficult to increase the dashboard update frequency** for the following reasons:
 
-* **Resource limitations** e.g., limits on the number of GitHub API calls, GitHub Actions minutes, GitHub Actions bandwidth used, etc.
+* **Resource limitations** e.g., limits on the number of GitHub API calls, GitHub Actions minutes, GitHub Actions bandwidth used.
 * **The updates cannot be fully automated** as some data sources do not allow programmatic access or require a staff account to access them (e.g., Canvas). Therefore, dashboard updates require some manual work and are run on a local computer (not on a server somewhere).<br>
   {{ icon_info }} While the stated update frequency is 24 hours, we do update it a few times each day.
 
@@ -230,13 +230,13 @@ If you are already experienced in using the concept covered by the optional incr
 <div id="faq-ipForkedTheWrongRepo-Q">I forked the iP repo from a previous semester. How to fix?</div>
 <div id="faq-ipForkedTheWrongRepo-A">
 
-Not to worry. Here are the steps to fix:
+Not to worry. Here are the steps to fix it:
 
 1. Delete the fork in your GitHub account.
 1. Fork the [correct upstream repo]({{url_course_org}}/{{ ip_repo_name }}).
 1. [Optional] Take a backup of your local repo folder.
 1. Pull from your fork. Notes:
-   * Because the URL of the previous fork is the same as the new fork, this will now pull from the new fork.
+   * Because the URL of the previous fork is the same as that of the new fork, this will now pull from the new fork.
    * Pulling from the new fork is possible because your clone and both the old and the new fork have a shared ancestry (i.e., they all originated from the [same duke repo](https://github.com/se-edu/duke)).
 1. If the new fork has commits that were not present in your old fork, the above pull operation will result in a merge conflict. [Resolve it](https://git-mastery.org/lessons/mergeConflicts/) and commit.
 1. Push to the fork. This will push your new commits to your new fork.
@@ -252,16 +252,16 @@ If you used the incorrect tag earlier, create and push the correct tag now. You 
 <div id="faq-ipNotDoneInBranch-Q">What if I did the increment in the `master` branch, not in `branch-___` as required?</div>
 <div id="faq-ipNotDoneInBranch-A">
 
-It's fine. Be more careful in the future. Your iP marks will not be affected for missing an occasional deliverable such as this one.
+It's fine. Be more careful in the future. Your iP marks will not be affected by missing an occasional deliverable such as this one.
 
-If you still want to make that {{ as_tag("branch-___", tag_style="danger") }} item green in the iP dashboard, you can simply create a branch with the required branch name, do some commits in it, and merge it to `master`. The dashboard will accept it as long as it has the right name and merged to the `master` branch.
+If you still want to make that {{ as_tag("branch-___", tag_style="danger") }} item green in the iP dashboard, you can simply create a branch with the required branch name, do some commits in it, and merge it to `master`. The dashboard will accept it as long as it has the right name and is merged to the `master` branch.
 </div>
 <!-- =============================================================== -->
 <div id="faq-ipOtherDataFormats-Q">Can I use other data formats (e.g., serialized objects) to save tasks?</div>
 <div id="faq-ipOtherDataFormats-A">
 
-Yes, provided it doesn't require the user to install another software.<br>
-Also note that in the team project, there is a project constraint that requires the data to be saved in a human editable format.
+Yes, provided it doesn't require the user to install any other software.<br>
+Also note that in the team project, there is a project constraint that requires the data to be saved in a human-editable format.
 </div>
 <!-- =============================================================== -->
 <div id="faq-ipMessedUpBranching-Q">Oops, I messed up my branching! Will I be penalized?</div>
@@ -269,7 +269,7 @@ Also note that in the team project, there is a project constraint that requires 
 
 Not to worry. You are welcome to (but not _required_ to) try to rectify it. There is no penalty. Just take note of your mistake and try to avoid it in the future.
 
-{{ icon_tip }} In addition, you can try to identify the intended learning objective of using branching requirement that you messed up, and try to achieve it on your own. For example, if the iP increment was intended for you to practice parallel branches, you can try to do some other iP code changes as parallel branches so that you replicate a branch graph similar to the one intended by the iP increment.
+{{ icon_tip }} In addition, you can try to identify the intended learning objective of the branching requirement that you messed up, and try to achieve it on your own. For example, if the iP increment was intended for you to practice parallel branches, you can try to do some other iP code changes as parallel branches so that you replicate a branch graph similar to the one intended by the iP increment.
 </div>
 <!-- =============================================================== -->
 <div id="faq-ipAspectsNotCoveredByTheStandard-Q">What to do if a certain aspect is not covered by the Java/Git standard?</div>
@@ -278,7 +278,7 @@ Not to worry. You are welcome to (but not _required_ to) try to rectify it. Ther
 When something is not covered by the given standard/convention, you are free to choose the style you prefer, but try to be consistent with the existing code (if any), and ensure everyone in the team follows the same convention (if it is a team project).
 </div>
 <!-- =============================================================== -->
-<div id="faq-ipCheckstyleMismatchWithCodingStandard-Q">What if the given sample Checkstyle config file doesn't match exactly with the Java coding standard?</div>
+<div id="faq-ipCheckstyleMismatchWithCodingStandard-Q">What if the given sample Checkstyle config file doesn't exactly match the Java coding standard?</div>
 <div id="faq-ipCheckstyleMismatchWithCodingStandard-A">
 
 In some areas, the sample Checkstyle rules file ([recommended by the SE-EDU guide](https://se-education.org/guides/tutorials/checkstyle.html)) may be slightly more permissive/restrictive than (but not contradictory to) the given Java coding standard. You are free to tweak the Checkstyle file if you wish. It is fine as long as your code is compliant with the given coding standard.
@@ -287,18 +287,18 @@ In some areas, the sample Checkstyle rules file ([recommended by the SE-EDU guid
 <div id="faq-ipMoreCodeQualityFeedback-Q">Can we get another round of automated code quality feedback?</div>
 <div id="faq-ipMoreCodeQualityFeedback-A">
 
-(a) Evaluating,  and, (b)maintaining your own code quality are !!two!! things we hope you'll learn in this course.
+(a) Evaluating, and (b) maintaining your own code quality are !!two!! things we hope you'll learn in this course.
 
-* We do give you some automated feedback on code quality about half-way into the tP, to get you started. From then on you'll need to keep an eye on code quality, and make a judgement call on when to improve (and how much is enough).
+* We do give you some automated feedback on code quality about half-way into the tP, to get you started. From then on you'll need to keep an eye on code quality, and make a judgment call on when to improve (and how much is enough).
 * Later on, during the iP evaluation (which has a peer evaluation), you'll also get to evaluate the code quality and testing level of other iPs. This should serve as more practice.
 
-That said, we'll still give you one more round of further code quality feedback, after the iP is over. That is to help you identify the things you missed yourself, and do an even better job in the tP.
+That said, we'll still give you one more round of code quality feedback, after the iP is over. That is to help you identify the things you missed yourself, and do an even better job in the tP.
 </div>
 <!-- =============================================================== -->
 <div id="faq-ipMinimumRequirementNotGiven-Q">What if the minimum requirement for an increment is not specified? How do I decide how much work is enough?</div>
 <div id="faq-ipMinimumRequirementNotGiven-A">
 
-Deciding a feature’s behavior is a product design decision, and this is a good opportunity to practice that aspect of software engineering. So, decide for yourself: as a user of this product, what is the minimally acceptable behavior of this feature?
+Deciding a feature's behavior is a product design decision, and this is a good opportunity to practice that aspect of software engineering. So, decide for yourself: as a user of this product, what is the minimally acceptable behavior of this feature?
 </div>
 <!-- =============================================================== -->
 <div id="faq-ipIfSubmissionBelowBar-Q">What if my iP final submission doesn't meet the bar for full marks? Do I get a chance to resubmit?</div>
@@ -312,7 +312,7 @@ That said, a resubmission is likely to be held to a higher bar than the standard
 <div id="faq-ipEvaluationNoJar-Q">What if the student has not uploaded a JAR file, or the JAR file doesn't work at all?</div>
 <div id="faq-ipEvaluationNoJar-A">
 
-When you submit the evaluation (step 8 below), there will be a way to report that the JAR was not available, or that you faced any other serious issues.
+When you submit the evaluation, you can report that the JAR was not available, or that you encountered any other serious issues.
 </div>
 <!-- =============================================================== -->
 <div id="faq-ipDeadlineExtensions-Q">How to get a deadline extension for the iP final submission?</div>
@@ -320,14 +320,14 @@ When you submit the evaluation (step 8 below), there will be a way to report tha
 
 #r#**There is no need to ask for extensions**## to the iP final submission deadline.
 
-**It is ideal if you finish the iP by the original deadline**, but if you could not
+**It is ideal if you finish the iP by the original deadline**, but if you cannot
 finish it by that deadline, we'll give you an automatic 3-day deadline extension.
 Further deadline extensions beyond that might be possible too, provided we see evidence that
-you tried to make progress during the previous deadline extension (and not simply postponing work to take advantage of the
+you tried to make progress during the previous deadline extension (and were not simply postponing work to take advantage of the
 deadline extensions).
 
 * While there will be no penalty for such a deadline extension, keep in mind that the longer you take to finish the iP, the less time you'll have for the tP.
-* To reiterate, the said deadline extension will be given automatically, _after_ the initial deadline is over: ==Please don't send us deadline extension requests in advance.==
+* To reiterate, this deadline extension will be given automatically, _after_ the initial deadline is over: ==Please don't send us deadline extension requests in advance.==
 * Caution: Unlike the iP, no free extensions will be available for the **t**P final submission deadline. Even a one-second delay will be considered a _late_ submission and will have to be penalized, as deadline compliance is a learning outcome of the course.
 </div>
 <!-- =============================================================== -->
@@ -346,11 +346,11 @@ deadline extensions).
 
 In most quizzes, answers will be released within a day after the quiz deadline.
 
-On a related note, if you are not confident about the answer you've selected for a question, ==you are welcome to discuss it in the [forum]({{ url_forum }}), even if the submission deadline is not over yet== (but one question per thread please).
+On a related note, if you are not confident about the answer you've selected for a question, ==you are welcome to discuss it in the [forum]({{ url_forum }}), even if the submission deadline has not passed yet== (but one question per thread please).
 
 </div>
 <!-- =============================================================== -->
-<div id="faq-participationTaskMissedDueToValidReason-Q">What if I missed a participation task due to a legitimate reason? %%(e.g., falling sick, taking part in university event)%%</div>
+<div id="faq-participationTaskMissedDueToValidReason-Q">What if I missed a participation task due to a legitimate reason? %%(e.g., falling sick, taking part in a university event)%%</div>
 <div id="faq-participationTaskMissedDueToValidReason-A">
 
 See the panel below:
@@ -366,12 +366,12 @@ See the panel below:
 <div id="faq-tutorialWhatTutorsCanAnswer-Q">What kind of questions _can_ I ask the tutor?</div>
 <div id="faq-tutorialWhatTutorsCanAnswer-A">
 
-TLDR: In this course, tutor's main job is to deliver tutorials. Hence, tutors can answer questions related to (and arising from) the tutorial delivery. But they are not allowed to answer admin questions. They are not allowed to help with technical issues.
+TLDR: In this course, the tutor's main job is to deliver tutorials. Hence, tutors can answer questions related to (and arising from) the tutorial delivery. But they are not allowed to answer admin questions. They are not allowed to help with technical issues.
 
 * {{ good }} *I did not understand your explanation of that question. Why did you say "a b c"?*<br>
   %%**Reason**: This question is a follow-up from a tutorial discussion.%%
 * {{ good }} *This is how I understood coupling. Is that correct?*<br>
-  %%**Reason**: This question shows you have put in some effort to learn the topic and seeking further clarification from the tutor.%%
+  %%**Reason**: This question shows you have put in some effort to learn the topic and are seeking further clarification from the tutor.%%
 * {{ bad }} *What is coupling?* | *What is SLAP?*<br>
   %%**Reason**: These are concepts covered in the textbook and other resources provided.%%{% if cs2103 %}
 * {{ bad }} *How will this be graded?* | *What happens if this submission is late?*<br>
@@ -401,7 +401,7 @@ The course has MANY admin details and there are subtle changes from semester to 
 It is true that the teaching team will not give _ad hoc_ feedback on yet-to-be-graded project deliverables. **But you will receive systematic feedback at various points of the project**, in a way that ensures all of you receive the same level of feedback about the same things.
 
 **More importantly, we aim to develop your <tooltip content="i.e., the ability to make decisions about the quality of one's own work
-   and that of others">_evaluative judgment_ skills</tooltip>** thus reducing your reliance on someone else's feedback to decide how to improve. To this end, we have set up various learning tasks to help you judge your own work. Examples:
+   and that of others">_evaluative judgment_ skills</tooltip>**, thus reducing your reliance on someone else's feedback to decide how to improve. To this end, we have set up various learning tasks to help you judge your own work. Examples:
 
 * Tutorial tasks that go through a 'sample' project aspect/artifact (e.g., use cases of a sample project) and find problems in it. This way, we can ensure that all of you encounter all the important learning points related to that aspect/artifact, even if some may not be relevant to your own project (which means you wouldn't have encountered them on your own).
 * Peer evaluations of each other's work, within teams and between teams. This gives you a way to exercise your evaluative judgment skills.
@@ -422,10 +422,10 @@ If you wish to attend a different tutorial timeslot in a specific week, please s
 <div id="faq-tutorialWhatIfMissedDueToOtherReason-Q">What if I can't attend a tutorial due to another commitment (e.g., interview)?</div>
 <div id="faq-tutorialWhatIfMissedDueToOtherReason-A">
 
-Our tutorial participation bar has enough of a buffer to allow an occasional absence (irrespective of the reason for absence). While we are not able to make special arrangements for absences due to reasons not accepted as valid by NUS (e.g., due to family event, interview, travel delays, overslept etc.), such absences are unlikely to affect your participation marks unless frequent.
+Our tutorial participation bar has enough of a buffer to allow an occasional absence (irrespective of the reason for absence). While we are not able to make special arrangements for absences due to reasons not accepted as valid by NUS (e.g., due to family event, interview, travel delays, oversleeping etc.), such absences are unlikely to affect your participation marks unless frequent.
 
 * You are welcome to keep your tutor informed of such absences as a courtesy, but it is not a requirement.
-* If you miss a tutorial, do try to catch up as best as you can {% if cs2103 %} e.g., by watching the tutorial recording{% endif %}.
+* If you miss a tutorial, do try to catch up as best as you can{% if cs2103 %}, e.g., by watching the tutorial recording{% endif %}.
 * If you wish to attend a different tutorial timeslot in a specific week, please send your request to the course email (`{{ course_email  }}`).
 
 </div>
@@ -469,7 +469,7 @@ There is no penalty, but that tutorial will not count for participation. See [he
 There are several reasons:
 
 1. NUS policy requires all small classes to be F2F. Physical interaction with peers is an essential part of the university experience.
-1. While Zoom is more convenient, it is not as effective in achieving some learning outcomes. For example, we are training you for working in team projects, and in technical communications, both of which sometimes need to be done in the F2F mode.
+1. While Zoom is more convenient, it is not as effective in achieving some learning outcomes. For example, we are training you for working in team projects and for technical communication, both of which sometimes need to be done in the F2F mode.
 1. Your physical presence allows the tutor to observe team dynamics better. To give an example, sometimes even a team's seating positions can tell us the level of team cohesion.
 
 </div>
@@ -486,14 +486,14 @@ If you anticipate a late arrival due to a reason beyond your control (e.g., due 
 
 </div>
 <!-- =============================================================== -->
-<div id="faq-warmUpTaskRushed-Q">Why is tutorial task 1 rushed? I couldn't update the Workspace file before it was downloaded by the tutor; will I be penalised? Can I do it later?</div>
+<div id="faq-warmUpTaskRushed-Q">Why is tutorial task 1 rushed? I couldn't update the Workspace file before it was downloaded by the tutor; will I be penalized? Can I do it later?</div>
 <div id="faq-warmUpTaskRushed-A">
 
 Not to worry; there is no penalty. No need to do it later either.
 
 We download the workspace file at the task 1 cut-off point to discourage students from continuing with task 1 (which is just a warmup activity) after task 2 has started. Continuing to work on task 1 at that point may prevent students from getting the full value from task 2, which usually has more learning value than task 1.
 
-We use the downloaded workspace files to identify students who consistently come prepared for tutorials and perform well in tutorial tasks (e.g., when selecting tutors or awarding bonus points). However, we do not penalise students based on the workspace files.
+We use the downloaded workspace files to identify students who consistently come prepared for tutorials and perform well in tutorial tasks (e.g., when selecting tutors or awarding bonus points). However, we do not penalize students based on the workspace files.
 
 If you frequently find yourself being unable to finish task 1 in time, consider doing it in advance.
 </div>
@@ -501,26 +501,26 @@ If you frequently find yourself being unable to finish task 1 in time, consider 
 <div id="faq-tutorialWhyTutorCannotGiveTechHelp-Q">Why are tutors not allowed to give tech help?</div>
 <div id="faq-tutorialWhyTutorCannotGiveTechHelp-A">
 
-The pedagogical reason: Learning how to solve technical problems, and <tooltip content="e.g., explaining the problem well">seek</tooltip>/give/receive help, **are learning outcomes of this course, and are critical skills for software engineers**. So, we want you to practice those things in this course as much as possible.
+The pedagogical reason: **Learning how to solve technical problems and how to <tooltip content="e.g., explaining the problem well">seek</tooltip>/give/receive help are learning outcomes of this course and critical skills for software engineers**. So, we want you to practice those things in this course as much as possible.
 
-A practical reason: Unlike in lower-level programming courses, the technical problems you encounter in this course are varied and dependent on your OS and tool choices. It is not possible for one person (e.g., your tutor) to know how to help with problems related to all OS'es and all tools used by students under his/her care. It is more practical to troubleshoot such problems via the course forum, as that gives you a way to get help from all your peers in the class, the entire teaching team, and a group of past students who have volunteered to help current students solve technical problems. Based on past data, we know that more than 90% of the problems posted in the course forum get resolved within 24 hours. So, **by not allowing you to get tech help from tutors, we are directing you to a more effective way to resolve those issues, while learning valuable skills at the same time**.
+A practical reason: Unlike in lower-level programming courses, the technical problems you encounter in this course are varied and dependent on your OS and tool choices. It is not possible for one person (e.g., your tutor) to know how to help with problems related to all OSes and all tools used by students under his/her care. It is more practical to troubleshoot such problems via the course forum, as that gives you a way to get help from all your peers in the class, the entire teaching team, and a group of past students who have volunteered to help current students solve technical problems. Based on past data, we know that more than 90% of the problems posted in the course forum get resolved within 24 hours. So, **by not allowing you to get tech help from tutors, we are directing you to a more effective way to resolve those issues, while learning valuable skills at the same time**.
 </div>
 <!-- =============================================================== -->
 
 <!-- ===============================================================
   tP FAQ
 =============================================================== -->
-<div id="faq-tpWhyNarrowTarget-Q">Why the need to narrow down the user profile?</div>
+<div id="faq-tpWhyNarrowTarget-Q">Why do we need to narrow down the user profile?</div>
 <div id="faq-tpWhyNarrowTarget-A">
 
-* It is an opportunity to exercise your product design skills because optimizing the product to a very specific target user requires good product design skills.
-* It minimizes the overlap between features of different teams which can cause plagiarism issues. Furthermore, higher the number of other teams having the same features, less impressive your work becomes especially if others have done a better job of implementing that feature.
+* It is an opportunity to exercise your product design skills because optimizing the product for a very specific target user requires good product design skills.
+* It minimizes the overlap between features of different teams, which can cause plagiarism issues. Furthermore, the higher the number of other teams having the same features, the less impressive your work becomes, especially if others have done a better job of implementing that feature.
 </div>
 =============================================================== -->
 <div id="faq-tpHowNarrowTargetCanBe-Q">How narrow can we make the target market?</div>
 <div id="faq-tpHowNarrowTargetCanBe-A">
 
-The size of the target market is not a grading criterion. You can make it as narrow as you want. Even a single user target market is fine as long as you can define that single user in a way others can understand (reason: project evaluators need to evaluate the project from the point of view of the target users).
+The size of the target market is not a grading criterion. You can make it as narrow as you want. Even a single-user target market is fine as long as you can define that single user in a way others can understand (reason: project evaluators need to evaluate the project from the point of view of the target users).
 </div>
 =============================================================== -->
 <div id="faq-dgDetailsLevel-Q">How detailed should the DG be? Do we have to describe every feature/component?</div>
@@ -528,9 +528,9 @@ The size of the target market is not a grading criterion. You can make it as nar
 
 <box type="info" seamless>
 
-**Project documentation has a cost** e.g., the effort required to create, and more importantly, to _maintain_ them. Therefore, **too much documentation is as bad as too little documentation**. Hence, aim for _minimal yet sufficient_ documentation.<br>
-What is minimal yet sufficient? This is **a subjective case-by-case decision you need to make yourself** based on the target audience and the purpose of the document, and is a graded project deliverable itself.<br>
-That said, such judgment calls are not easy, especially for inexperienced developers. So, while the teaching team will not answer specific questions about it, you are still welcome to discuss them with others e.g., post in the course forum to seek inputs from others).
+**Project documentation has a cost** e.g., the effort required to create, and more importantly, to _maintain_ it. Therefore, **too much documentation is as bad as too little documentation**. Hence, aim for _minimal yet sufficient_ documentation.<br>
+What is minimal yet sufficient? This is **a subjective case-by-case decision you need to make yourself** based on the target audience and the purpose of the document, and it is a graded project deliverable itself.<br>
+That said, such judgment calls are not easy, especially for inexperienced developers. So, while the teaching team will not answer specific questions about it, you are still welcome to discuss them with others, e.g., by posting in the course forum to seek inputs from others.
 </box>
 
 The DG is primarily meant to help current/future developers. In general, the DG is expected to provide minimal yet sufficient guidance  for developers, serving them in the following ways:
@@ -546,7 +546,7 @@ Therefore, decide based on how the inclusion/exclusion affects that target audie
 <div id="faq-tpChangeDirectionLater-Q">Can we change the product name, the target user, and the value proposition later in the project?</div>
 <div id="faq-tpChangeDirectionLater-A">
 
-Yes. If the project direction submission deadline (in week 6) is not over yet, use the same link to update the submission. If the submission deadline is over, email the updated name, target user, value proposition to `{{ course_email }}`.
+Yes. If the project direction submission deadline (in week 6) has not passed yet, use the same link to update the submission. If the submission deadline is over, email the updated name, target user, and value proposition to `{{ course_email }}`.
 </div>
 <!-- =============================================================== -->
 <div id="faq-dgAddNewUml-Q">Is it enough to update existing UML content/diagrams or must we add new content/diagrams?</div>
@@ -560,7 +560,7 @@ Yes. If the project direction submission deadline (in week 6) is not over yet, u
 <div id="faq-noEffectOnUml-A">
 
 * **We expect all students to have _some_ experience working with DG UML diagrams**, to verify that you are able to handle similar diagramming tools in the future.
-* If your code changes don't require updates to existing UML diagrams or adding new diagrams,
+* If your code changes don't require updating existing UML diagrams or adding new diagrams,
   * you can document a 'proposed' feature or a design change that you might do in a future iteration, which gives you an opportunity to add some UML diagrams.
   * Also take a closer look at the features you added -- not needing changes to UML might (but not always) be a sign that the features you added didn't go deep enough. In the context of the tP, it is better to add one big feature, rather than add many small insignificant features.
 </div>
@@ -607,21 +607,21 @@ This is encouraged, while not a strict rule. Creating an issue indicates 'a task
 <div id="faq-githubWhoMergesPrs-Q">Who should merge PRs? e.g., PR author, reviewer, team lead?</div>
 <div id="faq-githubWhoMergesPrs-A">
 
-It is up to the team to decide. However, we discourage unilateral PR merging i.e., you create and merge PRs without any reviews/oversight from others, unless the PR is trivial changes.
+It is up to the team to decide. However, we discourage unilateral PR merging i.e., you create and merge PRs without any reviews/oversight from others, unless the PR contains only trivial changes.
 </div>
 <!-- =============================================================== -->
 <div id="faq-tpPrReviewRigor-Q">How thorough should the PR reviews be?</div>
 <div id="faq-tpPrReviewRigor-A">
 
-**Course admin perspective:** It's up to you. We do not directly enforce any requirement on this. How well you do this can affect your grade indirectly though e.g., if PR reviews are weak, low quality code could get merged, which can in turn affect grading for code quality and bugs in the product. If you 'overdo' PR reviews, you'll waste time/effort and slow down the progress, which can affect marks as well.
+**Course admin perspective:** It's up to you. We do not directly enforce any requirement on this. How well you do this can affect your grade indirectly though e.g., if PR reviews are weak, low-quality code could get merged, which can in turn affect grading for code quality and bugs in the product. If you 'overdo' PR reviews, you'll waste time/effort and slow down the progress, which can affect marks as well.
 
-**Teaching/learning perspective:** Learning to optimize the _process_ is an intended learning outcome. You can do this iteratively. That is, the team can decide your own policy/process, and tweak it as you go. For example, you can decide to have a minimum of n reviews at rigor level X for each PR. After doing that for a while, you can evaluate how it is working, and tweak if necessary (reduce n or lower X if you feel like it is slowing down the project too much without helping to increase quality that much | increase n or set a higher X if you think the code being merged is below-par quality).
+**Teaching/learning perspective:** Learning to optimize the _process_ is an intended learning outcome. You can do this iteratively. That is, you can decide your own policy/process, and tweak it as you go. For example, you can decide to have a minimum of n reviews at rigor level X for each PR. After doing that for a while, you can evaluate how it is working, and tweak if necessary (reduce n or lower X if you feel like it is slowing down the project too much without helping to increase quality that much | increase n or set a higher X if you think the code being merged is below-par quality).
 
 **SE perspective:** This depends on many things, such as target quality (higher target quality requires high rigor PR reviews), availability of reviewers, level of other quality assurance mechanisms in place (e.g., automated checks done on the code, such as Checkstyle). Might even vary based on type of PR (some PRs need closer scrutiny than others).
 
-Should reviewer run the code locally to ensure the code works? This also depends on if (and how well) the work in the PR is covered by automated tests run by the CI.
+Should the reviewer run the code locally to ensure the code works? This also depends on if (and how well) the work in the PR is covered by automated tests run by the CI.
 
-Most long-running projects in real world will establish their own policies/norms, either written down formally or passed down informally (i.e., new devs follow what current devs do).
+Most long-running projects in the real world will establish their own policies/norms, either written down formally or passed down informally (i.e., new devs follow what current devs do).
 
 </div>
 <!-- =============================================================== -->
@@ -630,27 +630,27 @@ Most long-running projects in real world will establish their own policies/norms
 
 While this _multistep-command_ approach (i.e., giving the user a series of prompts to enter various data elements required to perform an action) has its benefits (e.g., no need to memorize the command format), a deeper look reveals why the _one-shot-command_ approach is better.
 
-Before delving any further, note how leading CLI-centric software such as Git and Linux don't use the multistep approach either. Why?
+Before delving any further, note how leading CLI-centric software such as Git and Linux doesn't use the multistep approach either. Why?
 
 The multistep approach basically results in a 'text-based GUI simulation' that is harder to use than an actual GUI (obviously), whereas a well-designed CLI in an expert's hands can perform tasks faster than an equivalent GUI (which is what we are going for). A person who is good at typing and remembers the command can type a command faster than a user going through a type-read-type-read sequence required by the multistep-command. Now imagine the user made a mistake in the response to an earlier prompt -- correcting that would take a lot more work.
 
-That being said, multistep commands can complement the one-shot-command approach in specific cases e.g.,
+That being said, multi-step commands can complement the one-shot-command approach in specific cases e.g.,
 
 * as a crutch for new users to learn the command format
-* to be used for rarely-used tasks or tasks requiring multiple steps (e.g., importing data from a file)
+* to be used for rarely used tasks or tasks requiring multiple steps (e.g., importing data from a file)
 
 </div>
 <!-- =============================================================== -->
 <div id="faq-tpRationaleForCurrentDesign-Q">When refactoring AB3 code, I would like to find the rationale for the current design; how do I do that?</div>
 <div id="faq-tpRationaleForCurrentDesign-A">
 
-First, kudos for wanting to find the rationale before you change the current design. It's a good application of the [Chesterton's Fence Principle](https://fs.blog/chestertons-fence/).
+First, kudos for wanting to find the rationale before you change the current design. It's a good application of [Chesterton's Fence Principle](https://fs.blog/chestertons-fence/).
 
 Some options:
 
 1. See if the rationale is documented in the developer documentation or code comments.
 1. Dig into the Git and GitHub history to find if there are any clues there e.g., commit message of the relevant commit, or the discussion in the relevant PR. Git _blame_ feature can help you locate the relevant commit.
-1. Try to speculate the possible motives, get views from other developers.
+1. Try to speculate about the possible motives, get views from other developers.
 1. These days, you can also ask AI tools.
 1. Play it safe and delay the refactoring until you have worked with the code for a while, in case the reason becomes apparent during that time.
 1. Tentatively refactor it, to see the effect. Sometimes this helps you discover why the code was in the original form in the first place.
@@ -661,22 +661,22 @@ Some options:
 <div id="faq-tpEnoughFeatures-Q">If our team implements features x, y, and z, is that enough?</div>
 <div id="faq-tpEnoughFeatures-A">
 
-Yes, if it requires each member to put in an implementation effort that is about 50% of the implementation effort you put into the iP.
+Yes, if it requires each member to put in about 50% of the implementation effort they put into the iP.
 </div>
 <!-- =============================================================== -->
 <div id="faq-tpMustWrite300Loc-Q">Is it a must to write at least 300 LoC?</div>
 <div id="faq-tpMustWrite300Loc-A">
 
-Note that 300 LoC is neither a target, nor a cap, nor a definitive measure. In fact, LoC is not a very reliable measure of effort. So, it is just a secondary indicator you can refer to. The primary indicator you should keep an eye on is if your tP implementation effort, which is expected to be around 50% of the iP implementation effort.
+Note that 300 LoC is neither a target, nor a cap, nor a definitive measure. In fact, LoC is not a very reliable measure of effort. So, it is just a secondary indicator you can refer to. The primary indicator you should keep an eye on is your tP implementation effort, which is expected to be around 50% of the iP implementation effort.
 
-So, the answer is, "not necessarily". It depends on the effort required, which in turn depends on what the code does. It is quite possible for 100 LoC that implements feature X to take more effort than 300 LoC that implements feature Y (i.e., it depends on the feature). So, we measure the effort, not LoC (LoC figure given is just a rough estimate of the _equivalent_ effort).
+So, the answer is "not necessarily". It depends on the effort required, which in turn depends on what the code does. It is quite possible for 100 LoC that implements feature X to take more effort than 300 LoC that implements feature Y (i.e., it depends on the feature). So, we measure the effort, not LoC (the LoC figure given is just a rough estimate of the _equivalent_ effort).
 
 </div>
 <!-- =============================================================== -->
 <div id="faq-tpIsBlankLinesCounted-Q">300 LoC is with or without blank lines?</div>
 <div id="faq-tpIsBlankLinesCounted-A">
 
-It does not matter. Peg your implementation effort to about 50% of the implementation effort of the iP. Let the LoC number fall where it may. We grade based on the effort, not the LoC count. The given LoC number is just a secondary indicator only.
+It does not matter. Peg your implementation effort to about 50% of the implementation effort of the iP. Let the LoC number fall where it may. We grade based on the effort, not the LoC count. The given LoC number is just a secondary indicator.
 
 </div>
 <!-- =============================================================== -->
@@ -685,7 +685,7 @@ It does not matter. Peg your implementation effort to about 50% of the implement
 
 There is no such guarantee, for two reasons:
 
-1. Your implementation effort is graded based on how much functionality your team produced (based on peer-testers' and tutors' estimates) and how much of that work was contributed by you (based on team members' estimates). For example, simply copy-pasting 400+ LoC with only minor modifications is unlikely to meet this bar as it is less than an effort _equivalent_ to writing a typical 300-400 LoC (or half of a typical iP effort).
+1. Your implementation effort is graded based on how much functionality your team produced (as estimated by peer-testers and tutors) and how much of that work was contributed by you (as estimated by team members). For example, simply copy-pasting 400+ LoC with only minor modifications is unlikely to meet this bar as it is less effort than writing a typical 300-400 LoC (or half of a typical iP effort).
 1. Implementation marks are based on both effort and quality, the latter being the primary driver (more info <trigger trigger="click" for="modal:tPexpectations-implementationGrading">here</trigger>). So, meeting the effort bar doesn't guarantee full marks for implementation.
 
 <modal large header="tP: Grading [extract] → " id="modal:tPexpectations-implementationGrading">
@@ -711,7 +711,7 @@ Given below is the relevant section from [Appendix F: Handling Team Issues](appe
 <div id="faq-tpIterationDeadline-Q">What's the deadline for tP iterations?</div>
 <div id="faq-tpIterationDeadline-A">
 
-The deadline for tP iterations is the `Thursday 23:59` in the week it is due, unless a different date is specified in the instructions of that iteration.
+The deadline for tP iterations is `Thursday 23:59` in the week it is due, unless a different date is specified in the instructions of that iteration.
 </div>
 <!-- =============================================================== -->
 <div id="faq-tpMissingIterationDeadlines-Q">What if we overshoot the deadline for a tP iteration?</div>
@@ -741,10 +741,10 @@ If you surpass the above bars (in your own estimation), you should be in a good 
 <div id="faq-tpNotEnoughWorkToDivide-Q">What if the chosen user stories for the MVP are not enough for a meaningful division of work among team members?</div>
 <div id="faq-tpNotEnoughWorkToDivide-A">
 
-In that case, at a later stage, you can add more user stories until there is enough for a meaningful work distribution. But at this point focus on selecting the smallest sub-set of _must_have_ user stories only.
+In that case, at a later stage, you can add more user stories until there are enough for a meaningful work distribution. But at this point focus on selecting the smallest subset of _must-have_ user stories only.
 </div>
 <!-- =============================================================== -->
-<div id="faq-tpNotEnoughMvpFeaturesToDivide-Q">What if the MVP feature list is smaller than team size? How to divide work?</div>
+<div id="faq-tpNotEnoughMvpFeaturesToDivide-Q">What if the MVP feature list is smaller than the team size? How to divide work?</div>
 <div id="faq-tpNotEnoughMvpFeaturesToDivide-A">
 
 In that case, you can add more features, taking higher-priority features from those not yet selected for the MVP.
@@ -808,11 +808,11 @@ There is no direct penalty for occasionally failing CI. But #r#extended periods 
 <div id="faq-tpAddChangesInFeatureBranch-Q">Can we PR against a branch other than `master`, and merge that branch to `master` in a later iteration?</div>
 <div id="faq-tpAddChangesInFeatureBranch-A">
 
-While doing PRs against a separate 'feature branch' is not explicitly prohibited, it is discouraged because the longer you keep evolving a feature away from the main codebase, the more,
+While doing PRs against a separate 'feature branch' is not explicitly prohibited, it is discouraged because the longer you keep evolving a feature away from the main codebase, the more
 
 * it brings in elements of a _depth-first iterative_ approach (instead of the intended _breadth-first iterative_ approach). Although technically you are doing multiple features in parallel, they are not synchronized with each other.<br>
   Note: **The ability to divide implementation work into small breadth-first incremental changes is one of the important intended learning outcomes we are aiming for** -- even more important than the mechanics of following the workflow correctly. Using feature branches is not aligned with this learning outcome.
-* it moves towards [_big-bang integration_]({{ baseUrl }}/book/integration/approaches/bigBangVsIncremental/) (instead of the intended _incremental integration_) and [_late-and-one-time integration_]({{ baseUrl }}/book/integration/approaches/lateVsEarly/) (instead of the intended _early-and-frequent_ integration). Although your feature branch is running CI at each commit, when you integrate feature branches to the `master` branch at a later time, it can result in a 'big bang'.
+* It moves toward [_big-bang integration_]({{ baseUrl }}/book/integration/approaches/bigBangVsIncremental/) (instead of the intended _incremental integration_) and [_late-and-one-time integration_]({{ baseUrl }}/book/integration/approaches/lateVsEarly/) (instead of the intended _early-and-frequent_ integration). Although your feature branch is running CI at each commit, when you integrate feature branches to the `master` branch at a later time, it can result in a 'big bang'.
 
 So, even if you use feature branches,
 
@@ -841,14 +841,14 @@ No need to resubmit the Feature Spec either. However, if you change the product 
 <div id="faq-tpHowManyFeaturesInMvp-Q">How many features should we put in the MVP?</div>
 <div id="faq-tpHowManyFeaturesInMvp-A">
 
-Aim for the _smallest set of features the product cannot do without_. Even a most basic version of those features is enough. After completing that feature set, you can add more if there is time left.
+Aim for the _smallest set of features the product cannot do without_. Even the most basic version of those features is enough. After completing that feature set, you can add more if there is time left.
 </div>
 <!-- =============================================================== -->
 
 <div id="faq-tpNeedForNewFeatureInMvp-Q">Is it a requirement for the MVP to have 'new' features not currently in AB3?</div>
 <div id="faq-tpNeedForNewFeatureInMvp-A">
 
-No, there is no such need. The MVP features can be same as, or a subset of, AB3 features.
+No, there is no such need. The MVP features can be the same as, or a subset of, AB3 features.
 </div>
 <!-- =============================================================== -->
 
@@ -859,11 +859,11 @@ Yes, even if you don't plan to change them.
 
 Reasons:
 
-* To show that you have examined, understood, and agree with, the current behavior of those features.
+* To show that you have examined, understood, and agreed with the current behavior of those features.
 * AB3 does not have a feature spec covering those features (and the UG does not cover all details of a feature).
 
 But you may copy-paste parts of the UG onto your feature spec if that helps.
-Also, you may omit existing AB3 feature that are not _must-have_, and hence, need not be included in the MVP.
+Also, you may omit existing AB3 features that are not _must-have_, and hence, need not be included in the MVP.
 
 </div>
 <!-- =============================================================== -->
@@ -871,7 +871,7 @@ Also, you may omit existing AB3 feature that are not _must-have_, and hence, nee
 <div id="faq-githubIssuesMultipleDocAuthors-Q">When all members are updating the same document, can we create one issue and assign it to all?</div>
 <div id="faq-githubIssuesMultipleDocAuthors-A">
 
-**A:** In the tP (in which our grading scripts track issues assigned to each member), it is better to create separate issues so that each person's work can be tracked separately. For example, suppose everyone is expected to update the User Guide (UG). You can create separate issues based on which part of the UG will be updated by which person e.g., `List-related UG updates` (assigned to John), `Delete-related UG updates` (assigned to Alice), and so on.
+**A:** In the tP (in which our grading scripts track issues assigned to each member), it is better to create separate issues so that each person's work can be tracked separately. For example, suppose everyone is expected to update the User Guide (UG). You can create separate issues based on which part of the UG will be updated by which person, e.g., `List-related UG updates` (assigned to John), `Delete-related UG updates` (assigned to Alice), and so on.
 </div>
 <!-- =============================================================== -->
 
@@ -880,7 +880,7 @@ Also, you may omit existing AB3 feature that are not _must-have_, and hence, nee
 
   Generally, not recommended. It can be allowed only if the application provides an easy way to decrypt the file, and encrypt it again after editing it manually.
 
-  Followup question: What if the data in the file is confidential, and therefore, it is risky to leave it in plaintext format?<br>
+  Follow-up question: What if the data in the file is confidential, and therefore, it is risky to leave it in plaintext format?<br>
   While this is a valid concern, you can assume/require that the app is used in a secure environment in which data are protected by default e.g., a personal computer already password protected.
 
 </div>
@@ -938,7 +938,7 @@ Here are some reasons:
 
 Not necessarily. Choose based on importance.
 
-In any project, there are always things that can be done 'if there was more time'. If fixing a certain bug has low impact on users, and fixing it is not as important as the work done (or intend to do in the current iteration), you can justify not fixing it with the reason 'not in scope' of the current iteration.
+In any project, there are always things that can be done 'if there was more time'. If fixing a certain bug has low impact on users, and fixing it is not as important as the work done (or you intend to do in the current iteration), you can justify not fixing it with the reason 'not in scope' of the current iteration.
 
 Similarly, a missing feature enhancement can be justified as 'not in scope' if implementing that could have taken resources away from other important project tasks.
 
@@ -976,7 +976,7 @@ For code authorship, only one person can claim authorship of a line, and that pe
 <div id="faq-tpFeatureDesignChoice-Q">How to choose between feature design choices?</div>
 <div id="faq-tpFeatureDesignChoice-A">
 
-Product design is hard (harder than programming). Feature design choices %%(e.g., to support sorting or not support sorting, sort descending or ascending, which sort order should be default, etc.)%% are subjective and is case-by-case.
+Product design is hard (harder than programming). Feature design choices %%(e.g., to support sorting or not support sorting, sort descending or ascending, which sort order should be default, etc.)%% are subjective and need to be evaluated case by case.
 
 General guidance: Choose by considering<br>
  **[A] what is best for the user** (specifically, with reference to the target user profile you chose for the product), but also factor in<br>
@@ -986,17 +986,17 @@ General guidance: Choose by considering<br>
 
 <div class="indented-level1">
 
-Keeping in mind that during the PE testers can file bug reports against design choices, whatever choice you make, be prepared to justify your choice (based in [A] and [B] above) in case a tester filed a bug report objecting to the current design.
+Keeping in mind that during the PE, testers can file bug reports against design choices, whatever choice you make, be prepared to justify it (based on [A] and [B] above) in case a tester files a bug report objecting to the current design.
 
-Given these justifications are subjective, if both the developer's justification and the tester's justification seems to be equally valid, we will rule in favor of the developer (i.e., no penalty for the developer).
+Given these justifications are subjective, if both the developer's justification and the tester's justification seem equally valid, we will rule in favor of the developer (i.e., no penalty for the developer).
 
-However, if the dev team went with an inferior choice while another superior choice could have been taken using roughly the same amount of resources, the current design choice is flawed. %%For example, if 'sorting items in ascending order by default' is clearly the better choice, but the dev team chose descending order to be the default, assuming implementing either order takes roughly the same amount of resources, the dev team's design choice is flawed.%%
+However, if the dev team went with an inferior choice while a superior choice could have been taken using roughly the same amount of resources, the current design choice is flawed. %%For example, if 'sorting items in ascending order by default' is clearly the better choice, but the dev team chose descending order to be the default, assuming implementing either order takes roughly the same amount of resources, the dev team's design choice is flawed.%%
 
 </div>
 </div>
 <!-- =============================================================== -->
 
-<div id="faq-tpHowMuchCodeInV12-Q">How much code changes is 'enough' for this iteration?</div>
+<div id="faq-tpHowMuchCodeInV12-Q">How much code change is 'enough' for this iteration?</div>
 <div id="faq-tpHowMuchCodeInV12-A">
 
 The bar is for each member to merge at least one PR containing functional code changes. The more you do in the current iteration, the less you need to do in future iterations. So, try to do as much as your time/resources allow. But the more important thing in `{{ version_first }}` is to do those changes in small steps, without breaking the codebase.
@@ -1016,7 +1016,7 @@ But you should still allocate different members to be 'in charge of' different c
 
 Yes, you may use any other tool too (e.g., PowerPoint). But wait; if you do, note the following:
 
-* ==Choose a diagramming tool that has some 'source' format that can be version-controlled using git and updated incrementally== %%(reason: because diagrams need to evolve with the code that is already being version controlled using git)%%. For example, if you use PowerPoint to draw diagrams, also commit the source PowerPoint files so that they can be reused when updating diagrams later.
+* ==Choose a diagramming tool that has some 'source' format that can be version-controlled using git and updated incrementally== %%(reason: diagrams need to evolve with the code that is already being version controlled using git)%%. For example, if you use PowerPoint to draw diagrams, also commit the source PowerPoint files so that they can be reused when updating diagrams later.
 * Use the same diagramming tool for the whole project, except in cases for which there is a _strong_ need to use a different tool due to a shortcoming in the primary diagramming tool. %%Do not use a mix of different tools simply based on personal preferences.%%
 
 So far, PlantUML seems to be the best fit for the above requirements.
@@ -1026,10 +1026,10 @@ So far, PlantUML seems to be the best fit for the above requirements.
 <div id="faq-tpIdeGeneratedDiagrams-Q">Can <tooltip content="i.e., automatically reverse engineered from the Java code">IDE-generated</tooltip> UML diagrams be used in project submissions?</div>
 <div id="faq-tpIdeGeneratedDiagrams-A">
 
-Not a good idea. Given below are three reasons each of which can be reported by evaluators as 'bugs' in your diagrams, costing you marks:
+Not a good idea. Given below are three reasons, each of which can be reported by evaluators as 'bugs' in your diagrams, costing you marks:
 
 * They often don't follow the standard UML notation (e.g., they add extra icons).
-* They tend to include _every_ little detail whereas we want to limit UML diagrams to important details only, to improve readability.
+* They tend to include _every_ little detail, whereas we want to limit UML diagrams to important details only, to improve readability.
 * Diagrams reverse-engineered by an IDE might not represent the actual design as some design concepts cannot be deterministically identified from the code %%e.g., differentiating between multiplicities `0..1` vs `1`, composition vs aggregation%%.
 </div>
 <!-- =============================================================== -->
@@ -1046,7 +1046,7 @@ This round is for your info only (i.e., no direct impact on grades). After the f
 <div id="faq-tpGuiTestAutomation-Q">Should we try to automate GUI testing as well?</div>
 <div id="faq-tpGuiTestAutomation-A">
 
-Automated GUI testing is hard, especially in Desktop apps, especially in CI (because the environment that CI runs doesn't have a display device to show the GUI).
+Automated GUI testing is hard, especially in desktop apps and in CI (because the environment that CI runs in doesn't have a display device to show the GUI).
 
 A few years ago, we used [AB4](https://github.com/se-edu/addressbook-level4/) as the starting point of the tP.
 
@@ -1055,8 +1055,8 @@ A few years ago, we used [AB4](https://github.com/se-edu/addressbook-level4/) as
 
 While we don't require you to automate GUI testing in your tP (i.e., it is fine to do only manual GUI testing), you are welcome to give it a try too, especially if you like a technical challenge.
 
-* Even if you get it working in only some OS'es only, and only in local environment, it is still a useful way to test the GUI quickly.
-* It is possible to run tests selectively, which means you can still run them in environments they work and skip them in other environments.
+* Even if you get it working in only some OSes, and only in local environments, it is still a useful way to test the GUI quickly.
+* It is possible to run tests selectively, which means you can still run them in environments where they work and skip them in other environments.
 
 Feel free to reuse/refer to AB4 code too. If you manage to make some headway in this direction, you are encouraged to share it with others via the forum.
 </div>
@@ -1067,7 +1067,7 @@ Feel free to reuse/refer to AB4 code too. If you manage to make some headway in 
 
 First, check which OS it is failing in. Some behaviors can be OS-dependent. For example, file paths are case-insensitive in Windows but not in Unix/Mac.
 
-Second, note that PR CI does a temporary merge of `master` branch to the PR branch before running tests, to verify if the checks will pass _after_ you merge this PR. So, if the `master` branch has progressed after you started your PR branch, those new commits can affect the CI result. The remedy is to pull the `master` branch to your repo, merge it to your PR branch, and run tests again (which should fail as well, but you can now find the reason for the failure and fix it).
+Second, note that PR CI does a temporary merge of the `master` branch to the PR branch before running tests, to verify if the checks will pass _after_ you merge this PR. So, if the `master` branch has progressed after you started your PR branch, those new commits can affect the CI result. The remedy is to pull the `master` branch to your repo, merge it to your PR branch, and run tests again (which should fail as well, but you can now find the reason for the failure and fix it).
 </div>
 
 <div id="faq-tpPrPassCiButFailedAfterMerging-Q">PR passed CI before merging, but fails CI after merging. How come?</div>
@@ -1096,7 +1096,7 @@ A rebuttal triggers a review of the aspect being rebutted, to see if marks need 
 <div id="faq-tpRenameAbReferences-A">
 
 Given your product is supposed to be an address book variant, it is fine to keep using 'AddressBook' in class/package names.<br>
-But remember to change any user-visible mention of AddressBook at places where the user _expects_ to see the name of your product, and will be confused by seeing a different name instead.
+But remember to change any user-visible mention of AddressBook in places where the user _expects_ to see the name of your product, and will be confused by seeing a different name instead.
 
 Caution: Mass renaming can disrupt authorship tracking. So, it is best to do any mass renaming at earlier stages of the tP (but you are still _allowed_ to rename them even at later stages).
 </div>
@@ -1107,7 +1107,7 @@ Caution: Mass renaming can disrupt authorship tracking. So, it is best to do any
 
 The product testing part of the PE (and the PE-D) is expected to take no more than 2 hours. Typically, the bugs you can find within 2 hours should be enough to get full marks for the product testing component of the tP. The additional time is given as a buffer, and to reduce stress.
 
-Note that you can send no more than 6 bugs to the dev team anyway, and the product testing is only a small component of tP marks (i.e., 3-4 marks). So, there is not much value spending too long on this.
+Note that you can send no more than 6 bugs to the dev team anyway, and the product testing is only a small component of tP marks (i.e., 3-4 marks). So, there is not much value in spending too long on this.
 
 </div>
 <!-- =============================================================== -->
@@ -1126,7 +1126,7 @@ Given the nature of the product you are testing (small, simple), we expect that 
 </div>
 <!-- =============================================================== -->
 
-<div id="faq-tpTestingLessBuggyProducts-Q">Some students will be testing less/more buggy products than others? Isn't that unfair?</div>
+<div id="faq-tpTestingLessBuggyProducts-Q">Some students will be testing less buggy or more buggy products than others. Isn't that unfair?</div>
 <div id="faq-tpTestingLessBuggyProducts-A">
 
 As each product is tested by 4-5 testers, after all PE bugs have been finalized, we know how 'buggy' each product is. We then use that information for calculating your PE-related marks. So, the marks are calibrated to match the bugginess of the product you tested.
@@ -1156,9 +1156,9 @@ It is too much to expect you to first find _all_ bugs in the product (which coul
 
 * Reasons:
   * It is hard to evaluate when multiple bugs are in the same report e.g., what if some of them are valid but others are not?
-  * It can open the door for testers to define very high-level bugs %%(e.g., UG not well-formatted)%% and cramming more and more bugs into one bug report. It is hard to define what's acceptable in such cases.
+  * It can open the door for testers to define very high-level bugs %%(e.g., UG not well-formatted)%% and cram more and more bugs into one bug report. It is hard to define what's acceptable in such cases.
   * Given these are lower-severity bugs, it is better to report them once and focus more on looking for higher-severity bugs.
-* On the positive side, if similar bugs reported (even by multiple testers) are later combined into one bug report by the dev team (with our permission) and given a higher severity, all testers who reported instances of that bug will benefit from the higher severity.
+* On the positive side, if similar bugs reported by multiple testers are later combined into one bug report by the dev team (with our permission) and given a higher severity, all testers who reported instances of that bug will benefit from the higher severity.
 </div>
 <!-- =============================================================== -->
 
@@ -1195,7 +1195,7 @@ A bug is a bug irrespective of the label used. Instead of rejecting, rectify the
 </div>
 <!-- =============================================================== -->
 
-<div id="faq-tpCorrectBugIncorrectSuggestion-Q">What if the bug the tester reported is legit but the expected behavior tester suggested is not correct?</div>
+<div id="faq-tpCorrectBugIncorrectSuggestion-Q">What if the bug the tester reported is legit but the expected behavior the tester suggested is not correct?</div>
 <div id="faq-tpCorrectBugIncorrectSuggestion-A">
 
 You should accept the bug but state that you disagree with the expected/suggested behavior. Reason: the main job of the tester is to detect bugs; suggesting a solution is optional.
@@ -1212,14 +1212,14 @@ You can disagree with the rejection, and the teaching team will likely rule in y
 <div id="faq-tpTesterAddingMoreInfoLater-Q">Can I (i.e., the tester) add more information about the bug when I object to a dev team's response?</div>
 <div id="faq-tpTesterAddingMoreInfoLater-A">
 
-Yes, you may. Given that the dev team did not get to see this additional info when they triaged the bug, the weight such additional info adds to your case is lower than if you had that info in the initial bug report. Nevertheless, it can still help your cause, especially if the dev team should have thought about that info on their own, even if they were missing in the initial bug report.
+Yes, you may. Given that the dev team did not get to see this additional info when they triaged the bug, the weight such additional info adds to your case is lower than if you had that info in the initial bug report. Nevertheless, it can still help your cause, especially if the dev team should have thought about that info on their own, even if it was missing in the initial bug report.
 </div>
 <!-- =============================================================== -->
 
 <div id="faq-tpPeAccuracyForNotInScope-Q">If the bug I reported is `NotInScope`, how does it affect my accuracy bonus?</div>
 <div id="faq-tpPeAccuracyForNotInScope-A">
 
-A bug that is `type.Accepted` or `type.NotInScope` can boost your accuracy if the `severity.*` you chose matches the eventual `severity.*` of the bug. ~~Same for `type.*`~~ (the `type.*` will not be considered for accuracy).
+A bug that is `response.Accepted` or `response.NotInScope` can boost your accuracy if the `severity.*` you chose matches the eventual `severity.*` of the bug. ~~Same for `type.*`~~ (the `type.*` will not be considered for accuracy).
 </div>
 <!-- =============================================================== -->
 
@@ -1258,7 +1258,7 @@ Refactoring and code 'smells' listed under the topic [Refactoring]({{ url_course
 <div id="faq-examGradingFollowUpQuestion-Q">How is the follow-up question graded?</div>
 <div id="faq-examGradingFollowUpQuestion-A">
 
-In most cases the answer to the follow-up question is used to decide if you chose the right answer for the right reasons. Choosing the right answer for the wrong reasons will not earn you marks.
+In most cases, the answer to the follow-up question is used to decide if you chose the right answer for the right reasons. Choosing the right answer for the wrong reasons will not earn you marks.
 
 In rare cases the answer to the follow-up question can be used to give partial marks for choosing the wrong answer (e.g., the second-best answer), if it shows your reasoning was mostly correct, although you ended up choosing the wrong answer.
 </div>
@@ -1278,7 +1278,7 @@ Yes, you get half the marks if your answer is only off-by-one.
 For example, if the answer is [A,B],
 
 * [A, B]: full marks
-* [A] or [B]: half marks, because only one correct answer missing
+* [A] or [B]: half marks, because only one correct answer is missing
 * [A,B,C], [A,B,D] etc.: half marks, because only one incorrect option selected
 * [A,C], [B,C], [A,D] etc.: half marks, because only one selected answer is incorrect
 * [A,B,C,D]: no marks, because two incorrect options selected
@@ -1305,14 +1305,14 @@ Caution: The scope of the course and the exam format evolve over time and some p
 **Reasons:**
 
 1. **To minimize opportunities for collusion or over-the-shoulder copying** from others (the risk of the latter is higher in this type of exam due to the upright exam device screens being easily visible to other exam takers).<br>
-1. **Not unreasonable for the materials tested, nature of the questions, and the proficiency level expected** -- i.e., when using this knowledge in a real-life SE project discussion, it will be rare for you to go back to revise what you said earlier in the discussion, nor will you be able to 'answer the easy questions first and come back to harder questions later'.<br>
+1. **This is not unreasonable for the materials tested, nature of the questions, and the proficiency level expected** -- i.e., when using this knowledge in a real-life SE project discussion, it will be rare for you to go back to revise what you said earlier in the discussion, nor will you be able to 'answer the easy questions first and come back to harder questions later'.<br>
   Note that you are allowed to go back and modify diagrams you drew in part 1, just like in a real-life project scenario.
 
 Not to worry; we understand that this restriction can make the exam feel 'harder' than otherwise. We have the following **measures to compensate:**
 
 * **There is a buffer of two extra questions**, to cushion the impact of making a mistake in a question, realizing it later, and not being able to go back to fix it. {{ bullet_tick_green }}
 * **There is a buffer of six extra minutes** (on top of the two extra questions), to cushion the impact of needing to spend extra time on a question to ensure the answer is correct before moving to the next question.
-* **The question difficulty is calibrated to match this mode of testing** i.e., the questions are straightforward enough to be answered on the first attempt within a short time.
+* **The question difficulty is calibrated to match this mode of testing**, i.e., the questions are straightforward enough to be answered on the first attempt within a short time.
 * **Our tutorials prepare you for this mode of testing** (provided you do them sincerely), as our tutorials get you to answer a series of small MCQ-like questions and short-answer questions.
 </div>
 

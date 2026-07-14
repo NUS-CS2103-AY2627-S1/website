@@ -62,7 +62,7 @@
   * Communicates sufficiently and professionally, e.g., does not use offensive language or excessive slang in project communications.
   * Responds to communication from team members in a timely manner (e.g., within 24 hours).
 * **Punctuality**: Does not cause others to waste time or slow down project progress by frequent tardiness.
-* **Dependability**: Makes promises that can be kept, and delivers what was promised.
+* **Dependability**: Makes promises that can be kept and delivers what was promised.
 * **Effort**: Puts in sufficient effort and tries their best to keep up with the course/project pace. Seeks help from others when necessary.
 * **Quality**: Does not deliver work products that seem to be below the student's competence level, i.e., tries their best to make the work product as high quality as possible within their competency level.
 * **Meticulousness**:

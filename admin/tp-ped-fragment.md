@@ -106,7 +106,7 @@ Do the following steps ==#r#after 12 noon on the PE-D day -- get started by 4pm 
   Ignore the `padding_file` found among the extracted files. %%Its only purpose is to mask the true size of the JAR file so that someone cannot guess which team they will be testing based on the zip file size.%%<br>
     :fab-apple: Some macOS versions will automatically unzip the inner zip file after you unzip the outer zip file using the password.
   * {{ icon_tip }} Strongly recommended: Try the above steps using [this sample zip file](https://github.com/nus-cs2103/website-base/files/14849276/JohnDoe.zip) if you wish (first part of the password: `password1-`, second part: `password2` i.e., you should use `password1-password2` to unzip it).<br>
-    Use the JAR file inside it to try the steps given below as well, to confirm your computer's Java environment is as expected and can run PE jar files.
+    Use the JAR file inside it to try the steps given below as well, to confirm that your computer's Java environment is as expected and can run PE JAR files.
 </tab>
 </tabs>
 <p/>
@@ -133,7 +133,7 @@ Do the following steps ==#r#after 12 noon on the PE-D day -- get started by 4pm 
 **++If the product doesn't work at all:++** If the product fails catastrophically %%e.g., cannot even launch, or even the basic commands crash the app%%, {% if not cs2103 %}contact the Prof (via MS Teams, and failing that, via email) to receive a _fallback_ team to test.{% else %}do the following:
 
 1. **Check the UG** of the team to see if there are extra things you need to do before launching the JAR.<br>
-   **Confirm that you are using Java 17** and using the `java -jar` command to run the JAR, as explained in points above.
+   **Confirm that you are using Java 17** and using the `java -jar` command to run the JAR, as explained in the points above.
 1. **Contact prof Damith** via MS Teams (name: `Damith Chatura RAJAPAKSE`, NUSNET: `dcsdcr`) and give him<br>
 (a) **a screenshot** of the error message, and<br>
 (b) **your GitHub** username.
@@ -161,7 +161,7 @@ Do the following steps ==#r#after 12 noon on the PE-D day -- get started by 4pm 
 * **You may do both _system testing_ and _acceptance testing_**.
 * **Focus on product testing first**, before expanding the focus to reporting documentation bugs.<br>
   Reason: If there are serious issues with the jar file that make product testing impossible, you need to find that out quickly (within the first 10 minutes) so that you can switch to a different product to test. If you find yourself in such a situation much later, the time spent testing the previous product would go to waste.
-* {{ icon_tip }} **Be careful when copying commands from the UG** (PDF version) to the app as some PDF viewers can affect the pasted text. If that happens, you might want to open the UG in a different PDF viewer.<br>
+* {{ icon_tip }} **Be careful when copying commands from the UG** (PDF version) to the app, as some PDF viewers can affect the pasted text. If that happens, you might want to open the UG in a different PDF viewer.<br>
   If the command you copied spans multiple lines, check to ensure the line break did not mess up the copied command.
 
 ###### <div class="text-white bg-secondary p-1">c) What bugs to report?</div>
@@ -211,7 +211,7 @@ Do the following steps ==#r#after 12 noon on the PE-D day -- get started by 4pm 
 * **Each bug should be a separate issue** %%i.e., do not report multiple problems in the same bug report.%%<br>
   If there are multiple bugs in the same report, the dev team will select only one of the bugs in the report and discard the others.
 * **When reporting similar bugs, it is safer to report them as separate bugs** because there is no penalty for reporting duplicates. But as submitting multiple bug reports takes extra time, if you are quite sure they will be considered as _duplicates_ by the dev team later, you can report them together, to save time.
-* **The whole description of the bug should be in the issue description** i.e., ==do not add comments to the issue==. Any such comments will be ignored by our scripts.
+* **The full description of the bug should be in the issue description** i.e., ==do not add comments to the issue==. Any such comments will be ignored by our scripts.
 
 * **Assign exactly one `severity.*` label.**<br>
   If multiple `severity.*` labels are assigned, we'll pick the one with the lowest severity.<br>
@@ -258,7 +258,7 @@ Reason: GitHub strips out content wrapped in `<` and `>`, for security reasons.
 
 <box type="info" seamless icon=":fas-angry:">
 
-****Dealing with "What the h___ the tester was thinking?" type bug reports****{.text-info}
+****Dealing with "What the h___ was the tester thinking?" type bug reports****{.text-info}
 
 Some bug reports will make you angry because they seem baseless, wrong, rude etc. It's still possible to get value from such bug reports though:
 * After you get over the initial indignation, dig deeper to see if there's even the slightest possibility that there is a bug. For example, consider this scenario:
@@ -270,7 +270,7 @@ Some bug reports will make you angry because they seem baseless, wrong, rude etc
 
 Use the pain of dealing with this kind of bug report as an opportunity to develop the following mindset:
 
-* **The product is _guilty until proven innocent_**: If the bug report has even a _hint_ of something amiss with the product, it's your (not the tester's) responsibility to try and prove if it is really a problem or not. Why? because finding a bug is a win for _you_ -- as you can then fix it and thereby avoid the embarrassment of releasing a buggy product.{ text="(a)" t-class="fw-bold" }
+* **The product is _guilty until proven innocent_**: If the bug report has even a _hint_ of something amiss with the product, it's your (not the tester's) responsibility to try and prove if it is really a problem or not. Why? Because finding a bug is a win for _you_ -- as you can then fix it and thereby avoid the embarrassment of releasing a buggy product.{ text="(a)" t-class="fw-bold" }
 
 * **A crappy bug report is better than no bug report**: If the bug actually exists, it is better to have _some_ indication about it than none at all. In a real project, a tester who fails to find bugs can cause more harm to your career than a tester who finds bugs but doesn't report them well.{ text="(b)" }
 

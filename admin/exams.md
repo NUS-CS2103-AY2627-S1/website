@@ -52,22 +52,22 @@ The final exam has two types of questions:
 
 ## Exam admin info to note
 
-1. **Schedule/venue:** The final exam will be as per the normal exam schedule, which will be sent to you by the Registrar's Office (or you can find via EduRec -> Academics -> Exams -> View exam schedule). You can find the date/time from [NUSMODS](https://nusmods.com/modules/{{ course }}) as well.
+1. **Schedule/venue:** The final exam will be as per the normal exam schedule, which will be sent to you by the Registrar's Office (or you can find it via EduRec -> Academics -> Exams -> View exam schedule). You can find the date/time from [NUSMODS](https://nusmods.com/modules/{{ course }}) as well.
 1. **Scope:**
    * All topics in the textbook, excluding level 4 topics (i.e., optional topics), are examinable. For your convenience, you can view the examinable portion of the textbook in [this printable view of the textbook](../se-book-adapted/print.html).
-   * In addition, you are expected to be aware of SE-related things (i.e., tools, techniques, concepts) encountered while doing the iP and the tP %%e.g., Was testing technique X used in the tP?%%.<br>
+   * In addition, you are expected to be aware of SE-related things (i.e., tools, techniques, concepts) encountered while doing the iP and the tP; %%e.g., was testing technique X used in the tP?%%<br>
      That is, you are expected to strengthen your SE _knowledge_ (not just hands-on skills) as you do the course projects -- in particular, to be able to connect theory to practice.
 
 {{ show_faq('examIsXyzInScope') }}
 
-3. **Mode: F2F, using Examplify**. You ==need to **bring your own device**== (<span class="text-danger">iPads not suitable</span>), which can connect to the NUS Wi-Fi network.<br>
+3. **Mode: F2F, using Examplify**. You ==need to **bring your own device**== (<span class="text-danger">iPads are not suitable</span>), which can connect to the NUS Wi-Fi network.<br>
   Please use these resources if you haven't used Examplify in the recent past (the behavior may be different from the version you used last semester):
    * See [NUS Guides on Examplify](https://nus.atlassian.net/wiki/spaces/DAstudent/overview).
    * Try a few practice exams provided in the above link.
    * Write to NUS CIT (citbox25@nus.edu.sg) if you run into any technical issues.
    * If you do not have a working laptop for the exam, please contact IT Care itcare@nus.edu.sg directly for a laptop loan (for exam purposes only).
-1. ==**Examplify will use the {{ 'full' if is_full_lockdown else '~~full~~ simulated' }} lock-down**== mode during the exam i.e., no access to the Internet, and
-   {{ 'no access to' if is_full_lockdown else 'not allowed to access' }} any applications/files on your computer during the exam {{ '==except the _Exam Reference_ PDF file==' if not is_full_lockdown }}.<br>
+1. ==**Examplify will use the {{ 'full' if is_full_lockdown else '~~full~~ simulated' }}-lockdown**== mode during the exam i.e., no access to the Internet, and
+   {{ 'no access to' if is_full_lockdown else 'not allowed to access' }} any applications/files on your computer during the exam{{ ' ==except the _Exam Reference_ PDF file==' if not is_full_lockdown }}.<br>
    %%Reason: Because of the risk of locally-installed LLMs affecting the integrity of the exam, NUS recommends using full-lockdown mode.%%
 1. **This is a 'cheatsheet' exam**: **You are allowed the usual one A4 size cheatsheet** (both sides). There is no restriction on what it can contain.<br>
    In addition,
@@ -143,7 +143,7 @@ Deadline to complete the compatibility check (including liaising with CIT): #r#a
 
 ### Final exam - part 2
 
-* A quiz containing 32 MCQ questions. All questions are estimated to be equal size/difficulty.
+* A quiz containing 32 MCQ questions. All questions are estimated to be of equal size/difficulty.
 * You only need to answer 30 questions correctly to get full marks. The extra two questions are a cushion against careless mistakes or misinterpreting a question.
 * Questions will appear in random order.
 * You #r#will not be able to go back to previous questions##.<br>
@@ -173,7 +173,7 @@ Why is it incorrect? ______
 {{ show_faq("examMissedFollowUpQuestion", is_compact=0) }}
 </div>
 
-* Here is another example question. Note the ==[**SELECT ALL**]== at the start of the question text, which tells you that this question can have multiple correct answers, and you need to select all of them i.e., it is a checkbox type question<br>
+* Here is another example question. Note the ==[**SELECT ALL**]== at the start of the question text, which tells you that this question can have multiple correct answers, and you need to select all of them; i.e., it is a checkbox-type question.<br>
 The answer is `C`, `D`.
 
 <div class="indented-level2">
@@ -195,7 +195,7 @@ E. Gantt charts.
 </div>
 
 * **Some Part 2 questions will be based on the UML diagrams you drew in Part 1**. In case you need to refer back to Part 1 questions, they will be provided as a PDF attachment in Part 2.
-* **Diagrams/images in some questions will be repeated as an attachment** for some questions, so that you can see the top part and bottom part of the question side-by-side, rather than repeatedly scrolling up-and-down. You can close the attachment pane (using the `Close Toolkit` button) if it is getting in your way. An example is given below.
+* **Some diagrams/images will be repeated as an attachment**, so that you can see the top part and bottom part of the question side-by-side, rather than repeatedly scrolling up-and-down. You can close the attachment pane (using the `Close Toolkit` button) if it is getting in your way. An example is given below.
 
 <div class="indented-level1">
 <panel type="secondary" header="A question with the diagram repeated as an attachment" peek>
@@ -235,7 +235,7 @@ The following exam resources will be **available from the start of week 13**.
 
 <box type="warning" header="CAVEAT about difficulty level of the practice exam" seamless>
 
-Although the practice exam is meant to be the same difficulty as the actual exam, past students have commented that they found the actual exam slightly more difficult than the practice exam. We have also noted that about 1/3 of the exam questions are 'heavier' than their practice exam counterparts %%('heavier' how? for example, while the practice question is based on a code fragment of 15 LoC, the actual exam question's code fragment might be 20 LoC.)%%
+Although the practice exam is meant to be the same difficulty as the actual exam, past students have commented that they found the actual exam slightly more difficult than the practice exam. We have also noted that about 1/3 of the exam questions are 'heavier' than their practice exam counterparts %%('heavier' how? For example, while the practice question is based on a code fragment of 15 LoC, the actual exam question's code fragment might be 20 LoC.)%%
 
 So, ensure you can do the practice exam fairly comfortably within the given time.
 </box>

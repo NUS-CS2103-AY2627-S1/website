@@ -3,7 +3,7 @@
 ### Session: `Final Peer Evaluation`
 
 * Held at the end of the tP.
-* This peer evaluation is compulsory. Not only will it count toward weekly participation, ==those who don't submit will not get a chance to rebut the peer evaluations they received==.
+* This peer evaluation is compulsory. Not only will it count toward weekly participation, but ==those who don't submit will not get a chance to rebut the peer evaluations they received==.
 * This session includes all questions from the Midterm Peer Evaluation:
 
 {{ embed_topic("peerEvaluations-midterm-fragment.md#questions", "Admin " + icon_embedding + " Peer Evaluations → Session: Midterm Peer Evaluation Questions", "1", indent="1") }}

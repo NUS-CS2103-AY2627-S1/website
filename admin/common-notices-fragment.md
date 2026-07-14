@@ -38,7 +38,7 @@
 {% if semester=="AY2425S2" %}
 We start tutorials this week. But due to CNY holidays, we will not follow the [regular tutorial timetable]({{ baseUrl }}/admin/tutorials.html#tutorial-timetable) this week. See the <span class="text-primary">{{ show_as_tab('Tutorial', icon_tab_tutorial) }}</span> tab for more details.
 {% else %}
-We start tutorials this week, starting on {{ get_date(date_w3_start, 2, time="") | trim }}. The [tutorial timetable]({{ baseUrl }}/admin/tutorials.html#tutorial-timetable) is on the course website.
+We start tutorials this week, on {{ get_date(date_w3_start, 2, time="") | trim }}. The [tutorial timetable]({{ baseUrl }}/admin/tutorials.html#tutorial-timetable) is on the course website.
 {% endif %}
 </box>
 </div>

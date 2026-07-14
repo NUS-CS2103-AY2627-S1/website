@@ -75,7 +75,7 @@
  * **The _Appendix: Requirements_ section** should be updated as follows:
    * Requirements implemented in the current version: make sure requirements match the way they have actually been implemented (e.g., use case steps).
    * Requirements yet to be implemented: keep these as well, as this is an ongoing project and these are meant to be implemented in future iterations.
-   * More on user stories: You need to document all user stories for the current version, and possibly, for near-future versions.<br>Reason: It is essential to capture all user needs.
+   * More on user stories: You need to document all user stories for the current version, and possibly, for near-future versions.<br> Reason: It is essential to capture all user needs.
    * More on use cases: Use cases are complementary to user stories. Their purpose is to capture non-trivial interactions. Hence, a use case is _important_ if it involves a user interaction that is worthy of documenting e.g., it has multiple extensions -- this is not the same as the feature being important.<br>
       So, you need not document use cases that have simple interactions. Also, avoid documenting multiple use cases with very similar interactions %%(it is enough to document one of them and mention how others are similar/vary)%%.<br>
       In sum, use cases should cover all non-trivial and unique user interaction patterns covering features that are in the current system at least, but can also cover upcoming features if you wish.
@@ -85,7 +85,7 @@
 
 <div id="dgTips">
 
-* **Aim to showcase your documentation skills.** The primary objective of the DG is to explain the design/implementation to a future developer, but a secondary objective is to serve as evidence of your ability to document deeply-technical content using prose, examples, diagrams, code snippets, etc., appropriately. To that end, you may also describe features that you plan to implement in the future, even beyond {{ version_final }} (hypothetically).<br>
+* **Aim to showcase your documentation skills.** The primary objective of the DG is to explain the design/implementation to a future developer, but a secondary objective is to serve as evidence of your ability to document deeply technical content using prose, examples, diagrams, code snippets, etc., appropriately. To that end, you may also describe features that you plan to implement in the future, even beyond {{ version_final }} (hypothetically).<br>
   For an example, see [the description of the undo/redo feature implementation in the AddressBook-Level3 developer guide]({{ url_ab3_upstream_website }}/DeveloperGuide.html#proposed-undoredo-feature).
 * **Use multiple UML diagram types.** Following from the point above, try to include UML diagrams of multiple types to showcase your ability to use different UML diagrams.
 
@@ -111,10 +111,10 @@
       {{ icon_tip }} Omit intricate details that complicate the diagram unnecessarily while adding little value to it e.g., exception handling (`throw`/`catch`), lambdas, calls to anonymous methods, etc.<br>
       If you feel they are important to the purpose of the diagram (i.e., omitting them can mislead the reader), you can use a UML note to mention that information (as plain text) in the diagram.
   * **Omit repetitive details** e.g., a class diagram can show only a few representative ones in place of many similar classes (note how the <trigger trigger="click" for="modal:ipWeek10-logicClassDiagram">AB3 Logic class diagram</trigger> shows concrete `*Command` classes using a placeholder `XYZCommand`).
-  * **Limit the scope of a diagram.** Decide the purpose of the diagram (i.e., what does it help to explain?) and omit details not related to it.<span tags="m--cs2103"> In particular, avoid showing lower-level details of multiple components in the same diagram unless strictly necessary e.g., note how  <trigger trigger="click" for="modal:ipWeek10-deleteSd">this sequence diagram</trigger> shows only the detailed interactions within the Logic component i.e., does not show detailed interactions within the model component.</span>
+  * **Limit the scope of a diagram.** Decide the purpose of the diagram (i.e., what does it help to explain?) and omit details not related to it.<span tags="m--cs2103"> In particular, avoid showing lower-level details of multiple components in the same diagram unless strictly necessary e.g., note how  <trigger trigger="click" for="modal:ipWeek10-deleteSd">this sequence diagram</trigger> shows only the detailed interactions within the Logic component i.e., does not show detailed interactions within the Model component.</span>
   * **Break diagrams into smaller fragments** when possible.
     * If a component has a lot of classes, consider further dividing into subcomponents (e.g., a Parser subcomponent inside the Logic component). After that, subcomponents can be shown as black-boxes in the main diagram and their details can be shown as separate diagrams.
-    * You can use `ref` frames to break sequence diagrams to multiple diagrams.{% if cs2103 %} Similarly, `rake`s can be used to divide activity diagrams.
+    * You can use `ref` frames to break sequence diagrams into multiple diagrams.{% if cs2103 %} Similarly, `rake`s can be used to divide activity diagrams.
   * **Stay at higher levels of abstraction** e.g., note how <trigger trigger="click" for="modal:ipWeek10-archiSd">this sequence diagram</trigger> shows only the interactions between architectural components, abstracting away the interactions that happen inside each component.{% endif %}
   * **Use visual representations** as much as possible. E.g., show associations and navigabilities using lines and arrows connecting classes, rather than adding a variable in one of the classes.
   * For some more examples of what NOT to do, see <trigger trigger="click" for="modal:ipWeek10-umlExamples">here</trigger>.

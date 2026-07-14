@@ -4,7 +4,7 @@
 {% call show_admin_page("textbooks") %}
 <div id="main">
 
-**This course is supported by a customized online textbook** [**_Software Engineering for Self-Directed Learners_** ({{ course }} edition)]({{ baseUrl }}/se-book-adapted/index.html), integrated into this course website.
+**This course is supported by a customized online textbook,** [**_Software Engineering for Self-Directed Learners_** ({{ course }} edition)]({{ baseUrl }}/se-book-adapted/index.html), integrated into this course website.
 
 **Topics relevant for a week appear on the weekly schedule page** (see the <span class="text-primary">{{ show_as_tab('Topics', icon_tab_topics) }}</span> tab). Some of those topics come with pre-recorded videos. ==Watching those videos is encouraged but optional==: while they do not cover any theory beyond the textbook, they can offer complementary explanations, more examples, and visualizations.
 </div>

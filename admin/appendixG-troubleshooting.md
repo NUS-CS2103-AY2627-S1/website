@@ -4,7 +4,7 @@
 {% call show_admin_page("appendixG-Troubleshooting") %}
 <div id="main">
 
-<p class="lead"> This page contains some common technical problems encountered by students and possible solutions.</p>
+<p class="lead">This page lists some common technical problems students encounter, together with possible solutions.</p>
 
 ## iP
 

@@ -4,7 +4,7 @@
 {% call show_admin_page("participation") %}
 <div id="main">
 
-**To receive full {{ marks_participation}} marks allocated for participation, meet all three criteria {{ thumb("A", "info") }}, {{ thumb("B", "info") }}, and {{ thumb("C", "info") }}.**
+**To receive all {{ marks_participation}} marks allocated for participation, meet all three criteria {{ thumb("A", "info") }}, {{ thumb("B", "info") }}, and {{ thumb("C", "info") }}.**
 
 ****{{ thumb("A", "info") }} Earned more than half of weekly participation points in at least 10 weeks.****{.text-info}
 

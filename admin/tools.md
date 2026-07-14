@@ -81,7 +81,7 @@ Create a GitHub account (if you don't have one yet), as explained in the panel b
 
 <span style="color:purple">**:fas-hard-hat: Preparation:**</span>
 
-We encourage all to ==_watch_ [the forum]({{ url_forum }})== to get alerts when new issues/comments are posted ![image](https://user-images.githubusercontent.com/1673303/44647915-0c761a80-aa12-11e8-98ac-2deb50532643.png)
+We encourage all students to ==_watch_ [the forum]({{ url_forum }})== to get alerts when new issues/comments are posted ![image](https://user-images.githubusercontent.com/1673303/44647915-0c761a80-aa12-11e8-98ac-2deb50532643.png)
 </box>
 
 <div tags="m--cs2103 m--cs2113">
@@ -117,8 +117,8 @@ Our IntelliJ **IDEA resources can be found at [se-edu/guides](https://se-educati
 
 <box type="warning" seamless>
 
-**Use other IDEs at your own risk**, because,<br>
-a) course materials are optimized for IntelliJ, and,<br>
+**Use other IDEs at your own risk**, because:<br>
+a) course materials are optimized for IntelliJ, and<br>
 b) we won't be able to help you if you run into problems while using any other IDE.
 
 That said, we have also provided many **resources for VS Code at [se-edu/guides](https://se-education.org/guides/)**.

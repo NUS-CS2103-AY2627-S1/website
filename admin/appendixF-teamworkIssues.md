@@ -26,7 +26,7 @@ pageNav: 5
 * Ask how much each person is planning to contribute (e.g., how many hours per week can be dedicated to the tP), especially from those who seem to be contributing less. In addition, you can use past conduct to estimate how much you can expect from each person in the future.
 * Get some idea about how much value each person is able to produce. Time doesn't always equal value.
 * Based on the above, estimate how much 'real' manpower you have and adjust your targets accordingly.
-* Stronger programmers in the team can take over the critical parts of the code. Avoid allocating critical tasks to technically-weak or unreliable members.
+* Stronger programmers in the team can take over the critical parts of the code. Avoid allocating critical tasks to technically weak or unreliable members.
 * Also note that in real software projects, it is not unusual to have less-than-100% members because some people need to divide their time between multiple projects. Treat this as a similar case and adapt accordingly.
 </box>
 
@@ -42,9 +42,9 @@ pageNav: 5
 <div id="team-problems-mia-member">
 <panel type="danger" header="##### CP1. MIA team member" expanded>
 
-**Problem:** A team member is MIA from the start, or for an extended period of time.
+**Problem:** A team member is MIA from the start, or for an extended period.
 
-**Guidance for the team:** It is not your responsibility to ensure a member keeps in touch with the team or/and keeps pace with the project. So, after one or two attempts to get in touch with the MIA member, proceed with the project without the missing member, but keep that member in the loop (e.g., CC all team communications to that member).
+**Guidance for the team:** It is not your responsibility to ensure a member keeps in touch with the team and/or keeps pace with the project. So, after one or two attempts to get in touch with the MIA member, proceed with the project without the missing member, but keep that member in the loop (e.g., CC all team communications to that member).
 
 Also inform the teaching team about the MIA member.
 
@@ -54,7 +54,7 @@ If the missing member reappears later (by which time you may have redistributed 
 
 ----
 
-**Guidance for the member:** If you need to be MIA for a period of time, inform the team when you hope to be back in action. You are welcome to, but not required to, inform the team the reason for the absence (as this may be personal).
+**Guidance for the member:** If you need to be MIA for a period of time, inform the team when you hope to be back in action. You are welcome to, but not required to, inform the team of the reason for the absence (as this may be personal).
 </panel></div><!-- ============================================================================= -->
 <panel type="danger" header="##### CP2. Low-performing member" expanded>
 
@@ -62,7 +62,7 @@ If the missing member reappears later (by which time you may have redistributed 
 
 **Guidance for the team:**
 
-Try not to feel angry or 'wronged'. A low performing member cannot bring others' grade down, or necessitate others to pick up their slack. As mentioned above, your grade is based on your individual work. Just do your best for the project and assume everyone else is doing their best too, although their best may be lower than yours.
+Try not to feel angry or 'wronged'. A low-performing member cannot bring others' grade down, or require others to pick up their slack. As mentioned above, your grade is based on your individual work. Just do your best for the project and assume everyone else is doing their best too, although their best may be lower than yours.
 
 Once you have identified a low-performing member, you will need to adapt your project targets and plans to match this reality that your available manpower resources are less than you anticipated before (see the 'A general strategy for adapting the project based on available manpower' box above).
 
@@ -77,7 +77,7 @@ Once you have identified a low-performing member, you will need to adapt your pr
 </panel> <!-- ============================================================================= -->
 <panel type="danger" header="##### CP3. Low-quality contributions" expanded>
 
-**Problem:** A member is producing low quality work.
+**Problem:** A member is producing low-quality work.
 
 **Guidance for the team:** This is not as bad as it appears. Our grading scheme is fine-grained enough to penalize only the person who produced the low-quality work. For example, any bug found in the product design, features, and documentation will be assigned to the person responsible for it (the team needs to decide who is responsible), and only those assigned persons will be penalized. That said, you are encouraged to help fix quality problems of each other, for example, by reviewing each other's PRs.
 
@@ -93,7 +93,7 @@ To reduce the risk of members merging code that can break other features, you ca
 
 Appreciate when others point out quality problems of your work. They are helping you save marks.
 
-If the team refused to accept your work, you can still earn marks for that code. You are allowed to submit such 'rejected' code for grading.
+If the team refuses to accept your work, you can still earn marks for that code. You are allowed to submit such 'rejected' code for grading.
 
 </panel> <!-- ============================================================================= -->
 <panel type="danger" header="##### CP4. Technically-weak members" expanded>
@@ -124,7 +124,7 @@ If the team refused to accept your work, you can still earn marks for that code.
 
 **Guidance for the member:**
 
-If the team refused to accept your work, you can still earn marks for that code. You are allowed to submit such 'rejected' code for grading.
+If the team refuses to accept your work, you can still earn marks for that code. You are allowed to submit such 'rejected' code for grading.
 
 </panel> <!-- ============================================================================= -->
 <panel type="danger" header="##### CP6a. No one is taking charge" expanded>
@@ -142,12 +142,12 @@ If the team refused to accept your work, you can still earn marks for that code.
 **Guidance for the team:**
 
 * If you feel your team is in this situation, one thing you should do is to communicate this concern to others. You can do that without specifically pointing fingers or causing unpleasantness %%e.g., posting a message in your group message channel "Team, I think our tP is falling behind :-( Can we pick up the pace and be more active (e.g., review PRs faster)?"%%
-* Try to evolve the product in an _incremental_ and _iterative_ fashion, and make the implementation tasks as less interdependent as possible. This way, when you get close to an iteration deadline, you can move any incomplete work (e.g., work-in-progress PRs) to the next iteration, and deliver the completed work as the next version of the product.<br>
+* Try to evolve the product in an _incremental_ and _iterative_ fashion, and make the implementation tasks as independent as possible. This way, when you get close to an iteration deadline, you can move any incomplete work (e.g., work-in-progress PRs) to the next iteration, and deliver the completed work as the next version of the product.<br>
   Note that ==the team is not obliged to delay the iteration wrap-up until _all_ team members have completed the work they promised== for the iteration. You are free to move any incomplete work into a future iteration.
 * You can reduce the risk by dividing the work in a way that more reliable/active members are assigned more important parts of the work while less reliable or slow members are given optional/less-critical parts of the work.
 * Setting deadlines, and 'arrowing' specific members, can help too. Examples:
   * When you submit a PR, request reviews from specific people, and also indicate a deadline e.g., `@abc and @def: if you have any comments about this PR, please submit by {date}.`
-  * Set deadlines for completing critical tasks (e.g., features that other features depend on) with the understanding that others will need to takeover those features if not done on time.
+  * Set deadlines for completing critical tasks (e.g., features that other features depend on) with the understanding that others will need to take over those features if not done on time.
 
 </panel> <!-- ============================================================================= -->
 <panel type="danger" header="##### CP7. Rude member behaviors" expanded>
@@ -185,7 +185,7 @@ Suggested steps:
 </panel> <!-- ============================================================================= -->
 <panel type="danger" header="##### CP9. The team size is smaller/larger than the team size" expanded>
 
-Refer the following policy:
+Refer to the following policy:
 
 {{ embed_topic(baseUrl+"/admin/policies-fragment.md#policy-teamSize", "Admin " + icon_embedding + " Polices:  **Policy on grading smaller/larger teams**", "2", indent="0") }}
 

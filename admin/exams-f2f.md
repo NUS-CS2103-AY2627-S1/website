@@ -10,7 +10,7 @@ Instructions below are from the previous semester. Will be updated closer to the
 
 
 1. **Weightage:** {{ marks_exam }}% of the final grade.
-1. **Schedule/venue:** The final exam will be as per the normal exam schedule, which will be sent to you by the Registrar's Office (or you can find via EduRec -> Academics -> Exams -> View exam schedule). You can find the date/time from [NUSMODS](https://nusmods.com/modules/{{ course }}).
+1. **Schedule/venue:** The final exam will be as per the normal exam schedule, which will be sent to you by the Registrar's Office (or you can find it via EduRec -> Academics -> Exams -> View exam schedule). You can find the date/time from [NUSMODS](https://nusmods.com/modules/{{ course }}).
 1. The exam will be done **face-to-face, but using Examplify**.<br>
   Please use these resources if you haven't used Examplify in the recent past (the behavior may be different from the version you used last semester):
    * [slides](https://wiki.nus.edu.sg/x/daBJCw) (refer to the slides on _On-Campus exam_)
@@ -40,7 +40,7 @@ Instructions below are from the previous semester. Will be updated closer to the
 
 ### Final exam - part 1
 
-* This exam contains 16 MCQ questions. All questions are estimated to be equal size/difficulty.
+* This exam contains 16 MCQ questions. All questions are estimated to be of equal size/difficulty.
 * You only need to answer 15 questions correctly to get full marks. The extra question is there to cushion you against careless mistakes or misinterpreting a question.
 * Questions will appear in random order.
 * **You will not be able to go back to previous questions.**<br>

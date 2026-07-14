@@ -9,7 +9,7 @@
 </div>
 <div id="body">
 
-**iP plays mostly a _formative_ role in this course**, i.e., it aims to ensure everyone has achieved a basic competency level that is a prerequisite to survive the tP (it does not aim to rank you based on strength or differentiate strong programmers from the rest). Hence, it is graded somewhat like an S/U component and almost everyone is expected to receive full marks for the iP.
+**iP plays mostly a _formative_ role in this course**, i.e., it aims to ensure everyone has achieved the basic competency level needed for the tP (it does not aim to rank you based on programming ability or differentiate strong programmers from the rest). Hence, it is graded somewhat like an S/U component and almost everyone is expected to receive full marks for the iP.
 
 ****The iP is worth `{{ marks_ip }}` marks****.{.text-info}
 
@@ -31,16 +31,16 @@ That is, you either get full marks, or less than half the marks for each aspect.
 * **More than 90% of all deliverables** have been completed in the final version of the iP submitted.<br>
     Requirements marked as <span class="badge rounded-pill bg-secondary">optional</span> or <span class="badge rounded-pill bg-secondary">if-applicable</span> are not counted when calculating the percentage of deliverables.<br>
     When a requirement specifies a `minimal` version, reaching that minimal version is enough for it to be counted for grading. However, we recommend you go beyond the minimal version; the farther you go, the more practice you will get.{% if cs2103 %}
-* **Has a GUI** that is at least as good as the one reached by the JavaFX tutorial !!part 4!! (i.e., no need to have features covered in part 5) and <tooltip content="i.e., a user can use the chatbot via the GUI">fit-for-purpose</tooltip>.{% endif %}
+* **Has a GUI** that is at least as good as the one reached by !!part 4!! of the JavaFX tutorial (i.e., features covered in part 5 are not required) and <tooltip content="i.e., a user can use the chatbot via the GUI">fit for purpose</tooltip>.{% endif %}
 * **No major bugs.**
 * **Reasonable use of OOP**, e.g., at least some use of inheritance, with code divided into classes in a sensible way (e.g., `Ui`, `Storage`, `Parser`, `Todo`, `Deadline`, `Event`, etc.).
-* **At least half of public methods/classes have Javadoc comments.**
+* **At least half of the public methods/classes have Javadoc comments.**
 * **Reasonable code quality:**
   * No blatant violations of the coding standard (both Java and Git conventions).
-  * The code is neat e.g., no chunks of commented out code.{% if cs2103 %}
-  * Reasonable use of SLAP e.g., no very-long methods or deeply nested code.{% endif %}
+  * The code is neat, e.g., no chunks of commented-out code.{% if cs2103 %}
+  * Reasonable use of SLAP, e.g., no very long methods or deeply nested code.{% endif %}
 * **At least some errors are handled using exceptions.**{% if cs2103 %}
-* **At least two methods are unit tested well** using JUnit.{% endif %}
+* **At least two methods have good unit tests** using JUnit.{% endif %}
 </box>
 <div tags="m--cs2103 m--cs2113">
 <box>
@@ -48,8 +48,8 @@ That is, you either get full marks, or less than half the marks for each aspect.
 ##### :fas-trophy: Project Management [`{{ marks_ip_pm }}` marks]{.text-info}
 
 * **Submitted _some_ deliverables** in at least 4 out of the {{ '5' if cs2103 else '6' }} iP weeks (i.e., week 2 to week {{ '6' if cs2103 else '7' }})
-* **Followed the other specified requirements** (e.g., how to use Git/GitHub for each increment, do peer reviews) in at least 4 weeks{% if cs2103 %}<br>
-  <span id="how-to-fix-git-standard">{{ icon_important_big_red }} **To qualify for full marks, your last 5 iP commits need to comply with [our convention for Git commit message subjects]({{ baseUrl }}/admin/standardsAndConventions.html)** (i.e., your {{ as_tag("Git Standard", tag_style="success") }} tag is green). If this item is currently not green for you, rather than modifying past commit messages (which requires force-pushing), add more commits containing small tweaks to the code until you satisfy this requirement. %%(Reason: doing so will help you remember this convention better in the tP, hopefully)%%.</span> {% endif %}
+* **Followed the other specified requirements** (e.g., using Git/GitHub for each increment and doing peer reviews) in at least 4 weeks{% if cs2103 %}<br>
+  <span id="how-to-fix-git-standard">{{ icon_important_big_red }} **To qualify for full marks, your last 5 iP commits need to comply with [our convention for Git commit message subjects]({{ baseUrl }}/admin/standardsAndConventions.html)** (i.e., your {{ as_tag("Git Standard", tag_style="success") }} tag is green). If this item is not green for you, add more commits containing small code tweaks until you satisfy this requirement instead of modifying past commit messages (which requires force-pushing). %%(Reason: this will hopefully help you remember the convention better in the tP)%%.</span> {% endif %}
 </box>
 <box>
 
@@ -66,7 +66,7 @@ The product website and the user guide:
 
 <box type="tip" seamless>
 
-**You can monitor your iP progress**{.text-success} (as detected by our scripts) in the [iP Progress Dashboard]({{ url_ip_progress_dashboard }}) page.
+**You can track your iP progress**{.text-success} (as detected by our scripts) on the [iP Progress Dashboard]({{ url_ip_progress_dashboard }}) page.
 </box>
 
 </div>
