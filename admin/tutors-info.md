@@ -25,7 +25,7 @@ Associate Professor (Education)<br>
 </div>
 
 -----------------------------
-<!--
+
 <div id="Michael" class="container">
   <div class="row bt-2">
     <div class="col-3">
@@ -46,7 +46,7 @@ Associate Professor (Education)<br>
 </div>
 
 -----------------------------
-
+<!--
 
 <div id="Prabhu" class="container">
   <div class="row bt-2">
@@ -69,7 +69,6 @@ Associate Professor (Education)<br>
 
 
 -----------------------------
--->
 
 <div id="Ganesh" class="container">
   <div class="row bt-2">
@@ -93,6 +92,7 @@ Senior Lecturer<br>
 </div>
 </div>
 
+-->
 <!--
 -----------------------------
 <div id="Eric" class="container">
