@@ -12,6 +12,7 @@
     "_temp/*",
     ".idea/*",
     ".gitignore",
+    ".gitmodules",
     "README.md",
     "schedule/admin/*",
     "*.md",
