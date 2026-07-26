@@ -1,0 +1,1002 @@
+2026-07-23T18:36:44.364Z - [32minfo[39m: Website generation (lazy) started at 02:36:44
+2026-07-23T18:36:44.808Z - [32minfo[39m: Building assets...
+2026-07-23T18:36:45.377Z - [32minfo[39m: Assets built
+2026-07-23T18:36:45.377Z - [32minfo[39m: Generating landing page...
+2026-07-23T18:36:45.592Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/index.md
+2026-07-23T18:36:45.620Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-07-23T18:36:45.700Z - [32minfo[39m: Site data built
+2026-07-23T18:36:45.700Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 1.524s
+2026-07-23T18:36:45.714Z - [32minfo[39m: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2026-07-23T18:36:45.714Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-07-23T18:36:52.498Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/index as some of its dependencies were changed since the last visit
+2026-07-23T18:36:52.634Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/index.md
+2026-07-23T18:36:52.649Z - [32minfo[39m: Site data built
+2026-07-23T18:36:52.649Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.153s
+2026-07-23T18:36:57.835Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/architecture as some of its dependencies were changed since the last visit
+2026-07-23T18:37:00.086Z - [34mdebug[39m: 
+2026-07-23T18:37:00.126Z - [34mdebug[39m: 
+2026-07-23T18:37:00.127Z - [34mdebug[39m: 
+2026-07-23T18:37:00.142Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/architecture.md
+2026-07-23T18:37:00.198Z - [32minfo[39m: Site data built
+2026-07-23T18:37:00.198Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 2.363s
+2026-07-23T18:45:24.562Z - [32minfo[39m: [02:45:24] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/textbookTopics-fragment.md
+2026-07-23T18:45:24.565Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-23T18:45:24.566Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-23T18:45:24.567Z - [32minfo[39m: 1. se-book-adapted/chapters/architecture
+2026-07-23T18:45:25.724Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-23T18:45:27.387Z - [34mdebug[39m: 
+2026-07-23T18:45:27.486Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/architecture.md
+2026-07-23T18:45:27.518Z - [32minfo[39m: Site data built
+2026-07-23T18:45:27.518Z - [32minfo[39m: Pages rebuilt
+2026-07-23T18:45:27.519Z - [32minfo[39m: Website regeneration complete! Total build time: 1.803s
+2026-07-23T18:47:00.284Z - [32minfo[39m: [02:47:00] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/textbookTopics-fragment.md
+2026-07-23T18:47:00.288Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-23T18:47:00.290Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-23T18:47:00.291Z - [32minfo[39m: 1. se-book-adapted/chapters/architecture
+2026-07-23T18:47:01.469Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-23T18:47:01.681Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/architecture.md
+2026-07-23T18:47:01.720Z - [32minfo[39m: Site data built
+2026-07-23T18:47:01.720Z - [32minfo[39m: Pages rebuilt
+2026-07-23T18:47:01.720Z - [32minfo[39m: Website regeneration complete! Total build time: 0.253s
+2026-07-23T18:48:27.235Z - [32minfo[39m: [02:48:27] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/textbookTopics-fragment.md
+2026-07-23T18:48:27.238Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-23T18:48:27.238Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-23T18:48:27.239Z - [32minfo[39m: 1. se-book-adapted/chapters/architecture
+2026-07-23T18:48:28.363Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-23T18:48:28.540Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/architecture.md
+2026-07-23T18:48:28.566Z - [32minfo[39m: Site data built
+2026-07-23T18:48:28.566Z - [32minfo[39m: Pages rebuilt
+2026-07-23T18:48:28.566Z - [32minfo[39m: Website regeneration complete! Total build time: 0.204s
+2026-07-23T18:52:24.088Z - [32minfo[39m: [02:52:24] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/textbookTopics-fragment.md
+2026-07-23T18:52:24.149Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-23T18:52:24.164Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-23T18:52:24.168Z - [32minfo[39m: 1. se-book-adapted/chapters/architecture
+2026-07-23T18:52:25.336Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-23T18:52:25.515Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/architecture.md
+2026-07-23T18:52:25.544Z - [32minfo[39m: Site data built
+2026-07-23T18:52:25.544Z - [32minfo[39m: Pages rebuilt
+2026-07-23T18:52:25.544Z - [32minfo[39m: Website regeneration complete! Total build time: 0.209s
+2026-07-23T18:54:07.243Z - [32minfo[39m: [02:54:07] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/textbookTopics-fragment.md
+2026-07-23T18:54:07.247Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-23T18:54:07.250Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-23T18:54:07.251Z - [32minfo[39m: 1. se-book-adapted/chapters/architecture
+2026-07-23T18:54:08.367Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-23T18:54:08.550Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/architecture.md
+2026-07-23T18:54:08.577Z - [32minfo[39m: Site data built
+2026-07-23T18:54:08.577Z - [32minfo[39m: Pages rebuilt
+2026-07-23T18:54:08.577Z - [32minfo[39m: Website regeneration complete! Total build time: 0.211s
+2026-07-23T18:56:58.572Z - [32minfo[39m: [02:56:58] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/textbookTopics-fragment.md
+2026-07-23T18:56:58.573Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-23T18:56:58.574Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-23T18:56:58.574Z - [32minfo[39m: 1. se-book-adapted/chapters/architecture
+2026-07-23T18:56:59.708Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-23T18:56:59.892Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/architecture.md
+2026-07-23T18:56:59.926Z - [32minfo[39m: Site data built
+2026-07-23T18:56:59.926Z - [32minfo[39m: Pages rebuilt
+2026-07-23T18:56:59.926Z - [32minfo[39m: Website regeneration complete! Total build time: 0.219s
+2026-07-23T19:01:14.445Z - [32minfo[39m: [03:01:14] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/textbookTopics-fragment.md
+2026-07-23T19:01:14.458Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-23T19:01:14.459Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-23T19:01:14.460Z - [32minfo[39m: 1. se-book-adapted/chapters/architecture
+2026-07-23T19:01:15.601Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-23T19:01:15.771Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/architecture.md
+2026-07-23T19:01:15.794Z - [32minfo[39m: Site data built
+2026-07-23T19:01:15.794Z - [32minfo[39m: Pages rebuilt
+2026-07-23T19:01:15.794Z - [32minfo[39m: Website regeneration complete! Total build time: 0.202s
+2026-07-23T19:02:27.581Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/specifyingRequirements as some of its dependencies were changed since the last visit
+2026-07-23T19:02:27.997Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/specifyingRequirements.md
+2026-07-23T19:02:28.029Z - [32minfo[39m: Site data built
+2026-07-23T19:02:28.029Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.449s
+2026-07-23T19:06:56.980Z - [32minfo[39m: [03:06:56] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/introduction/what/text.md
+2026-07-23T19:06:56.984Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-23T19:06:56.985Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-23T19:06:56.985Z - [32minfo[39m: 1. se-book-adapted/chapters/architecture
+2026-07-23T19:06:58.002Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-23T19:06:58.396Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/architecture.md
+2026-07-23T19:06:58.465Z - [32minfo[39m: Site data built
+2026-07-23T19:06:58.465Z - [32minfo[39m: Pages rebuilt
+2026-07-23T19:06:58.465Z - [32minfo[39m: Website regeneration complete! Total build time: 0.476s
+2026-07-23T19:07:18.795Z - [32minfo[39m: [03:07:18] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/introduction/what/text.md
+2026-07-23T19:07:18.798Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-23T19:07:18.799Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-23T19:07:18.800Z - [32minfo[39m: 1. se-book-adapted/chapters/architecture
+2026-07-23T19:07:19.812Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-23T19:07:20.200Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/architecture.md
+2026-07-23T19:07:20.227Z - [32minfo[39m: Site data built
+2026-07-23T19:07:20.227Z - [32minfo[39m: Pages rebuilt
+2026-07-23T19:07:20.227Z - [32minfo[39m: Website regeneration complete! Total build time: 0.423s
+2026-07-23T19:08:11.039Z - [32minfo[39m: [03:08:10] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/introduction/what/text.md
+2026-07-23T19:08:11.062Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-23T19:08:11.067Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-23T19:08:11.067Z - [32minfo[39m: 1. se-book-adapted/chapters/architecture
+2026-07-23T19:08:12.083Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-23T19:08:12.468Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/architecture.md
+2026-07-23T19:08:12.523Z - [32minfo[39m: Site data built
+2026-07-23T19:08:12.523Z - [32minfo[39m: Pages rebuilt
+2026-07-23T19:08:12.523Z - [32minfo[39m: Website regeneration complete! Total build time: 0.443s
+2026-07-23T19:10:00.020Z - [32minfo[39m: [03:10:00] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/introduction/what/text.md
+2026-07-23T19:10:00.026Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-23T19:10:00.030Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-23T19:10:00.032Z - [32minfo[39m: 1. se-book-adapted/chapters/architecture
+2026-07-23T19:10:01.055Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-23T19:10:01.481Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/architecture.md
+2026-07-23T19:10:01.535Z - [32minfo[39m: Site data built
+2026-07-23T19:10:01.535Z - [32minfo[39m: Pages rebuilt
+2026-07-23T19:10:01.535Z - [32minfo[39m: Website regeneration complete! Total build time: 0.485s
+2026-07-23T19:11:21.196Z - [32minfo[39m: [03:11:21] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/introduction/components/text.md
+2026-07-23T19:11:21.198Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-23T19:11:21.199Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-23T19:11:21.200Z - [32minfo[39m: 1. se-book-adapted/chapters/architecture
+2026-07-23T19:11:22.231Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-23T19:11:22.674Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/architecture.md
+2026-07-23T19:11:22.733Z - [32minfo[39m: Site data built
+2026-07-23T19:11:22.733Z - [32minfo[39m: Pages rebuilt
+2026-07-23T19:11:22.733Z - [32minfo[39m: Website regeneration complete! Total build time: 0.522s
+2026-07-24T14:21:55.089Z - [32minfo[39m: Website generation (lazy) started at 22:21:54
+2026-07-24T14:21:55.688Z - [32minfo[39m: Building assets...
+2026-07-24T14:21:56.165Z - [32minfo[39m: Assets built
+2026-07-24T14:21:56.165Z - [32minfo[39m: Generating landing page...
+2026-07-24T14:21:56.432Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/index.md
+2026-07-24T14:21:56.460Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-07-24T14:21:56.531Z - [32minfo[39m: Site data built
+2026-07-24T14:21:56.532Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 1.636s
+2026-07-24T14:21:56.545Z - [32minfo[39m: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2026-07-24T14:21:56.545Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-07-24T14:22:04.123Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/index as some of its dependencies were changed since the last visit
+2026-07-24T14:22:04.275Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/index.md
+2026-07-24T14:22:04.290Z - [32minfo[39m: Site data built
+2026-07-24T14:22:04.290Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.169s
+2026-07-24T14:25:59.908Z - [32minfo[39m: [22:25:59] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/config.njk
+2026-07-24T14:25:59.911Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:25:59.912Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:25:59.912Z - [32minfo[39m: 1. se-book-adapted/index
+2026-07-24T14:25:59.957Z - [32minfo[39m: [22:25:59] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/textbookTopics-fragment.md
+2026-07-24T14:25:59.957Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:25:59.957Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:25:59.957Z - [32minfo[39m: 1. se-book-adapted/index
+2026-07-24T14:26:01.060Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-24T14:26:01.121Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/index.md
+2026-07-24T14:26:01.146Z - [32minfo[39m: Site data built
+2026-07-24T14:26:01.146Z - [32minfo[39m: Pages rebuilt
+2026-07-24T14:26:01.146Z - [32minfo[39m: Website regeneration complete! Total build time: 0.09s
+2026-07-24T14:26:09.438Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/projectPlanning as some of its dependencies were changed since the last visit
+2026-07-24T14:26:09.587Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/projectPlanning.md
+2026-07-24T14:26:09.624Z - [32minfo[39m: Site data built
+2026-07-24T14:26:09.624Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.186s
+2026-07-24T14:26:29.970Z - [32minfo[39m: [22:26:29] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/textbookTopics-fragment.md
+2026-07-24T14:26:29.972Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:26:29.972Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:26:29.972Z - [32minfo[39m: 1. se-book-adapted/chapters/projectPlanning
+2026-07-24T14:26:31.117Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-24T14:26:31.200Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/projectPlanning.md
+2026-07-24T14:26:31.222Z - [32minfo[39m: Site data built
+2026-07-24T14:26:31.222Z - [32minfo[39m: Pages rebuilt
+2026-07-24T14:26:31.222Z - [32minfo[39m: Website regeneration complete! Total build time: 0.106s
+2026-07-24T14:27:57.111Z - [32minfo[39m: [22:27:57] Reload for file add: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/security.md
+2026-07-24T14:27:57.112Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:27:57.112Z - [32minfo[39m: No pages are currently opened
+2026-07-24T14:27:58.400Z - [32minfo[39m: Pages or site config modified, updating pages...
+2026-07-24T14:27:59.635Z - [33mwarn[39m: RangeError: Invalid array length
+    at ProgressBar.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/lib/progress/node-progress.js:156:20)
+    at SiteGenerationManager.<anonymous> (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/SiteGenerationManager.js:514:25)
+    at Generator.next (<anonymous>)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/SiteGenerationManager.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/SiteGenerationManager.js:3:12)
+    at SiteGenerationManager.runPageGenerationTasks (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/SiteGenerationManager.js:511:16)
+    at SiteGenerationManager.<anonymous> (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/SiteGenerationManager.js:386:28)
+    at Generator.next (<anonymous>)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/SiteGenerationManager.js:7:71
+2026-07-24T14:28:05.406Z - [32minfo[39m: [22:28:05] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/security.md
+2026-07-24T14:28:05.407Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:28:05.408Z - [32minfo[39m: No pages are currently opened
+2026-07-24T14:28:06.413Z - [32minfo[39m: No pages needed to be rebuilt
+2026-07-24T14:28:11.516Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/security as some of its dependencies were changed since the last visit
+2026-07-24T14:28:11.752Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/security.md
+2026-07-24T14:28:11.775Z - [32minfo[39m: Site data built
+2026-07-24T14:28:11.775Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.26s
+2026-07-24T14:28:22.912Z - [32minfo[39m: Website generation (lazy) started at 22:28:22
+2026-07-24T14:28:23.299Z - [32minfo[39m: Building assets...
+2026-07-24T14:28:23.670Z - [32minfo[39m: Assets built
+2026-07-24T14:28:23.670Z - [32minfo[39m: Generating landing page...
+2026-07-24T14:28:23.885Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/index.md
+2026-07-24T14:28:23.912Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-07-24T14:28:23.985Z - [32minfo[39m: Site data built
+2026-07-24T14:28:23.985Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 1.102s
+2026-07-24T14:28:23.994Z - [32minfo[39m: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2026-07-24T14:28:23.994Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-07-24T14:28:28.226Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/index as some of its dependencies were changed since the last visit
+2026-07-24T14:28:28.383Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/index.md
+2026-07-24T14:28:28.395Z - [32minfo[39m: Site data built
+2026-07-24T14:28:28.396Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.17s
+2026-07-24T14:28:35.186Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/security as some of its dependencies were changed since the last visit
+2026-07-24T14:28:35.335Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/security.md
+2026-07-24T14:28:35.353Z - [32minfo[39m: Site data built
+2026-07-24T14:28:35.353Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.167s
+2026-07-24T14:30:19.002Z - [32minfo[39m: [22:30:18] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/textbookTopics-fragment.md
+2026-07-24T14:30:19.011Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:30:19.016Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:30:19.017Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:30:20.193Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-24T14:30:20.320Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/security.md
+2026-07-24T14:30:20.343Z - [32minfo[39m: Site data built
+2026-07-24T14:30:20.343Z - [32minfo[39m: Pages rebuilt
+2026-07-24T14:30:20.343Z - [32minfo[39m: Website regeneration complete! Total build time: 0.166s
+2026-07-24T14:31:43.923Z - [32minfo[39m: [22:31:43] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/textbookTopics-fragment.md
+2026-07-24T14:31:43.925Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:31:43.926Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:31:43.926Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:31:45.067Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-24T14:31:45.200Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/security.md
+2026-07-24T14:31:45.225Z - [32minfo[39m: Site data built
+2026-07-24T14:31:45.225Z - [32minfo[39m: Pages rebuilt
+2026-07-24T14:31:45.225Z - [32minfo[39m: Website regeneration complete! Total build time: 0.159s
+2026-07-24T14:34:14.297Z - [32minfo[39m: [22:34:14] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/security/what/text.md
+2026-07-24T14:34:14.302Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:34:14.303Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:34:14.303Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:34:15.319Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-24T14:34:15.486Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/security.md
+2026-07-24T14:34:15.501Z - [32minfo[39m: Site data built
+2026-07-24T14:34:15.502Z - [32minfo[39m: Pages rebuilt
+2026-07-24T14:34:15.502Z - [32minfo[39m: Website regeneration complete! Total build time: 0.197s
+2026-07-24T14:39:05.053Z - [32minfo[39m: [22:39:05] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/security/what/text.md
+2026-07-24T14:39:05.055Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:39:05.055Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:39:05.056Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:39:06.065Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-24T14:39:06.268Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/security.md
+2026-07-24T14:39:06.302Z - [32minfo[39m: Site data built
+2026-07-24T14:39:06.302Z - [32minfo[39m: Pages rebuilt
+2026-07-24T14:39:06.302Z - [32minfo[39m: Website regeneration complete! Total build time: 0.241s
+2026-07-24T14:42:24.719Z - [32minfo[39m: [22:42:24] Reload for file add: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/security/intro/index.md
+2026-07-24T14:42:24.721Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:24.721Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:24.721Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:24.940Z - [32minfo[39m: [22:42:24] Reload for file add: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/security/intro/text.md
+2026-07-24T14:42:24.940Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:24.941Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:24.941Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:25.071Z - [32minfo[39m: [22:42:25] Reload for file add: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/security/wrapUp/index.md
+2026-07-24T14:42:25.071Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:25.071Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:25.071Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:25.201Z - [32minfo[39m: [22:42:25] Reload for file add: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/security/wrapUp/text.md
+2026-07-24T14:42:25.201Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:25.202Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:25.202Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:25.328Z - [32minfo[39m: [22:42:25] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/security/text.md
+2026-07-24T14:42:25.329Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:25.329Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:25.329Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:25.427Z - [32minfo[39m: [22:42:25] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/security/print.md
+2026-07-24T14:42:25.427Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:25.427Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:25.427Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:25.529Z - [32minfo[39m: [22:42:25] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/outcomes.md
+2026-07-24T14:42:25.530Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:25.530Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:25.530Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:25.751Z - [32minfo[39m: [22:42:25] Reload for file deletion: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/security/introduction-fragment.md
+2026-07-24T14:42:25.751Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:25.751Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:25.751Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:25.895Z - [32minfo[39m: [22:42:25] Reload for file deletion: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/security/wrapUp-fragment.md
+2026-07-24T14:42:25.895Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:25.895Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:25.895Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:26.059Z - [32minfo[39m: Pages or site config modified, updating pages...
+2026-07-24T14:42:26.176Z - [32minfo[39m: Assets built
+2026-07-24T14:42:26.331Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-24T14:42:26.533Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/security.md
+2026-07-24T14:42:26.554Z - [32minfo[39m: Site data built
+2026-07-24T14:42:26.554Z - [32minfo[39m: Pages rebuilt
+2026-07-24T14:42:26.554Z - [32minfo[39m: Website regeneration complete! Total build time: 0.224s
+2026-07-24T14:42:26.885Z - [34mdebug[39m: Assets removed
+2026-07-24T14:42:26.913Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/security as some of its dependencies were changed since the last visit
+2026-07-24T14:42:27.088Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/security.md
+2026-07-24T14:42:27.102Z - [32minfo[39m: Site data built
+2026-07-24T14:42:27.102Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.189s
+2026-07-24T14:42:38.005Z - [32minfo[39m: [22:42:38] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:38.006Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:38.007Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:38.007Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:38.193Z - [32minfo[39m: [22:42:38] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:38.193Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:38.193Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:38.193Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:38.294Z - [32minfo[39m: [22:42:38] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:38.294Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:38.294Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:38.294Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:38.595Z - [32minfo[39m: [22:42:38] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:38.595Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:38.595Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:38.595Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:39.017Z - [32minfo[39m: Assets built
+2026-07-24T14:42:40.610Z - [32minfo[39m: [22:42:40] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:40.610Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:40.610Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:40.610Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:40.716Z - [32minfo[39m: [22:42:40] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:40.716Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:40.716Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:40.716Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:41.317Z - [32minfo[39m: [22:42:41] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:41.317Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:41.317Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:41.318Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:41.415Z - [32minfo[39m: [22:42:41] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:41.415Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:41.416Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:41.416Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:41.515Z - [32minfo[39m: [22:42:41] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:41.516Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:41.516Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:41.516Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:41.635Z - [32minfo[39m: Assets built
+2026-07-24T14:42:41.720Z - [32minfo[39m: [22:42:41] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:41.720Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:41.720Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:41.720Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:41.817Z - [32minfo[39m: [22:42:41] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:41.817Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:41.817Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:41.817Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:41.918Z - [32minfo[39m: [22:42:41] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:41.918Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:41.918Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:41.918Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:42.018Z - [32minfo[39m: [22:42:42] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:42.019Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:42.019Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:42.019Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:42.118Z - [32minfo[39m: [22:42:42] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:42.118Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:42.118Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:42.118Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:42.219Z - [32minfo[39m: [22:42:42] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:42.219Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:42.219Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:42.219Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:42.319Z - [32minfo[39m: [22:42:42] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:42.319Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:42.319Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:42.319Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:42.419Z - [32minfo[39m: [22:42:42] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:42.419Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:42.419Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:42.419Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:42.519Z - [32minfo[39m: [22:42:42] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:42.520Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:42.520Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:42.520Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:42.620Z - [32minfo[39m: [22:42:42] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:42.620Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:42.620Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:42.620Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:42.720Z - [32minfo[39m: [22:42:42] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:42.720Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:42.721Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:42.721Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:42.729Z - [32minfo[39m: Assets built
+2026-07-24T14:42:43.023Z - [32minfo[39m: [22:42:43] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:43.023Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:43.023Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:43.024Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:43.230Z - [32minfo[39m: [22:42:43] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:43.230Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:43.230Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:43.230Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:43.328Z - [32minfo[39m: [22:42:43] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:43.328Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:43.328Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:43.328Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:43.432Z - [32minfo[39m: [22:42:43] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:43.432Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:43.432Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:43.432Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:43.736Z - [32minfo[39m: [22:42:43] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:43.736Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:43.736Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:43.736Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:43.838Z - [32minfo[39m: [22:42:43] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:43.838Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:43.838Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:43.839Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:44.052Z - [32minfo[39m: Assets built
+2026-07-24T14:42:44.454Z - [32minfo[39m: [22:42:44] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:44.455Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:44.455Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:44.455Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:44.652Z - [32minfo[39m: [22:42:44] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:44.652Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:44.653Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:44.653Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:44.948Z - [32minfo[39m: [22:42:44] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:44.949Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:44.949Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:44.949Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:45.049Z - [32minfo[39m: [22:42:45] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:45.050Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:45.050Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:45.050Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:45.462Z - [32minfo[39m: Assets built
+2026-07-24T14:42:47.374Z - [32minfo[39m: [22:42:47] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:47.375Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:47.375Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:47.375Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:47.476Z - [32minfo[39m: [22:42:47] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:47.476Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:47.476Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:47.477Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:47.677Z - [32minfo[39m: [22:42:47] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:47.677Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:47.677Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:47.677Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:47.773Z - [32minfo[39m: [22:42:47] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:47.773Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:47.773Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:47.773Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:47.974Z - [32minfo[39m: [22:42:47] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:47.974Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:47.974Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:47.974Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:48.076Z - [32minfo[39m: [22:42:48] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:48.076Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:48.076Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:48.076Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:48.179Z - [32minfo[39m: [22:42:48] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:48.179Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:48.179Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:48.181Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:48.280Z - [32minfo[39m: [22:42:48] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:48.280Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:48.280Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:48.280Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:48.379Z - [32minfo[39m: [22:42:48] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:48.380Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:48.380Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:48.380Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:48.392Z - [32minfo[39m: Assets built
+2026-07-24T14:42:48.586Z - [32minfo[39m: [22:42:48] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:48.586Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:48.586Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:48.586Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:48.687Z - [32minfo[39m: [22:42:48] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:48.688Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:48.688Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:48.688Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:48.783Z - [32minfo[39m: [22:42:48] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:48.784Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:48.784Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:48.784Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:48.885Z - [32minfo[39m: [22:42:48] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:48.885Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:48.886Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:48.886Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:48.989Z - [32minfo[39m: [22:42:48] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:48.989Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:48.989Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:48.990Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:49.098Z - [32minfo[39m: [22:42:49] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:49.099Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:49.099Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:49.099Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:49.190Z - [32minfo[39m: [22:42:49] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:49.190Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:49.190Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:49.190Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:49.304Z - [32minfo[39m: [22:42:49] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:49.304Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:49.307Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:49.307Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:49.391Z - [32minfo[39m: [22:42:49] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:49.391Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:49.391Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:49.391Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:49.495Z - [32minfo[39m: [22:42:49] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:49.496Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:49.496Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:49.496Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:49.593Z - [32minfo[39m: [22:42:49] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:49.594Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:49.594Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:49.594Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:49.604Z - [32minfo[39m: Assets built
+2026-07-24T14:42:49.699Z - [32minfo[39m: [22:42:49] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:49.699Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:49.699Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:49.699Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:49.796Z - [32minfo[39m: [22:42:49] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:49.796Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:49.796Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:49.796Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:49.898Z - [32minfo[39m: [22:42:49] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:49.898Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:49.898Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:49.898Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:50.196Z - [32minfo[39m: [22:42:50] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:50.196Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:50.196Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:50.196Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:50.400Z - [32minfo[39m: [22:42:50] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:50.400Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:50.400Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:50.400Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:50.501Z - [32minfo[39m: [22:42:50] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:50.501Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:50.502Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:50.502Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:50.705Z - [32minfo[39m: [22:42:50] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:50.705Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:50.705Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:50.705Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:50.720Z - [32minfo[39m: Assets built
+2026-07-24T14:42:50.806Z - [32minfo[39m: [22:42:50] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:50.807Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:50.807Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:50.807Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:50.901Z - [32minfo[39m: [22:42:50] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:50.901Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:50.901Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:50.901Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:51.007Z - [32minfo[39m: [22:42:51] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:51.007Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:51.007Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:51.007Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:51.107Z - [32minfo[39m: [22:42:51] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:51.107Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:51.108Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:51.108Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:51.209Z - [32minfo[39m: [22:42:51] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:51.210Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:51.210Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:51.210Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:51.313Z - [32minfo[39m: [22:42:51] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:51.314Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:51.314Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:51.314Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:51.411Z - [32minfo[39m: [22:42:51] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:51.411Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:51.411Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:51.412Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:51.507Z - [32minfo[39m: [22:42:51] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:51.507Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:51.507Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:51.507Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:51.615Z - [32minfo[39m: [22:42:51] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:51.615Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:51.615Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:51.616Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:51.716Z - [32minfo[39m: [22:42:51] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:51.717Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:51.717Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:51.717Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:51.815Z - [32minfo[39m: [22:42:51] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:51.816Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:51.816Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:51.816Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:51.827Z - [32minfo[39m: Assets built
+2026-07-24T14:42:51.916Z - [32minfo[39m: [22:42:51] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:51.917Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:51.917Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:51.917Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:52.016Z - [32minfo[39m: [22:42:52] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:52.016Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:52.016Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:52.016Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:52.118Z - [32minfo[39m: [22:42:52] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:52.118Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:52.118Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:52.118Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:52.217Z - [32minfo[39m: [22:42:52] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:52.217Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:52.218Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:52.218Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:52.323Z - [32minfo[39m: [22:42:52] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:52.323Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:52.323Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:52.323Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:52.418Z - [32minfo[39m: [22:42:52] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:52.419Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:52.419Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:52.419Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:52.520Z - [32minfo[39m: [22:42:52] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:52.520Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:52.520Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:52.520Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:52.624Z - [32minfo[39m: [22:42:52] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:52.624Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:52.624Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:52.624Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:52.724Z - [32minfo[39m: [22:42:52] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:52.724Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:52.724Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:52.724Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:52.823Z - [32minfo[39m: [22:42:52] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:52.823Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:52.823Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:52.823Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:52.926Z - [32minfo[39m: [22:42:52] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:52.926Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:52.927Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:52.927Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:52.937Z - [32minfo[39m: Assets built
+2026-07-24T14:42:53.023Z - [32minfo[39m: [22:42:53] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:53.023Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:53.023Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:53.023Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:53.242Z - [32minfo[39m: [22:42:53] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:53.242Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:53.242Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:53.242Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:53.326Z - [32minfo[39m: [22:42:53] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:53.326Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:53.327Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:53.327Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:53.430Z - [32minfo[39m: [22:42:53] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:53.430Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:53.430Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:53.430Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:53.531Z - [32minfo[39m: [22:42:53] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:53.531Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:53.531Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:53.531Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:53.633Z - [32minfo[39m: [22:42:53] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:53.633Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:53.633Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:53.633Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:53.735Z - [32minfo[39m: [22:42:53] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:53.735Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:53.736Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:53.736Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:53.935Z - [32minfo[39m: [22:42:53] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:53.936Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:53.936Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:53.936Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:54.034Z - [32minfo[39m: [22:42:54] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:54.034Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:54.034Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:54.034Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:54.048Z - [32minfo[39m: Assets built
+2026-07-24T14:42:54.135Z - [32minfo[39m: [22:42:54] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:54.136Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:54.136Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:54.136Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:54.240Z - [32minfo[39m: [22:42:54] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:54.241Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:54.241Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:54.241Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:54.336Z - [32minfo[39m: [22:42:54] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:54.336Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:54.336Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:54.337Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:54.436Z - [32minfo[39m: [22:42:54] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:54.436Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:54.436Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:54.436Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:54.539Z - [32minfo[39m: [22:42:54] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:54.539Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:54.539Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:54.539Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:54.642Z - [32minfo[39m: [22:42:54] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:54.642Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:54.643Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:54.643Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:54.743Z - [32minfo[39m: [22:42:54] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:54.744Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:54.744Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:54.744Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:54.842Z - [32minfo[39m: [22:42:54] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:54.842Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:54.842Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:54.842Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:55.059Z - [32minfo[39m: Assets built
+2026-07-24T14:42:55.147Z - [32minfo[39m: [22:42:55] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:55.148Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:55.148Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:55.148Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:55.247Z - [32minfo[39m: [22:42:55] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:55.248Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:55.248Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:55.248Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:55.347Z - [32minfo[39m: [22:42:55] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:55.348Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:55.348Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:55.348Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:55.447Z - [32minfo[39m: [22:42:55] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:55.447Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:55.447Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:55.447Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:55.553Z - [32minfo[39m: [22:42:55] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:55.553Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:55.553Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:55.553Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:55.652Z - [32minfo[39m: [22:42:55] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:55.652Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:55.652Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:55.652Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:55.854Z - [32minfo[39m: [22:42:55] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:55.854Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:55.855Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:55.855Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:55.951Z - [32minfo[39m: [22:42:55] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:55.951Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:55.951Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:55.952Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:56.054Z - [32minfo[39m: [22:42:56] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:56.054Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:56.054Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:56.054Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:56.157Z - [32minfo[39m: [22:42:56] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:56.157Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:56.158Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:56.158Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:56.184Z - [32minfo[39m: Assets built
+2026-07-24T14:42:56.253Z - [32minfo[39m: [22:42:56] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:56.253Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:56.253Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:56.253Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:56.357Z - [32minfo[39m: [22:42:56] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:56.357Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:56.357Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:56.358Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:56.762Z - [32minfo[39m: [22:42:56] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:56.762Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:56.763Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:56.763Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:56.861Z - [32minfo[39m: [22:42:56] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:56.862Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:56.862Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:56.862Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:56.960Z - [32minfo[39m: [22:42:56] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:56.961Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:56.961Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:56.961Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:57.063Z - [32minfo[39m: [22:42:57] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:57.064Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:57.064Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:57.064Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:57.164Z - [32minfo[39m: [22:42:57] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:57.167Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:57.167Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:57.167Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:57.265Z - [32minfo[39m: [22:42:57] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:57.265Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:57.265Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:57.266Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:57.281Z - [32minfo[39m: Assets built
+2026-07-24T14:42:57.465Z - [32minfo[39m: [22:42:57] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:57.465Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:57.465Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:57.465Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:57.565Z - [32minfo[39m: [22:42:57] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:57.565Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:57.565Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:57.565Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:57.668Z - [32minfo[39m: [22:42:57] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:57.668Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:57.668Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:57.668Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:57.768Z - [32minfo[39m: [22:42:57] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:57.768Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:57.768Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:57.768Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:57.882Z - [32minfo[39m: [22:42:57] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:57.883Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:57.883Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:57.883Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:58.068Z - [32minfo[39m: [22:42:58] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:58.069Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:58.069Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:58.069Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:58.171Z - [32minfo[39m: [22:42:58] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:58.171Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:58.171Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:58.171Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:58.272Z - [32minfo[39m: [22:42:58] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:58.273Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:58.273Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:58.273Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:58.376Z - [32minfo[39m: [22:42:58] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:58.377Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:58.377Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:58.377Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:58.474Z - [32minfo[39m: [22:42:58] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:58.474Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:58.474Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:58.475Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:58.491Z - [32minfo[39m: Assets built
+2026-07-24T14:42:58.580Z - [32minfo[39m: [22:42:58] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:58.580Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:58.580Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:58.580Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:58.676Z - [32minfo[39m: [22:42:58] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:58.676Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:58.677Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:58.677Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:58.774Z - [32minfo[39m: [22:42:58] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:58.775Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:58.775Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:58.775Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:58.878Z - [32minfo[39m: [22:42:58] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:58.878Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:58.878Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:58.878Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:58.979Z - [32minfo[39m: [22:42:58] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:58.979Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:58.980Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:58.980Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:59.076Z - [32minfo[39m: [22:42:59] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:59.076Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:59.076Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:59.076Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:59.177Z - [32minfo[39m: [22:42:59] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:59.177Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:59.177Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:59.177Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:59.284Z - [32minfo[39m: [22:42:59] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:59.284Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:59.285Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:59.285Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:59.381Z - [32minfo[39m: [22:42:59] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:59.381Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:59.381Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:59.382Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:59.484Z - [32minfo[39m: [22:42:59] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:59.485Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:59.485Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:59.485Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:59.582Z - [32minfo[39m: [22:42:59] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:59.582Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:59.582Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:59.582Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:59.594Z - [32minfo[39m: Assets built
+2026-07-24T14:42:59.686Z - [32minfo[39m: [22:42:59] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:59.686Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:59.686Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:59.686Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:59.786Z - [32minfo[39m: [22:42:59] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:59.786Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:59.786Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:59.786Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:42:59.885Z - [32minfo[39m: [22:42:59] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:42:59.886Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:42:59.886Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:42:59.886Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:43:00.085Z - [32minfo[39m: [22:43:00] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:43:00.085Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:43:00.085Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:43:00.085Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:43:00.710Z - [32minfo[39m: Assets built
+2026-07-24T14:43:00.890Z - [32minfo[39m: [22:43:00] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:43:00.890Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:43:00.890Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:43:00.890Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:43:00.990Z - [32minfo[39m: [22:43:00] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:43:00.990Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:43:00.990Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:43:00.991Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:43:01.090Z - [32minfo[39m: [22:43:01] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:43:01.091Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:43:01.091Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:43:01.091Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:43:01.195Z - [32minfo[39m: [22:43:01] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:43:01.195Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:43:01.196Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:43:01.196Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:43:01.290Z - [32minfo[39m: [22:43:01] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:43:01.290Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:43:01.290Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:43:01.291Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:43:01.393Z - [32minfo[39m: [22:43:01] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:43:01.393Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:43:01.394Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:43:01.394Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:43:01.495Z - [32minfo[39m: [22:43:01] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:43:01.495Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:43:01.495Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:43:01.496Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:43:01.597Z - [32minfo[39m: [22:43:01] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:43:01.597Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:43:01.597Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:43:01.597Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:43:01.697Z - [32minfo[39m: [22:43:01] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:43:01.697Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:43:01.697Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:43:01.697Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:43:01.800Z - [32minfo[39m: [22:43:01] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:43:01.800Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:43:01.800Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:43:01.800Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:43:01.899Z - [32minfo[39m: [22:43:01] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:43:01.899Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:43:01.899Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:43:01.899Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:43:01.914Z - [32minfo[39m: Assets built
+2026-07-24T14:43:02.003Z - [32minfo[39m: [22:43:02] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:43:02.003Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:43:02.003Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:43:02.003Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:43:02.100Z - [32minfo[39m: [22:43:02] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:43:02.100Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:43:02.100Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:43:02.100Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:43:02.202Z - [32minfo[39m: [22:43:02] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:43:02.202Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:43:02.203Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:43:02.203Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:43:02.404Z - [32minfo[39m: [22:43:02] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:43:02.404Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:43:02.404Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:43:02.404Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:43:02.506Z - [32minfo[39m: [22:43:02] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:43:02.506Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:43:02.506Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:43:02.506Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:43:02.605Z - [32minfo[39m: [22:43:02] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:43:02.605Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:43:02.605Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:43:02.605Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:43:02.703Z - [32minfo[39m: [22:43:02] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:43:02.703Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:43:02.703Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:43:02.703Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:43:02.806Z - [32minfo[39m: [22:43:02] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:43:02.806Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:43:02.806Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:43:02.807Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:43:02.905Z - [32minfo[39m: [22:43:02] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:43:02.905Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:43:02.905Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:43:02.906Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:43:03.006Z - [32minfo[39m: [22:43:03] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:43:03.006Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:43:03.006Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:43:03.006Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:43:03.018Z - [32minfo[39m: Assets built
+2026-07-24T14:43:03.108Z - [32minfo[39m: [22:43:03] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:43:03.108Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:43:03.108Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:43:03.108Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:43:03.207Z - [32minfo[39m: [22:43:03] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:43:03.207Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:43:03.207Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:43:03.207Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:43:03.311Z - [32minfo[39m: [22:43:03] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:43:03.312Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:43:03.312Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:43:03.312Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:43:03.412Z - [32minfo[39m: [22:43:03] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/logs/markbind-2026-07-24.log
+2026-07-24T14:43:03.412Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:43:03.413Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:43:03.413Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:43:04.140Z - [32minfo[39m: Assets built
+2026-07-24T14:53:03.919Z - [32minfo[39m: [22:53:03] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/textbookTopics-fragment.md
+2026-07-24T14:53:03.922Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:53:03.922Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:53:03.922Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:53:05.059Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-24T14:53:05.184Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/security.md
+2026-07-24T14:53:05.212Z - [32minfo[39m: Site data built
+2026-07-24T14:53:05.212Z - [32minfo[39m: Pages rebuilt
+2026-07-24T14:53:05.212Z - [32minfo[39m: Website regeneration complete! Total build time: 0.161s
+2026-07-24T14:53:47.915Z - [32minfo[39m: [22:53:47] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/security/text.md
+2026-07-24T14:53:47.917Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:53:47.920Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:53:47.920Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:53:47.924Z - [32minfo[39m: [22:53:47] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/textbookTopics-fragment.md
+2026-07-24T14:53:47.925Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:53:47.925Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:53:47.925Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:53:49.047Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-24T14:53:49.181Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/security.md
+2026-07-24T14:53:49.202Z - [32minfo[39m: Site data built
+2026-07-24T14:53:49.203Z - [32minfo[39m: Pages rebuilt
+2026-07-24T14:53:49.203Z - [32minfo[39m: Website regeneration complete! Total build time: 0.158s
+2026-07-24T14:57:07.314Z - [32minfo[39m: [22:57:07] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/layouts/default.md
+2026-07-24T14:57:07.317Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-24T14:57:07.318Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-24T14:57:07.319Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-24T14:57:08.345Z - [32minfo[39m: Assets built

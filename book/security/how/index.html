@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html data-dark-mode="false" data-code-theme="light">
+<head>
+    <script src="/website/markbind/js/theme-manager.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="generator" content="MarkBind 7.1.2">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><title>CS2103/T - Secure Software Engineering: How</title> <link rel="stylesheet" href="/website/markbind/css/bootstrap.min.css"> <link rel="stylesheet" href="/website/markbind/fontawesome/css/all.min.css"> <link rel="stylesheet" href="/website/markbind/glyphicons/css/bootstrap-glyphicons.min.css"> <link rel="stylesheet" href="/website/markbind/css/octicons.css">
+    
+    
+    <link rel="stylesheet" id="markbind-highlight-light" href="/website/markbind/css/codeblock-light.min.css">
+    <link rel="stylesheet" id="markbind-highlight-dark" href="/website/markbind/css/codeblock-dark.min.css">
+    <script src="/website/markbind/js/code-theme.js"></script><link rel="stylesheet" href="/website/markbind/css/markbind.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3.2.0/dist/style.css"><link rel="preconnect" href="https://3DU4XTBX4T-dsn.algolia.net" crossorigin><link rel="stylesheet" href="/website/plugins/codeBlockCopyButtons/codeBlockButtons.css"><link rel="stylesheet" href="/website/plugins/codeBlockWrapButtons/codeBlockButtons.css"><link rel="stylesheet" href="/website/plugins/dataTable/datatables.min.css"><link rel="stylesheet" href="/website/plugins/dataTable/datatables-additional.css"><link rel="stylesheet" href="/website/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css"><link rel="stylesheet" href="/website/plugins/markbind-plugin-tree/markbind-plugin-tree.css">
+    
+<link rel="stylesheet" href="/website/css/main.css">
+<link rel="icon" href="/website/favicon.ico"></head>
+<script>
+  const baseUrl = '/website'
+</script>
+<body 
+   
+  data-code-theme="light">
+<div id="app"><!--[--><div class="w-100 p-1 bg-warning text-center d-print-none"><span><strong>This is a draft version of the website! The final version will be available near the start of the semester.</strong></span></div> <div class="w-100 p-1 bg-success text-white text-center d-print-none"><span>This course will be delivered in <em>blended learning</em> mode (i.e., a mix of online and F2F activities) this semester.</span></div> <header sticky><div placement="top" data-v-94b60ff6><nav class="navbar navbar-expand-md d-print-none navbar-dark bg-dark" data-v-94b60ff6><div class="container-fluid" data-v-94b60ff6><div class="navbar-left" data-v-94b60ff6><!--[--><a href="/website/index.html" title="Home" class="navbar-brand"><span class="badge rounded-pill bg-success">CS2103/T <small>2026 Aug-Dec</small></span></a><!--]--></div><div class="navbar-default" data-v-94b60ff6><ul class="navbar-nav me-auto mt-2 mt-lg-0" data-v-94b60ff6><!--[--> <li class="dropdown nav-link algolia-no-index" data-v-154e37d3><!--[--><a role="button" class="dropdown-toggle nav-link" data-bs-toggle="dropdown" data-v-154e37d3><!--[--><strong>Schedule</strong><!--]--><span data-v-154e37d3></span></a><!--]--><!--[--><ul class="dropdown-menu" data-v-154e37d3><!--[--> <li><a href="/website/schedule/timeline.html" class="dropdown-item"><span><strong>Full Timeline</strong></span></a></li> <li><a href="/website/schedule/week1/index.html" class="dropdown-item"><span><strong>Week 1</strong> [Mon, Aug 10th] </span></a></li> <li><a href="/website/schedule/week2/index.html" class="dropdown-item"><span><strong>Week 2</strong> [Mon, Aug 17th] </span></a></li> <li><a href="/website/schedule/week3/index.html" class="dropdown-item"><span><strong>Week 3</strong> [Mon, Aug 24th] </span></a></li> <li><a href="/website/schedule/week4/index.html" class="dropdown-item"><span><strong>Week 4</strong> [Mon, Aug 31st] </span></a></li> <li><a href="/website/schedule/week5/index.html" class="dropdown-item"><span><strong>Week 5</strong> [Mon, Sep 7th] </span></a></li> <li><a href="/website/schedule/week6/index.html" class="dropdown-item"><span><strong>Week 6</strong> [Mon, Sep 14th] </span></a></li> <li><a href="/website/schedule/week7/index.html" class="dropdown-item"><span><strong>Week 7</strong> [Mon, Sep 28th] </span></a></li> <li><a href="/website/schedule/week8/index.html" class="dropdown-item"><span><strong>Week 8</strong> [Mon, Oct 5th] </span></a></li> <li><a href="/website/schedule/week9/index.html" class="dropdown-item"><span><strong>Week 9</strong> [Mon, Oct 12th] </span></a></li> <li><a href="/website/schedule/week10/index.html" class="dropdown-item"><span><strong>Week 10</strong> [Mon, Oct 19th] </span></a></li> <li><a href="/website/schedule/week11/index.html" class="dropdown-item"><span><strong>Week 11</strong> [Mon, Oct 26th] </span></a></li> <li><a href="/website/schedule/week12/index.html" class="dropdown-item"><span><strong>Week 12</strong> [Mon, Nov 2nd] </span></a></li> <li><a href="/website/schedule/week13/index.html" class="dropdown-item"><span><strong>Week 13</strong> [Mon, Nov 9th] </span></a></li><!--]--></ul><!--]--></li> <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li> <li class="dropdown nav-link algolia-no-index" data-v-154e37d3><!--[--><a role="button" class="dropdown-toggle nav-link" data-bs-toggle="dropdown" data-v-154e37d3><!--[--><strong>Admin Info</strong><!--]--><span data-v-154e37d3></span></a><!--]--><!--[--><ul class="dropdown-menu" data-v-154e37d3><!--[--> <li><a href="/website/admin/courseOverview.html" class="dropdown-item"><span>Course Overview </span></a></li> <li><a href="/website/admin/usingThisWebsite.html" class="dropdown-item"><span>Using this Website  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-danger"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>1</span></span></span></span></a></li> <li><a href="/website/admin/courseExpectations.html" class="dropdown-item"><span>Course Expectations  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-warning"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>2</span></span></span></span></a></li> <li class="dropdown-submenu dropend algolia-no-index" data-v-154e37d3 data-v-a8e1f994><!--[--><a role="button" class="dropdown-item submenu-toggle" data-bs-toggle="dropdown" data-v-a8e1f994><!--[--><!--[--><strong>Course Structure</strong><!--]--><!--]--></a><!--]--><!--[--><ul class="dropdown-menu" data-v-a8e1f994><!--[--><!--[--> <li><a href="/website/admin/courseBriefings.html" class="dropdown-item"><span><small>Course Briefing Videos  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-info"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>3</span></span></span></small></span></a></li> <li><a href="/website/admin/weeklySchedule.html" class="dropdown-item"><span><small>Weekly Schedule  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-info"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>3</span></span></span></small></span></a></li> <li><a href="/website/admin/lectures.html" class="dropdown-item"><span><small>Weekly Briefings  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-info"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>3</span></span></span></small></span></a></li> <li><a href="/website/admin/tutorials.html" class="dropdown-item"><span><small>Tutorials  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-warning"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>2</span></span></span></small></span></a></li><!--]--><!--]--></ul><!--]--></li> <li><a href="/website/admin/instructors.html" class="dropdown-item"><span>Instructors  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-success"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>4</span></span></span></span></a></li> <li><a href="/website/admin/textbooks.html" class="dropdown-item"><span>Textbooks  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-warning"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>2</span></span></span></span></a></li> <li><a href="/website/admin/programmingLanguages.html" class="dropdown-item"><span>Programming Language  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-warning"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>2</span></span></span></span></a></li> <li><a href="/website/admin/standardsAndConventions.html" class="dropdown-item"><span>Standards/Conventions  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-warning"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>2</span></span></span></span></a></li> <li class="dropdown-submenu dropend algolia-no-index" data-v-154e37d3 data-v-a8e1f994><!--[--><a role="button" class="dropdown-item submenu-toggle" data-bs-toggle="dropdown" data-v-a8e1f994><!--[--><!--[--><strong>Individual Project (iP)</strong><!--]--><!--]--></a><!--]--><!--[--><ul class="dropdown-menu" data-v-a8e1f994><!--[--><!--[--> <li><a href="/website/admin/ip-overview.html" class="dropdown-item"><span><small>iP (Individual Project): Overview  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-warning"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>2</span></span></span></small></span></a></li> <li><a href="/website/admin/ip-w2.html" class="dropdown-item"><span><small>iP: Week 2  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-warning"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>2</span></span></span></small></span></a></li> <li><a href="/website/admin/ip-w3.html" class="dropdown-item"><span><small>iP: Week 3  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-warning"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>2</span></span></span></small></span></a></li> <li><a href="/website/admin/ip-w4.html" class="dropdown-item"><span><small>iP: Week 4  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-warning"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>2</span></span></span></small></span></a></li> <li><a href="/website/admin/ip-w5.html" class="dropdown-item"><span><small>iP: Week 5  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-warning"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>2</span></span></span></small></span></a></li> <li><a href="/website/admin/ip-w6.html" class="dropdown-item"><span><small>iP: Week 6  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-danger"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>1</span></span></span></small></span></a></li> <li><a href="/website/admin/ip-w7.html" class="dropdown-item"><span><small>iP: Week 7  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-success"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>4</span></span></span></small></span></a></li> <li><a href="/website/admin/ip-w8.html" class="dropdown-item"><span><small>iP: Week 8  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-danger"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>1</span></span></span></small></span></a></li> <li><a href="/website/admin/ip-grading.html" class="dropdown-item"><span><small>iP: Grading  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-warning"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>2</span></span></span></small></span></a></li><!--]--><!--]--></ul><!--]--></li> <li class="dropdown-submenu dropend algolia-no-index" data-v-154e37d3 data-v-a8e1f994><!--[--><a role="button" class="dropdown-item submenu-toggle" data-bs-toggle="dropdown" data-v-a8e1f994><!--[--><!--[--><strong>Team Project (tP)</strong><!--]--><!--]--></a><!--]--><!--[--><ul class="dropdown-menu" data-v-a8e1f994><!--[--><!--[--> <li><a href="/website/admin/tp-overview.html" class="dropdown-item"><span><small>tP (Team Project): Overview  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-warning"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>2</span></span></span></small></span></a></li> <li><a href="/website/admin/tp-expectations.html" class="dropdown-item"><span><small>tP: Expectations  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-warning"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>2</span></span></span></small></span></a></li> <li><a href="/website/admin/tp-timeline.html" class="dropdown-item"><span><small>tP: Timeline  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-info"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>3</span></span></span></small></span></a></li> <li><a href="/website/admin/tp-constraints.html" class="dropdown-item"><span><small>tP: Constraints  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-warning"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>2</span></span></span></small></span></a></li> <li><a href="/website/admin/tp-teams.html" class="dropdown-item"><span><small>tP: Forming Teams  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-warning"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>2</span></span></span></small></span></a></li> <li><a href="/website/admin/tp-w3.html" class="dropdown-item"><span><small>tP Week 3: Kickoff  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-warning"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>2</span></span></span></small></span></a></li> <li><a href="/website/admin/tp-w4.html" class="dropdown-item"><span><small>tP Week 4: Set Direction  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-info"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>3</span></span></span></small></span></a></li> <li><a href="/website/admin/tp-w5.html" class="dropdown-item"><span><small>tP Week 5: Gather Requirements  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-warning"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>2</span></span></span></small></span></a></li> <li><a href="/website/admin/tp-w6.html" class="dropdown-item"><span><small>tP Week 6: Define the MVP  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-warning"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>2</span></span></span></small></span></a></li> <li><a href="/website/admin/tp-w7.html" class="dropdown-item"><span><small>tP Week 7: Practice Iteration → v1.1  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-warning"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>2</span></span></span></small></span></a></li> <li><a href="/website/admin/tp-w8.html" class="dropdown-item"><span><small>tP Week 8: First Feature Increment → v1.2  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-info"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>3</span></span></span></small></span></a></li> <li><a href="/website/admin/tp-w9.html" class="dropdown-item"><span><small>tP Week 9: MVP → v1.3  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-warning"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>2</span></span></span></small></span></a></li> <li><a href="/website/admin/tp-w10.html" class="dropdown-item"><span><small>tP Week 10: Alpha Version → v1.4  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-warning"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>2</span></span></span></small></span></a></li> <li><a href="/website/admin/tp-w11.html" class="dropdown-item"><span><small>tP Week 11: Release Candidate → v1.5  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-warning"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>2</span></span></span></small></span></a></li> <li><a href="/website/admin/tp-w12.html" class="dropdown-item"><span><small>tP Week 12: Public Release → v1.6  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-info"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>3</span></span></span></small></span></a></li> <li><a href="/website/admin/tp-w13.html" class="dropdown-item"><span><small>tP Week 13: Post-Release Tasks  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-warning"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>2</span></span></span></small></span></a></li> <li><a href="/website/admin/tp-deliverables.html" class="dropdown-item"><span><small>tP: Deliverables  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-warning"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>2</span></span></span></small></span></a></li> <li><a href="/website/admin/tp-ped.html" class="dropdown-item"><span><small>tP: Practical Exam Dry Run  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-warning"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>2</span></span></span></small></span></a></li> <li><a href="/website/admin/tp-pe.html" class="dropdown-item"><span><small>tP: Practical Exam  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-warning"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>2</span></span></span></small></span></a></li> <li><a href="/website/admin/tp-grading.html" class="dropdown-item"><span><small>tP: Grading  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-warning"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>2</span></span></span></small></span></a></li> <li><a href="/website/admin/tp-supervision.html" class="dropdown-item"><span><small>tP: Supervision/Guidance  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-warning"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>2</span></span></span></small></span></a></li><!--]--><!--]--></ul><!--]--></li> <li><a href="/website/admin/peerEvaluations.html" class="dropdown-item"><span>Peer Evaluations  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-warning"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>2</span></span></span></span></a></li> <li><a href="/website/admin/tools.html" class="dropdown-item"><span>Tools  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-info"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>3</span></span></span></span></a></li> <li><a href="/website/admin/exams.html" class="dropdown-item"><span>Exams  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-warning"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>2</span></span></span></span></a></li> <li><a href="/website/admin/participation.html" class="dropdown-item"><span>Participation Marks  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-warning"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>2</span></span></span></span></a></li> <li><a href="/website/admin/gradeBreakdown.html" class="dropdown-item"><span>Grade Breakdown  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-warning"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>2</span></span></span></span></a></li> <li class="dropdown-submenu dropend algolia-no-index" data-v-154e37d3 data-v-a8e1f994><!--[--><a role="button" class="dropdown-item submenu-toggle" data-bs-toggle="dropdown" data-v-a8e1f994><!--[--><!--[--><strong>Appendices</strong><!--]--><!--]--></a><!--]--><!--[--><ul class="dropdown-menu" data-v-a8e1f994><!--[--><!--[--> <li><a href="/website/admin/appendixA-principles.html" class="dropdown-item"><span><small>Apdx A: Course Principles  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-success"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>4</span></span></span></small></span></a></li> <li><a href="/website/admin/appendixB-policies.html" class="dropdown-item"><span><small>Apdx B: Course Policies  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-danger"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>1</span></span></span></small></span></a></li> <li><a href="/website/admin/appendixC-faq.html" class="dropdown-item"><span><small>Apdx C: FAQ  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-danger"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>1</span></span></span></small></span></a></li> <li><a href="/website/admin/appendixD-help.html" class="dropdown-item"><span><small>Apdx D: Getting Help  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-warning"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>2</span></span></span></small></span></a></li> <li><a href="/website/admin/appendixE-gitHub.html" class="dropdown-item"><span><small>Apdx E: Using GitHub  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-danger"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>1</span></span></span></small></span></a></li> <li><a href="/website/admin/appendixF-teamworkIssues.html" class="dropdown-item"><span><small>Apdx F: Handling Team Issues  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-success"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>4</span></span></span></small></span></a></li> <li><a href="/website/admin/appendixG-troubleshooting.html" class="dropdown-item"><span><small>Apdx G: Troubleshooting Tips  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-success"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>4</span></span></span></small></span></a></li> <li><a href="/website/admin/appendixH-tipsFromStudents.html" class="dropdown-item"><span><small>Apdx H: Tips from Past Students  <span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-success"><span><span aria-hidden="true" class="glyphicon glyphicon-flash"></span>4</span></span></span></small></span></a></li><!--]--><!--]--></ul><!--]--></li><!--]--></ul><!--]--></li> <li class="dropdown nav-link algolia-no-index" tags="m--cs2103 m--cs2113" data-v-154e37d3><!--[--><a role="button" class="dropdown-toggle nav-link" data-bs-toggle="dropdown" data-v-154e37d3><!--[--><strong>Dashboards</strong><!--]--><span data-v-154e37d3></span></a><!--]--><!--[--><ul class="dropdown-menu" data-v-154e37d3><!--[--> <li><a href="https://nus-cs2103-ay2627-s1.github.io/dashboards/contents/participation.html" class="dropdown-item text-success" target="_blank"><span><span aria-hidden="true" class="fas fa-trophy"></span> <strong>Participation</strong> dashboard</span></a></li> <li><a href="https://nus-cs2103-ay2627-s1.github.io/dashboards/contents/forum-activities.html" class="dropdown-item" target="_blank"><span><svg version="1.1" width="16" height="16" viewBox="0 0 16 16" class="octicon octicon-comment" aria-hidden="true"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"></path></svg> <strong>Forum</strong> Dashboard</span></a></li> <hr> <span><strong> iP dashboards:</strong></span> <li><a href="https://nus-cs2103-ay2627-s1.github.io/dashboards/contents/ip-progress.html?cv-highlight=[[studentIdSuffix]]" target="_blank" class="dropdown-item text-success cv-bind"><span><span aria-hidden="true" class="fas fa-tasks"></span> iP Progress Dashboard</span></a></li> <li><a href="https://nus-cs2103-ay2627-s1.github.io/dashboards/contents/ip-comments.html" target="_blank" class="dropdown-item"><span><svg version="1.1" width="16" height="16" viewBox="0 0 16 16" class="octicon octicon-comment" aria-hidden="true"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"></path></svg> iP Comments dashboard</span></a></li> <li><a href="https://nus-cs2103-ay2627-s1.github.io/ip-dashboard/?search=&amp;sort=groupTitle&amp;sortWithin=title&amp;timeframe=commit&amp;mergegroup=&amp;groupSelect=groupByRepos&amp;breakdown=true&amp;viewRepoTags=true&amp;checkedFileTypes=java~md~fxml~sh~bat~gradle~txt" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span> iP Code Dashboard</span></a></li> <hr> <span><strong> tP dashboards:</strong></span> <li><a href="https://nus-cs2103-ay2627-s1.github.io/dashboards/contents/tp-progress.html?cv-highlight=[[studentIdSuffix]]" target="_blank" class="dropdown-item text-success cv-bind"><span><span aria-hidden="true" class="fas fa-tasks"></span> tP Progress Dashboard</span></a></li> <li><a href="https://nus-cs2103-ay2627-s1.github.io/dashboards/contents/tp-comments.html" target="_blank" class="dropdown-item"><span><svg version="1.1" width="16" height="16" viewBox="0 0 16 16" class="octicon octicon-comment" aria-hidden="true"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"></path></svg> tP Comments Dashboard</span></a></li> <li><a href="https://nus-cs2103-ay2627-s1.github.io/tp-dashboard/?search=&amp;sort=groupTitle&amp;sortWithin=title&amp;timeframe=commit&amp;mergegroup=&amp;groupSelect=groupByRepos&amp;breakdown=true&amp;checkedFileTypes=docs~functional-code~test-code~other" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span> tP Code Dashboard</span></a></li> <li><a href="https://nus-cs2103-ay2627-s1.github.io/tp-dashboard/?search=&amp;sort=groupTitle&amp;sortWithin=title&amp;timeframe=commit&amp;mergegroup=&amp;groupSelect=groupByRepos&amp;breakdown=true&amp;checkedFileTypes=functional-code" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span> tP Code Dashboard (Functional Code Only)</span></a></li> <li><a href="https://nus-cs2103-ay2627-s1.github.io/tp-feature-freeze-dashboard/?search=&amp;sort=groupTitle&amp;sortWithin=title&amp;timeframe=commit&amp;mergegroup=&amp;groupSelect=groupByRepos&amp;breakdown=true&amp;checkedFileTypes=functional-code" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span> tP Code Dashboard (Feature Freeze Period Only)</span></a></li><!--]--></ul><!--]--></li> <li class="dropdown nav-link algolia-no-index" tags="m--cs2103 m--cs2113" data-v-154e37d3><!--[--><a role="button" class="dropdown-toggle nav-link" data-bs-toggle="dropdown" data-v-154e37d3><!--[--><strong>Project Links</strong><!--]--><span data-v-154e37d3></span></a><!--]--><!--[--><ul class="dropdown-menu" data-v-154e37d3><!--[--> <span><strong> Individual Project (iP):</strong></span> <li><a href="/website/admin/ip-overview.html" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span></span> Individual Project Info</a></li> <li><a href="https://github.com/NUS-CS2103-AY2627-S1/ip" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span></span> iP Upstream Repo</a></li> <li><a href="https://nus-cs2103-ay2627-s1.github.io/dashboards/contents/ip-progress.html?cv-highlight=[[studentIdSuffix]]" target="_blank" class="dropdown-item text-success cv-bind"><span><span aria-hidden="true" class="fas fa-tasks"></span> iP Progress Dashboard</span></a></li> <li><a href="https://nus-cs2103-ay2627-s1.github.io/dashboards/contents/ip-comments.html" target="_blank" class="dropdown-item"><span><svg version="1.1" width="16" height="16" viewBox="0 0 16 16" class="octicon octicon-comment" aria-hidden="true"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"></path></svg> iP Comments dashboard</span></a></li> <li><a href="https://nus-cs2103-ay2627-s1.github.io/ip-dashboard/?search=&amp;sort=groupTitle&amp;sortWithin=title&amp;timeframe=commit&amp;mergegroup=&amp;groupSelect=groupByRepos&amp;breakdown=true&amp;viewRepoTags=true&amp;checkedFileTypes=java~md~fxml~sh~bat~gradle~txt" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span> iP Code Dashboard</span></a></li> <hr> <span><strong> Team Project (tP):</strong></span> <li><a href="/website/admin/tp-overview.html" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span></span> Team Project Info</a></li> <li tags="m--cs2103 m--cs2113"><a href="https://github.com/NUS-CS2103-AY2627-S1/tp" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span></span> tP Upstream Repo (AB3)</a></li> <li><a href="/website/admin/teamList.html" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-list-alt"></span> Team List</span></a></li> <li><a href="https://nus-cs2103-ay2627-s1.github.io/dashboards/contents/tp-progress.html?cv-highlight=[[studentIdSuffix]]" target="_blank" class="dropdown-item text-success cv-bind"><span><span aria-hidden="true" class="fas fa-tasks"></span> tP Progress Dashboard</span></a></li> <li><a href="https://nus-cs2103-ay2627-s1.github.io/dashboards/contents/tp-comments.html" target="_blank" class="dropdown-item"><span><svg version="1.1" width="16" height="16" viewBox="0 0 16 16" class="octicon octicon-comment" aria-hidden="true"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"></path></svg> tP Comments Dashboard</span></a></li> <li><a href="https://nus-cs2103-ay2627-s1.github.io/tp-dashboard/?search=&amp;sort=groupTitle&amp;sortWithin=title&amp;timeframe=commit&amp;mergegroup=&amp;groupSelect=groupByRepos&amp;breakdown=true&amp;checkedFileTypes=docs~functional-code~test-code~other" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span> tP Code Dashboard</span></a></li> <li><a href="https://nus-cs2103-ay2627-s1.github.io/tp-dashboard/?search=&amp;sort=groupTitle&amp;sortWithin=title&amp;timeframe=commit&amp;mergegroup=&amp;groupSelect=groupByRepos&amp;breakdown=true&amp;checkedFileTypes=functional-code" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span> tP Code Dashboard (Functional Code Only)</span></a></li> <li><a href="https://nus-cs2103-ay2627-s1.github.io/tp-feature-freeze-dashboard/?search=&amp;sort=groupTitle&amp;sortWithin=title&amp;timeframe=commit&amp;mergegroup=&amp;groupSelect=groupByRepos&amp;breakdown=true&amp;checkedFileTypes=functional-code" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span> tP Code Dashboard (Feature Freeze Period Only)</span></a></li><!--]--></ul><!--]--></li> <li tags="m--cs2103 m--cs2113"><a href="https://github.com/NUS-CS2103-AY2627-S1/forum/issues" class="nav-link"><span><strong>Forum</strong></span></a></li> <li class="dropdown nav-link algolia-no-index" data-v-154e37d3><!--[--><a role="button" class="dropdown-toggle nav-link" data-bs-toggle="dropdown" data-v-154e37d3><!--[--><strong>Other Links</strong><!--]--><span data-v-154e37d3></span></a><!--]--><!--[--><ul class="dropdown-menu" data-v-154e37d3><!--[--> <li tags="m--cs2103 m--cs2113"><a href="https://github.com/NUS-CS2103-AY2627-S1/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li> <li><a href="https://github.com/NUS-CS2103-AY2627-S1/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li> <li><a href="/website/admin/instructors.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-user-tie"></span> Instructors</span></a></li> <li><a href="https://canvas.nus.edu.sg/courses/93760/announcements" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span> Announcements</span></a></li> <li><a href="https://canvas.nus.edu.sg/courses/93760/files" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> Files (handouts, submissions etc.)</span></a></li> <li tags="m--cs2113 m--cs2103"><a href="/website/admin/tutorials.html" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-calendar"></span> Tutorial Schedule</span></a></li> <li tags="m--cs2103 m--cs2113"><a highlight-on="none" href="https://git-mastery.org" class="dropdown-item" target="_blank"><span><span aria-hidden="true" class="fas fa-route"></span> Git-Mastery Website</span></a></li> <li tags="m--cs2103 m--cs2113 m--tic2002"><a href="https://se-education.org/guides/conventions/java/intermediate.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span> Java Coding Standard</span></a></li> <li tags="m--cs2103 m--cs2113"><a href="https://se-education.org/guides/conventions/git.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fab fa-git-square"></span> Git Conventions</span></a></li> <li tags="m--cs2103"><a href="/website/admin/uml-reference-sheet.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-diagram-project"></span> UML Reference Sheet</span></a></li> <li tags="m--cs2103"><a href="/website/admin/exam-reference-sheet.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-lines"></span> Exam Reference Sheet</span></a></li><!--]--></ul><!--]--></li> <li><a highlight-on="none" href="#cv-share" class="nav-link"><span><span class="trigger" data-mb-component-type="tooltip" tabindex="0"><!----><!-- do not delete this comment, it is for the stray space issue (#2419)
+ --><!----></span></span></a></li> <!--]--></ul></div><div class="navbar-right" data-v-94b60ff6><ul class="navbar-nav" data-v-94b60ff6><!--[--><li class="nav-link"><form class="navbar-form"><div style="position:relative;" class="dropdown" data-v-103d5c4e><div id="algolia-search-input" data-v-103d5c4e></div><ul class="dropdown-menu search-dropdown-menu dropdown-menu-hidden dropdown-menu-end" data-v-103d5c4e><!--[--><!--]--></ul></div></form></li><!--]--></ul><!----></div></div></nav><div style="display:none;" class="lower-navbar-container" data-v-94b60ff6><!--[--><!----><!----><!--]--></div></div></header> <div id="flex-body"><div id="content-wrapper" class="fixed-header-padding"><div><link rel="stylesheet" href="/website/book/css/textbook.css"> <div class="website-content"><div><p><span class="dimmed"><strong><span>Quality Assurance → Secure Software Engineering →
+</span></strong></span></p> <div id="title-and-body"><div><h4 id="how"><span>How</span><a class="fa fa-anchor" href="#how" onclick="event.stopPropagation()"></a></h4></div> <div id="main"><div><p><strong>Secure software results from combining threat modeling, secure design, careful implementation, and verification.</strong> It cannot be obtained by applying one tool or adding one library.</p> <h5 id="use-lightweight-threat-modeling">Use lightweight threat modeling<a class="fa fa-anchor" href="#use-lightweight-threat-modeling" onclick="event.stopPropagation()"></a></h5> <p><strong>Threat modeling is a structured way to ask what needs protection, what could go wrong, and what should be done about it.</strong> It can be performed with a whiteboard, a short document, or comments on a design diagram. The value comes from the questions, not the format.</p> <p>Use the six-step method introduced at the start of the chapter.</p> <h6 id="1-identify-assets-and-stakeholders">1. Identify assets and stakeholders<a class="fa fa-anchor" href="#1-identify-assets-and-stakeholders" onclick="event.stopPropagation()"></a></h6> <p><strong>Start with what matters, not with a list of attacks.</strong> Ask:</p> <ul><li>What information does the system hold?</li> <li>What actions can it perform?</li> <li>Which services must remain available?</li> <li>Who benefits if these work correctly?</li> <li>Who could be harmed if they do not?</li></ul> <p>For the event system, assets include attendee details, registration records, organizer privileges, and availability during sign-up periods.</p> <h6 id="2-sketch-the-system-and-its-trust-boundaries">2. Sketch the system and its trust boundaries<a class="fa fa-anchor" href="#2-sketch-the-system-and-its-trust-boundaries" onclick="event.stopPropagation()"></a></h6> <p><strong>A <em>trust boundary</em> is a place where data or control passes between parts with different levels of trust.</strong> Examples include a browser calling a server, a server reading an uploaded file, an application querying a database, and a build process downloading a dependency.</p> <p>A simple sketch is enough:</p> <pre><code class="hljs text"><span>student&#39;s browser
+</span><span>        |
+</span><span>        | untrusted request
+</span><span>        v
+</span><span>registration server -----&gt; email service
+</span><span>        |
+</span><span>        | database query
+</span><span>        v
+</span><span>registration database
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><p>Do not label the entire &quot;inside&quot; of a system as trusted without thought. A database can contain malicious text entered earlier by a user. A partner service can be unavailable or compromised. A configuration file can be edited by someone with different privileges. <strong>Trust should be earned at each boundary, not inherited forever from where data was first seen.</strong></p> <h6 id="3-identify-plausible-threats">3. Identify plausible threats<a class="fa fa-anchor" href="#3-identify-plausible-threats" onclick="event.stopPropagation()"></a></h6> <p><strong>Ask how each important asset could be read, changed, impersonated, exhausted, or bypassed by someone who should not be able to do so.</strong> Consider both outsiders and legitimate users exceeding their authority.</p> <p>For the attendee list:</p> <ul><li>Can an anonymous user obtain it?</li> <li>Can a student or an organizer of a different event obtain it?</li> <li>Can someone bypass a permission check by changing an identifier?</li> <li>Can an attacker cause the list to be sent to an unintended destination?</li> <li>Can a large number of requests make the feature unavailable?</li></ul> <p>STRIDE is one optional checklist for teams that want named categories: spoofing, tampering, repudiation, information disclosure, denial of service, and elevation of privilege. It can help prompt questions, but it is not necessary for a useful threat model.</p> <h6 id="4-estimate-and-prioritize-risks">4. Estimate and prioritize risks<a class="fa fa-anchor" href="#4-estimate-and-prioritize-risks" onclick="event.stopPropagation()"></a></h6> <p><strong>Spend effort where plausible threats could cause serious harm.</strong> Exact numerical estimates are rarely available, especially early in a project. A simple scale such as low, medium, and high can still support useful decisions if the team records its assumptions.</p> <p>Estimate likelihood by considering whether the feature is reachable, whether exploitation requires special access, and how easily the attack can be repeated or automated. Estimate impact by considering the sensitivity and amount of affected data, the privileges at risk, the number of people affected, whether the damage is reversible, and how long a service could be unavailable.</p> <p>Do not spend most of the security budget on an exciting but implausible attack while ignoring ordinary permission checks and exposed credentials.</p> <h6 id="5-choose-controls">5. Choose controls<a class="fa fa-anchor" href="#5-choose-controls" onclick="event.stopPropagation()"></a></h6> <p><strong>Prefer controls that prevent a problem, while preparing to detect, contain, and recover from failures that prevention misses.</strong></p> <p>For an attendee list, controls might include:</p> <ul><li>checking the requester&#39;s permission before returning attendee data;</li> <li>returning only fields the organizer needs;</li> <li>recording access to sensitive lists;</li> <li>limiting unusually frequent requests; and</li> <li>allowing organizer access to be revoked.</li></ul> <p>One control can address several threats, and one threat may need several controls.</p> <h6 id="6-verify-the-controls-and-revisit-the-analysis">6. Verify the controls and revisit the analysis<a class="fa fa-anchor" href="#6-verify-the-controls-and-revisit-the-analysis" onclick="event.stopPropagation()"></a></h6> <p><strong>A control is only a claim until it has been reviewed or tested.</strong> Verify the paths an attacker would try, not only the intended path.</p> <p>For the attendee list, test the correct organizer as well as an anonymous user, an attendee, an unrelated organizer, a malformed event identifier, and a user whose access has been revoked.</p> <p>Record the assumptions on which the controls depend. Keep the threat model near the design or feature it describes so that it can be revisited when the system or those assumptions change.</p> <h6 id="a-compact-threat-statement">A compact threat statement<a class="fa fa-anchor" href="#a-compact-threat-statement" onclick="event.stopPropagation()"></a></h6> <p>A concise statement can connect an asset, security goal, adversary, and assumption:</p> <blockquote><p><code class="hljs inline no-lang">&lt;Asset&gt;</code> should retain <code class="hljs inline no-lang">&lt;security property&gt;</code> against <code class="hljs inline no-lang">&lt;adversary or misuse&gt;</code> under <code class="hljs inline no-lang">&lt;relevant assumptions&gt;</code>.</p></blockquote> <p>For example:</p> <blockquote><p>Attendee email addresses should remain confidential from other students, even if they change identifiers in a request.</p></blockquote> <p>This statement is more useful than &quot;the attendee list must be secure&quot; because it can guide both design and testing.</p> <h5 id="apply-three-core-design-principles">Apply three core design principles<a class="fa fa-anchor" href="#apply-three-core-design-principles" onclick="event.stopPropagation()"></a></h5> <h6 id="give-only-the-permissions-that-are-needed">Give only the permissions that are needed<a class="fa fa-anchor" href="#give-only-the-permissions-that-are-needed" onclick="event.stopPropagation()"></a></h6> <p><strong><em>Least privilege</em> means giving each user, component, and process only the permissions it needs for its current job.</strong> An event organizer needs access to their own event&#39;s attendee list, not every event&#39;s list. A component that sends email does not need permission to change registrations. A build job that only reads source code does not need production database credentials.</p> <p>Smaller privileges reduce both the chance of misuse and the damage caused by a compromised component.</p> <h6 id="deny-unless-access-has-been-allowed">Deny unless access has been allowed<a class="fa fa-anchor" href="#deny-unless-access-has-been-allowed" onclick="event.stopPropagation()"></a></h6> <p><strong>A <em>secure default</em> denies access unless a rule explicitly permits it.</strong> When a new action, role, or resource is added, it should begin inaccessible rather than accidentally available to everyone.</p> <p>Prefer:</p> <pre><code class="hljs text"><span>if user may view this event:
+</span><span>    return attendee list
+</span><span>otherwise:
+</span><span>    deny
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><p>over a growing collection of special cases that attempt to identify everyone who should be denied. An allow rule is usually easier to review than an incomplete list of forbidden cases.</p> <h6 id="expose-less">Expose less<a class="fa fa-anchor" href="#expose-less" onclick="event.stopPropagation()"></a></h6> <p><strong>Minimizing the <em>attack surface</em> means reducing the features, interfaces, data, permissions, and dependencies available to be attacked.</strong> Remove unused endpoints, default accounts, debug interfaces, old code paths, unnecessary data fields, and unneeded packages.</p> <p>Every extra part has a maintenance cost even if it currently appears harmless. A feature that does not exist does not need to be configured, patched, monitored, or defended.</p> <h5 id="supporting-design-principles">Supporting design principles<a class="fa fa-anchor" href="#supporting-design-principles" onclick="event.stopPropagation()"></a></h5> <p>Several related principles are useful even if they are not memorized:</p> <ul><li><strong>Use <em>defense in depth</em> around important assets.</strong> For example, combine an application permission check with restricted database permissions and useful access logging. A second control can limit damage if the first fails.</li> <li><strong>Fail securely.</strong> An error should not grant access, skip validation, or reveal sensitive internals. When the system is unsure whether an action is permitted, denial is usually safer than permission.</li> <li><strong>Use established security mechanisms.</strong> Authentication, password storage, encryption, and session management are easy to get subtly wrong. Prefer maintained platform facilities and well-reviewed libraries over inventing a scheme.</li></ul> <h5 id="handle-untrusted-data-safely">Handle untrusted data safely<a class="fa fa-anchor" href="#handle-untrusted-data-safely" onclick="event.stopPropagation()"></a></h5> <p>External data includes more than text typed into a form. Requests, file uploads, command-line arguments, environment variables, configuration, database records, messages, dependency metadata, and responses from other services can all cross trust boundaries.</p> <p><strong>Handle untrusted data in three different places: when it enters, when it is used, and when it leaves for another context.</strong></p> <h6 id="validate-at-the-boundary">Validate at the boundary<a class="fa fa-anchor" href="#validate-at-the-boundary" onclick="event.stopPropagation()"></a></h6> <p><strong>Validation checks whether data is acceptable for its intended purpose.</strong> Check its type, form, length, range, and meaning as early as practical.</p> <p>For example, an event identifier might need to be a positive integer referring to an existing event. An event name might need a reasonable maximum length. A start time might need to precede an end time.</p> <p>Prefer an <em>allowlist</em> that describes acceptable data over a list of known-bad strings. Attackers can often express the same harmful meaning in forms a denylist did not anticipate.</p> <p>Client-side validation can improve usability, but it is not a security boundary because a client can be modified or bypassed. <strong>Validation that protects server-side assets must also occur on the trusted side of the boundary.</strong></p> <h6 id="keep-data-separate-from-commands">Keep data separate from commands<a class="fa fa-anchor" href="#keep-data-separate-from-commands" onclick="event.stopPropagation()"></a></h6> <p><strong>Do not construct executable commands by concatenating untrusted strings.</strong> When an interpreter cannot distinguish data from instructions, an attacker may be able to change what gets executed.</p> <p>This query construction is unsafe:</p> <pre><code class="hljs text"><span>query = &quot;SELECT * FROM registrations WHERE event_id = &quot; + eventId
+</span><span>database.execute(query)
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><p>Use an API that sends the instruction and the data separately:</p> <pre><code class="hljs text"><span>query = &quot;SELECT * FROM registrations WHERE event_id = ?&quot;
+</span><span>database.execute(query, [eventId])
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><p>The same principle applies to operating-system commands, templates, directory services, and other interpreters. Prefer APIs that accept structured arguments. Escaping a manually assembled command is usually harder to get right.</p> <h6 id="encode-for-the-output-context">Encode for the output context<a class="fa fa-anchor" href="#encode-for-the-output-context" onclick="event.stopPropagation()"></a></h6> <p><strong>Before placing untrusted data into structured output, encode it for that specific destination context.</strong> Text that is harmless in one context may become executable in another.</p> <p>Suppose an organizer enters this as an event name:</p> <pre><code class="hljs text"><span>&lt;script&gt;performUnwantedAction()&lt;/script&gt;
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><p>Rendering it as raw HTML could cause the browser to execute it:</p> <pre><code class="hljs text"><span>page.setRawHtml(event.name)    // unsafe for untrusted text
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><p>Rendering it through an ordinary text API preserves the visible characters without treating them as markup:</p> <pre><code class="hljs text"><span>page.setText(event.name)       // preferred for plain text
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><p>HTML text, HTML attributes, URLs, scripts, styles, and other destinations have different encoding rules. Prefer framework features that encode safely by default, and avoid raw-output features unless the content has a trusted origin and a clear reason to contain markup.</p> <p><strong>Input validation does not replace output encoding.</strong> A valid event name can legitimately contain characters with special meaning in HTML. Parameterized queries do not replace output encoding either; the two controls protect different boundaries.</p> <h5 id="authenticate-identity-and-authorize-every-protected-action">Authenticate identity and authorize every protected action<a class="fa fa-anchor" href="#authenticate-identity-and-authorize-every-protected-action" onclick="event.stopPropagation()"></a></h5> <p><strong>Derive identity from an authentication mechanism the trusted part of the system can verify.</strong> Do not trust a user identifier, role, or <code class="hljs inline no-lang">isAdmin</code> flag merely because the client sent it.</p> <p><strong>After identifying the requester, authorize the particular action on the particular resource.</strong> &quot;This user is an organizer&quot; may still be insufficient; the relevant rule might be &quot;this user is an organizer of this event.&quot;</p> <p>A safer attendee-list operation has this shape:</p> <pre><code class="hljs text"><span>function getAttendees(request, session):
+</span><span>    user = authenticatedUserFrom(session)
+</span><span>    event = findEvent(request.eventId)
+</span><span>
+</span><span>    if event does not exist:
+</span><span>        return notFound
+</span><span>
+</span><span>    if user is not an organizer of event:
+</span><span>        return denied
+</span><span>
+</span><span>    return only the attendee fields this organizer needs
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><p>Authorization belongs on the trusted side. A disabled button, hidden menu item, or client-side route guard is a usability feature, not sufficient protection.</p> <p><strong>Apply the same authorization rule to every path to the action.</strong> If an operation is available through a web page, mobile endpoint, import feature, and administrator tool, a forgotten path can bypass a check applied only in the user interface.</p> <h5 id="protect-secrets-credentials-and-sensitive-data">Protect secrets, credentials, and sensitive data<a class="fa fa-anchor" href="#protect-secrets-credentials-and-sensitive-data" onclick="event.stopPropagation()"></a></h5> <p><strong>A secret should be available only to the people and components that need it.</strong> API keys, private keys, access tokens, and database passwords should not be hard-coded, committed to version control, pasted into AI prompts, included in screenshots, or written to logs.</p> <p>Use the deployment environment&#39;s supported mechanism for protected configuration or secret storage. Give each credential the smallest useful permissions, use different credentials for different environments, and make replacement possible. If a secret is exposed, remove it from the code and revoke or rotate it; deleting the visible line does not make the old value secret again.</p> <p><strong>Do not collect or return sensitive data merely because it is convenient.</strong> Select only the attendee fields needed by the feature, restrict who can access them, and remove them when there is no longer a reason to retain them.</p> <p><strong>Passwords require specialized handling.</strong> Never store plaintext passwords or protect them using reversible encryption. Prefer an established authentication provider. If the system must store password verifiers itself, use a vetted password-hashing facility designed for that purpose, together with its current recommended configuration. Do not invent a password-storage scheme.</p> <p><strong>Errors should help legitimate users without teaching an attacker about the system.</strong> Avoid returning stack traces, queries, filesystem paths, credentials, or private records. Keep detailed diagnostics in appropriately protected logs, and remember that logs themselves can contain sensitive data.</p> <h5 id="treat-dependencies-as-part-of-the-product">Treat dependencies as part of the product<a class="fa fa-anchor" href="#treat-dependencies-as-part-of-the-product" onclick="event.stopPropagation()"></a></h5> <p><strong>Reused code runs with the permissions of your software and therefore becomes part of its security.</strong> This includes libraries, frameworks, build plugins, container images, development tools, and transitive dependencies pulled in by other packages.</p> <p>Before adding a dependency, ask:</p> <ul><li>Is it from the intended project and a trustworthy source?</li> <li>Is it maintained and suitable for this use?</li> <li>Does the platform already provide the small capability we need?</li> <li>What other packages and permissions will it add?</li> <li>Can the team monitor and update it?</li></ul> <p>Keep the dependency set small, record versions in the normal way for the ecosystem, and respond to security advisories according to actual exposure and impact. Do not blindly update everything without testing, but do not leave a known relevant vulnerability unassessed.</p> <h5 id="verify-security-relevant-behavior">Verify security-relevant behavior<a class="fa fa-anchor" href="#verify-security-relevant-behavior" onclick="event.stopPropagation()"></a></h5> <p><strong>Security verification needs both tools and human reasoning.</strong> A tool can recognize certain patterns, but it does not fully understand the system&#39;s assets, stakeholders, permissions, and assumptions.</p> <p>Focus review on security-sensitive boundaries such as:</p> <ul><li>authentication and authorization;</li> <li>untrusted input and rendered output;</li> <li>queries, commands, files, and external services;</li> <li>secrets, sensitive data, errors, and logs; and</li> <li>dependencies, permissions, and configuration.</li></ul> <p>Ask the author to explain the security rule and how the code enforces it. Code that no reviewer can explain is not ready merely because it looks polished.</p> <p><strong>Turn important threat statements into negative tests and abuse cases.</strong> If a requirement says only an event&#39;s organizer can see its attendees, test the correct organizer, an unrelated organizer, an attendee, an anonymous user, and a revoked organizer.</p> <p>Also test boundaries such as empty input, maximum lengths, unexpected encodings, repeated requests, missing resources, and surprising operation orders. The aim is to challenge the assumptions on which the control depends, not merely to generate many random tests.</p> <p>Compilers, linters, static analysis, secret scanning, dependency analysis, and dynamic testing can catch different kinds of weakness. <strong>A clean scan does not prove that software is secure.</strong> It means only that the tool did not report a problem within the checks it performed.</p> <p>Run ordinary regression tests after a security change. A control that breaks required behavior is not a complete solution, and a functional fix can accidentally weaken a security property elsewhere.</p></div> <div></div></div></div></div></div></div></div> <nav id="page-nav" class="fixed-header-padding" data-v-6b1b63d2><!--[--><div class="nav-component slim-scroll"></div><!--]--><!--v-if--></nav> <div class="scroll-top-button fa-lg d-print-none" style="display:none;bottom:2%;right:2%;position:fixed;" aria-hidden="true"><!--[--><i class="fas fa-arrow-circle-up"></i><!--]--></div></div> <footer><div class="text-center"><small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 7.1.2</a>, generated on Mon, 27 Jul 2026, 1:47:25 GMT+8]</small></div></footer><!--]--></div>
+</body><script src="/website/markbind/js/bootstrap-utility.min.js"></script>
+<script src="/website/markbind/js/polyfill.min.js"></script>
+<script src="/website/markbind/js/vue.global.prod.min.js"></script>
+<script src="/website/markbind/js/markbind.min.js"></script>
+<script src="index.page-vue-render.js"></script>
+<script>
+  MarkBind.setup()
+</script>
+    <script src="https://unpkg.com/@custardui/custardui" data-base-url="/website"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@docsearch/js@3.2.0/dist/umd/index.js"></script>
+    <script>
+    docsearch({
+      container: "#algolia-search-input",
+      appId: "3DU4XTBX4T",
+      apiKey: "772d7386c7a785f7a60fec5a096311ef",
+      indexName: "nus-tic2002-2020a",
+      searchParameters: {"facetFilters":[["site:nus-cs2103-ay2627-s1.github.io"],["tags:admin","tags:se-book-adapted","tags:schedule"]]}
+    });
+  </script>
+    <script>
+    const style = document.createElement('style');
+    style.innerHTML = ".DocSearch-Container { z-index: 1002; position: fixed; }";
+    document.getElementsByTagName('head')[0].appendChild(style);
+  </script>
+  
+    <script>
+    function copyCodeBlock(element) {
+        const pre = element.parentElement.parentElement;
+        const codeElement = pre.querySelector('code');
+        const copyButtonBody = element.querySelector('.function-btn-body');
+        const tooltipText = element.querySelector(".tooltiptext");
+
+        // create dummy text element to select() the text field
+        const textElement = document.createElement('textarea');
+        textElement.value = codeElement.textContent;
+        document.body.appendChild(textElement);
+        textElement.select();
+
+        document.execCommand('copy');
+        document.body.removeChild(textElement);
+        copyButtonBody.innerHTML = `
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="18"
+    height="18"
+    viewBox="2 2 22 22"
+  >
+    <path d="M 19.28125 5.28125 L 9 15.5625 L 4.71875 11.28125 L 3.28125 12.71875 L 8.28125 17.71875
+    L 9 18.40625 L 9.71875 17.71875 L 20.71875 6.71875 Z"></path>
+  </svg>
+`;
+        console.log("Running tooltip");
+        tooltipText.innerText  = `Copied!`;
+        setTimeout(() => {
+            copyButtonBody.innerHTML = `
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "/>
+    </g>
+</svg>
+`;
+            tooltipText.innerText  = `Copy`;
+        }, 3000);
+    }
+    </script>
+    <script>
+    function toggleCodeBlockWrap(element) {
+      const pre = element.parentElement.parentElement;
+      const tooltipText = element.querySelector(".tooltiptext");
+      const classList = pre.querySelector('code').classList;
+      if (classList.contains('wrap')) {
+          classList.remove('wrap');
+          tooltipText.innerText  = `Wrap Text`;
+      } else {
+          classList.add('wrap')
+          tooltipText.innerText  = `Unwrap Text`;
+      }
+    }
+    </script>
+    <script src="/website/plugins/dataTable/datatables.min.js"></script>
+    
+  <script>
+    function getTableOptions(el) {
+      const options = {};
+      if ($(el).hasClass('sortable-table')) {
+        options.searching = false;
+        options.paging = false;
+        options.info = false;
+      } else if ($(el).hasClass('searchable-table')) {
+        options.ordering = false;
+        options.paging = false;
+        options.info = false;
+        options.dom = '<"row"<"col-sm-12"f>>' + '<"row"<"col-sm-12"t>>';
+      } else if ($(el).hasClass('sortable-searchable-table')) {
+        options.paging = false;
+        options.info = false;
+        options.dom = '<"row"<"col-sm-12"f>>' + '<"row"<"col-sm-12"t>>';
+      }
+      return options;
+    }
+
+    function initializeTables(tables) {
+      if (!tables || tables.length === 0) return;
+      tables.forEach(table => {
+        const options = getTableOptions(table);
+        $(table).DataTable(options);
+        $(table).addClass('dt-processed');
+      });
+    }
+
+    function setupTableObserver() {
+      const observer = new MutationObserver((mutations) => {
+        let newTables = [];
+        
+        mutations.forEach(mutation => {
+          if (mutation.addedNodes.length) {
+            mutation.addedNodes.forEach(node => {
+
+              if (node.nodeType === 1 && node.tagName === 'TABLE' && 
+                  !$(node).hasClass('dt-processed') &&
+                  ($(node).hasClass('sortable-table') || 
+                   $(node).hasClass('searchable-table') || 
+                   $(node).hasClass('sortable-searchable-table'))) {
+                newTables.push(node);
+              }
+              
+              if (node.nodeType === 1 && node.querySelectorAll) {
+                const tablesInNode = node.querySelectorAll(
+                'table.sortable-table:not(.dt-processed), ' +
+                'table.searchable-table:not(.dt-processed), ' +
+                'table.sortable-searchable-table:not(.dt-processed)');
+                if (tablesInNode.length) {
+                  newTables = [...newTables, ...tablesInNode];
+                }
+              }
+            });
+          }
+        });
+
+        if (newTables.length > 0) {
+          initializeTables(newTables);
+        }
+      });
+      
+      // Start observing the entire document for changes
+      observer.observe(document.body, {
+        childList: true,
+        subtree: true
+      });
+      
+      return observer;
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+      // Process any existing tables
+      const existingTables = document.querySelectorAll(
+        'table.sortable-table:not(.dt-processed), ' +
+        'table.searchable-table:not(.dt-processed), ' +
+        'table.sortable-searchable-table:not(.dt-processed)'
+      );
+      if (existingTables.length > 0) {
+        initializeTables(existingTables);
+      }
+      
+      setupTableObserver();
+    });
+
+  </script>
+
+    <script type="module">
+    window.mermaidPromise = null;
+    
+    const loadMermaid = () => {
+      if (window.mermaidPromise === null) {
+        window.mermaidPromise = import('https://unpkg.com/mermaid@11.7.0/dist/mermaid.esm.min.mjs')
+          .then(({ default: mermaid }) => {
+            mermaid.initialize({
+              startOnLoad: false,
+            });
+            console.log('Mermaid loaded successfully');
+            return mermaid;
+          })
+          .catch((error) => {
+            console.error('Mermaid failed to load:', error);
+            window.mermaidPromise = false;
+            return null;
+          });
+      }
+      return window.mermaidPromise;
+    };
+
+    const renderMermaidDiagrams = (elements) => {
+      if (!elements || elements.length === 0) {
+        return Promise.resolve();
+      }
+
+      return loadMermaid().then(mermaid => {
+        if (!mermaid) return;
+        return mermaid.run({ nodes: Array.from(elements) })
+          .catch(err => console.error('Error rendering mermaid diagrams:', err));
+      });
+    };
+
+    const setupMermaidObserver = () => {
+      const observer = new MutationObserver((mutations) => {
+        let newMermaidElements = [];
+        
+        mutations.forEach(mutation => {
+          if (mutation.addedNodes.length) {
+            mutation.addedNodes.forEach(node => {
+              if (node.nodeType === 1 && node.classList && 
+                  node.classList.contains('mermaid')) {
+                newMermaidElements.push(node);
+              }
+              
+              if (node.nodeType === 1 && node.querySelectorAll) {
+                const mermaidInNode = node.querySelectorAll('.mermaid');
+                if (mermaidInNode.length) {
+                  newMermaidElements = [...newMermaidElements, ...mermaidInNode];
+                }
+              }
+            });
+          }
+        });
+        
+        if (newMermaidElements.length > 0) {
+          renderMermaidDiagrams(newMermaidElements);
+        }
+      });
+      
+      observer.observe(document.body, {
+        childList: true,
+        subtree: true
+      });
+      
+      return observer;
+    };
+
+    // Initialize on DOM content loaded
+    document.addEventListener('DOMContentLoaded', () => {
+      const existingDiagrams = document.querySelectorAll('.mermaid');
+      if (existingDiagrams.length > 0) {
+        renderMermaidDiagrams(existingDiagrams);
+      }
+      
+      setupMermaidObserver();
+    });
+
+  </script>
+</html>
