@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Debugging chapter — applied language changes</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    max-width: 880px; margin: 2rem auto; padding: 0 1.2rem; line-height: 1.5; color: #1c1c1e; }
+  h1 { margin-bottom: .2rem; }
+  h2 { margin-top: 2rem; border-bottom: 2px solid #eee; padding-bottom: .3rem; }
+  .src, .stamp { color: #6b6b70; font-size: .9rem; margin: .2rem 0; }
+  .count { background: #e8e8ed; border-radius: 1rem; padding: .05rem .55rem; font-size: .85rem; color: #444; }
+  .cards { display: flex; flex-direction: column; gap: 1rem; margin-top: 1rem; }
+  .card { border: 1px solid #e3e3e8; border-radius: 10px; padding: .9rem 1rem; background: #fbfbfd; }
+  .tag { display: inline-block; font-size: .72rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .04em; color: #3a3a8a; background: #ececf7; border-radius: 5px; padding: .12rem .5rem; }
+  .note { margin: .5rem 0 .2rem; color: #555; font-style: italic; }
+  .diff { position: relative; padding: .45rem .6rem .45rem 4.6rem; margin-top: .5rem;
+    border-radius: 6px; white-space: pre-wrap; word-break: break-word; font-size: .98rem; }
+  .lbl { position: absolute; left: .6rem; top: .45rem; font-size: .66rem; text-transform: uppercase;
+    letter-spacing: .05em; color: #8a8a90; font-weight: 700; }
+  .before { background: #fff4f4; }
+  .after { background: #f1faf1; }
+  .inline { background: #f6f6fb; }
+  del { background: #ffd9d9; color: #a30000; text-decoration: line-through; border-radius: 3px; padding: 0 1px; }
+  ins { background: #cdebcd; color: #0a6000; text-decoration: none; border-radius: 3px; padding: 0 1px; }
+  .note-card { background: #fff9ec; border-color: #f0e0bb; }
+  .note-card .issue { margin: 0 0 .4rem; font-weight: 600; }
+  .note-card .body { margin: 0; color: #555; }
+  .empty { color: #6b6b70; }
+  code { background: #ececf0; border-radius: 4px; padding: 0 .3rem; }
+</style>
+</head>
+<body>
+  <h1>Debugging chapter — applied language changes</h1>
+  <p class="src"><code>book/debugging/ · plan: _temp/page-tweaks/claude-change-plan.md · commits a5160530d..f589b13d1 (33 commits, 32 changes) · not pushed</code></p>
+  <p class="stamp">Generated 2026-07-29 00:01 &middot; 36 change(s), 6 note(s)</p>
+
+  <h2>Changes <span class="count">36</span></h2>
+  <div class="cards">
+    <div class="card">
+      <span class="tag">C-01 — Production-toolkit dangling opener</span>
+      <p class="note">advanced/text.md — the introductory phrase had no subject, and the comma invited reading &quot;attach a debugger, logging, telemetry&quot; as a list of things being attached.</p>
+      <div class="diff before"><span class="lbl">before</span>With no way to attach a debugger, logging, telemetry %%measurements the running system reports about itself%%, and post-mortem artifacts such as crash and thread dumps are the toolkit.</div>
+      <div class="diff after"><span class="lbl">after</span>When you cannot attach a debugger, the toolkit is logging, telemetry %%measurements the running system reports about itself%%, and post-mortem artifacts such as crash and thread dumps.</div>
+      <div class="diff inline"><span class="lbl">change</span><del>With</del><ins>When</ins> <del>no</del><ins>you</ins> <del>way to</del><ins>cannot</ins> attach a debugger,<ins> the toolkit is</ins> logging, telemetry %%measurements the running system reports about itself%%, and post-mortem artifacts such as crash and thread <del>dumps are the toolkit.</del><ins>dumps.</ins></div>
+    </div>
+    <div class="card">
+      <span class="tag">C-02 — Stranded elliptical &quot;is&quot;</span>
+      <p class="note">what/text.md — both reviewers. The ellipsis is kept: &quot;is&quot; completes &quot;is bad&quot;, the antithesis the bullet exists to draw.</p>
+      <div class="diff before"><span class="lbl">before</span>**Adding temporary print statements is not necessarily bad; doing so _without a hypothesis_ is**, which is shotgun debugging in another form.</div>
+      <div class="diff after"><span class="lbl">after</span>**Adding temporary print statements is not necessarily bad; doing so _without a hypothesis_ is** — that is shotgun debugging in another form.</div>
+      <div class="diff inline"><span class="lbl">change</span>**Adding temporary print statements is not necessarily bad; doing so _without a hypothesis_ <del>is**,</del><ins>is**</ins> <del>which</del><ins>— that</ins> is shotgun debugging in another form.</div>
+    </div>
+    <div class="card">
+      <span class="tag">C-03 — &quot;confirming it wrongly&quot;</span>
+      <p class="note">how/text.md — both reviewers. Unidiomatic order, and &quot;it&quot; sat between two candidate antecedents.</p>
+      <div class="diff before"><span class="lbl">before</span>a search that begins with one suspect usually ends by confirming it wrongly.</div>
+      <div class="diff after"><span class="lbl">after</span>a search that begins with one suspect usually ends by wrongly confirming that suspect.</div>
+      <div class="diff inline"><span class="lbl">change</span>a search that begins with one suspect usually ends by <ins>wrongly </ins>confirming <del>it</del><ins>that</ins> <del>wrongly.</del><ins>suspect.</ins></div>
+    </div>
+    <div class="card">
+      <span class="tag">C-04 — Isolation loop&#x27;s exit branch</span>
+      <p class="note">how/text.md — the second branch is the exit from the loop, not another turn of it. Phrased as a handoff so the unit still defers step 7.</p>
+      <div class="diff before"><span class="lbl">before</span>**Record the conclusion, then start the next turn of the loop** from the narrowed region — or, once the boundary is a single statement you can explain, from a cause you are ready to correct.</div>
+      <div class="diff after"><span class="lbl">after</span>**Record the conclusion, then start the next turn of the loop** from the narrowed region — or, once the boundary is a single statement you can explain, move on to correcting the cause.</div>
+      <div class="diff inline"><span class="lbl">change</span>**Record the conclusion, then start the next turn of the loop** from the narrowed region — or, once the boundary is a single statement you can explain, <del>from</del><ins>move</ins> <del>a cause you are ready</del><ins>on</ins> to <del>correct.</del><ins>correcting the cause.</ins></div>
+    </div>
+    <div class="card">
+      <span class="tag">C-05 — The expectation&#x27;s form</span>
+      <p class="note">how/text.md — &quot;the form&quot; had no grammatical role and &quot;it&quot; was an orphan object. Both reviewers&#x27; proposed fixes made the form the thing being tested; this one does not.</p>
+      <div class="diff before"><span class="lbl">before</span>State the expectation in the form you will eventually test it: for this input, that exact result.</div>
+      <div class="diff after"><span class="lbl">after</span>State the expectation in the form the test will eventually take: for this input, that exact result.</div>
+      <div class="diff inline"><span class="lbl">change</span>State the expectation in the form <del>you</del><ins>the test</ins> will eventually <del>test it:</del><ins>take:</ins> for this input, that exact result.</div>
+    </div>
+    <div class="card">
+      <span class="tag">C-06 — &quot;lose hours to&quot; with no object</span>
+      <p class="note">how/text.md — the alternative rewrite was rejected: it reversed the tip, making checking the test the expensive act.</p>
+      <div class="diff before"><span class="lbl">before</span>Worth considering early, because it is easy to lose hours to.</div>
+      <div class="diff after"><span class="lbl">after</span>Worth considering early, because it is easy to lose hours to a test that was wrong all along.</div>
+      <div class="diff inline"><span class="lbl">change</span>Worth considering early, because it is easy to lose hours <del>to.</del><ins>to a test that was wrong all along.</ins></div>
+    </div>
+    <div class="card">
+      <span class="tag">C-07 — Cross-item pronoun in TRAFFIC step 5</span>
+      <p class="note">how/text.md — &quot;them&quot; had no antecedent inside its own list item.</p>
+      <div class="diff before"><span class="lbl">before</span>1. **_Focus_** — pick the most likely of them, and state what it predicts.</div>
+      <div class="diff after"><span class="lbl">after</span>1. **_Focus_** — pick the most likely origin, and state what it predicts.</div>
+      <div class="diff inline"><span class="lbl">change</span>1. **_Focus_** — pick the most likely <del>of them,</del><ins>origin,</ins> and state what it predicts.</div>
+    </div>
+    <div class="card">
+      <span class="tag">C-08 — Record-keeping options read as a list</span>
+      <p class="note">how/text.md — one word, against a proposed rewrite four times the size of the defect.</p>
+      <div class="diff before"><span class="lbl">before</span>— an issue tracker entry for anything beyond a few minutes of work, a note beside you for the rest.</div>
+      <div class="diff after"><span class="lbl">after</span>— an issue tracker entry for anything beyond a few minutes of work, or a note beside you for the rest.</div>
+      <div class="diff inline"><span class="lbl">change</span>— an issue tracker entry for anything beyond a few minutes of work, <ins>or </ins>a note beside you for the rest.</div>
+    </div>
+    <div class="card">
+      <span class="tag">C-09 — 62-word sentence on non-code causes</span>
+      <p class="note">what/text.md — three ideas in one breath, with the semicolon doing a period&#x27;s job.</p>
+      <div class="diff before"><span class="lbl">before</span>A failure can equally originate in configuration, in data left by an earlier version, in a dependency, in the deployment, or in a requirement that was wrong to begin with; and sometimes the program is right while the _test_ is wrong — the test may hold its own defect, or the expectation it encodes may never have been correct.</div>
+      <div class="diff after"><span class="lbl">after</span>A failure can equally originate in configuration, in data left by an earlier version, in a dependency, in the deployment, or in a requirement that was wrong to begin with. Sometimes the program is right while the _test_ is wrong — the test may hold its own defect, or the expectation it encodes may never have been correct.</div>
+      <div class="diff inline"><span class="lbl">change</span>A failure can equally originate in configuration, in data left by an earlier version, in a dependency, in the deployment, or in a requirement that was wrong to begin <del>with;</del><ins>with.</ins> <del>and sometimes</del><ins>Sometimes</ins> the program is right while the _test_ is wrong — the test may hold its own defect, or the expectation it encodes may never have been correct.</div>
+    </div>
+    <div class="card">
+      <span class="tag">C-10 — Aside splitting the two payoffs of automating</span>
+      <p class="note">how/text.md — the em-dash aside sat between &quot;affordable&quot; and the coordinating &quot;and&quot;.</p>
+      <div class="diff before"><span class="lbl">before</span>is what makes the hypothesis loop affordable — you will run it dozens of times before you are done — and it becomes the regression test once you have a fix.</div>
+      <div class="diff after"><span class="lbl">after</span>is what makes the hypothesis loop affordable, and it becomes the regression test once you have a fix. You will run it dozens of times before you are done.</div>
+      <div class="diff inline"><span class="lbl">change</span>is what makes the hypothesis loop <del>affordable — you will run it dozens of times before you are done —</del><ins>affordable,</ins> and it becomes the regression test once you have a fix.<ins> You will run it dozens of times before you are done.</ins></div>
+    </div>
+    <div class="card">
+      <span class="tag">C-11 — Tracing trade-offs</span>
+      <p class="note">advanced/text.md — both reviewers. &quot;At the cost of&quot; kept so these still read as trade-offs rather than neutral description.</p>
+      <div class="diff before"><span class="lbl">before</span>It is the right probe when the failure is too fast to watch, or happens in a run you cannot sit through interactively — at the cost of volume, and of slowing the program enough to disturb the timing-sensitive failures described below.</div>
+      <div class="diff after"><span class="lbl">after</span>Use it when the failure is too fast to watch, or happens in a run you cannot monitor interactively. It comes at the cost of a large volume of recorded output, and of slowing the program enough to disturb the timing-sensitive failures described below.</div>
+      <div class="diff inline"><span class="lbl">change</span><del>It</del><ins>Use</ins> <del>is the right probe</del><ins>it</ins> when the failure is too fast to watch, or happens in a run you cannot <del>sit</del><ins>monitor</ins> <del>through</del><ins>interactively.</ins> <del>interactively</del><ins>It</ins> <del>—</del><ins>comes</ins> at the cost of <del>volume,</del><ins>a large volume of recorded output,</ins> and of slowing the program enough to disturb the timing-sensitive failures described below.</div>
+    </div>
+    <div class="card">
+      <span class="tag">C-12 — Repeated list in the record/log contrast</span>
+      <p class="note">how/text.md — the previous sentence already lists what a record holds; four of five items came round again twelve words later.</p>
+      <div class="diff before"><span class="lbl">before</span>the record holds the problem — expected behavior, actual behavior, conditions, smallest failing case — while the log holds the investigation, one line per hypothesis and what it settled.</div>
+      <div class="diff after"><span class="lbl">after</span>the record holds the problem, while the log holds the investigation, one line per hypothesis and what it settled.</div>
+      <div class="diff inline"><span class="lbl">change</span>the record holds the <del>problem — expected behavior, actual behavior, conditions, smallest failing case —</del><ins>problem,</ins> while the log holds the investigation, one line per hypothesis and what it settled.</div>
+    </div>
+    <div class="card">
+      <span class="tag">C-13 — Restated criterion in Fixing&#x27;s opener</span>
+      <p class="note">fixing/text.md — merged rather than deleted, on the second reviewer&#x27;s argument that the clause carries the operational test for &quot;the whole failure&quot;.</p>
+      <div class="diff before"><span class="lbl">before</span>but a change you intend to keep needs a causal account behind it, and if any of the observed behavior remains unaccounted for, the diagnosis is incomplete.</div>
+      <div class="diff after"><span class="lbl">after</span>but a change you intend to keep needs a causal account that explains every observed behavior.</div>
+      <div class="diff inline"><span class="lbl">change</span>but a change you intend to keep needs a causal account <del>behind</del><ins>that</ins> <del>it,</del><ins>explains</ins> <del>and if any of the</del><ins>every</ins> observed <del>behavior remains unaccounted for, the diagnosis is incomplete.</del><ins>behavior.</ins></div>
+    </div>
+    <div class="card">
+      <span class="tag">C-14a — Cross-unit back-reference (tools → What)</span>
+      <p class="note">Author-directed. Units are embedded on their own elsewhere, where these point at nothing.</p>
+      <div class="diff before"><span class="lbl">before</span>As the _What_ unit noted, the cause is often several frames above where the program stopped.</div>
+      <div class="diff after"><span class="lbl">after</span>The cause is often several frames above where the program stopped.</div>
+      <div class="diff inline"><span class="lbl">change</span><del>As the _What_ unit noted, the</del><ins>The</ins> cause is often several frames above where the program stopped.</div>
+    </div>
+    <div class="card">
+      <span class="tag">C-14b — Cross-unit back-reference (how → What)</span>
+      <p class="note">Author-directed.</p>
+      <div class="diff before"><span class="lbl">before</span>Each of these shortens the distance between defect and failure — the quantity the _What_ unit identified as the root of the difficulty.</div>
+      <div class="diff after"><span class="lbl">after</span>Each of these shortens the distance between defect and failure, which is the root of the difficulty.</div>
+      <div class="diff inline"><span class="lbl">change</span>Each of these shortens the distance between defect and <del>failure</del><ins>failure,</ins> <del>—</del><ins>which</ins> <del>the quantity the _What_ unit identified as</del><ins>is</ins> the root of the difficulty.</div>
+    </div>
+    <div class="card">
+      <span class="tag">C-14c — Cross-unit back-reference (fixing → How)</span>
+      <p class="note">Author-directed. The parenthetical goes entirely; the numbered item is complete without it.</p>
+      <div class="diff before"><span class="lbl">before</span>settles it. (The debugging log in _How_ works these three steps hypothesis by hypothesis.)</div>
+      <div class="diff after"><span class="lbl">after</span>settles it.</div>
+      <div class="diff inline"><span class="lbl">change</span>settles it.<del> (The debugging log in _How_ works these three steps hypothesis by hypothesis.)</del></div>
+    </div>
+    <div class="card">
+      <span class="tag">C-14d — Cross-unit back-reference (tools → How)</span>
+      <p class="note">Author-directed.</p>
+      <div class="diff before"><span class="lbl">before</span>The discipline of _How_ is what makes them safe:</div>
+      <div class="diff after"><span class="lbl">after</span>A systematic method is what makes them safe:</div>
+      <div class="diff inline"><span class="lbl">change</span><del>The</del><ins>A</ins> <del>discipline</del><ins>systematic</ins> <del>of _How_</del><ins>method</ins> is what makes them safe:</div>
+    </div>
+    <div class="card">
+      <span class="tag">C-15 — Delta-debugging constraint</span>
+      <p class="note">advanced/text.md — author-directed. Restated rather than deleted: a bare deletion would leave the constraint with no illustration.</p>
+      <div class="diff before"><span class="lbl">before</span>reductions that leave the input valid — the required header in the config example of _How_ is exactly such a constraint.</div>
+      <div class="diff after"><span class="lbl">after</span>reductions that leave the input valid — a config file whose required header must survive every reduction is exactly such a constraint.</div>
+      <div class="diff inline"><span class="lbl">change</span>reductions that leave the input valid — <del>the</del><ins>a config file whose</ins> required header <del>in</del><ins>must</ins> <del>the</del><ins>survive</ins> <del>config</del><ins>every</ins> <del>example of _How_</del><ins>reduction</ins> is exactly such a constraint.</div>
+    </div>
+    <div class="card">
+      <span class="tag">C-16a — Scope statement in How</span>
+      <p class="note">Author&#x27;s decision: keep the statement, drop the unit name. Deleting it outright would leave step 7 unexplained after the list introduces seven.</p>
+      <div class="diff before"><span class="lbl">before</span>This unit covers steps 1 to 6; step 7 is covered in _Fixing_.</div>
+      <div class="diff after"><span class="lbl">after</span>This unit covers steps 1 to 6; step 7 is covered separately.</div>
+      <div class="diff inline"><span class="lbl">change</span>This unit covers steps 1 to 6; step 7 is covered <del>in _Fixing_.</del><ins>separately.</ins></div>
+    </div>
+    <div class="card">
+      <span class="tag">C-16b — Scope statement in Advanced</span>
+      <p class="note">Author&#x27;s decision: keep the statement, drop the unit names.</p>
+      <div class="diff before"><span class="lbl">before</span>It extends the techniques in _How_ and _Tools_, and describes situations you will eventually meet but need not master now.</div>
+      <div class="diff after"><span class="lbl">after</span>It extends the basic techniques, and describes situations you will eventually meet but need not master now.</div>
+      <div class="diff inline"><span class="lbl">change</span>It extends the <del>techniques</del><ins>basic</ins> <del>in _How_ and _Tools_,</del><ins>techniques,</ins> and describes situations you will eventually meet but need not master now.</div>
+    </div>
+    <div class="card">
+      <span class="tag">C-17 — Impersonal coding-vs-design question</span>
+      <p class="note">fixing/text.md — &quot;consider&quot; not &quot;ask&quot;, because the next sentence says these are not the only two cases.</p>
+      <div class="diff before"><span class="lbl">before</span>It also helps to ask whether you have a coding error or a design error:</div>
+      <div class="diff after"><span class="lbl">after</span>Also consider whether you have a coding error or a design error:</div>
+      <div class="diff inline"><span class="lbl">change</span><del>It</del><ins>Also</ins> <del>also helps to ask</del><ins>consider</ins> whether you have a coding error or a design error:</div>
+    </div>
+    <div class="card">
+      <span class="tag">C-18 — &quot;a defect they cannot run&quot;</span>
+      <p class="note">tools/text.md — you run the program, not the defect; the claim is about lacking execution access.</p>
+      <div class="diff before"><span class="lbl">before</span>They are unreliable at diagnosing a defect they cannot run,</div>
+      <div class="diff after"><span class="lbl">after</span>They are unreliable at diagnosing a defect in code they cannot run,</div>
+      <div class="diff inline"><span class="lbl">change</span>They are unreliable at diagnosing a defect <ins>in code </ins>they cannot run,</div>
+    </div>
+    <div class="card">
+      <span class="tag">C-19 — Double &quot;and&quot; in the debugger definition</span>
+      <p class="note">tools/text.md — (pause and inspect) and control, or pause and (inspect and control)?</p>
+      <div class="diff before"><span class="lbl">before</span>**A debugger lets you pause a running program and inspect and control it from the inside, without modifying its code.**</div>
+      <div class="diff after"><span class="lbl">after</span>**A debugger lets you pause a running program, then inspect and control it from the inside, without modifying its code.**</div>
+      <div class="diff inline"><span class="lbl">change</span>**A debugger lets you pause a running <del>program</del><ins>program,</ins> <del>and</del><ins>then</ins> inspect and control it from the inside, without modifying its code.**</div>
+    </div>
+    <div class="card">
+      <span class="tag">C-20 — Stack-trace lead&#x27;s connector</span>
+      <p class="note">tools/text.md — the relation is concessive; &quot;and&quot; made the two halves read as one list.</p>
+      <div class="diff before"><span class="lbl">before</span>the call path that led there**, and beginners routinely scroll past it.</div>
+      <div class="diff after"><span class="lbl">after</span>the call path that led there** — yet beginners routinely scroll past it.</div>
+      <div class="diff inline"><span class="lbl">change</span>the call path that led <del>there**,</del><ins>there**</ins> <del>and</del><ins>— yet</ins> beginners routinely scroll past it.</div>
+    </div>
+    <div class="card">
+      <span class="tag">C-21 — &quot;the earlier steps reorder freely&quot;</span>
+      <p class="note">how/text.md — the proposed passive was rejected: the actor here is the student, not an unknown.</p>
+      <div class="diff before"><span class="lbl">before</span>and the earlier steps reorder freely:</div>
+      <div class="diff after"><span class="lbl">after</span>and you can reorder the earlier steps freely:</div>
+      <div class="diff inline"><span class="lbl">change</span>and<ins> you can reorder</ins> the earlier steps <del>reorder </del>freely:</div>
+    </div>
+    <div class="card">
+      <span class="tag">C-22 — &quot;Note the wider point&quot;</span>
+      <p class="note">advanced/text.md — the opener told the reader to notice rather than stating anything.</p>
+      <div class="diff before"><span class="lbl">before</span>Note the wider point — a mechanical procedure can replace intuition for this step.</div>
+      <div class="diff after"><span class="lbl">after</span>The wider point: a mechanical procedure can replace intuition for this step.</div>
+      <div class="diff inline"><span class="lbl">change</span><del>Note the</del><ins>The</ins> wider <del>point —</del><ins>point:</ins> a mechanical procedure can replace intuition for this step.</div>
+    </div>
+    <div class="card">
+      <span class="tag">C-23 — Tautology in the reproduction list</span>
+      <p class="note">how/text.md — a sequence is ordered by definition; the example also needed a comma.</p>
+      <div class="diff before"><span class="lbl">before</span>the sequence of actions in order, and the starting state such as leftovers from a previous run.</div>
+      <div class="diff after"><span class="lbl">after</span>the sequence of actions, and the starting state, such as leftovers from a previous run.</div>
+      <div class="diff inline"><span class="lbl">change</span>the sequence of <del>actions in order,</del><ins>actions,</ins> and the starting <del>state</del><ins>state,</ins> such as leftovers from a previous run.</div>
+    </div>
+    <div class="card">
+      <span class="tag">C-24 — Advanced unit&#x27;s learning outcome</span>
+      <p class="note">advanced/text.md — the other four outcomes run three or four words; this ran sixteen.</p>
+      <div class="diff before"><span class="lbl">before</span>Can recognize situations where the basic debugging techniques fall short, and know what to reach for instead</div>
+      <div class="diff after"><span class="lbl">after</span>Can recognize where the basic techniques fall short, and what to use instead</div>
+      <div class="diff inline"><span class="lbl">change</span>Can recognize<del> situations</del> where the basic<del> debugging</del> techniques fall short, and <del>know </del>what to <del>reach for</del><ins>use</ins> instead</div>
+    </div>
+    <div class="card">
+      <span class="tag">C-25 — Exception table column shape</span>
+      <p class="note">tools/text.md — three cells were noun phrases and three full clauses under one &quot;Usually means&quot; stem. Judgment call: the NullPointerException cell is &quot;never initialized&quot;, not the &quot;initialized too late&quot; first drafted, which would have changed the row&#x27;s meaning.</p>
+      <div class="diff before"><span class="lbl">before</span>| `NullPointerException` | Something expected to be initialized never was, or a method returned `null` unnoticed |
+| `ClassCastException` | An object is not the type assumed, often after an unchecked cast |
+| `ConcurrentModificationException` | A collection was modified while being iterated over, usually in a single thread |</div>
+      <div class="diff after"><span class="lbl">after</span>| `NullPointerException` | Something never initialized, or a method returning `null` unnoticed |
+| `ClassCastException` | An object that is not the type assumed, often after an unchecked cast |
+| `ConcurrentModificationException` | A collection modified while being iterated over, usually in a single thread |</div>
+      <div class="diff inline"><span class="lbl">change</span>| `NullPointerException` | Something <del>expected to be initialized </del>never <del>was,</del><ins>initialized,</ins> or a method <del>returned</del><ins>returning</ins> `null` unnoticed |
+| `ClassCastException` | An object<ins> that</ins> is not the type assumed, often after an unchecked cast |
+| `ConcurrentModificationException` | A collection <del>was </del>modified while being iterated over, usually in a single thread |</div>
+    </div>
+    <div class="card">
+      <span class="tag">C-26 — IntelliJ product name</span>
+      <p class="note">Both reviewers. Applied to all eight labels book-wide per the author&#x27;s decision, in two commits (this chapter, then the seven elsewhere). URLs untouched.</p>
+      <div class="diff before"><span class="lbl">before</span>[se-edu Guide _Intellij IDEA: Using the debugger_](https://se-education.org/guides/tutorials/intellijDebugger.html)</div>
+      <div class="diff after"><span class="lbl">after</span>[se-edu Guide _IntelliJ IDEA: Using the debugger_](https://se-education.org/guides/tutorials/intellijDebugger.html)</div>
+      <div class="diff inline"><span class="lbl">change</span>[se-edu Guide <del>_Intellij</del><ins>_IntelliJ</ins> IDEA: Using the debugger_](https://se-education.org/guides/tutorials/intellijDebugger.html)</div>
+    </div>
+    <div class="card">
+      <span class="tag">C-27 — &quot;3am&quot;</span>
+      <p class="note">tools/text.md — the run-together form is British/informal; this book uses American English.</p>
+      <div class="diff before"><span class="lbl">before</span>on a user&#x27;s machine at 3am, where no debugger can reach.</div>
+      <div class="diff after"><span class="lbl">after</span>on a user&#x27;s machine at 3 a.m., where no debugger can reach.</div>
+      <div class="diff inline"><span class="lbl">change</span>on a user&#x27;s machine at <del>3am,</del><ins>3 a.m.,</ins> where no debugger can reach.</div>
+    </div>
+    <div class="card">
+      <span class="tag">C-28 — Doubled terminal punctuation</span>
+      <p class="note">tools/text.md — a question mark inside the quotation followed by a sentence period outside it.</p>
+      <div class="diff before"><span class="lbl">before</span>the right tool for &quot;what is setting this to `null`?&quot;.</div>
+      <div class="diff after"><span class="lbl">after</span>the right tool for &quot;what is setting this to `null`?&quot;</div>
+      <div class="diff inline"><span class="lbl">change</span>the right tool for &quot;what is setting this to <del>`null`?&quot;.</del><ins>`null`?&quot;</ins></div>
+    </div>
+    <div class="card">
+      <span class="tag">C-29 — Unpunctuated list item</span>
+      <p class="note">tools/text.md — both reviewers. Item 1 had no period while item 2 had two terminated sentences.</p>
+      <div class="diff before"><span class="lbl">before</span>rather than at the failure, so you can watch the state go wrong</div>
+      <div class="diff after"><span class="lbl">after</span>rather than at the failure, so you can watch the state go wrong.</div>
+      <div class="diff inline"><span class="lbl">change</span>rather than at the failure, so you can watch the state go <del>wrong</del><ins>wrong.</ins></div>
+    </div>
+    <div class="card">
+      <span class="tag">C-30 — Nondeterminism list had no conjunction</span>
+      <p class="note">how/text.md — every comparable list on the page ends with a serial comma and &quot;and&quot;.</p>
+      <div class="diff before"><span class="lbl">before</span>the random seed, the clock and time zone, iteration order, the number of threads.</div>
+      <div class="diff after"><span class="lbl">after</span>the random seed, the clock and time zone, iteration order, and the number of threads.</div>
+      <div class="diff inline"><span class="lbl">change</span>the random seed, the clock and time zone, iteration order, <ins>and </ins>the number of threads.</div>
+    </div>
+    <div class="card">
+      <span class="tag">C-31 — Debugger command casing</span>
+      <p class="note">tools/text.md and advanced/text.md — author&#x27;s decision. Eleven features were lowercase and four capitalized, implying a distinction that does not hold.</p>
+      <div class="diff before"><span class="lbl">before</span>{{ show_term(&quot;Force step into&quot;) }} enters library code that _step into_ normally skips. {{ show_term(&quot;Reset frame&quot;) }} (or {{ show_term(&quot;Drop frame&quot;) }}) pops the current call</div>
+      <div class="diff after"><span class="lbl">after</span>{{ show_term(&quot;force step into&quot;) }} enters library code that _step into_ normally skips. {{ show_term(&quot;reset frame&quot;) }} (or {{ show_term(&quot;drop frame&quot;) }}) pops the current call</div>
+      <div class="diff inline"><span class="lbl">change</span>{{ <del>show_term(&quot;Force</del><ins>show_term(&quot;force</ins> step into&quot;) }} enters library code that _step into_ normally skips. {{ <del>show_term(&quot;Reset</del><ins>show_term(&quot;reset</ins> frame&quot;) }} (or {{ <del>show_term(&quot;Drop</del><ins>show_term(&quot;drop</ins> frame&quot;) }}) pops the current call</div>
+    </div>
+    <div class="card">
+      <span class="tag">C-32 — Ordinals on the three bold claims</span>
+      <p class="note">what/text.md — author&#x27;s decision. The bold spans are meant to read as a skim outline of the page, and they led with counters.</p>
+      <div class="diff before"><span class="lbl">before</span>* **First, the distance between defect and failure**: the crash site is not the crime scene
+* **Second, you cannot inspect everything** — a running program holds
+* **Third, your mental model of the code is exactly the thing that is wrong**: had you understood it</div>
+      <div class="diff after"><span class="lbl">after</span>* **The distance between defect and failure**: the crash site is not the crime scene
+* **You cannot inspect everything** — a running program holds
+* **Your mental model of the code is exactly the thing that is wrong**: had you understood it</div>
+      <div class="diff inline"><span class="lbl">change</span>* <del>**First, the</del><ins>**The</ins> distance between defect and failure**: the crash site is not the crime scene
+* <del>**Second, you</del><ins>**You</ins> cannot inspect everything** — a running program holds
+* <del>**Third, your</del><ins>**Your</ins> mental model of the code is exactly the thing that is wrong**: had you understood it</div>
+    </div>
+  </div>
+
+  <h2>Notes, judgment calls, and what needs your attention <span class="count">6</span></h2>
+  <div class="cards">
+    <div class="card note-card">
+      <p class="issue">Nothing has been pushed</p>
+      <p class="body">33 local commits on master in the book repo (a5160530d..f589b13d1). The book/ directory is a git submodule of cs2103-website-base; its pointer in the parent repo is now behind and has NOT been advanced — that is a separate change and needs your decision.</p>
+    </div>
+    <div class="card note-card">
+      <p class="issue">All 32 changes applied; none skipped</p>
+      <p class="body">Verified against the rendered page after a full site build (788/788 pages). Every intended string is present in the output and every removed string is gone. The markdown-it-attrs type error in the build log is the project&#x27;s known noise, unrelated to these edits.</p>
+    </div>
+    <div class="card note-card">
+      <p class="issue">Judgment call in C-25 (exception table)</p>
+      <p class="body">The plan&#x27;s wording for the NullPointerException cell was &quot;Something initialized too late&quot;, which changes what the row says — &quot;expected to be initialized never was&quot; is not the same as being initialized late. Applied as &quot;Something never initialized&quot;, which meets the plan&#x27;s goal (one grammatical shape across the column) without altering the meaning.</p>
+    </div>
+    <div class="card note-card">
+      <p class="issue">Visible consequence of C-31 worth a look</p>
+      <p class="body">Lowercasing &quot;Evaluate expression&quot; puts a lowercase term at the start of a sentence in the debugger walkthrough. This matches how the page already treats &quot;step over&quot;, &quot;step into&quot;, &quot;step out&quot; and &quot;run to cursor&quot;, which also open sentences in lowercase — so it is consistent, but it is a pre-existing orthographic wart that C-31 now makes more visible. Recasting those sentence openings would be a separate change.</p>
+    </div>
+    <div class="card note-card">
+      <p class="issue">Ten findings deliberately not applied</p>
+      <p class="body">Listed with reasons under &quot;Not planned&quot; in the change plan. The largest is the second reviewer&#x27;s `major` claim that the %%...%% glosses lack delimiters — rejected because they render as gray dimmed spans in both themes and in print, so the finding was an artifact of reading the page as stripped text.</p>
+    </div>
+    <div class="card note-card">
+      <p class="issue">Noticed while working, not acted on</p>
+      <p class="body">The Advanced unit&#x27;s delta-debugging paragraph uses &quot;still&quot; three times in three consecutive sentences (&quot;keeping whichever reduction still fails&quot;, &quot;It still needs two things&quot;, &quot;whether a reduction still fails&quot;). Outside the plan, so left alone; worth a future pass.</p>
+    </div>
+  </div>
+</body>
+</html>
