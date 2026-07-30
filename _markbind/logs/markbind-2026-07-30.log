@@ -1,0 +1,47 @@
+2026-07-29T16:08:49.925Z - [32minfo[39m: Website generation (lazy) started at 00:08:49
+2026-07-29T16:08:50.581Z - [32minfo[39m: Building assets...
+2026-07-29T16:08:51.076Z - [32minfo[39m: Assets built
+2026-07-29T16:08:51.077Z - [32minfo[39m: Generating landing page...
+2026-07-29T16:08:51.305Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/index.md
+2026-07-29T16:08:51.334Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-07-29T16:08:51.406Z - [32minfo[39m: Site data built
+2026-07-29T16:08:51.407Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 1.846s
+2026-07-29T16:08:51.418Z - [32minfo[39m: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2026-07-29T16:08:51.418Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-07-29T16:08:57.292Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/index as some of its dependencies were changed since the last visit
+2026-07-29T16:08:57.440Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/index.md
+2026-07-29T16:08:57.454Z - [32minfo[39m: Site data built
+2026-07-29T16:08:57.454Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.163s
+2026-07-29T16:09:09.365Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/requirements as some of its dependencies were changed since the last visit
+2026-07-29T16:09:09.526Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/requirements.md
+2026-07-29T16:09:09.561Z - [32minfo[39m: Site data built
+2026-07-29T16:09:09.561Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.196s
+2026-07-29T16:21:25.703Z - [32minfo[39m: [00:21:25] Reload for file add: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_temp/page-tweaks/page-contents-requirements.md
+2026-07-29T16:21:25.704Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-29T16:21:25.704Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-29T16:21:25.704Z - [32minfo[39m: 1. se-book-adapted/chapters/requirements
+2026-07-29T16:21:26.883Z - [32minfo[39m: Assets built
+2026-07-29T16:21:32.770Z - [32minfo[39m: [00:21:32] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_temp/page-tweaks/page-contents-requirements.md
+2026-07-29T16:21:32.770Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-29T16:21:32.770Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-29T16:21:32.770Z - [32minfo[39m: 1. se-book-adapted/chapters/requirements
+2026-07-29T16:21:33.775Z - [32minfo[39m: Assets built
+2026-07-29T16:26:05.137Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/gatheringRequirements as some of its dependencies were changed since the last visit
+2026-07-29T16:26:05.307Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/gatheringRequirements.md
+2026-07-29T16:26:05.340Z - [32minfo[39m: Site data built
+2026-07-29T16:26:05.340Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.204s
+2026-07-29T16:26:40.244Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/specifyingRequirements as some of its dependencies were changed since the last visit
+2026-07-29T16:26:40.582Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/specifyingRequirements.md
+2026-07-29T16:26:40.619Z - [32minfo[39m: Site data built
+2026-07-29T16:26:40.619Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.376s
+2026-07-29T16:29:29.987Z - [32minfo[39m: [00:29:29] Reload for file add: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_temp/page-tweaks/page-contents-gatheringRequirements.md
+2026-07-29T16:29:29.988Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-29T16:29:29.989Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-29T16:29:29.989Z - [32minfo[39m: 1. se-book-adapted/chapters/gatheringRequirements
+2026-07-29T16:29:29.989Z - [32minfo[39m: 2. se-book-adapted/chapters/specifyingRequirements
+2026-07-29T16:29:31.216Z - [32minfo[39m: Assets built
+2026-07-29T16:36:41.934Z - [32minfo[39m: [00:36:41] Reload for file add: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_temp/page-tweaks/page-contents-specifyingRequirements.md
+2026-07-29T16:36:41.935Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-29T16:36:41.936Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-29T16:36:41.936Z - [32minfo[39m: 1. se-book-adapted/chapters/specifyingRequirements
+2026-07-29T16:36:43.123Z - [32minfo[39m: Assets built

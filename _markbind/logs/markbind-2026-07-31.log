@@ -1,0 +1,71 @@
+2026-07-30T16:58:34.047Z - [32minfo[39m: Website generation (lazy) started at 00:58:33
+2026-07-30T16:58:34.606Z - [32minfo[39m: Building assets...
+2026-07-30T16:58:35.033Z - [32minfo[39m: Assets built
+2026-07-30T16:58:35.034Z - [32minfo[39m: Generating landing page...
+2026-07-30T16:58:35.271Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/index.md
+2026-07-30T16:58:35.302Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-07-30T16:58:35.381Z - [32minfo[39m: Site data built
+2026-07-30T16:58:35.381Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 1.5s
+2026-07-30T16:58:35.394Z - [32minfo[39m: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2026-07-30T16:58:35.395Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-07-30T16:58:42.019Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/index as some of its dependencies were changed since the last visit
+2026-07-30T16:58:42.172Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/index.md
+2026-07-30T16:58:42.187Z - [32minfo[39m: Site data built
+2026-07-30T16:58:42.187Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.17s
+2026-07-30T16:58:49.847Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/security as some of its dependencies were changed since the last visit
+2026-07-30T16:58:50.070Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/security.md
+2026-07-30T16:58:50.098Z - [32minfo[39m: Site data built
+2026-07-30T16:58:50.098Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.251s
+2026-07-30T17:09:16.543Z - [32minfo[39m: Website generation (lazy) started at 01:09:16
+2026-07-30T17:09:17.041Z - [32minfo[39m: Building assets...
+2026-07-30T17:09:17.434Z - [32minfo[39m: Assets built
+2026-07-30T17:09:17.434Z - [32minfo[39m: Generating landing page...
+2026-07-30T17:09:17.665Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/index.md
+2026-07-30T17:09:17.693Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-07-30T17:09:17.785Z - [32minfo[39m: Site data built
+2026-07-30T17:09:17.785Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 1.426s
+2026-07-30T17:09:17.796Z - [32minfo[39m: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2026-07-30T17:09:17.796Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-07-30T17:09:26.039Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/index as some of its dependencies were changed since the last visit
+2026-07-30T17:09:26.187Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/index.md
+2026-07-30T17:09:26.207Z - [32minfo[39m: Site data built
+2026-07-30T17:09:26.208Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.17s
+2026-07-30T17:09:30.668Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/security as some of its dependencies were changed since the last visit
+2026-07-30T17:09:30.891Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/security.md
+2026-07-30T17:09:30.929Z - [32minfo[39m: Site data built
+2026-07-30T17:09:30.929Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.261s
+2026-07-30T17:11:02.707Z - [32minfo[39m: [01:11:02] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/security/what/text.md
+2026-07-30T17:11:02.708Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-30T17:11:02.709Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-30T17:11:02.710Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-30T17:11:03.721Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-30T17:11:03.969Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/security.md
+2026-07-30T17:11:04.002Z - [32minfo[39m: Site data built
+2026-07-30T17:11:04.002Z - [32minfo[39m: Pages rebuilt
+2026-07-30T17:11:04.002Z - [32minfo[39m: Website regeneration complete! Total build time: 0.284s
+2026-07-30T17:11:11.336Z - [32minfo[39m: [01:11:11] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/security/what/text.md
+2026-07-30T17:11:11.337Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-30T17:11:11.337Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-30T17:11:11.337Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-30T17:11:12.344Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-30T17:11:12.583Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/security.md
+2026-07-30T17:11:12.617Z - [32minfo[39m: Site data built
+2026-07-30T17:11:12.617Z - [32minfo[39m: Pages rebuilt
+2026-07-30T17:11:12.618Z - [32minfo[39m: Website regeneration complete! Total build time: 0.276s
+2026-07-30T17:16:15.354Z - [32minfo[39m: [01:16:15] Reload for file add: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_temp/page-tweaks/codex-response.md
+2026-07-30T17:16:15.355Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-30T17:16:15.356Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-30T17:16:15.356Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-30T17:16:16.512Z - [32minfo[39m: Assets built
+2026-07-30T17:16:46.246Z - [32minfo[39m: [01:16:46] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_temp/page-tweaks/codex-response.md
+2026-07-30T17:16:46.247Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-30T17:16:46.248Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-30T17:16:46.248Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-30T17:16:47.251Z - [32minfo[39m: Assets built
+2026-07-30T17:18:13.216Z - [32minfo[39m: [01:18:13] Reload for file add: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_temp/page-tweaks/claude-response.md
+2026-07-30T17:18:13.217Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-30T17:18:13.218Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-30T17:18:13.218Z - [32minfo[39m: 1. se-book-adapted/chapters/security
+2026-07-30T17:18:14.417Z - [32minfo[39m: Assets built
+2026-07-30T17:55:03.657Z - [32minfo[39m: Website generation started at 01:55:03
+2026-07-30T17:55:04.090Z - [32minfo[39m: Building assets...
