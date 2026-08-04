@@ -1,0 +1,929 @@
+2026-08-04T16:15:00.173Z - [32minfo[39m: [00:15:00] Reload for file add: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/Level-4-fragment.md
+2026-08-04T16:15:00.238Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T16:15:00.241Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T16:15:00.242Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T16:15:01.654Z - [32minfo[39m: Assets built
+2026-08-04T16:18:01.197Z - [32minfo[39m: [00:18:01] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/Level-4-fragment.md
+2026-08-04T16:18:01.201Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T16:18:01.202Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T16:18:01.203Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T16:18:01.257Z - [32minfo[39m: [00:18:01] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/text.md
+2026-08-04T16:18:01.257Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T16:18:01.257Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T16:18:01.257Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T16:18:02.218Z - [32minfo[39m: Assets built
+2026-08-04T16:18:02.287Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T16:18:02.776Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-04T16:18:02.828Z - [32minfo[39m: Site data built
+2026-08-04T16:18:02.828Z - [32minfo[39m: Pages rebuilt
+2026-08-04T16:18:02.829Z - [32minfo[39m: Website regeneration complete! Total build time: 0.561s
+2026-08-04T16:19:24.461Z - [32minfo[39m: [00:19:24] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/Level-4-fragment.md
+2026-08-04T16:19:24.467Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T16:19:24.468Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T16:19:24.468Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T16:19:25.478Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T16:19:25.844Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-04T16:19:25.891Z - [32minfo[39m: Site data built
+2026-08-04T16:19:25.891Z - [32minfo[39m: Pages rebuilt
+2026-08-04T16:19:25.891Z - [32minfo[39m: Website regeneration complete! Total build time: 0.416s
+2026-08-04T16:31:44.321Z - [32minfo[39m: [00:31:44] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/Level-4-fragment.md
+2026-08-04T16:31:44.324Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T16:31:44.325Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T16:31:44.325Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T16:31:45.345Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T16:31:45.695Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-04T16:31:45.743Z - [32minfo[39m: Site data built
+2026-08-04T16:31:45.743Z - [32minfo[39m: Pages rebuilt
+2026-08-04T16:31:45.743Z - [32minfo[39m: Website regeneration complete! Total build time: 0.417s
+2026-08-04T16:32:13.186Z - [32minfo[39m: [00:32:13] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/Level-4-fragment.md
+2026-08-04T16:32:13.191Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T16:32:13.198Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T16:32:13.198Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T16:32:14.216Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T16:32:14.557Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-04T16:32:14.591Z - [32minfo[39m: Site data built
+2026-08-04T16:32:14.591Z - [32minfo[39m: Pages rebuilt
+2026-08-04T16:32:14.591Z - [32minfo[39m: Website regeneration complete! Total build time: 0.388s
+2026-08-04T16:32:43.024Z - [32minfo[39m: [00:32:43] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/Level-4-fragment.md
+2026-08-04T16:32:43.025Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T16:32:43.026Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T16:32:43.026Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T16:32:44.030Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T16:32:44.361Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-04T16:32:44.406Z - [32minfo[39m: Site data built
+2026-08-04T16:32:44.406Z - [32minfo[39m: Pages rebuilt
+2026-08-04T16:32:44.406Z - [32minfo[39m: Website regeneration complete! Total build time: 0.379s
+2026-08-04T16:38:47.427Z - [32minfo[39m: [00:38:47] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/Level-4-fragment.md
+2026-08-04T16:38:47.429Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T16:38:47.430Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T16:38:47.431Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T16:38:48.446Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T16:38:48.790Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-04T16:38:48.834Z - [32minfo[39m: Site data built
+2026-08-04T16:38:48.834Z - [32minfo[39m: Pages rebuilt
+2026-08-04T16:38:48.834Z - [32minfo[39m: Website regeneration complete! Total build time: 0.393s
+2026-08-04T16:40:24.273Z - [32minfo[39m: [00:40:24] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/Level-4-fragment.md
+2026-08-04T16:40:24.280Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T16:40:24.284Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T16:40:24.284Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T16:40:25.326Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T16:40:25.712Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-04T16:40:25.749Z - [32minfo[39m: Site data built
+2026-08-04T16:40:25.749Z - [32minfo[39m: Pages rebuilt
+2026-08-04T16:40:25.749Z - [32minfo[39m: Website regeneration complete! Total build time: 0.442s
+2026-08-04T16:41:15.968Z - [32minfo[39m: [00:41:15] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/Level-4-fragment.md
+2026-08-04T16:41:15.971Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T16:41:15.972Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T16:41:15.972Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T16:41:16.976Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T16:41:17.291Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-04T16:41:17.324Z - [32minfo[39m: Site data built
+2026-08-04T16:41:17.324Z - [32minfo[39m: Pages rebuilt
+2026-08-04T16:41:17.324Z - [32minfo[39m: Website regeneration complete! Total build time: 0.352s
+2026-08-04T16:47:29.372Z - [32minfo[39m: [00:47:29] Reload for file add: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/Level-5-fragment.md
+2026-08-04T16:47:29.374Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T16:47:29.374Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T16:47:29.374Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T16:47:30.623Z - [32minfo[39m: Assets built
+2026-08-04T17:05:46.455Z - [32minfo[39m: [01:05:46] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/text.md
+2026-08-04T17:05:46.460Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T17:05:46.462Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T17:05:46.469Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T17:05:46.519Z - [32minfo[39m: [01:05:46] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/Level-5-fragment.md
+2026-08-04T17:05:46.519Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T17:05:46.519Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T17:05:46.519Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T17:05:47.490Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T17:05:47.869Z - [32minfo[39m: Assets built
+2026-08-04T17:05:47.878Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-04T17:05:47.932Z - [32minfo[39m: Site data built
+2026-08-04T17:05:47.932Z - [32minfo[39m: Pages rebuilt
+2026-08-04T17:05:47.932Z - [32minfo[39m: Website regeneration complete! Total build time: 0.456s
+2026-08-04T17:10:44.316Z - [32minfo[39m: [01:10:44] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/Level-5-fragment.md
+2026-08-04T17:10:44.318Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T17:10:44.318Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T17:10:44.319Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T17:10:45.337Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T17:10:45.676Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-04T17:10:45.710Z - [32minfo[39m: Site data built
+2026-08-04T17:10:45.710Z - [32minfo[39m: Pages rebuilt
+2026-08-04T17:10:45.710Z - [32minfo[39m: Website regeneration complete! Total build time: 0.384s
+2026-08-04T17:18:38.833Z - [32minfo[39m: [01:18:38] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/Level-5-fragment.md
+2026-08-04T17:18:38.840Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T17:18:38.842Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T17:18:38.842Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T17:18:39.879Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T17:18:40.240Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-04T17:18:40.273Z - [32minfo[39m: Site data built
+2026-08-04T17:18:40.273Z - [32minfo[39m: Pages rebuilt
+2026-08-04T17:18:40.273Z - [32minfo[39m: Website regeneration complete! Total build time: 0.428s
+2026-08-04T17:19:54.053Z - [32minfo[39m: [01:19:54] Reload for file add: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/Level-6-fragment.md
+2026-08-04T17:19:54.054Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T17:19:54.055Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T17:19:54.055Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T17:19:55.404Z - [32minfo[39m: Assets built
+2026-08-04T17:21:08.695Z - [32minfo[39m: [01:21:08] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/Level-6-fragment.md
+2026-08-04T17:21:08.697Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T17:21:08.698Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T17:21:08.698Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T17:21:08.765Z - [32minfo[39m: [01:21:08] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/text.md
+2026-08-04T17:21:08.765Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T17:21:08.765Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T17:21:08.765Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T17:21:09.703Z - [32minfo[39m: Assets built
+2026-08-04T17:21:09.793Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T17:21:10.128Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-04T17:21:10.179Z - [32minfo[39m: Site data built
+2026-08-04T17:21:10.179Z - [32minfo[39m: Pages rebuilt
+2026-08-04T17:21:10.179Z - [32minfo[39m: Website regeneration complete! Total build time: 0.401s
+2026-08-04T17:21:19.262Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week2/index as some of its dependencies were changed since the last visit
+2026-08-04T17:21:19.552Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week2/index.md
+2026-08-04T17:21:19.567Z - [32minfo[39m: Site data built
+2026-08-04T17:21:19.568Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.306s
+2026-08-04T17:21:25.371Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week2/project as some of its dependencies were changed since the last visit
+2026-08-04T17:21:25.601Z - [31merror[39m: Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md) [Line 90, Column 43]
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Error: cannot import 'show_ai_guidance'
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:336:23
+    at Template.root [as rootRenderFunc] (eval at _compile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:527:18), <anonymous>:67:3)
+    at Template.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:326:10)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:55:31
+    at createTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:110:13)
+    at handle (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:123:17)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:134:13
+    at next (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:258:7)
+    at Object.asyncIter (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:263:3)
+2026-08-04T17:21:26.425Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week2/project.md
+2026-08-04T17:21:26.452Z - [32minfo[39m: Site data built
+2026-08-04T17:21:26.452Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 1.081s
+2026-08-04T17:30:37.511Z - [32minfo[39m: [01:30:37] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/Level-6-fragment.md
+2026-08-04T17:30:37.518Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T17:30:37.519Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T17:30:37.519Z - [32minfo[39m: 1. schedule/week2/index
+2026-08-04T17:30:38.545Z - [32minfo[39m: No pages needed to be rebuilt
+2026-08-04T17:30:49.099Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index as some of its dependencies were changed since the last visit
+2026-08-04T17:30:49.473Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-04T17:30:49.508Z - [32minfo[39m: Site data built
+2026-08-04T17:30:49.508Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.41s
+2026-08-04T17:57:42.467Z - [32minfo[39m: [01:57:42] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/Level-6-fragment.md
+2026-08-04T17:57:42.481Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T17:57:42.484Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T17:57:42.485Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T17:57:42.538Z - [32minfo[39m: [01:57:42] Reload for file add: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-Enums-fragment.md
+2026-08-04T17:57:42.539Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T17:57:42.539Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T17:57:42.539Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T17:57:43.522Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T17:57:44.142Z - [32minfo[39m: Assets built
+2026-08-04T17:57:44.155Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-04T17:57:44.231Z - [32minfo[39m: Site data built
+2026-08-04T17:57:44.231Z - [32minfo[39m: Pages rebuilt
+2026-08-04T17:57:44.231Z - [32minfo[39m: Website regeneration complete! Total build time: 0.732s
+2026-08-04T17:59:17.239Z - [32minfo[39m: [01:59:17] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/extensions-fragment.md
+2026-08-04T17:59:17.240Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T17:59:17.240Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T17:59:17.240Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T17:59:17.242Z - [32minfo[39m: [01:59:17] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-Enums-fragment.md
+2026-08-04T17:59:17.242Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T17:59:17.242Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T17:59:17.242Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T17:59:17.248Z - [32minfo[39m: [01:59:17] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/Level-5-fragment.md
+2026-08-04T17:59:17.248Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T17:59:17.248Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T17:59:17.248Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T17:59:18.262Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T17:59:18.595Z - [32minfo[39m: Assets built
+2026-08-04T17:59:18.599Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-04T17:59:18.641Z - [32minfo[39m: Site data built
+2026-08-04T17:59:18.641Z - [32minfo[39m: Pages rebuilt
+2026-08-04T17:59:18.641Z - [32minfo[39m: Website regeneration complete! Total build time: 0.396s
+2026-08-04T17:59:32.507Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week2/project as some of its dependencies were changed since the last visit
+2026-08-04T17:59:32.800Z - [31merror[39m: Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md) [Line 90, Column 43]
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Error: cannot import 'show_ai_guidance'
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:336:23
+    at Template.root [as rootRenderFunc] (eval at _compile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:527:18), <anonymous>:67:3)
+    at Template.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:326:10)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:55:31
+    at createTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:110:13)
+    at handle (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:123:17)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:134:13
+    at next (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:258:7)
+    at Object.asyncIter (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:263:3)
+2026-08-04T17:59:33.659Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week2/project.md
+2026-08-04T17:59:33.686Z - [32minfo[39m: Site data built
+2026-08-04T17:59:33.687Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 1.182s
+2026-08-04T18:00:34.187Z - [32minfo[39m: [02:00:34] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/boilerplates/dukeExtensionTitle.md
+2026-08-04T18:00:34.192Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T18:00:34.192Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T18:00:34.192Z - [32minfo[39m: 1. schedule/week2/project
+2026-08-04T18:00:35.201Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T18:00:35.436Z - [31merror[39m: Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md) [Line 90, Column 43]
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Error: cannot import 'show_ai_guidance'
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:336:23
+    at Template.root [as rootRenderFunc] (eval at _compile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:527:18), <anonymous>:67:3)
+    at Template.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:326:10)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:55:31
+    at createTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:110:13)
+    at handle (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:123:17)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:134:13
+    at next (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:258:7)
+    at Object.asyncIter (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:263:3)
+2026-08-04T18:00:36.304Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week2/project.md
+2026-08-04T18:00:36.331Z - [32minfo[39m: Site data built
+2026-08-04T18:00:36.331Z - [32minfo[39m: Pages rebuilt
+2026-08-04T18:00:36.331Z - [32minfo[39m: Website regeneration complete! Total build time: 1.136s
+2026-08-04T18:00:41.867Z - [32minfo[39m: [02:00:41] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/boilerplates/dukeExtensionTitle.md
+2026-08-04T18:00:41.868Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T18:00:41.868Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T18:00:41.868Z - [32minfo[39m: 1. schedule/week2/project
+2026-08-04T18:00:42.907Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T18:00:43.114Z - [31merror[39m: Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md) [Line 90, Column 43]
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Error: cannot import 'show_ai_guidance'
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:336:23
+    at Template.root [as rootRenderFunc] (eval at _compile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:527:18), <anonymous>:67:3)
+    at Template.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:326:10)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:55:31
+    at createTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:110:13)
+    at handle (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:123:17)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:134:13
+    at next (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:258:7)
+    at Object.asyncIter (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:263:3)
+2026-08-04T18:00:43.917Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week2/project.md
+2026-08-04T18:00:43.935Z - [32minfo[39m: Site data built
+2026-08-04T18:00:43.935Z - [32minfo[39m: Pages rebuilt
+2026-08-04T18:00:43.935Z - [32minfo[39m: Website regeneration complete! Total build time: 1.033s
+2026-08-04T18:00:57.840Z - [32minfo[39m: [02:00:57] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/extensions-fragment.md
+2026-08-04T18:00:57.842Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T18:00:57.842Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T18:00:57.843Z - [32minfo[39m: 1. schedule/week2/project
+2026-08-04T18:00:58.856Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T18:00:59.063Z - [31merror[39m: Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md) [Line 90, Column 43]
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Error: cannot import 'show_ai_guidance'
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:336:23
+    at Template.root [as rootRenderFunc] (eval at _compile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:527:18), <anonymous>:67:3)
+    at Template.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:326:10)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:55:31
+    at createTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:110:13)
+    at handle (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:123:17)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:134:13
+    at next (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:258:7)
+    at Object.asyncIter (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:263:3)
+2026-08-04T18:00:59.864Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week2/project.md
+2026-08-04T18:00:59.884Z - [32minfo[39m: Site data built
+2026-08-04T18:00:59.884Z - [32minfo[39m: Pages rebuilt
+2026-08-04T18:00:59.884Z - [32minfo[39m: Website regeneration complete! Total build time: 1.037s
+2026-08-04T18:01:39.641Z - [32minfo[39m: [02:01:39] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-Enums-fragment.md
+2026-08-04T18:01:39.642Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T18:01:39.643Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T18:01:39.643Z - [32minfo[39m: 1. schedule/week2/project
+2026-08-04T18:01:39.648Z - [32minfo[39m: [02:01:39] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/extensions-fragment.md
+2026-08-04T18:01:39.648Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T18:01:39.648Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T18:01:39.648Z - [32minfo[39m: 1. schedule/week2/project
+2026-08-04T18:01:40.648Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T18:01:40.860Z - [31merror[39m: Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md) [Line 90, Column 43]
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Error: cannot import 'show_ai_guidance'
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:336:23
+    at Template.root [as rootRenderFunc] (eval at _compile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:527:18), <anonymous>:67:3)
+    at Template.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:326:10)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:55:31
+    at createTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:110:13)
+    at handle (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:123:17)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:134:13
+    at next (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:258:7)
+    at Object.asyncIter (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:263:3)
+2026-08-04T18:01:41.692Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week2/project.md
+2026-08-04T18:01:41.719Z - [32minfo[39m: Site data built
+2026-08-04T18:01:41.719Z - [32minfo[39m: Pages rebuilt
+2026-08-04T18:01:41.719Z - [32minfo[39m: Website regeneration complete! Total build time: 1.074s
+2026-08-04T18:02:42.539Z - [32minfo[39m: [02:02:42] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/boilerplates/dukeNestedFragment.md
+2026-08-04T18:02:42.543Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T18:02:42.548Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T18:02:42.548Z - [32minfo[39m: 1. schedule/week2/project
+2026-08-04T18:02:43.562Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T18:02:43.788Z - [31merror[39m: Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md) [Line 90, Column 43]
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Error: cannot import 'show_ai_guidance'
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:336:23
+    at Template.root [as rootRenderFunc] (eval at _compile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:527:18), <anonymous>:67:3)
+    at Template.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:326:10)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:55:31
+    at createTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:110:13)
+    at handle (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:123:17)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:134:13
+    at next (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:258:7)
+    at Object.asyncIter (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:263:3)
+2026-08-04T18:02:44.694Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week2/project.md
+2026-08-04T18:02:44.722Z - [32minfo[39m: Site data built
+2026-08-04T18:02:44.722Z - [32minfo[39m: Pages rebuilt
+2026-08-04T18:02:44.722Z - [32minfo[39m: Website regeneration complete! Total build time: 1.169s
+2026-08-04T18:03:06.808Z - [32minfo[39m: [02:03:06] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/boilerplates/dukeNestedFragment.md
+2026-08-04T18:03:06.809Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T18:03:06.809Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T18:03:06.809Z - [32minfo[39m: 1. schedule/week2/project
+2026-08-04T18:03:07.831Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T18:03:08.145Z - [31merror[39m: Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md) [Line 90, Column 43]
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Error: cannot import 'show_ai_guidance'
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:336:23
+    at Template.root [as rootRenderFunc] (eval at _compile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:527:18), <anonymous>:67:3)
+    at Template.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:326:10)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:55:31
+    at createTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:110:13)
+    at handle (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:123:17)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:134:13
+    at next (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:258:7)
+    at Object.asyncIter (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:263:3)
+2026-08-04T18:03:09.045Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week2/project.md
+2026-08-04T18:03:09.067Z - [32minfo[39m: Site data built
+2026-08-04T18:03:09.067Z - [32minfo[39m: Pages rebuilt
+2026-08-04T18:03:09.067Z - [32minfo[39m: Website regeneration complete! Total build time: 1.248s
+2026-08-04T18:03:45.718Z - [32minfo[39m: [02:03:45] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/extensions-fragment.md
+2026-08-04T18:03:45.725Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T18:03:45.729Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T18:03:45.729Z - [32minfo[39m: 1. schedule/week2/project
+2026-08-04T18:03:46.734Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T18:03:46.980Z - [31merror[39m: Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md) [Line 90, Column 43]
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Error: cannot import 'show_ai_guidance'
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:336:23
+    at Template.root [as rootRenderFunc] (eval at _compile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:527:18), <anonymous>:67:3)
+    at Template.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:326:10)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:55:31
+    at createTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:110:13)
+    at handle (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:123:17)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:134:13
+    at next (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:258:7)
+    at Object.asyncIter (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:263:3)
+2026-08-04T18:03:47.884Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week2/project.md
+2026-08-04T18:03:47.907Z - [32minfo[39m: Site data built
+2026-08-04T18:03:47.907Z - [32minfo[39m: Pages rebuilt
+2026-08-04T18:03:47.907Z - [32minfo[39m: Website regeneration complete! Total build time: 1.177s
+2026-08-04T18:04:10.642Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview as some of its dependencies were changed since the last visit
+2026-08-04T18:04:10.721Z - [31merror[39m: Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md) [Line 90, Column 43]
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Error: cannot import 'show_ai_guidance'
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:336:23
+    at Template.root [as rootRenderFunc] (eval at _compile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:527:18), <anonymous>:67:3)
+    at Template.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:326:10)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:55:31
+    at createTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:110:13)
+    at handle (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:123:17)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:134:13
+    at next (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:258:7)
+    at Object.asyncIter (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:263:3)
+2026-08-04T18:04:10.721Z - [33mwarn[39m: Error: Error while generating /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md
+    at SiteGenerationManager.<anonymous> (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/SiteGenerationManager.js:609:28)
+    at Generator.throw (<anonymous>)
+    at rejected (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/SiteGenerationManager.js:5:65)
+2026-08-04T18:04:25.018Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview as some of its dependencies were changed since the last visit
+2026-08-04T18:04:25.087Z - [31merror[39m: Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md) [Line 90, Column 43]
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Error: cannot import 'show_ai_guidance'
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:336:23
+    at Template.root [as rootRenderFunc] (eval at _compile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:527:18), <anonymous>:67:3)
+    at Template.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:326:10)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:55:31
+    at createTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:110:13)
+    at handle (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:123:17)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:134:13
+    at next (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:258:7)
+    at Object.asyncIter (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:263:3)
+2026-08-04T18:04:25.087Z - [33mwarn[39m: Error: Error while generating /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md
+    at SiteGenerationManager.<anonymous> (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/SiteGenerationManager.js:609:28)
+    at Generator.throw (<anonymous>)
+    at rejected (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/SiteGenerationManager.js:5:65)
+2026-08-04T18:04:26.619Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview as some of its dependencies were changed since the last visit
+2026-08-04T18:04:26.664Z - [31merror[39m: Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md) [Line 90, Column 43]
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Error: cannot import 'show_ai_guidance'
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:336:23
+    at Template.root [as rootRenderFunc] (eval at _compile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:527:18), <anonymous>:67:3)
+    at Template.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:326:10)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:55:31
+    at createTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:110:13)
+    at handle (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:123:17)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:134:13
+    at next (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:258:7)
+    at Object.asyncIter (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:263:3)
+2026-08-04T18:04:26.664Z - [33mwarn[39m: Error: Error while generating /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md
+    at SiteGenerationManager.<anonymous> (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/SiteGenerationManager.js:609:28)
+    at Generator.throw (<anonymous>)
+    at rejected (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/SiteGenerationManager.js:5:65)
+2026-08-04T18:04:30.366Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview as some of its dependencies were changed since the last visit
+2026-08-04T18:04:30.408Z - [31merror[39m: Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md) [Line 90, Column 43]
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Error: cannot import 'show_ai_guidance'
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:336:23
+    at Template.root [as rootRenderFunc] (eval at _compile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:527:18), <anonymous>:67:3)
+    at Template.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:326:10)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:55:31
+    at createTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:110:13)
+    at handle (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:123:17)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:134:13
+    at next (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:258:7)
+    at Object.asyncIter (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:263:3)
+2026-08-04T18:04:30.408Z - [33mwarn[39m: Error: Error while generating /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md
+    at SiteGenerationManager.<anonymous> (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/SiteGenerationManager.js:609:28)
+    at Generator.throw (<anonymous>)
+    at rejected (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/SiteGenerationManager.js:5:65)
+2026-08-04T18:05:23.530Z - [32minfo[39m: [02:05:23] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md
+2026-08-04T18:05:23.553Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T18:05:23.577Z - [32minfo[39m: No pages are currently opened
+2026-08-04T18:05:24.588Z - [32minfo[39m: No pages needed to be rebuilt
+2026-08-04T18:05:30.772Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview as some of its dependencies were changed since the last visit
+2026-08-04T18:05:30.799Z - [31merror[39m: Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Error: cannot import 'show_admin_page'
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:336:23
+    at Template.root [as rootRenderFunc] (eval at _compile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:527:18), <anonymous>:67:3)
+    at Template.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:326:10)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:55:31
+    at createTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:110:13)
+    at handle (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:123:17)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:134:13
+    at next (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:258:7)
+    at Object.asyncIter (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:263:3)
+2026-08-04T18:05:30.799Z - [33mwarn[39m: Error: Error while generating /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md
+    at SiteGenerationManager.<anonymous> (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/SiteGenerationManager.js:609:28)
+    at Generator.throw (<anonymous>)
+    at rejected (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/SiteGenerationManager.js:5:65)
+2026-08-04T18:05:31.939Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview as some of its dependencies were changed since the last visit
+2026-08-04T18:05:31.986Z - [31merror[39m: Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md)
+  Error: cannot import 'show_admin_page'
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:336:23
+    at Template.root [as rootRenderFunc] (eval at _compile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:527:18), <anonymous>:67:3)
+    at Template.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:326:10)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:55:31
+    at createTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:110:13)
+    at handle (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:123:17)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:134:13
+    at next (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:258:7)
+    at Object.asyncIter (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:263:3)
+2026-08-04T18:05:31.986Z - [33mwarn[39m: Error: Error while generating /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md
+    at SiteGenerationManager.<anonymous> (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/SiteGenerationManager.js:609:28)
+    at Generator.throw (<anonymous>)
+    at rejected (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/SiteGenerationManager.js:5:65)
+2026-08-04T18:06:12.302Z - [32minfo[39m: [02:06:12] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md
+2026-08-04T18:06:12.303Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T18:06:12.303Z - [32minfo[39m: No pages are currently opened
+2026-08-04T18:06:13.314Z - [32minfo[39m: No pages needed to be rebuilt
+2026-08-04T18:06:21.191Z - [32minfo[39m: Website generation (lazy) started at 02:06:21
+2026-08-04T18:06:21.736Z - [32minfo[39m: Building assets...
+2026-08-04T18:06:22.100Z - [32minfo[39m: Assets built
+2026-08-04T18:06:22.101Z - [32minfo[39m: Generating landing page...
+2026-08-04T18:06:22.320Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/index.md
+2026-08-04T18:06:22.350Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-08-04T18:06:22.427Z - [32minfo[39m: Site data built
+2026-08-04T18:06:22.427Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 1.272s
+2026-08-04T18:06:22.439Z - [32minfo[39m: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2026-08-04T18:06:22.440Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-08-04T18:06:29.453Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview as some of its dependencies were changed since the last visit
+2026-08-04T18:06:29.630Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md
+2026-08-04T18:06:29.655Z - [32minfo[39m: Site data built
+2026-08-04T18:06:29.655Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.203s
+2026-08-04T18:06:35.287Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index as some of its dependencies were changed since the last visit
+2026-08-04T18:06:35.659Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-04T18:06:35.697Z - [32minfo[39m: Site data built
+2026-08-04T18:06:35.697Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.411s
+2026-08-04T18:07:19.801Z - [32minfo[39m: [02:07:19] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-Enums-fragment.md
+2026-08-04T18:07:19.802Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T18:07:19.802Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T18:07:19.803Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T18:07:20.809Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T18:07:21.168Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-04T18:07:21.217Z - [32minfo[39m: Site data built
+2026-08-04T18:07:21.217Z - [32minfo[39m: Pages rebuilt
+2026-08-04T18:07:21.217Z - [32minfo[39m: Website regeneration complete! Total build time: 0.411s
+2026-08-04T18:08:03.625Z - [32minfo[39m: [02:08:03] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/extensions-fragment.md
+2026-08-04T18:08:03.626Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T18:08:03.627Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T18:08:03.627Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T18:08:04.634Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T18:08:04.956Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-04T18:08:05.003Z - [32minfo[39m: Site data built
+2026-08-04T18:08:05.003Z - [32minfo[39m: Pages rebuilt
+2026-08-04T18:08:05.003Z - [32minfo[39m: Website regeneration complete! Total build time: 0.374s
+2026-08-04T18:08:21.530Z - [32minfo[39m: [02:08:21] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/extensions-fragment.md
+2026-08-04T18:08:21.531Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T18:08:21.532Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T18:08:21.532Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T18:08:22.538Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T18:08:22.926Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-04T18:08:22.961Z - [32minfo[39m: Site data built
+2026-08-04T18:08:22.961Z - [32minfo[39m: Pages rebuilt
+2026-08-04T18:08:22.961Z - [32minfo[39m: Website regeneration complete! Total build time: 0.428s
+2026-08-04T18:10:13.960Z - [32minfo[39m: [02:10:13] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-Enums-fragment.md
+2026-08-04T18:10:13.961Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T18:10:13.961Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T18:10:13.961Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T18:10:13.970Z - [32minfo[39m: [02:10:13] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/extensions-fragment.md
+2026-08-04T18:10:13.971Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T18:10:13.971Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T18:10:13.971Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T18:10:14.971Z - [32minfo[39m: Assets built
+2026-08-04T18:10:14.975Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T18:10:15.302Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-04T18:10:15.348Z - [32minfo[39m: Site data built
+2026-08-04T18:10:15.348Z - [32minfo[39m: Pages rebuilt
+2026-08-04T18:10:15.348Z - [32minfo[39m: Website regeneration complete! Total build time: 0.375s
+2026-08-04T18:10:50.012Z - [32minfo[39m: [02:10:50] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-Enums-fragment.md
+2026-08-04T18:10:50.015Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T18:10:50.017Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T18:10:50.017Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T18:10:51.025Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T18:10:51.386Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-04T18:10:51.433Z - [32minfo[39m: Site data built
+2026-08-04T18:10:51.434Z - [32minfo[39m: Pages rebuilt
+2026-08-04T18:10:51.434Z - [32minfo[39m: Website regeneration complete! Total build time: 0.415s
+2026-08-04T18:11:44.639Z - [32minfo[39m: [02:11:44] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-Enums-fragment.md
+2026-08-04T18:11:44.640Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T18:11:44.641Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T18:11:44.641Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T18:11:45.648Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T18:11:45.994Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-04T18:11:46.044Z - [32minfo[39m: Site data built
+2026-08-04T18:11:46.044Z - [32minfo[39m: Pages rebuilt
+2026-08-04T18:11:46.044Z - [32minfo[39m: Website regeneration complete! Total build time: 0.4s
+2026-08-04T18:12:08.599Z - [32minfo[39m: [02:12:08] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/extensions-fragment.md
+2026-08-04T18:12:08.604Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T18:12:08.605Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T18:12:08.605Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T18:12:08.610Z - [32minfo[39m: [02:12:08] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-Enums-fragment.md
+2026-08-04T18:12:08.610Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T18:12:08.610Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T18:12:08.611Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T18:12:09.611Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T18:12:09.949Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-04T18:12:09.985Z - [32minfo[39m: Site data built
+2026-08-04T18:12:09.985Z - [32minfo[39m: Pages rebuilt
+2026-08-04T18:12:09.985Z - [32minfo[39m: Website regeneration complete! Total build time: 0.379s
+2026-08-04T18:12:26.339Z - [32minfo[39m: [02:12:26] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-Enums-fragment.md
+2026-08-04T18:12:26.341Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T18:12:26.342Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T18:12:26.342Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T18:12:27.348Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T18:12:27.484Z - [33mwarn[39m: Empty reference in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/extensions-fragment.md:
+Segment '#body' in file: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-Enums-fragment.md is empty
+2026-08-04T18:12:27.671Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-04T18:12:27.704Z - [32minfo[39m: Site data built
+2026-08-04T18:12:27.704Z - [32minfo[39m: Pages rebuilt
+2026-08-04T18:12:27.704Z - [32minfo[39m: Website regeneration complete! Total build time: 0.359s
+2026-08-04T18:12:53.760Z - [32minfo[39m: [02:12:53] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/extensions-fragment.md
+2026-08-04T18:12:53.763Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T18:12:53.763Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T18:12:53.764Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T18:12:54.770Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T18:12:55.093Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-04T18:12:55.128Z - [32minfo[39m: Site data built
+2026-08-04T18:12:55.128Z - [32minfo[39m: Pages rebuilt
+2026-08-04T18:12:55.128Z - [32minfo[39m: Website regeneration complete! Total build time: 0.361s
+2026-08-04T18:13:35.753Z - [32minfo[39m: [02:13:35] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-Enums-fragment.md
+2026-08-04T18:13:35.759Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T18:13:35.759Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T18:13:35.759Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T18:13:36.764Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T18:13:37.104Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-04T18:13:37.153Z - [32minfo[39m: Site data built
+2026-08-04T18:13:37.154Z - [32minfo[39m: Pages rebuilt
+2026-08-04T18:13:37.154Z - [32minfo[39m: Website regeneration complete! Total build time: 0.394s
+2026-08-04T18:13:54.960Z - [32minfo[39m: [02:13:54] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-Enums-fragment.md
+2026-08-04T18:13:54.960Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T18:13:54.961Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T18:13:54.961Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T18:13:55.973Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T18:13:56.297Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-04T18:13:56.329Z - [32minfo[39m: Site data built
+2026-08-04T18:13:56.330Z - [32minfo[39m: Pages rebuilt
+2026-08-04T18:13:56.330Z - [32minfo[39m: Website regeneration complete! Total build time: 0.366s
+2026-08-04T18:14:07.906Z - [32minfo[39m: [02:14:07] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-Enums-fragment.md
+2026-08-04T18:14:07.907Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T18:14:07.907Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T18:14:07.907Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T18:14:08.910Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T18:14:09.220Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-04T18:14:09.258Z - [32minfo[39m: Site data built
+2026-08-04T18:14:09.258Z - [32minfo[39m: Pages rebuilt
+2026-08-04T18:14:09.258Z - [32minfo[39m: Website regeneration complete! Total build time: 0.351s
+2026-08-04T18:14:34.743Z - [32minfo[39m: [02:14:34] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-Enums-fragment.md
+2026-08-04T18:14:34.744Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T18:14:34.744Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T18:14:34.744Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T18:14:35.755Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T18:14:36.078Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-04T18:14:36.113Z - [32minfo[39m: Site data built
+2026-08-04T18:14:36.113Z - [32minfo[39m: Pages rebuilt
+2026-08-04T18:14:36.113Z - [32minfo[39m: Website regeneration complete! Total build time: 0.364s
+2026-08-04T18:15:36.208Z - [32minfo[39m: [02:15:36] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-Enums-fragment.md
+2026-08-04T18:15:36.209Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T18:15:36.211Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T18:15:36.211Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T18:15:36.301Z - [32minfo[39m: [02:15:36] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/boilerplates/dukeExtensionTitle.md
+2026-08-04T18:15:36.301Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T18:15:36.301Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T18:15:36.301Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T18:15:37.226Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T18:15:37.580Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-04T18:15:37.616Z - [32minfo[39m: Site data built
+2026-08-04T18:15:37.617Z - [32minfo[39m: Pages rebuilt
+2026-08-04T18:15:37.617Z - [32minfo[39m: Website regeneration complete! Total build time: 0.393s
+2026-08-04T18:16:13.012Z - [32minfo[39m: [02:16:13] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/boilerplates/dukeExtensionTitle.md
+2026-08-04T18:16:13.013Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T18:16:13.014Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T18:16:13.014Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T18:16:14.018Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T18:16:14.356Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-04T18:16:14.391Z - [32minfo[39m: Site data built
+2026-08-04T18:16:14.392Z - [32minfo[39m: Pages rebuilt
+2026-08-04T18:16:14.392Z - [32minfo[39m: Website regeneration complete! Total build time: 0.377s
+2026-08-04T18:16:42.939Z - [32minfo[39m: [02:16:42] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/boilerplates/dukeExtensionTitle.md
+2026-08-04T18:16:42.939Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T18:16:42.939Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T18:16:42.939Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T18:16:43.949Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T18:16:44.294Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-04T18:16:44.357Z - [32minfo[39m: Site data built
+2026-08-04T18:16:44.357Z - [32minfo[39m: Pages rebuilt
+2026-08-04T18:16:44.357Z - [32minfo[39m: Website regeneration complete! Total build time: 0.413s
+2026-08-04T18:17:33.110Z - [32minfo[39m: [02:17:33] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/extensions-fragment.md
+2026-08-04T18:17:33.111Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T18:17:33.112Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T18:17:33.112Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T18:17:34.117Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T18:17:34.456Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-04T18:17:34.490Z - [32minfo[39m: Site data built
+2026-08-04T18:17:34.490Z - [32minfo[39m: Pages rebuilt
+2026-08-04T18:17:34.490Z - [32minfo[39m: Website regeneration complete! Total build time: 0.377s
+2026-08-04T18:18:01.709Z - [32minfo[39m: [02:18:01] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/extensions-fragment.md
+2026-08-04T18:18:01.712Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T18:18:01.721Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T18:18:01.723Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T18:18:02.740Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T18:18:03.093Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-04T18:18:03.140Z - [32minfo[39m: Site data built
+2026-08-04T18:18:03.140Z - [32minfo[39m: Pages rebuilt
+2026-08-04T18:18:03.140Z - [32minfo[39m: Website regeneration complete! Total build time: 0.404s
+2026-08-04T18:18:26.383Z - [32minfo[39m: [02:18:26] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/extensions-fragment.md
+2026-08-04T18:18:26.385Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T18:18:26.387Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T18:18:26.387Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T18:18:27.397Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T18:18:27.746Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-04T18:18:27.781Z - [32minfo[39m: Site data built
+2026-08-04T18:18:27.781Z - [32minfo[39m: Pages rebuilt
+2026-08-04T18:18:27.781Z - [32minfo[39m: Website regeneration complete! Total build time: 0.386s
+2026-08-04T18:18:36.407Z - [32minfo[39m: [02:18:36] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/extensions-fragment.md
+2026-08-04T18:18:36.408Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T18:18:36.408Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T18:18:36.408Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T18:18:37.418Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T18:18:37.726Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-04T18:18:37.759Z - [32minfo[39m: Site data built
+2026-08-04T18:18:37.759Z - [32minfo[39m: Pages rebuilt
+2026-08-04T18:18:37.759Z - [32minfo[39m: Website regeneration complete! Total build time: 0.343s
+2026-08-04T18:18:58.328Z - [32minfo[39m: [02:18:58] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-Enums-fragment.md
+2026-08-04T18:18:58.332Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T18:18:58.333Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T18:18:58.333Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T18:18:59.339Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T18:18:59.650Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-04T18:18:59.683Z - [32minfo[39m: Site data built
+2026-08-04T18:18:59.683Z - [32minfo[39m: Pages rebuilt
+2026-08-04T18:18:59.683Z - [32minfo[39m: Website regeneration complete! Total build time: 0.347s
+2026-08-04T18:19:12.563Z - [32minfo[39m: [02:19:12] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-Enums-fragment.md
+2026-08-04T18:19:12.569Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T18:19:12.569Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T18:19:12.570Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T18:19:13.582Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T18:19:13.971Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-04T18:19:14.006Z - [32minfo[39m: Site data built
+2026-08-04T18:19:14.006Z - [32minfo[39m: Pages rebuilt
+2026-08-04T18:19:14.006Z - [32minfo[39m: Website regeneration complete! Total build time: 0.432s
+2026-08-04T18:19:53.313Z - [32minfo[39m: [02:19:53] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-Enums-fragment.md
+2026-08-04T18:19:53.315Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T18:19:53.316Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T18:19:53.316Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T18:19:54.320Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T18:19:54.669Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-04T18:19:54.722Z - [32minfo[39m: Site data built
+2026-08-04T18:19:54.723Z - [32minfo[39m: Pages rebuilt
+2026-08-04T18:19:54.723Z - [32minfo[39m: Website regeneration complete! Total build time: 0.405s
+2026-08-04T18:20:44.657Z - [32minfo[39m: [02:20:44] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-Enums-fragment.md
+2026-08-04T18:20:44.660Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T18:20:44.662Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T18:20:44.662Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T18:20:45.678Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T18:20:45.990Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-04T18:20:46.024Z - [32minfo[39m: Site data built
+2026-08-04T18:20:46.024Z - [32minfo[39m: Pages rebuilt
+2026-08-04T18:20:46.024Z - [32minfo[39m: Website regeneration complete! Total build time: 0.357s
+2026-08-04T18:21:40.998Z - [32minfo[39m: [02:21:40] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-Enums-fragment.md
+2026-08-04T18:21:41.001Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T18:21:41.006Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T18:21:41.008Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T18:21:42.021Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T18:21:42.346Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-04T18:21:42.392Z - [32minfo[39m: Site data built
+2026-08-04T18:21:42.392Z - [32minfo[39m: Pages rebuilt
+2026-08-04T18:21:42.392Z - [32minfo[39m: Website regeneration complete! Total build time: 0.379s
+2026-08-04T18:22:02.503Z - [32minfo[39m: [02:22:02] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-Enums-fragment.md
+2026-08-04T18:22:02.505Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T18:22:02.505Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T18:22:02.505Z - [32minfo[39m: 1. projectDuke/index
+2026-08-04T18:22:03.506Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T18:22:03.822Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-04T18:22:03.856Z - [32minfo[39m: Site data built
+2026-08-04T18:22:03.856Z - [32minfo[39m: Pages rebuilt
+2026-08-04T18:22:03.856Z - [32minfo[39m: Website regeneration complete! Total build time: 0.351s
+2026-08-04T19:26:43.331Z - [32minfo[39m: Website generation (lazy) started at 03:26:43
+2026-08-04T19:26:43.917Z - [32minfo[39m: Building assets...
+2026-08-04T19:26:44.317Z - [32minfo[39m: Assets built
+2026-08-04T19:26:44.317Z - [32minfo[39m: Generating landing page...
+2026-08-04T19:26:44.548Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/index.md
+2026-08-04T19:26:44.577Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-08-04T19:26:44.651Z - [32minfo[39m: Site data built
+2026-08-04T19:26:44.651Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 1.491s
+2026-08-04T19:26:44.663Z - [32minfo[39m: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2026-08-04T19:26:44.663Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-08-04T19:27:04.018Z - [32minfo[39m: Website generation (lazy) started at 03:27:03
+2026-08-04T19:27:04.390Z - [32minfo[39m: Building assets...
+2026-08-04T19:27:04.754Z - [32minfo[39m: Assets built
+2026-08-04T19:27:04.754Z - [32minfo[39m: Generating landing page...
+2026-08-04T19:27:04.990Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/index.md
+2026-08-04T19:27:05.020Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-08-04T19:27:05.116Z - [32minfo[39m: Site data built
+2026-08-04T19:27:05.116Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 1.216s
+2026-08-04T19:27:05.127Z - [32minfo[39m: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2026-08-04T19:27:05.127Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-08-04T19:27:38.608Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week1/index as some of its dependencies were changed since the last visit
+2026-08-04T19:27:38.921Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week1/index.md
+2026-08-04T19:27:38.935Z - [32minfo[39m: Site data built
+2026-08-04T19:27:38.935Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.328s
+2026-08-04T19:27:51.995Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams as some of its dependencies were changed since the last visit
+2026-08-04T19:27:52.175Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-04T19:27:52.197Z - [32minfo[39m: Site data built
+2026-08-04T19:27:52.197Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.203s
+2026-08-04T19:29:06.692Z - [32minfo[39m: [03:29:06] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-04T19:29:06.702Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T19:29:06.706Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T19:29:06.706Z - [32minfo[39m: 1. admin/tp-teams
+2026-08-04T19:29:07.720Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T19:29:07.895Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-04T19:29:07.911Z - [32minfo[39m: Site data built
+2026-08-04T19:29:07.911Z - [32minfo[39m: Pages rebuilt
+2026-08-04T19:29:07.911Z - [32minfo[39m: Website regeneration complete! Total build time: 0.2s
+2026-08-04T19:30:11.068Z - [32minfo[39m: [03:30:11] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-04T19:30:11.071Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-04T19:30:11.072Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-04T19:30:11.073Z - [32minfo[39m: 1. admin/tp-teams
+2026-08-04T19:30:12.093Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-04T19:30:12.298Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-04T19:30:12.317Z - [32minfo[39m: Site data built
+2026-08-04T19:30:12.317Z - [32minfo[39m: Pages rebuilt
+2026-08-04T19:30:12.317Z - [32minfo[39m: Website regeneration complete! Total build time: 0.24s
+2026-08-04T19:41:42.119Z - [32minfo[39m: Website generation started at 03:41:41
+2026-08-04T19:41:42.786Z - [32minfo[39m: Building assets...

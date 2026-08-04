@@ -6,29 +6,29 @@
     "auditLog": "_markbind/logs/audit.json",
     "files": [
         {
-            "date": 1785081645141,
-            "name": "_markbind/logs/markbind-2026-07-27.log",
-            "hash": "c9550c50964ae7ed32ed3c98fdc44dcbe7d43b0aee5a048ad910812a7187ed46"
+            "date": 1785561787376,
+            "name": "_markbind/logs/markbind-2026-08-01.log",
+            "hash": "59e31d4971c0652b46b91938635c4ef828ac7544697c9c6b77d516608ef02798"
         },
         {
-            "date": 1785168289602,
-            "name": "_markbind/logs/markbind-2026-07-28.log",
-            "hash": "c26bde090776fc868406ad14cf6435a62af0f9dbf720c0ed1af79332845ca764"
+            "date": 1785614313731,
+            "name": "_markbind/logs/markbind-2026-08-02.log",
+            "hash": "6f98ffa336bcd997fc00d53300a10b87d8fce304a1319efac1ff03590d4a2307"
         },
         {
-            "date": 1785256135100,
-            "name": "_markbind/logs/markbind-2026-07-29.log",
-            "hash": "ba19bf650e0e3853bf80360d5b6569d33eccdbaf4fda161dbc17ef3446a8ae07"
+            "date": 1785701574302,
+            "name": "_markbind/logs/markbind-2026-08-03.log",
+            "hash": "f664008f45cb68a791cef89c1041acd5fe6dc416fed720e39244c2d1e8c9082c"
         },
         {
-            "date": 1785341329163,
-            "name": "_markbind/logs/markbind-2026-07-30.log",
-            "hash": "b74ee55015eade8a9f7b763d595e76ba3a58f69c8b8baf870c1b214c3ada3db3"
+            "date": 1785774607452,
+            "name": "_markbind/logs/markbind-2026-08-04.log",
+            "hash": "8fc10072cd4734815b8a2f278dc02a2a69b070d0845b227e00fd24a187a21710"
         },
         {
-            "date": 1785430713500,
-            "name": "_markbind/logs/markbind-2026-07-31.log",
-            "hash": "5991a699c391ef81117f4a303c13d197136f4b4cc7717aaeefdcdf5d15d89304"
+            "date": 1785860100211,
+            "name": "_markbind/logs/markbind-2026-08-05.log",
+            "hash": "bd3de8d4a7460c17140a1b4eff0ceef01354c875a60c422c851238218ba61f58"
         }
     ],
     "hashType": "sha256"
