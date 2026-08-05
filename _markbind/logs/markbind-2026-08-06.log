@@ -1,0 +1,466 @@
+2026-08-05T16:04:56.752Z - [32minfo[39m: [00:04:56] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/Level-7-fragment.md
+2026-08-05T16:04:56.789Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T16:04:56.790Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T16:04:56.791Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T16:04:57.843Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-05T16:04:58.224Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-05T16:04:58.280Z - [32minfo[39m: Site data built
+2026-08-05T16:04:58.280Z - [32minfo[39m: Pages rebuilt
+2026-08-05T16:04:58.280Z - [32minfo[39m: Website regeneration complete! Total build time: 0.461s
+2026-08-05T16:06:21.279Z - [32minfo[39m: [00:06:21] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/Level-7-fragment.md
+2026-08-05T16:06:21.281Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T16:06:21.282Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T16:06:21.283Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T16:06:22.316Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-05T16:06:22.674Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-05T16:06:22.715Z - [32minfo[39m: Site data built
+2026-08-05T16:06:22.715Z - [32minfo[39m: Pages rebuilt
+2026-08-05T16:06:22.715Z - [32minfo[39m: Website regeneration complete! Total build time: 0.419s
+2026-08-05T16:07:48.579Z - [32minfo[39m: [00:07:48] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/Level-7-fragment.md
+2026-08-05T16:07:48.582Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T16:07:48.584Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T16:07:48.586Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T16:07:49.654Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-05T16:07:49.984Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-05T16:07:50.035Z - [32minfo[39m: Site data built
+2026-08-05T16:07:50.035Z - [32minfo[39m: Pages rebuilt
+2026-08-05T16:07:50.035Z - [32minfo[39m: Website regeneration complete! Total build time: 0.441s
+2026-08-05T16:11:31.768Z - [32minfo[39m: [00:11:31] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/Level-7-fragment.md
+2026-08-05T16:11:31.773Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T16:11:31.774Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T16:11:31.775Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T16:11:32.790Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-05T16:11:33.141Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-05T16:11:33.181Z - [32minfo[39m: Site data built
+2026-08-05T16:11:33.181Z - [32minfo[39m: Pages rebuilt
+2026-08-05T16:11:33.181Z - [32minfo[39m: Website regeneration complete! Total build time: 0.4s
+2026-08-05T16:12:59.381Z - [32minfo[39m: [00:12:59] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/Level-7-fragment.md
+2026-08-05T16:12:59.383Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T16:12:59.384Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T16:12:59.385Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T16:13:00.400Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-05T16:13:00.762Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-05T16:13:00.803Z - [32minfo[39m: Site data built
+2026-08-05T16:13:00.803Z - [32minfo[39m: Pages rebuilt
+2026-08-05T16:13:00.803Z - [32minfo[39m: Website regeneration complete! Total build time: 0.41s
+2026-08-05T16:14:32.929Z - [32minfo[39m: [00:14:32] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/Level-7-fragment.md
+2026-08-05T16:14:32.930Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T16:14:32.931Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T16:14:32.931Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T16:14:33.939Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-05T16:14:34.295Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-05T16:14:34.355Z - [32minfo[39m: Site data built
+2026-08-05T16:14:34.355Z - [32minfo[39m: Pages rebuilt
+2026-08-05T16:14:34.355Z - [32minfo[39m: Website regeneration complete! Total build time: 0.422s
+2026-08-05T16:16:08.143Z - [32minfo[39m: [00:16:08] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/Level-7-fragment.md
+2026-08-05T16:16:08.147Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T16:16:08.147Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T16:16:08.148Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T16:16:09.172Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-05T16:16:09.550Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-05T16:16:09.593Z - [32minfo[39m: Site data built
+2026-08-05T16:16:09.593Z - [32minfo[39m: Pages rebuilt
+2026-08-05T16:16:09.593Z - [32minfo[39m: Website regeneration complete! Total build time: 0.442s
+2026-08-05T16:19:46.149Z - [32minfo[39m: [00:19:46] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/Level-7-fragment.md
+2026-08-05T16:19:46.157Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T16:19:46.157Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T16:19:46.157Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T16:19:47.189Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-05T16:19:47.597Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-05T16:19:47.645Z - [32minfo[39m: Site data built
+2026-08-05T16:19:47.645Z - [32minfo[39m: Pages rebuilt
+2026-08-05T16:19:47.645Z - [32minfo[39m: Website regeneration complete! Total build time: 0.478s
+2026-08-05T16:21:51.917Z - [32minfo[39m: [00:21:51] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/Level-7-fragment.md
+2026-08-05T16:21:51.919Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T16:21:51.919Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T16:21:51.919Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T16:21:52.942Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-05T16:21:53.341Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-05T16:21:53.387Z - [32minfo[39m: Site data built
+2026-08-05T16:21:53.388Z - [32minfo[39m: Pages rebuilt
+2026-08-05T16:21:53.388Z - [32minfo[39m: Website regeneration complete! Total build time: 0.467s
+2026-08-05T16:27:13.416Z - [32minfo[39m: [00:27:13] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/Level-7-fragment.md
+2026-08-05T16:27:13.423Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T16:27:13.424Z - [32minfo[39m: No pages are currently opened
+2026-08-05T16:27:14.448Z - [32minfo[39m: No pages needed to be rebuilt
+2026-08-05T16:27:18.969Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index as some of its dependencies were changed since the last visit
+2026-08-05T16:27:19.321Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-05T16:27:19.367Z - [32minfo[39m: Site data built
+2026-08-05T16:27:19.367Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.399s
+2026-08-05T16:29:31.799Z - [32minfo[39m: [00:29:31] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/Level-7-fragment.md
+2026-08-05T16:29:31.806Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T16:29:31.807Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T16:29:31.807Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T16:29:32.817Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-05T16:29:33.162Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-05T16:29:33.218Z - [32minfo[39m: Site data built
+2026-08-05T16:29:33.218Z - [32minfo[39m: Pages rebuilt
+2026-08-05T16:29:33.218Z - [32minfo[39m: Website regeneration complete! Total build time: 0.409s
+2026-08-05T17:06:32.550Z - [32minfo[39m: [01:06:32] Reload for file add: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-MoreOOP-fragment.md
+2026-08-05T17:06:32.556Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T17:06:32.558Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T17:06:32.559Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T17:06:34.026Z - [32minfo[39m: Assets built
+2026-08-05T17:08:36.205Z - [32minfo[39m: [01:08:36] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/extensions-fragment.md
+2026-08-05T17:08:36.214Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T17:08:36.214Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T17:08:36.214Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T17:08:36.241Z - [32minfo[39m: [01:08:36] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-MoreOOP-fragment.md
+2026-08-05T17:08:36.241Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T17:08:36.241Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T17:08:36.241Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T17:08:37.253Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-05T17:08:37.688Z - [32minfo[39m: Assets built
+2026-08-05T17:08:37.697Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-05T17:08:37.741Z - [32minfo[39m: Site data built
+2026-08-05T17:08:37.741Z - [32minfo[39m: Pages rebuilt
+2026-08-05T17:08:37.741Z - [32minfo[39m: Website regeneration complete! Total build time: 0.516s
+2026-08-05T17:09:21.698Z - [32minfo[39m: [01:09:21] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-MoreOOP-fragment.md
+2026-08-05T17:09:21.702Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T17:09:21.704Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T17:09:21.705Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T17:09:22.716Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-05T17:09:23.053Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-05T17:09:23.092Z - [32minfo[39m: Site data built
+2026-08-05T17:09:23.092Z - [32minfo[39m: Pages rebuilt
+2026-08-05T17:09:23.092Z - [32minfo[39m: Website regeneration complete! Total build time: 0.382s
+2026-08-05T17:12:03.895Z - [32minfo[39m: [01:12:03] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-MoreOOP-fragment.md
+2026-08-05T17:12:03.903Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T17:12:03.905Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T17:12:03.906Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T17:12:03.943Z - [32minfo[39m: [01:12:03] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/common/macros.njk
+2026-08-05T17:12:03.943Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T17:12:03.944Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T17:12:03.944Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T17:12:05.022Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-05T17:12:05.317Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-05T17:12:05.371Z - [32minfo[39m: Site data built
+2026-08-05T17:12:05.371Z - [32minfo[39m: Pages rebuilt
+2026-08-05T17:12:05.371Z - [32minfo[39m: Website regeneration complete! Total build time: 0.35s
+2026-08-05T17:12:26.090Z - [32minfo[39m: [01:12:26] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-MoreOOP-fragment.md
+2026-08-05T17:12:26.091Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T17:12:26.092Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T17:12:26.092Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T17:12:27.101Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-05T17:12:27.456Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-05T17:12:27.503Z - [32minfo[39m: Site data built
+2026-08-05T17:12:27.503Z - [32minfo[39m: Pages rebuilt
+2026-08-05T17:12:27.503Z - [32minfo[39m: Website regeneration complete! Total build time: 0.408s
+2026-08-05T17:13:39.631Z - [32minfo[39m: [01:13:39] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-Enums-fragment.md
+2026-08-05T17:13:39.633Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T17:13:39.635Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T17:13:39.635Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T17:13:40.647Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-05T17:13:40.995Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-05T17:13:41.044Z - [32minfo[39m: Site data built
+2026-08-05T17:13:41.044Z - [32minfo[39m: Pages rebuilt
+2026-08-05T17:13:41.044Z - [32minfo[39m: Website regeneration complete! Total build time: 0.405s
+2026-08-05T17:16:04.862Z - [32minfo[39m: [01:16:04] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-MoreOOP-fragment.md
+2026-08-05T17:16:04.863Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T17:16:04.864Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T17:16:04.864Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T17:16:05.884Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-05T17:16:06.220Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-05T17:16:06.267Z - [32minfo[39m: Site data built
+2026-08-05T17:16:06.267Z - [32minfo[39m: Pages rebuilt
+2026-08-05T17:16:06.267Z - [32minfo[39m: Website regeneration complete! Total build time: 0.401s
+2026-08-05T17:16:35.710Z - [32minfo[39m: [01:16:35] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-MoreOOP-fragment.md
+2026-08-05T17:16:35.714Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T17:16:35.720Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T17:16:35.721Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T17:16:36.738Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-05T17:16:37.127Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-05T17:16:37.164Z - [32minfo[39m: Site data built
+2026-08-05T17:16:37.164Z - [32minfo[39m: Pages rebuilt
+2026-08-05T17:16:37.164Z - [32minfo[39m: Website regeneration complete! Total build time: 0.432s
+2026-08-05T17:20:22.042Z - [32minfo[39m: [01:20:22] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-MoreOOP-fragment.md
+2026-08-05T17:20:22.044Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T17:20:22.044Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T17:20:22.045Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T17:20:23.051Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-05T17:20:23.395Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-05T17:20:23.433Z - [32minfo[39m: Site data built
+2026-08-05T17:20:23.433Z - [32minfo[39m: Pages rebuilt
+2026-08-05T17:20:23.433Z - [32minfo[39m: Website regeneration complete! Total build time: 0.386s
+2026-08-05T17:22:32.513Z - [32minfo[39m: [01:22:32] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-MoreOOP-fragment.md
+2026-08-05T17:22:32.517Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T17:22:32.523Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T17:22:32.523Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T17:22:33.532Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-05T17:22:33.880Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-05T17:22:33.924Z - [32minfo[39m: Site data built
+2026-08-05T17:22:33.924Z - [32minfo[39m: Pages rebuilt
+2026-08-05T17:22:33.924Z - [32minfo[39m: Website regeneration complete! Total build time: 0.398s
+2026-08-05T17:28:29.613Z - [32minfo[39m: [01:28:29] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-MoreOOP-fragment.md
+2026-08-05T17:28:29.616Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T17:28:29.617Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T17:28:29.618Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T17:28:30.626Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-05T17:28:30.963Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-05T17:28:31.004Z - [32minfo[39m: Site data built
+2026-08-05T17:28:31.004Z - [32minfo[39m: Pages rebuilt
+2026-08-05T17:28:31.004Z - [32minfo[39m: Website regeneration complete! Total build time: 0.382s
+2026-08-05T17:32:10.302Z - [32minfo[39m: [01:32:10] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-MoreOOP-fragment.md
+2026-08-05T17:32:10.303Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T17:32:10.303Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T17:32:10.304Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T17:32:11.310Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-05T17:32:11.652Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-05T17:32:11.693Z - [32minfo[39m: Site data built
+2026-08-05T17:32:11.693Z - [32minfo[39m: Pages rebuilt
+2026-08-05T17:32:11.693Z - [32minfo[39m: Website regeneration complete! Total build time: 0.386s
+2026-08-05T17:34:47.963Z - [32minfo[39m: [01:34:47] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-MoreOOP-fragment.md
+2026-08-05T17:34:47.978Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T17:34:47.979Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T17:34:47.979Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T17:34:48.994Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-05T17:34:49.387Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-05T17:34:49.429Z - [32minfo[39m: Site data built
+2026-08-05T17:34:49.430Z - [32minfo[39m: Pages rebuilt
+2026-08-05T17:34:49.430Z - [32minfo[39m: Website regeneration complete! Total build time: 0.445s
+2026-08-05T17:37:10.420Z - [32minfo[39m: [01:37:10] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-MoreOOP-fragment.md
+2026-08-05T17:37:10.428Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T17:37:10.429Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T17:37:10.429Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T17:37:11.437Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-05T17:37:11.783Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-05T17:37:11.821Z - [32minfo[39m: Site data built
+2026-08-05T17:37:11.821Z - [32minfo[39m: Pages rebuilt
+2026-08-05T17:37:11.822Z - [32minfo[39m: Website regeneration complete! Total build time: 0.388s
+2026-08-05T17:37:40.266Z - [32minfo[39m: [01:37:40] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-MoreOOP-fragment.md
+2026-08-05T17:37:40.271Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T17:37:40.273Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T17:37:40.274Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T17:37:41.288Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-05T17:37:41.686Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-05T17:37:41.723Z - [32minfo[39m: Site data built
+2026-08-05T17:37:41.723Z - [32minfo[39m: Pages rebuilt
+2026-08-05T17:37:41.723Z - [32minfo[39m: Website regeneration complete! Total build time: 0.445s
+2026-08-05T17:37:54.696Z - [32minfo[39m: [01:37:54] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-MoreOOP-fragment.md
+2026-08-05T17:37:54.696Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T17:37:54.696Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T17:37:54.696Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T17:37:55.708Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-05T17:37:56.073Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-05T17:37:56.114Z - [32minfo[39m: Site data built
+2026-08-05T17:37:56.114Z - [32minfo[39m: Pages rebuilt
+2026-08-05T17:37:56.114Z - [32minfo[39m: Website regeneration complete! Total build time: 0.416s
+2026-08-05T17:38:07.007Z - [32minfo[39m: [01:38:07] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-MoreOOP-fragment.md
+2026-08-05T17:38:07.008Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T17:38:07.008Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T17:38:07.008Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T17:38:08.012Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-05T17:38:08.371Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-05T17:38:08.413Z - [32minfo[39m: Site data built
+2026-08-05T17:38:08.413Z - [32minfo[39m: Pages rebuilt
+2026-08-05T17:38:08.413Z - [32minfo[39m: Website regeneration complete! Total build time: 0.403s
+2026-08-05T17:38:18.659Z - [32minfo[39m: [01:38:18] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-MoreOOP-fragment.md
+2026-08-05T17:38:18.660Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T17:38:18.661Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T17:38:18.661Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T17:38:19.670Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-05T17:38:20.001Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-05T17:38:20.039Z - [32minfo[39m: Site data built
+2026-08-05T17:38:20.039Z - [32minfo[39m: Pages rebuilt
+2026-08-05T17:38:20.039Z - [32minfo[39m: Website regeneration complete! Total build time: 0.371s
+2026-08-05T18:44:24.548Z - [32minfo[39m: [02:44:24] Reload for file add: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-JUnit-fragment.md
+2026-08-05T18:44:24.562Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T18:44:24.572Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T18:44:24.573Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T18:44:25.954Z - [32minfo[39m: Assets built
+2026-08-05T18:47:24.663Z - [32minfo[39m: [02:47:24] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/extensions-fragment.md
+2026-08-05T18:47:24.670Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T18:47:24.672Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T18:47:24.672Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T18:47:24.686Z - [32minfo[39m: [02:47:24] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-JUnit-fragment.md
+2026-08-05T18:47:24.686Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T18:47:24.686Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T18:47:24.686Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T18:47:25.719Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-05T18:47:26.317Z - [32minfo[39m: Assets built
+2026-08-05T18:47:26.326Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-05T18:47:26.378Z - [32minfo[39m: Site data built
+2026-08-05T18:47:26.378Z - [32minfo[39m: Pages rebuilt
+2026-08-05T18:47:26.378Z - [32minfo[39m: Website regeneration complete! Total build time: 0.689s
+2026-08-05T18:47:58.700Z - [32minfo[39m: [02:47:58] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-JUnit-fragment.md
+2026-08-05T18:47:58.702Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T18:47:58.703Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T18:47:58.703Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T18:47:59.711Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-05T18:48:00.042Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-05T18:48:00.089Z - [32minfo[39m: Site data built
+2026-08-05T18:48:00.089Z - [32minfo[39m: Pages rebuilt
+2026-08-05T18:48:00.089Z - [32minfo[39m: Website regeneration complete! Total build time: 0.382s
+2026-08-05T18:49:01.398Z - [32minfo[39m: [02:49:01] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-JUnit-fragment.md
+2026-08-05T18:49:01.401Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T18:49:01.402Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T18:49:01.402Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T18:49:02.414Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-05T18:49:02.868Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-05T18:49:02.916Z - [32minfo[39m: Site data built
+2026-08-05T18:49:02.916Z - [32minfo[39m: Pages rebuilt
+2026-08-05T18:49:02.916Z - [32minfo[39m: Website regeneration complete! Total build time: 0.512s
+2026-08-05T18:50:00.120Z - [32minfo[39m: [02:50:00] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-JUnit-fragment.md
+2026-08-05T18:50:00.132Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T18:50:00.147Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T18:50:00.155Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T18:50:01.186Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-05T18:50:01.567Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-05T18:50:01.610Z - [32minfo[39m: Site data built
+2026-08-05T18:50:01.610Z - [32minfo[39m: Pages rebuilt
+2026-08-05T18:50:01.610Z - [32minfo[39m: Website regeneration complete! Total build time: 0.451s
+2026-08-05T18:55:59.351Z - [32minfo[39m: [02:55:59] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-JUnit-fragment.md
+2026-08-05T18:55:59.353Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T18:55:59.354Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T18:55:59.354Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T18:56:00.375Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-05T18:56:00.755Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-05T18:56:00.799Z - [32minfo[39m: Site data built
+2026-08-05T18:56:00.799Z - [32minfo[39m: Pages rebuilt
+2026-08-05T18:56:00.799Z - [32minfo[39m: Website regeneration complete! Total build time: 0.443s
+2026-08-05T18:57:33.442Z - [32minfo[39m: [02:57:33] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-JUnit-fragment.md
+2026-08-05T18:57:33.452Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T18:57:33.453Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T18:57:33.453Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T18:57:34.475Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-05T18:57:34.827Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-05T18:57:34.869Z - [32minfo[39m: Site data built
+2026-08-05T18:57:34.869Z - [32minfo[39m: Pages rebuilt
+2026-08-05T18:57:34.869Z - [32minfo[39m: Website regeneration complete! Total build time: 0.412s
+2026-08-05T18:58:58.263Z - [32minfo[39m: [02:58:58] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-JUnit-fragment.md
+2026-08-05T18:58:58.265Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T18:58:58.266Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T18:58:58.266Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T18:58:59.272Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-05T18:58:59.685Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-05T18:58:59.760Z - [32minfo[39m: Site data built
+2026-08-05T18:58:59.760Z - [32minfo[39m: Pages rebuilt
+2026-08-05T18:58:59.760Z - [32minfo[39m: Website regeneration complete! Total build time: 0.494s
+2026-08-05T19:01:24.316Z - [32minfo[39m: [03:01:24] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-JUnit-fragment.md
+2026-08-05T19:01:24.319Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T19:01:24.321Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T19:01:24.322Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T19:01:25.547Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-05T19:01:26.217Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-05T19:01:26.280Z - [32minfo[39m: Site data built
+2026-08-05T19:01:26.280Z - [32minfo[39m: Pages rebuilt
+2026-08-05T19:01:26.280Z - [32minfo[39m: Website regeneration complete! Total build time: 0.893s
+2026-08-05T19:02:54.373Z - [32minfo[39m: [03:02:54] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-JUnit-fragment.md
+2026-08-05T19:02:54.375Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T19:02:54.376Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T19:02:54.376Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T19:02:55.405Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-05T19:02:55.840Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-05T19:02:55.889Z - [32minfo[39m: Site data built
+2026-08-05T19:02:55.889Z - [32minfo[39m: Pages rebuilt
+2026-08-05T19:02:55.889Z - [32minfo[39m: Website regeneration complete! Total build time: 0.508s
+2026-08-05T19:04:52.824Z - [32minfo[39m: [03:04:52] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-JUnit-fragment.md
+2026-08-05T19:04:52.829Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T19:04:52.831Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T19:04:52.831Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T19:04:53.850Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-05T19:04:54.209Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-05T19:04:54.249Z - [32minfo[39m: Site data built
+2026-08-05T19:04:54.249Z - [32minfo[39m: Pages rebuilt
+2026-08-05T19:04:54.249Z - [32minfo[39m: Website regeneration complete! Total build time: 0.414s
+2026-08-05T19:06:17.978Z - [32minfo[39m: [03:06:17] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-JUnit-fragment.md
+2026-08-05T19:06:17.981Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T19:06:17.983Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T19:06:17.983Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T19:06:19.015Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-05T19:06:19.393Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-05T19:06:19.443Z - [32minfo[39m: Site data built
+2026-08-05T19:06:19.443Z - [32minfo[39m: Pages rebuilt
+2026-08-05T19:06:19.443Z - [32minfo[39m: Website regeneration complete! Total build time: 0.46s
+2026-08-05T19:06:38.470Z - [32minfo[39m: [03:06:38] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-JUnit-fragment.md
+2026-08-05T19:06:38.471Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T19:06:38.472Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T19:06:38.472Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T19:06:39.480Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-05T19:06:39.884Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-05T19:06:39.925Z - [32minfo[39m: Site data built
+2026-08-05T19:06:39.925Z - [32minfo[39m: Pages rebuilt
+2026-08-05T19:06:39.925Z - [32minfo[39m: Website regeneration complete! Total build time: 0.449s
+2026-08-05T19:08:24.501Z - [32minfo[39m: [03:08:24] Reload for file add: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-Packages-fragment.md
+2026-08-05T19:08:24.502Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T19:08:24.502Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T19:08:24.503Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T19:08:25.744Z - [32minfo[39m: Assets built
+2026-08-05T19:09:19.273Z - [32minfo[39m: [03:09:19] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-Packages-fragment.md
+2026-08-05T19:09:19.280Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T19:09:19.285Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T19:09:19.290Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T19:09:20.322Z - [32minfo[39m: Assets built
+2026-08-05T19:12:36.028Z - [32minfo[39m: [03:12:35] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/extensions-fragment.md
+2026-08-05T19:12:36.033Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T19:12:36.034Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T19:12:36.035Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T19:12:36.064Z - [32minfo[39m: [03:12:36] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-Packages-fragment.md
+2026-08-05T19:12:36.064Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T19:12:36.064Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T19:12:36.064Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T19:12:37.071Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-05T19:12:37.532Z - [32minfo[39m: Assets built
+2026-08-05T19:12:37.537Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-05T19:12:37.577Z - [32minfo[39m: Site data built
+2026-08-05T19:12:37.577Z - [32minfo[39m: Pages rebuilt
+2026-08-05T19:12:37.577Z - [32minfo[39m: Website regeneration complete! Total build time: 0.529s
+2026-08-05T19:12:54.708Z - [32minfo[39m: [03:12:54] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/extensions-fragment.md
+2026-08-05T19:12:54.714Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T19:12:54.714Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T19:12:54.715Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T19:12:55.719Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-05T19:12:55.851Z - [31merror[39m: Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-Packages-fragment.md) [Line 51, Column 4]
+  unknown block tag: endcall
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at Template.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:313:23)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:55:31
+    at createTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:110:13)
+    at handle (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:123:17)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:134:13
+    at next (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:258:7)
+    at Object.asyncIter (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:263:3)
+    at Environment.getTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:116:9)
+    at Environment.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:47:10)
+2026-08-05T19:12:56.072Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-05T19:12:56.110Z - [32minfo[39m: Site data built
+2026-08-05T19:12:56.110Z - [32minfo[39m: Pages rebuilt
+2026-08-05T19:12:56.110Z - [32minfo[39m: Website regeneration complete! Total build time: 0.394s
+2026-08-05T19:14:44.338Z - [32minfo[39m: [03:14:44] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-Packages-fragment.md
+2026-08-05T19:14:44.340Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T19:14:44.341Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T19:14:44.341Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T19:14:45.350Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-05T19:14:45.742Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-05T19:14:45.804Z - [32minfo[39m: Site data built
+2026-08-05T19:14:45.804Z - [32minfo[39m: Pages rebuilt
+2026-08-05T19:14:45.804Z - [32minfo[39m: Website regeneration complete! Total build time: 0.46s
+2026-08-05T19:17:09.990Z - [32minfo[39m: [03:17:09] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-Packages-fragment.md
+2026-08-05T19:17:09.998Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T19:17:09.999Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T19:17:10.000Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T19:17:11.007Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-05T19:17:11.369Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-05T19:17:11.412Z - [32minfo[39m: Site data built
+2026-08-05T19:17:11.412Z - [32minfo[39m: Pages rebuilt
+2026-08-05T19:17:11.412Z - [32minfo[39m: Website regeneration complete! Total build time: 0.407s
+2026-08-05T19:17:30.457Z - [32minfo[39m: [03:17:30] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-Packages-fragment.md
+2026-08-05T19:17:30.462Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T19:17:30.465Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T19:17:30.465Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T19:17:31.484Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-05T19:17:31.890Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-05T19:17:31.933Z - [32minfo[39m: Site data built
+2026-08-05T19:17:31.933Z - [32minfo[39m: Pages rebuilt
+2026-08-05T19:17:31.933Z - [32minfo[39m: Website regeneration complete! Total build time: 0.46s
+2026-08-05T19:19:52.602Z - [32minfo[39m: [03:19:52] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/A-Packages-fragment.md
+2026-08-05T19:19:52.605Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-05T19:19:52.607Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-05T19:19:52.607Z - [32minfo[39m: 1. projectDuke/index
+2026-08-05T19:19:53.616Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-05T19:19:53.966Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-05T19:19:54.008Z - [32minfo[39m: Site data built
+2026-08-05T19:19:54.008Z - [32minfo[39m: Pages rebuilt
+2026-08-05T19:19:54.009Z - [32minfo[39m: Website regeneration complete! Total build time: 0.397s
+2026-08-05T19:28:56.847Z - [32minfo[39m: Website generation started at 03:28:56
+2026-08-05T19:28:57.451Z - [32minfo[39m: Building assets...
