@@ -124,7 +124,7 @@ by Patkos Csaba</li>
 <p><span style="position: relative; left: -32px; margin-right: -25px; background-color: var(--bs-light-border-subtle);" class="badge rounded-pill fs-6 fw-normal"><span><small><span class="dimmed"><span aria-hidden="true" class="fas fa-cube"></span> Example</span></small></span></span> Consider the <code class="hljs inline no-lang" v-pre>Staff</code> hierarchy below.</p>
 <pic src="/website/43e934733b9a8486c3c0757609c8894d.png"></pic>
 <p>An <code class="hljs inline no-lang" v-pre>AcademicStaff</code> is an instance of a <code class="hljs inline no-lang" v-pre>Staff</code>, but a <code class="hljs inline no-lang" v-pre>Staff</code> is not necessarily an instance of an <code class="hljs inline no-lang" v-pre>AcademicStaff</code>. That is, wherever an object of the superclass is expected, it can be substituted by an object of any of its subclasses.</p>
-<p>The following code is valid because an <code class="hljs inline no-lang" v-pre>AcademicStaff</code> object is substitutable as a <code class="hljs inline no-lang" v-pre>Staff</code> object.</p>
+<p>The following code is valid because an <code class="hljs inline no-lang" v-pre>AcademicStaff</code> object is substitutable for a <code class="hljs inline no-lang" v-pre>Staff</code> object.</p>
 <pre><code class="hljs java" v-pre><span>Staff staff = <span class="hljs-keyword">new</span> AcademicStaff(); <span class="hljs-comment">// OK</span>
 </span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
     <div class="tooltip-container">
