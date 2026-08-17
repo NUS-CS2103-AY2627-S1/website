@@ -1,0 +1,251 @@
+2026-08-17T07:12:17.789Z - [32minfo[39m: Website generation (lazy) started at 15:12:17
+2026-08-17T07:12:18.418Z - [32minfo[39m: Building assets...
+2026-08-17T07:12:18.782Z - [32minfo[39m: Assets built
+2026-08-17T07:12:18.783Z - [32minfo[39m: Generating landing page...
+2026-08-17T07:12:19.127Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/index.md
+2026-08-17T07:12:19.149Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-08-17T07:12:19.227Z - [32minfo[39m: Site data built
+2026-08-17T07:12:19.227Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 1.915s
+2026-08-17T07:12:19.241Z - [32minfo[39m: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2026-08-17T07:12:19.241Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-08-17T07:14:22.286Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams as some of its dependencies were changed since the last visit
+2026-08-17T07:14:22.765Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T07:14:22.790Z - [32minfo[39m: Site data built
+2026-08-17T07:14:22.790Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.505s
+2026-08-17T07:14:46.184Z - [32minfo[39m: [15:14:46] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T07:14:46.189Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-17T07:14:46.192Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-17T07:14:46.192Z - [32minfo[39m: 1. admin/tp-teams
+2026-08-17T07:14:47.198Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-17T07:14:47.613Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T07:14:47.639Z - [32minfo[39m: Site data built
+2026-08-17T07:14:47.639Z - [32minfo[39m: Pages rebuilt
+2026-08-17T07:14:47.639Z - [32minfo[39m: Website regeneration complete! Total build time: 0.444s
+2026-08-17T07:15:52.274Z - [32minfo[39m: [15:15:52] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T07:15:52.275Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-17T07:15:52.276Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-17T07:15:52.276Z - [32minfo[39m: 1. admin/tp-teams
+2026-08-17T07:15:53.281Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-17T07:15:53.688Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T07:15:53.712Z - [32minfo[39m: Site data built
+2026-08-17T07:15:53.712Z - [32minfo[39m: Pages rebuilt
+2026-08-17T07:15:53.712Z - [32minfo[39m: Website regeneration complete! Total build time: 0.435s
+2026-08-17T07:17:36.504Z - [32minfo[39m: [15:17:36] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T07:17:36.508Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-17T07:17:36.509Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-17T07:17:36.509Z - [32minfo[39m: 1. admin/tp-teams
+2026-08-17T07:17:37.513Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-17T07:17:37.917Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T07:17:37.943Z - [32minfo[39m: Site data built
+2026-08-17T07:17:37.943Z - [32minfo[39m: Pages rebuilt
+2026-08-17T07:17:37.943Z - [32minfo[39m: Website regeneration complete! Total build time: 0.433s
+2026-08-17T07:18:47.806Z - [32minfo[39m: [15:18:47] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T07:18:47.807Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-17T07:18:47.809Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-17T07:18:47.809Z - [32minfo[39m: 1. admin/tp-teams
+2026-08-17T07:18:48.823Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-17T07:18:49.231Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T07:18:49.253Z - [32minfo[39m: Site data built
+2026-08-17T07:18:49.253Z - [32minfo[39m: Pages rebuilt
+2026-08-17T07:18:49.253Z - [32minfo[39m: Website regeneration complete! Total build time: 0.432s
+2026-08-17T07:21:44.962Z - [32minfo[39m: [15:21:44] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T07:21:44.965Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-17T07:21:44.965Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-17T07:21:44.966Z - [32minfo[39m: 1. admin/tp-teams
+2026-08-17T07:21:45.975Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-17T07:21:46.375Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T07:21:46.398Z - [32minfo[39m: Site data built
+2026-08-17T07:21:46.399Z - [32minfo[39m: Pages rebuilt
+2026-08-17T07:21:46.399Z - [32minfo[39m: Website regeneration complete! Total build time: 0.432s
+2026-08-17T07:23:00.873Z - [32minfo[39m: [15:23:00] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T07:23:00.874Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-17T07:23:00.875Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-17T07:23:00.875Z - [32minfo[39m: 1. admin/tp-teams
+2026-08-17T07:23:01.891Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-17T07:23:02.322Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T07:23:02.345Z - [32minfo[39m: Site data built
+2026-08-17T07:23:02.345Z - [32minfo[39m: Pages rebuilt
+2026-08-17T07:23:02.345Z - [32minfo[39m: Website regeneration complete! Total build time: 0.463s
+2026-08-17T07:26:25.934Z - [32minfo[39m: [15:26:25] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T07:26:25.939Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-17T07:26:25.940Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-17T07:26:25.940Z - [32minfo[39m: 1. admin/tp-teams
+2026-08-17T07:26:26.945Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-17T07:26:27.360Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T07:26:27.383Z - [32minfo[39m: Site data built
+2026-08-17T07:26:27.383Z - [32minfo[39m: Pages rebuilt
+2026-08-17T07:26:27.383Z - [32minfo[39m: Website regeneration complete! Total build time: 0.441s
+2026-08-17T08:24:09.048Z - [32minfo[39m: [16:24:09] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T08:24:09.062Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-17T08:24:09.069Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-17T08:24:09.071Z - [32minfo[39m: 1. admin/tp-teams
+2026-08-17T08:24:10.136Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-17T08:24:10.619Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T08:24:10.644Z - [32minfo[39m: Site data built
+2026-08-17T08:24:10.644Z - [32minfo[39m: Pages rebuilt
+2026-08-17T08:24:10.644Z - [32minfo[39m: Website regeneration complete! Total build time: 0.559s
+2026-08-17T08:25:49.693Z - [32minfo[39m: [16:25:49] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T08:25:49.703Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-17T08:25:49.712Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-17T08:25:49.713Z - [32minfo[39m: 1. admin/tp-teams
+2026-08-17T08:25:50.735Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-17T08:25:51.149Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T08:25:51.173Z - [32minfo[39m: Site data built
+2026-08-17T08:25:51.174Z - [32minfo[39m: Pages rebuilt
+2026-08-17T08:25:51.174Z - [32minfo[39m: Website regeneration complete! Total build time: 0.443s
+2026-08-17T08:26:14.578Z - [32minfo[39m: [16:26:14] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T08:26:14.582Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-17T08:26:14.583Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-17T08:26:14.583Z - [32minfo[39m: 1. admin/tp-teams
+2026-08-17T08:26:15.592Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-17T08:26:16.008Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T08:26:16.030Z - [32minfo[39m: Site data built
+2026-08-17T08:26:16.030Z - [32minfo[39m: Pages rebuilt
+2026-08-17T08:26:16.031Z - [32minfo[39m: Website regeneration complete! Total build time: 0.446s
+2026-08-17T08:28:03.261Z - [32minfo[39m: [16:28:03] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T08:28:03.265Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-17T08:28:03.268Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-17T08:28:03.268Z - [32minfo[39m: 1. admin/tp-teams
+2026-08-17T08:28:04.273Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-17T08:28:04.765Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T08:28:04.798Z - [32minfo[39m: Site data built
+2026-08-17T08:28:04.798Z - [32minfo[39m: Pages rebuilt
+2026-08-17T08:28:04.798Z - [32minfo[39m: Website regeneration complete! Total build time: 0.528s
+2026-08-17T08:28:55.817Z - [32minfo[39m: [16:28:55] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T08:28:55.818Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-17T08:28:55.819Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-17T08:28:55.819Z - [32minfo[39m: 1. admin/tp-teams
+2026-08-17T08:28:56.831Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-17T08:28:57.232Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T08:28:57.257Z - [32minfo[39m: Site data built
+2026-08-17T08:28:57.257Z - [32minfo[39m: Pages rebuilt
+2026-08-17T08:28:57.258Z - [32minfo[39m: Website regeneration complete! Total build time: 0.435s
+2026-08-17T08:30:05.242Z - [32minfo[39m: [16:30:05] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T08:30:05.248Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-17T08:30:05.249Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-17T08:30:05.249Z - [32minfo[39m: 1. admin/tp-teams
+2026-08-17T08:30:06.264Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-17T08:30:06.689Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T08:30:06.720Z - [32minfo[39m: Site data built
+2026-08-17T08:30:06.720Z - [32minfo[39m: Pages rebuilt
+2026-08-17T08:30:06.720Z - [32minfo[39m: Website regeneration complete! Total build time: 0.467s
+2026-08-17T08:30:37.874Z - [32minfo[39m: [16:30:37] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T08:30:37.875Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-17T08:30:37.876Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-17T08:30:37.876Z - [32minfo[39m: 1. admin/tp-teams
+2026-08-17T08:30:38.880Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-17T08:30:39.289Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T08:30:39.312Z - [32minfo[39m: Site data built
+2026-08-17T08:30:39.312Z - [32minfo[39m: Pages rebuilt
+2026-08-17T08:30:39.312Z - [32minfo[39m: Website regeneration complete! Total build time: 0.435s
+2026-08-17T08:30:44.120Z - [32minfo[39m: [16:30:44] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T08:30:44.122Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-17T08:30:44.122Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-17T08:30:44.122Z - [32minfo[39m: 1. admin/tp-teams
+2026-08-17T08:30:45.132Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-17T08:30:45.466Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T08:30:45.479Z - [32minfo[39m: Site data built
+2026-08-17T08:30:45.479Z - [32minfo[39m: Pages rebuilt
+2026-08-17T08:30:45.479Z - [32minfo[39m: Website regeneration complete! Total build time: 0.352s
+2026-08-17T08:31:00.880Z - [32minfo[39m: [16:31:00] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T08:31:00.885Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-17T08:31:00.885Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-17T08:31:00.886Z - [32minfo[39m: 1. admin/tp-teams
+2026-08-17T08:31:01.887Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-17T08:31:02.279Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T08:31:02.301Z - [32minfo[39m: Site data built
+2026-08-17T08:31:02.301Z - [32minfo[39m: Pages rebuilt
+2026-08-17T08:31:02.301Z - [32minfo[39m: Website regeneration complete! Total build time: 0.415s
+2026-08-17T08:38:33.571Z - [32minfo[39m: [16:38:33] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T08:38:33.572Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-17T08:38:33.573Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-17T08:38:33.573Z - [32minfo[39m: 1. ../admin/tp-teams
+2026-08-17T08:38:33.573Z - [32minfo[39m: 2. admin/tp-teams
+2026-08-17T08:38:34.598Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-17T08:38:35.240Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T08:38:35.264Z - [32minfo[39m: Site data built
+2026-08-17T08:38:35.264Z - [32minfo[39m: Pages rebuilt
+2026-08-17T08:38:35.264Z - [32minfo[39m: Website regeneration complete! Total build time: 0.69s
+2026-08-17T08:44:26.634Z - [32minfo[39m: [16:44:26] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T08:44:26.637Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-17T08:44:26.637Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-17T08:44:26.637Z - [32minfo[39m: 1. admin/tp-teams
+2026-08-17T08:44:27.661Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-17T08:44:28.124Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T08:44:28.148Z - [32minfo[39m: Site data built
+2026-08-17T08:44:28.149Z - [32minfo[39m: Pages rebuilt
+2026-08-17T08:44:28.149Z - [32minfo[39m: Website regeneration complete! Total build time: 0.508s
+2026-08-17T08:44:45.784Z - [32minfo[39m: [16:44:45] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T08:44:45.785Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-17T08:44:45.787Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-17T08:44:45.787Z - [32minfo[39m: 1. admin/tp-teams
+2026-08-17T08:44:46.797Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-17T08:44:47.239Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T08:44:47.262Z - [32minfo[39m: Site data built
+2026-08-17T08:44:47.262Z - [32minfo[39m: Pages rebuilt
+2026-08-17T08:44:47.262Z - [32minfo[39m: Website regeneration complete! Total build time: 0.473s
+2026-08-17T08:45:34.479Z - [32minfo[39m: [16:45:34] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T08:45:34.481Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-17T08:45:34.481Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-17T08:45:34.481Z - [32minfo[39m: 1. admin/tp-teams
+2026-08-17T08:45:35.485Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-17T08:45:35.916Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T08:45:35.937Z - [32minfo[39m: Site data built
+2026-08-17T08:45:35.937Z - [32minfo[39m: Pages rebuilt
+2026-08-17T08:45:35.937Z - [32minfo[39m: Website regeneration complete! Total build time: 0.455s
+2026-08-17T08:46:58.661Z - [32minfo[39m: [16:46:58] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T08:46:58.662Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-17T08:46:58.662Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-17T08:46:58.662Z - [32minfo[39m: 1. admin/tp-teams
+2026-08-17T08:46:59.670Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-17T08:47:00.112Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T08:47:00.134Z - [32minfo[39m: Site data built
+2026-08-17T08:47:00.135Z - [32minfo[39m: Pages rebuilt
+2026-08-17T08:47:00.135Z - [32minfo[39m: Website regeneration complete! Total build time: 0.47s
+2026-08-17T08:47:41.668Z - [32minfo[39m: [16:47:41] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T08:47:41.670Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-17T08:47:41.671Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-17T08:47:41.671Z - [32minfo[39m: 1. admin/tp-teams
+2026-08-17T08:47:42.679Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-17T08:47:43.099Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T08:47:43.121Z - [32minfo[39m: Site data built
+2026-08-17T08:47:43.121Z - [32minfo[39m: Pages rebuilt
+2026-08-17T08:47:43.121Z - [32minfo[39m: Website regeneration complete! Total build time: 0.448s
+2026-08-17T08:48:50.233Z - [32minfo[39m: [16:48:50] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T08:48:50.236Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-17T08:48:50.237Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-17T08:48:50.237Z - [32minfo[39m: 1. admin/tp-teams
+2026-08-17T08:48:51.247Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-17T08:48:51.674Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T08:48:51.697Z - [32minfo[39m: Site data built
+2026-08-17T08:48:51.697Z - [32minfo[39m: Pages rebuilt
+2026-08-17T08:48:51.697Z - [32minfo[39m: Website regeneration complete! Total build time: 0.456s
+2026-08-17T08:50:27.971Z - [32minfo[39m: [16:50:27] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T08:50:27.975Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-17T08:50:27.978Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-17T08:50:27.979Z - [32minfo[39m: 1. admin/tp-teams
+2026-08-17T08:50:28.990Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-17T08:50:29.417Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T08:50:29.439Z - [32minfo[39m: Site data built
+2026-08-17T08:50:29.439Z - [32minfo[39m: Pages rebuilt
+2026-08-17T08:50:29.440Z - [32minfo[39m: Website regeneration complete! Total build time: 0.454s
+2026-08-17T08:50:47.587Z - [32minfo[39m: [16:50:47] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T08:50:47.591Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-17T08:50:47.592Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-17T08:50:47.592Z - [32minfo[39m: 1. admin/tp-teams
+2026-08-17T08:50:48.600Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-17T08:50:48.998Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T08:50:49.019Z - [32minfo[39m: Site data built
+2026-08-17T08:50:49.019Z - [32minfo[39m: Pages rebuilt
+2026-08-17T08:50:49.019Z - [32minfo[39m: Website regeneration complete! Total build time: 0.426s
+2026-08-17T08:50:57.075Z - [32minfo[39m: [16:50:57] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T08:50:57.076Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-17T08:50:57.077Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-17T08:50:57.078Z - [32minfo[39m: 1. admin/tp-teams
+2026-08-17T08:50:58.079Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-17T08:50:58.463Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-17T08:50:58.485Z - [32minfo[39m: Site data built
+2026-08-17T08:50:58.485Z - [32minfo[39m: Pages rebuilt
+2026-08-17T08:50:58.485Z - [32minfo[39m: Website regeneration complete! Total build time: 0.407s
+2026-08-17T08:51:27.280Z - [32minfo[39m: Website generation started at 16:51:27
+2026-08-17T08:51:28.043Z - [32minfo[39m: Building assets...
