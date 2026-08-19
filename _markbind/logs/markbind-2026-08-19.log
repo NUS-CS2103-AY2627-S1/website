@@ -1,0 +1,182 @@
+2026-08-19T06:01:52.750Z - [32minfo[39m: Website generation (lazy) started at 14:01:52
+2026-08-19T06:01:53.261Z - [32minfo[39m: Building assets...
+2026-08-19T06:01:53.669Z - [32minfo[39m: Assets built
+2026-08-19T06:01:53.670Z - [32minfo[39m: Generating landing page...
+2026-08-19T06:01:54.241Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/index.md
+2026-08-19T06:01:54.282Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-08-19T06:01:54.436Z - [32minfo[39m: Site data built
+2026-08-19T06:01:54.436Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 2.145s
+2026-08-19T06:01:54.462Z - [32minfo[39m: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2026-08-19T06:01:54.463Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-08-19T06:02:08.660Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week1/index as some of its dependencies were changed since the last visit
+2026-08-19T06:02:08.930Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week1/index.md
+2026-08-19T06:02:08.956Z - [32minfo[39m: Site data built
+2026-08-19T06:02:08.956Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.297s
+2026-08-19T06:02:15.617Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/index as some of its dependencies were changed since the last visit
+2026-08-19T06:02:15.722Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/index.md
+2026-08-19T06:02:15.732Z - [32minfo[39m: Site data built
+2026-08-19T06:02:15.732Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.115s
+2026-08-19T06:02:18.394Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/oop as some of its dependencies were changed since the last visit
+2026-08-19T06:02:21.600Z - [34mdebug[39m: 
+2026-08-19T06:02:21.607Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/oop.md
+2026-08-19T06:02:21.682Z - [32minfo[39m: Site data built
+2026-08-19T06:02:21.682Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 3.288s
+2026-08-19T06:02:24.935Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/cppToJava as some of its dependencies were changed since the last visit
+2026-08-19T06:02:26.555Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/cppToJava.md
+2026-08-19T06:02:26.711Z - [32minfo[39m: Site data built
+2026-08-19T06:02:26.711Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 1.778s
+2026-08-19T06:03:15.138Z - [32minfo[39m: [14:03:15] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/inheritance/basic/text.md
+2026-08-19T06:03:15.157Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-19T06:03:15.165Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-19T06:03:15.167Z - [32minfo[39m: 1. se-book-adapted/chapters/cppToJava
+2026-08-19T06:03:16.216Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-19T06:03:17.922Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/cppToJava.md
+2026-08-19T06:03:18.076Z - [32minfo[39m: Site data built
+2026-08-19T06:03:18.076Z - [32minfo[39m: Pages rebuilt
+2026-08-19T06:03:18.076Z - [32minfo[39m: Website regeneration complete! Total build time: 1.881s
+2026-08-19T06:03:43.929Z - [32minfo[39m: [14:03:43] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/inheritance/basic/text.md
+2026-08-19T06:03:43.933Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-19T06:03:43.935Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-19T06:03:43.935Z - [32minfo[39m: 1. se-book-adapted/chapters/cppToJava
+2026-08-19T06:03:44.958Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-19T06:03:46.713Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/cppToJava.md
+2026-08-19T06:03:46.862Z - [32minfo[39m: Site data built
+2026-08-19T06:03:46.862Z - [32minfo[39m: Pages rebuilt
+2026-08-19T06:03:46.862Z - [32minfo[39m: Website regeneration complete! Total build time: 1.916s
+2026-08-19T06:04:05.687Z - [32minfo[39m: [14:04:05] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/inheritance/basic/text.md
+2026-08-19T06:04:05.688Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-19T06:04:05.688Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-19T06:04:05.688Z - [32minfo[39m: 1. se-book-adapted/chapters/cppToJava
+2026-08-19T06:04:06.700Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-19T06:04:08.399Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/cppToJava.md
+2026-08-19T06:04:08.551Z - [32minfo[39m: Site data built
+2026-08-19T06:04:08.551Z - [32minfo[39m: Pages rebuilt
+2026-08-19T06:04:08.551Z - [32minfo[39m: Website regeneration complete! Total build time: 1.861s
+2026-08-19T06:04:31.507Z - [32minfo[39m: [14:04:31] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/inheritance/basic/text.md
+2026-08-19T06:04:31.507Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-19T06:04:31.508Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-19T06:04:31.508Z - [32minfo[39m: 1. se-book-adapted/chapters/cppToJava
+2026-08-19T06:04:32.516Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-19T06:04:34.272Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/cppToJava.md
+2026-08-19T06:04:34.429Z - [32minfo[39m: Site data built
+2026-08-19T06:04:34.430Z - [32minfo[39m: Pages rebuilt
+2026-08-19T06:04:34.430Z - [32minfo[39m: Website regeneration complete! Total build time: 1.92s
+2026-08-19T06:05:10.542Z - [32minfo[39m: [14:05:10] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/inheritance/basic/text.md
+2026-08-19T06:05:10.565Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-19T06:05:10.577Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-19T06:05:10.577Z - [32minfo[39m: 1. se-book-adapted/chapters/cppToJava
+2026-08-19T06:05:11.595Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-19T06:05:13.355Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/cppToJava.md
+2026-08-19T06:05:13.517Z - [32minfo[39m: Site data built
+2026-08-19T06:05:13.517Z - [32minfo[39m: Pages rebuilt
+2026-08-19T06:05:13.517Z - [32minfo[39m: Website regeneration complete! Total build time: 1.931s
+2026-08-19T06:06:26.550Z - [32minfo[39m: [14:06:26] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/inheritance/basic/text.md
+2026-08-19T06:06:26.550Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-19T06:06:26.551Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-19T06:06:26.551Z - [32minfo[39m: 1. se-book-adapted/chapters/cppToJava
+2026-08-19T06:06:27.558Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-19T06:06:29.303Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/cppToJava.md
+2026-08-19T06:06:29.457Z - [32minfo[39m: Site data built
+2026-08-19T06:06:29.457Z - [32minfo[39m: Pages rebuilt
+2026-08-19T06:06:29.457Z - [32minfo[39m: Website regeneration complete! Total build time: 1.904s
+2026-08-19T06:09:27.593Z - [32minfo[39m: [14:09:27] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/inheritance/basic/text.md
+2026-08-19T06:09:27.596Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-19T06:09:27.597Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-19T06:09:27.597Z - [32minfo[39m: 1. se-book-adapted/chapters/cppToJava
+2026-08-19T06:09:28.615Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-19T06:09:30.342Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/cppToJava.md
+2026-08-19T06:09:30.500Z - [32minfo[39m: Site data built
+2026-08-19T06:09:30.500Z - [32minfo[39m: Pages rebuilt
+2026-08-19T06:09:30.500Z - [32minfo[39m: Website regeneration complete! Total build time: 1.894s
+2026-08-19T06:09:59.134Z - [32minfo[39m: [14:09:59] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/inheritance/basic/text.md
+2026-08-19T06:09:59.135Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-19T06:09:59.135Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-19T06:09:59.135Z - [32minfo[39m: 1. se-book-adapted/chapters/cppToJava
+2026-08-19T06:10:00.149Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-19T06:10:01.922Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/cppToJava.md
+2026-08-19T06:10:02.084Z - [32minfo[39m: Site data built
+2026-08-19T06:10:02.084Z - [32minfo[39m: Pages rebuilt
+2026-08-19T06:10:02.084Z - [32minfo[39m: Website regeneration complete! Total build time: 1.94s
+2026-08-19T06:10:47.959Z - [32minfo[39m: [14:10:47] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/inheritance/basic/text.md
+2026-08-19T06:10:47.960Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-19T06:10:47.961Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-19T06:10:47.961Z - [32minfo[39m: 1. se-book-adapted/chapters/cppToJava
+2026-08-19T06:10:48.967Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-19T06:10:50.671Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/cppToJava.md
+2026-08-19T06:10:50.823Z - [32minfo[39m: Site data built
+2026-08-19T06:10:50.824Z - [32minfo[39m: Pages rebuilt
+2026-08-19T06:10:50.824Z - [32minfo[39m: Website regeneration complete! Total build time: 1.861s
+2026-08-19T06:11:43.796Z - [32minfo[39m: [14:11:43] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/inheritance/basic/text.md
+2026-08-19T06:11:43.797Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-19T06:11:43.802Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-19T06:11:43.803Z - [32minfo[39m: 1. se-book-adapted/chapters/cppToJava
+2026-08-19T06:11:44.812Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-19T06:11:46.540Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/cppToJava.md
+2026-08-19T06:11:46.697Z - [32minfo[39m: Site data built
+2026-08-19T06:11:46.697Z - [32minfo[39m: Pages rebuilt
+2026-08-19T06:11:46.697Z - [32minfo[39m: Website regeneration complete! Total build time: 1.892s
+2026-08-19T06:12:04.165Z - [32minfo[39m: [14:12:04] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/inheritance/basic/text.md
+2026-08-19T06:12:04.166Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-19T06:12:04.167Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-19T06:12:04.167Z - [32minfo[39m: 1. se-book-adapted/chapters/cppToJava
+2026-08-19T06:12:05.175Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-19T06:12:06.911Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/cppToJava.md
+2026-08-19T06:12:07.062Z - [32minfo[39m: Site data built
+2026-08-19T06:12:07.062Z - [32minfo[39m: Pages rebuilt
+2026-08-19T06:12:07.062Z - [32minfo[39m: Website regeneration complete! Total build time: 1.893s
+2026-08-19T06:12:23.940Z - [32minfo[39m: [14:12:23] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/inheritance/basic/text.md
+2026-08-19T06:12:23.942Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-19T06:12:23.943Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-19T06:12:23.943Z - [32minfo[39m: 1. se-book-adapted/chapters/cppToJava
+2026-08-19T06:12:24.958Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-19T06:12:26.662Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/cppToJava.md
+2026-08-19T06:12:26.815Z - [32minfo[39m: Site data built
+2026-08-19T06:12:26.815Z - [32minfo[39m: Pages rebuilt
+2026-08-19T06:12:26.815Z - [32minfo[39m: Website regeneration complete! Total build time: 1.863s
+2026-08-19T06:12:44.826Z - [32minfo[39m: [14:12:44] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/inheritance/basic/text.md
+2026-08-19T06:12:44.846Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-19T06:12:44.851Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-19T06:12:44.851Z - [32minfo[39m: 1. se-book-adapted/chapters/cppToJava
+2026-08-19T06:12:45.863Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-19T06:12:47.542Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/cppToJava.md
+2026-08-19T06:12:47.694Z - [32minfo[39m: Site data built
+2026-08-19T06:12:47.694Z - [32minfo[39m: Pages rebuilt
+2026-08-19T06:12:47.694Z - [32minfo[39m: Website regeneration complete! Total build time: 1.835s
+2026-08-19T06:13:10.077Z - [32minfo[39m: [14:13:10] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/inheritance/basic/text.md
+2026-08-19T06:13:10.080Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-19T06:13:10.091Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-19T06:13:10.092Z - [32minfo[39m: 1. se-book-adapted/chapters/cppToJava
+2026-08-19T06:13:11.110Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-19T06:13:12.781Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/cppToJava.md
+2026-08-19T06:13:12.935Z - [32minfo[39m: Site data built
+2026-08-19T06:13:12.935Z - [32minfo[39m: Pages rebuilt
+2026-08-19T06:13:12.935Z - [32minfo[39m: Website regeneration complete! Total build time: 1.836s
+2026-08-19T06:13:26.720Z - [32minfo[39m: [14:13:26] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/inheritance/basic/text.md
+2026-08-19T06:13:26.723Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-19T06:13:26.724Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-19T06:13:26.724Z - [32minfo[39m: 1. se-book-adapted/chapters/cppToJava
+2026-08-19T06:13:27.732Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-19T06:13:29.373Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/cppToJava.md
+2026-08-19T06:13:29.519Z - [32minfo[39m: Site data built
+2026-08-19T06:13:29.519Z - [32minfo[39m: Pages rebuilt
+2026-08-19T06:13:29.519Z - [32minfo[39m: Website regeneration complete! Total build time: 1.79s
+2026-08-19T06:16:37.992Z - [32minfo[39m: [14:16:37] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/inheritance/basic/text.md
+2026-08-19T06:16:37.993Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-19T06:16:37.994Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-19T06:16:37.994Z - [32minfo[39m: 1. se-book-adapted/chapters/cppToJava
+2026-08-19T06:16:39.004Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-19T06:16:40.776Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/cppToJava.md
+2026-08-19T06:16:40.931Z - [32minfo[39m: Site data built
+2026-08-19T06:16:40.931Z - [32minfo[39m: Pages rebuilt
+2026-08-19T06:16:40.931Z - [32minfo[39m: Website regeneration complete! Total build time: 1.932s
+2026-08-19T06:18:44.895Z - [32minfo[39m: [14:18:44] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/inheritance/basic/text.md
+2026-08-19T06:18:44.899Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-19T06:18:44.900Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-19T06:18:44.900Z - [32minfo[39m: 1. se-book-adapted/chapters/cppToJava
+2026-08-19T06:18:45.909Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-19T06:18:47.683Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/cppToJava.md
+2026-08-19T06:18:47.856Z - [32minfo[39m: Site data built
+2026-08-19T06:18:47.856Z - [32minfo[39m: Pages rebuilt
+2026-08-19T06:18:47.856Z - [32minfo[39m: Website regeneration complete! Total build time: 1.951s
+2026-08-19T06:18:55.153Z - [32minfo[39m: Website generation started at 14:18:54
+2026-08-19T06:18:55.570Z - [32minfo[39m: Building assets...
