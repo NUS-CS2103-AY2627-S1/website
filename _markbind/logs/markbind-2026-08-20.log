@@ -1,0 +1,103 @@
+2026-08-19T18:05:48.954Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/index as some of its dependencies were changed since the last visit
+2026-08-19T18:05:49.539Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/index.md
+2026-08-19T18:05:49.553Z - [32minfo[39m: Site data built
+2026-08-19T18:05:49.553Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.615s
+2026-08-19T18:05:55.319Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week3/index as some of its dependencies were changed since the last visit
+2026-08-19T18:05:55.662Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week3/index.md
+2026-08-19T18:05:55.678Z - [32minfo[39m: Site data built
+2026-08-19T18:05:55.678Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.36s
+2026-08-19T18:06:41.450Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/topics as some of its dependencies were changed since the last visit
+2026-08-19T18:06:47.232Z - [34mdebug[39m: 
+2026-08-19T18:06:47.233Z - [34mdebug[39m: 
+2026-08-19T18:06:47.375Z - [34mdebug[39m: 
+2026-08-19T18:06:47.588Z - [34mdebug[39m: 
+2026-08-19T18:06:47.603Z - [34mdebug[39m: 
+2026-08-19T18:06:47.614Z - [34mdebug[39m: 
+2026-08-19T18:06:47.653Z - [34mdebug[39m: 
+2026-08-19T18:06:47.702Z - [34mdebug[39m: 
+2026-08-19T18:06:47.839Z - [34mdebug[39m: 
+2026-08-19T18:06:47.850Z - [34mdebug[39m: 
+2026-08-19T18:06:47.852Z - [34mdebug[39m: 
+2026-08-19T18:06:47.898Z - [34mdebug[39m: 
+2026-08-19T18:06:47.906Z - [34mdebug[39m: 
+2026-08-19T18:06:47.997Z - [34mdebug[39m: 
+2026-08-19T18:06:48.006Z - [34mdebug[39m: 
+2026-08-19T18:06:48.008Z - [34mdebug[39m: 
+2026-08-19T18:06:48.052Z - [34mdebug[39m: 
+2026-08-19T18:06:48.138Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/topics.md
+2026-08-19T18:06:48.219Z - [32minfo[39m: Site data built
+2026-08-19T18:06:48.220Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 6.77s
+2026-08-19T18:08:36.537Z - [32minfo[39m: [02:08:36] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/commentary-cs2103-fragment.md
+2026-08-19T18:08:36.538Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-19T18:08:36.540Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-19T18:08:36.543Z - [32minfo[39m: 1. schedule/week4/topics
+2026-08-19T18:08:37.552Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-19T18:08:38.370Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/topics.md
+2026-08-19T18:08:38.427Z - [32minfo[39m: Site data built
+2026-08-19T18:08:38.427Z - [32minfo[39m: Pages rebuilt
+2026-08-19T18:08:38.427Z - [32minfo[39m: Website regeneration complete! Total build time: 0.879s
+2026-08-19T18:09:46.447Z - [32minfo[39m: [02:09:46] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/commentary-cs2103-fragment.md
+2026-08-19T18:09:46.448Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-19T18:09:46.452Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-19T18:09:46.452Z - [32minfo[39m: 1. schedule/week4/topics
+2026-08-19T18:09:47.457Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-19T18:09:48.283Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/topics.md
+2026-08-19T18:09:48.337Z - [32minfo[39m: Site data built
+2026-08-19T18:09:48.337Z - [32minfo[39m: Pages rebuilt
+2026-08-19T18:09:48.337Z - [32minfo[39m: Website regeneration complete! Total build time: 0.883s
+2026-08-19T18:10:51.954Z - [32minfo[39m: [02:10:51] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/commentary-cs2103-fragment.md
+2026-08-19T18:10:51.955Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-19T18:10:51.956Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-19T18:10:51.956Z - [32minfo[39m: 1. schedule/week4/topics
+2026-08-19T18:10:52.961Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-19T18:10:53.770Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/topics.md
+2026-08-19T18:10:53.820Z - [32minfo[39m: Site data built
+2026-08-19T18:10:53.820Z - [32minfo[39m: Pages rebuilt
+2026-08-19T18:10:53.820Z - [32minfo[39m: Website regeneration complete! Total build time: 0.862s
+2026-08-19T18:14:51.199Z - [32minfo[39m: [02:14:51] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/commentary-cs2103-fragment.md
+2026-08-19T18:14:51.200Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-19T18:14:51.201Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-19T18:14:51.202Z - [32minfo[39m: 1. schedule/week4/topics
+2026-08-19T18:14:52.223Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-19T18:14:53.067Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/topics.md
+2026-08-19T18:14:53.111Z - [32minfo[39m: Site data built
+2026-08-19T18:14:53.112Z - [32minfo[39m: Pages rebuilt
+2026-08-19T18:14:53.112Z - [32minfo[39m: Website regeneration complete! Total build time: 0.903s
+2026-08-19T18:16:35.068Z - [32minfo[39m: [02:16:35] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/commentary-cs2103-fragment.md
+2026-08-19T18:16:35.094Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-19T18:16:35.095Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-19T18:16:35.095Z - [32minfo[39m: 1. schedule/week4/topics
+2026-08-19T18:16:36.101Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-19T18:16:36.971Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/topics.md
+2026-08-19T18:16:37.023Z - [32minfo[39m: Site data built
+2026-08-19T18:16:37.023Z - [32minfo[39m: Pages rebuilt
+2026-08-19T18:16:37.023Z - [32minfo[39m: Website regeneration complete! Total build time: 0.925s
+2026-08-19T18:18:19.631Z - [32minfo[39m: [02:18:19] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/commentary-cs2103-fragment.md
+2026-08-19T18:18:19.635Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-19T18:18:19.636Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-19T18:18:19.636Z - [32minfo[39m: 1. schedule/week4/topics
+2026-08-19T18:18:20.646Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-19T18:18:21.479Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/topics.md
+2026-08-19T18:18:21.533Z - [32minfo[39m: Site data built
+2026-08-19T18:18:21.533Z - [32minfo[39m: Pages rebuilt
+2026-08-19T18:18:21.533Z - [32minfo[39m: Website regeneration complete! Total build time: 0.895s
+2026-08-19T18:19:29.238Z - [32minfo[39m: [02:19:29] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/commentary-cs2103-fragment.md
+2026-08-19T18:19:29.244Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-19T18:19:29.245Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-19T18:19:29.245Z - [32minfo[39m: 1. schedule/week4/topics
+2026-08-19T18:19:30.255Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-19T18:19:31.093Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/topics.md
+2026-08-19T18:19:31.149Z - [32minfo[39m: Site data built
+2026-08-19T18:19:31.149Z - [32minfo[39m: Pages rebuilt
+2026-08-19T18:19:31.149Z - [32minfo[39m: Website regeneration complete! Total build time: 0.902s
+2026-08-19T18:20:10.478Z - [32minfo[39m: [02:20:10] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/commentary-cs2103-fragment.md
+2026-08-19T18:20:10.482Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-19T18:20:10.482Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-19T18:20:10.482Z - [32minfo[39m: 1. schedule/week4/topics
+2026-08-19T18:20:11.491Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-19T18:20:12.324Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/topics.md
+2026-08-19T18:20:12.371Z - [32minfo[39m: Site data built
+2026-08-19T18:20:12.371Z - [32minfo[39m: Pages rebuilt
+2026-08-19T18:20:12.371Z - [32minfo[39m: Website regeneration complete! Total build time: 0.886s
+2026-08-19T18:20:54.241Z - [32minfo[39m: Website generation started at 02:20:53
+2026-08-19T18:20:54.716Z - [32minfo[39m: Building assets...
