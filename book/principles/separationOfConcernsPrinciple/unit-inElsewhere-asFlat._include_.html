@@ -24,13 +24,13 @@
 <box type="info" seamless no-icon>
 <p><span class="dimmed">Aspect:</span> <strong>This style focuses on how the code inside a program is organized.</strong></p></box>
 <p><strong>In the <span class="badge text-dark" style="background-color: rgba(13, 202, 240, 0.2);"><span class="large">layered</span></span> style, the software is divided into layers whose dependencies all point one way — downward.</strong> Higher layers use services provided by lower ones; lower layers know nothing about the layers above.</p>
-<pic eager src="/website/book/architecture/architecturalStyles/layered/what/images/layered.svg" width="450"></pic>
+<pic eager src="/website/book/architecture/architecturalStyles/layered/what/images/layered.svg" width="438"></pic>
 <p><strong>Layered designs differ in how strictly they enforce the separation.</strong> In <em>strict</em> (or <em>closed</em>) layering, a layer may use only the layer immediately below it. In the more common <em>relaxed</em> form, a layer may use any lower layer, skipping intermediate ones. <strong>What both share, and what actually matters, is that dependencies never point back up.</strong> Because a lower layer depends on nothing above it, you can understand, test, and replace it on its own. The moment <code class="hljs inline no-lang" v-pre>Storage</code> calls back into <code class="hljs inline no-lang" v-pre>Ui</code> to show an error dialog, that property is lost and the two must be understood together.</p>
 <cv-toggle xtoggle-id="examples">
 <div class="indented-level1 example">
 <box type="info" theme="light" seamless no-icon>
 <p><span style="position: relative; left: -32px; margin-right: -25px; background-color: var(--bs-light-border-subtle);" class="badge rounded-pill fs-6 fw-normal"><span><small><span class="dimmed"><span aria-hidden="true" class="fas fa-cube"></span> Example</span></small></span></span> The invoice manager follows relaxed layering, as <code class="hljs inline no-lang" v-pre>Logic</code> depends on <code class="hljs inline no-lang" v-pre>Storage</code> as well as <code class="hljs inline no-lang" v-pre>Model</code>. Operating systems and network communication software are the classic examples of layering.</p>
-<p><pic src="/website/book/architecture/introduction/what/images/architecture.png"></pic><pic eager src="/website/book/architecture/architecturalStyles/layered/what/images/layeredExamples.svg" width="230"></pic></p></box></div></cv-toggle>
+<p><pic src="/website/book/architecture/introduction/what/images/architecture.png"></pic><pic eager src="/website/book/architecture/architecturalStyles/layered/what/images/layeredExamples.svg" width="233"></pic></p></box></div></cv-toggle>
 <p><strong>Layers are not tiers.</strong> A <em>layer</em> is a logical division inside the software; a <em>tier</em> is a part that is deployed separately. The two are often confused, partly because the term <em>n-tier</em> is frequently used to mean <em>layered</em>.</p>
 <cv-toggle xtoggle-id="examples">
 <div class="indented-level1 example">
