@@ -1,0 +1,132 @@
+2026-08-26T18:25:13.385Z - [32minfo[39m: Website generation (lazy) started at 02:25:12
+2026-08-26T18:25:13.958Z - [32minfo[39m: Building assets...
+2026-08-26T18:25:14.345Z - [32minfo[39m: Assets built
+2026-08-26T18:25:14.346Z - [32minfo[39m: Generating landing page...
+2026-08-26T18:25:14.784Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/index.md
+2026-08-26T18:25:14.806Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-08-26T18:25:14.877Z - [32minfo[39m: Site data built
+2026-08-26T18:25:14.877Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 1.899s
+2026-08-26T18:25:14.888Z - [32minfo[39m: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2026-08-26T18:25:14.888Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-08-26T18:25:20.699Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week3/topics as some of its dependencies were changed since the last visit
+2026-08-26T18:25:21.251Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week3/topics.md
+2026-08-26T18:25:21.313Z - [32minfo[39m: Site data built
+2026-08-26T18:25:21.313Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.615s
+2026-08-26T18:25:32.179Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/topics as some of its dependencies were changed since the last visit
+2026-08-26T18:25:38.592Z - [34mdebug[39m: 
+2026-08-26T18:25:38.729Z - [34mdebug[39m: 
+2026-08-26T18:25:38.807Z - [34mdebug[39m: 
+2026-08-26T18:25:38.818Z - [34mdebug[39m: 
+2026-08-26T18:25:39.051Z - [34mdebug[39m: 
+2026-08-26T18:25:39.133Z - [34mdebug[39m: 
+2026-08-26T18:25:39.134Z - [34mdebug[39m: 
+2026-08-26T18:25:39.144Z - [34mdebug[39m: 
+2026-08-26T18:25:39.184Z - [34mdebug[39m: 
+2026-08-26T18:25:39.189Z - [34mdebug[39m: 
+2026-08-26T18:25:39.195Z - [34mdebug[39m: 
+2026-08-26T18:25:39.195Z - [34mdebug[39m: 
+2026-08-26T18:25:39.196Z - [34mdebug[39m: 
+2026-08-26T18:25:39.206Z - [34mdebug[39m: 
+2026-08-26T18:25:39.224Z - [34mdebug[39m: 
+2026-08-26T18:25:39.224Z - [34mdebug[39m: 
+2026-08-26T18:25:39.224Z - [34mdebug[39m: 
+2026-08-26T18:25:39.226Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/topics.md
+2026-08-26T18:25:39.290Z - [32minfo[39m: Site data built
+2026-08-26T18:25:39.290Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 7.112s
+2026-08-26T18:26:09.097Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/qualityAssurance/staticAnalysis/what/index as some of its dependencies were changed since the last visit
+2026-08-26T18:26:09.224Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/qualityAssurance/staticAnalysis/what/index.md
+2026-08-26T18:26:09.238Z - [32minfo[39m: Site data built
+2026-08-26T18:26:09.238Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.141s
+2026-08-26T18:26:51.240Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/qualityAssurance/codeReviews/what/index as some of its dependencies were changed since the last visit
+2026-08-26T18:26:51.318Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/qualityAssurance/codeReviews/what/index.md
+2026-08-26T18:26:51.328Z - [32minfo[39m: Site data built
+2026-08-26T18:26:51.328Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.089s
+2026-08-26T18:45:03.735Z - [32minfo[39m: [02:45:03] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/commentary-cs2103-fragment.md
+2026-08-26T18:45:03.739Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-26T18:45:03.739Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-26T18:45:03.740Z - [32minfo[39m: 1. book/qualityAssurance/codeReviews/what/index
+2026-08-26T18:45:03.740Z - [32minfo[39m: 2. book/qualityAssurance/staticAnalysis/what/index
+2026-08-26T18:45:03.740Z - [32minfo[39m: 3. schedule/week4/topics
+2026-08-26T18:45:04.755Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-26T18:45:05.603Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/topics.md
+2026-08-26T18:45:05.656Z - [32minfo[39m: Site data built
+2026-08-26T18:45:05.656Z - [32minfo[39m: Pages rebuilt
+2026-08-26T18:45:05.656Z - [32minfo[39m: Website regeneration complete! Total build time: 0.913s
+2026-08-26T18:45:16.502Z - [32minfo[39m: [02:45:16] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/commentary-cs2103-fragment.md
+2026-08-26T18:45:16.504Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-26T18:45:16.505Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-26T18:45:16.506Z - [32minfo[39m: 1. book/qualityAssurance/codeReviews/what/index
+2026-08-26T18:45:16.506Z - [32minfo[39m: 2. book/qualityAssurance/staticAnalysis/what/index
+2026-08-26T18:45:16.506Z - [32minfo[39m: 3. schedule/week4/topics
+2026-08-26T18:45:17.532Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-26T18:45:18.306Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/topics.md
+2026-08-26T18:45:18.359Z - [32minfo[39m: Site data built
+2026-08-26T18:45:18.359Z - [32minfo[39m: Pages rebuilt
+2026-08-26T18:45:18.359Z - [32minfo[39m: Website regeneration complete! Total build time: 0.847s
+2026-08-26T18:47:55.658Z - [32minfo[39m: [02:47:55] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/qualityAssurance/codeReviews/index.md
+2026-08-26T18:47:55.659Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-26T18:47:55.670Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-26T18:47:55.670Z - [32minfo[39m: 1. book/qualityAssurance/codeReviews/what/index
+2026-08-26T18:47:55.670Z - [32minfo[39m: 2. book/qualityAssurance/staticAnalysis/what/index
+2026-08-26T18:47:55.670Z - [32minfo[39m: 3. schedule/week4/topics
+2026-08-26T18:47:55.691Z - [32minfo[39m: [02:47:55] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/common-commentary-fragment.md
+2026-08-26T18:47:55.691Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-26T18:47:55.691Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-26T18:47:55.691Z - [32minfo[39m: 1. book/qualityAssurance/codeReviews/what/index
+2026-08-26T18:47:55.691Z - [32minfo[39m: 2. book/qualityAssurance/staticAnalysis/what/index
+2026-08-26T18:47:55.691Z - [32minfo[39m: 3. schedule/week4/topics
+2026-08-26T18:47:55.692Z - [32minfo[39m: [02:47:55] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/qualityAssurance/codeReviews/what/index.md
+2026-08-26T18:47:55.692Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-26T18:47:55.692Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-26T18:47:55.692Z - [32minfo[39m: 1. book/qualityAssurance/codeReviews/what/index
+2026-08-26T18:47:55.692Z - [32minfo[39m: 2. book/qualityAssurance/staticAnalysis/what/index
+2026-08-26T18:47:55.692Z - [32minfo[39m: 3. schedule/week4/topics
+2026-08-26T18:47:55.702Z - [32minfo[39m: [02:47:55] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/weeklyTextbookTopics-fragment.md
+2026-08-26T18:47:55.702Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-26T18:47:55.702Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-26T18:47:55.702Z - [32minfo[39m: 1. book/qualityAssurance/codeReviews/what/index
+2026-08-26T18:47:55.702Z - [32minfo[39m: 2. book/qualityAssurance/staticAnalysis/what/index
+2026-08-26T18:47:55.702Z - [32minfo[39m: 3. schedule/week4/topics
+2026-08-26T18:47:55.702Z - [32minfo[39m: [02:47:55] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/qualityAssurance/codeReviews/text.md
+2026-08-26T18:47:55.703Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-26T18:47:55.703Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-26T18:47:55.703Z - [32minfo[39m: 1. book/qualityAssurance/codeReviews/what/index
+2026-08-26T18:47:55.703Z - [32minfo[39m: 2. book/qualityAssurance/staticAnalysis/what/index
+2026-08-26T18:47:55.703Z - [32minfo[39m: 3. schedule/week4/topics
+2026-08-26T18:47:55.714Z - [32minfo[39m: [02:47:55] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/commentary-cs2103-fragment.md
+2026-08-26T18:47:55.715Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-26T18:47:55.715Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-26T18:47:55.715Z - [32minfo[39m: 1. book/qualityAssurance/codeReviews/what/index
+2026-08-26T18:47:55.715Z - [32minfo[39m: 2. book/qualityAssurance/staticAnalysis/what/index
+2026-08-26T18:47:55.715Z - [32minfo[39m: 3. schedule/week4/topics
+2026-08-26T18:47:56.695Z - [32minfo[39m: Rebuilding 2 pages
+2026-08-26T18:47:56.768Z - [32minfo[39m: Assets built
+2026-08-26T18:47:56.775Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/qualityAssurance/codeReviews/what/index.md
+2026-08-26T18:47:57.519Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/topics.md
+2026-08-26T18:47:57.569Z - [32minfo[39m: Site data built
+2026-08-26T18:47:57.569Z - [32minfo[39m: Pages rebuilt
+2026-08-26T18:47:57.569Z - [32minfo[39m: Website regeneration complete! Total build time: 0.877s
+2026-08-26T18:49:26.046Z - [32minfo[39m: [02:49:26] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/commentary-cs2103-fragment.md
+2026-08-26T18:49:26.048Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-26T18:49:26.050Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-26T18:49:26.050Z - [32minfo[39m: 1. book/qualityAssurance/codeReviews/what/index
+2026-08-26T18:49:26.050Z - [32minfo[39m: 2. book/qualityAssurance/staticAnalysis/what/index
+2026-08-26T18:49:26.050Z - [32minfo[39m: 3. schedule/week4/topics
+2026-08-26T18:49:27.058Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-26T18:49:27.827Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/topics.md
+2026-08-26T18:49:27.873Z - [32minfo[39m: Site data built
+2026-08-26T18:49:27.873Z - [32minfo[39m: Pages rebuilt
+2026-08-26T18:49:27.873Z - [32minfo[39m: Website regeneration complete! Total build time: 0.817s
+2026-08-26T18:55:42.873Z - [32minfo[39m: [02:55:42] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/commentary-cs2103-fragment.md
+2026-08-26T18:55:42.876Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-26T18:55:42.877Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-26T18:55:42.877Z - [32minfo[39m: 1. book/qualityAssurance/codeReviews/what/index
+2026-08-26T18:55:42.877Z - [32minfo[39m: 2. book/qualityAssurance/staticAnalysis/what/index
+2026-08-26T18:55:42.877Z - [32minfo[39m: 3. schedule/week4/topics
+2026-08-26T18:55:43.906Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-26T18:55:44.811Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/topics.md
+2026-08-26T18:55:44.898Z - [32minfo[39m: Site data built
+2026-08-26T18:55:44.898Z - [32minfo[39m: Pages rebuilt
+2026-08-26T18:55:44.898Z - [32minfo[39m: Website regeneration complete! Total build time: 1.014s
+2026-08-26T18:56:55.091Z - [32minfo[39m: Website generation started at 02:56:54
+2026-08-26T18:56:55.525Z - [32minfo[39m: Building assets...
