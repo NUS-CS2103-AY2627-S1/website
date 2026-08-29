@@ -1,0 +1,61 @@
+2026-08-29T05:37:03.604Z - [32minfo[39m: Website generation (lazy) started at 13:37:03
+2026-08-29T05:37:04.242Z - [32minfo[39m: Building assets...
+2026-08-29T05:37:04.851Z - [32minfo[39m: Assets built
+2026-08-29T05:37:04.852Z - [32minfo[39m: Generating landing page...
+2026-08-29T05:37:05.405Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/index.md
+2026-08-29T05:37:05.429Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-08-29T05:37:05.510Z - [32minfo[39m: Site data built
+2026-08-29T05:37:05.511Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 2.445s
+2026-08-29T05:37:05.526Z - [32minfo[39m: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2026-08-29T05:37:05.526Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-08-29T05:37:21.828Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-showcase as some of its dependencies were changed since the last visit
+2026-08-29T05:37:21.995Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-showcase.md
+2026-08-29T05:37:22.015Z - [32minfo[39m: Site data built
+2026-08-29T05:37:22.015Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.187s
+2026-08-29T05:38:08.686Z - [32minfo[39m: [13:38:08] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/studentData-fragment.md
+2026-08-29T05:38:08.689Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-29T05:38:08.691Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-29T05:38:08.691Z - [32minfo[39m: 1. admin/ip-showcase
+2026-08-29T05:38:09.699Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-29T05:38:10.579Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-showcase.md
+2026-08-29T05:38:10.646Z - [32minfo[39m: Site data built
+2026-08-29T05:38:10.646Z - [32minfo[39m: Pages rebuilt
+2026-08-29T05:38:10.646Z - [32minfo[39m: Website regeneration complete! Total build time: 0.95s
+2026-08-29T05:44:36.860Z - [32minfo[39m: [13:44:36] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/studentData-fragment.md
+2026-08-29T05:44:36.861Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-29T05:44:36.862Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-29T05:44:36.862Z - [32minfo[39m: 1. admin/ip-showcase
+2026-08-29T05:44:37.869Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-29T05:44:38.691Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-showcase.md
+2026-08-29T05:44:38.758Z - [32minfo[39m: Site data built
+2026-08-29T05:44:38.758Z - [32minfo[39m: Pages rebuilt
+2026-08-29T05:44:38.758Z - [32minfo[39m: Website regeneration complete! Total build time: 0.894s
+2026-08-29T07:32:23.255Z - [32minfo[39m: Website generation (lazy) started at 15:32:23
+2026-08-29T07:32:23.808Z - [32minfo[39m: Building assets...
+2026-08-29T07:32:24.306Z - [32minfo[39m: Assets built
+2026-08-29T07:32:24.307Z - [32minfo[39m: Generating landing page...
+2026-08-29T07:32:24.883Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/index.md
+2026-08-29T07:32:24.907Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-08-29T07:32:24.986Z - [32minfo[39m: Site data built
+2026-08-29T07:32:24.986Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 1.949s
+2026-08-29T07:32:24.998Z - [32minfo[39m: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2026-08-29T07:32:24.999Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-08-29T07:32:29.635Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week3/index as some of its dependencies were changed since the last visit
+2026-08-29T07:32:30.185Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week3/index.md
+2026-08-29T07:32:30.209Z - [32minfo[39m: Site data built
+2026-08-29T07:32:30.209Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.576s
+2026-08-29T07:32:32.408Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week3/project as some of its dependencies were changed since the last visit
+2026-08-29T07:32:33.730Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week3/project.md
+2026-08-29T07:32:33.766Z - [32minfo[39m: Site data built
+2026-08-29T07:32:33.767Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 1.359s
+2026-08-29T07:33:09.761Z - [32minfo[39m: [15:33:09] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-tasks-fragment.md
+2026-08-29T07:33:09.762Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-29T07:33:09.764Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-29T07:33:09.764Z - [32minfo[39m: 1. schedule/week3/project
+2026-08-29T07:33:10.772Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-29T07:33:12.161Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week3/project.md
+2026-08-29T07:33:12.186Z - [32minfo[39m: Site data built
+2026-08-29T07:33:12.186Z - [32minfo[39m: Pages rebuilt
+2026-08-29T07:33:12.186Z - [32minfo[39m: Website regeneration complete! Total build time: 1.417s
+2026-08-29T07:33:19.676Z - [32minfo[39m: Website generation started at 15:33:19
+2026-08-29T07:33:19.985Z - [32minfo[39m: Building assets...
