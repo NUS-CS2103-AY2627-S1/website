@@ -264,9 +264,10 @@ mark {
 
 /* Give untyped <box> elements Bootstrap's bg-light background. */
 .alert.box-container.alert-default {
-    --bs-bg-opacity: 1;
-    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
+    background-color: var(--bs-tertiary-bg); /* Very subtle gray */
+    /* Alternative: background-color: var(--bs-secondary-bg); for a slightly darker gray */
 }
+
 
 /* =========================================================
    Custom panel types: purple, teal, pink, claude, codex
