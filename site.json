@@ -3,6 +3,7 @@
   "titlePrefix": "CS2103/T",
   "style": {
     "codeTheme": "light",
+    "darkMode": true,
     "codeLineNumbers": false
   },
   "timeZone": "Asia/Singapore",
