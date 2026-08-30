@@ -1,0 +1,117 @@
+2026-08-30T06:41:04.825Z - [32minfo[39m: Website generation (lazy) started at 14:41:04
+2026-08-30T06:41:05.573Z - [32minfo[39m: Building assets...
+2026-08-30T06:41:05.979Z - [32minfo[39m: Assets built
+2026-08-30T06:41:05.979Z - [32minfo[39m: Generating landing page...
+2026-08-30T06:41:06.549Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/index.md
+2026-08-30T06:41:06.571Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-08-30T06:41:06.656Z - [32minfo[39m: Site data built
+2026-08-30T06:41:06.656Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 2.334s
+2026-08-30T06:41:06.667Z - [32minfo[39m: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2026-08-30T06:41:06.667Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-08-30T06:41:26.813Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/topics as some of its dependencies were changed since the last visit
+2026-08-30T06:41:32.935Z - [34mdebug[39m: 
+2026-08-30T06:41:33.591Z - [34mdebug[39m: 
+2026-08-30T06:41:33.623Z - [34mdebug[39m: 
+2026-08-30T06:41:33.672Z - [34mdebug[39m: 
+2026-08-30T06:41:33.676Z - [34mdebug[39m: 
+2026-08-30T06:41:33.687Z - [34mdebug[39m: 
+2026-08-30T06:41:33.690Z - [34mdebug[39m: 
+2026-08-30T06:41:33.779Z - [34mdebug[39m: 
+2026-08-30T06:41:33.781Z - [34mdebug[39m: 
+2026-08-30T06:41:33.849Z - [34mdebug[39m: 
+2026-08-30T06:41:33.919Z - [34mdebug[39m: 
+2026-08-30T06:41:33.919Z - [34mdebug[39m: 
+2026-08-30T06:41:33.924Z - [34mdebug[39m: 
+2026-08-30T06:41:33.942Z - [34mdebug[39m: 
+2026-08-30T06:41:33.950Z - [34mdebug[39m: 
+2026-08-30T06:41:33.991Z - [34mdebug[39m: 
+2026-08-30T06:41:34.116Z - [34mdebug[39m: 
+2026-08-30T06:41:34.194Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/topics.md
+2026-08-30T06:41:34.272Z - [32minfo[39m: Site data built
+2026-08-30T06:41:34.272Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 7.462s
+2026-08-30T06:42:35.365Z - [32minfo[39m: [14:42:35] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md
+2026-08-30T06:42:35.368Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-30T06:42:35.373Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-30T06:42:35.373Z - [32minfo[39m: 1. schedule/week4/topics
+2026-08-30T06:42:36.383Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-30T06:42:37.191Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/topics.md
+2026-08-30T06:42:37.237Z - [32minfo[39m: Site data built
+2026-08-30T06:42:37.237Z - [32minfo[39m: Pages rebuilt
+2026-08-30T06:42:37.237Z - [32minfo[39m: Website regeneration complete! Total build time: 0.859s
+2026-08-30T06:43:37.620Z - [32minfo[39m: [14:43:37] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md
+2026-08-30T06:43:37.623Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-30T06:43:37.625Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-30T06:43:37.625Z - [32minfo[39m: 1. schedule/week4/topics
+2026-08-30T06:43:38.629Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-30T06:43:39.418Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/topics.md
+2026-08-30T06:43:39.462Z - [32minfo[39m: Site data built
+2026-08-30T06:43:39.462Z - [32minfo[39m: Pages rebuilt
+2026-08-30T06:43:39.462Z - [32minfo[39m: Website regeneration complete! Total build time: 0.836s
+2026-08-30T06:45:14.198Z - [32minfo[39m: [14:45:14] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/images/correctDependencyWithAssociation.puml
+2026-08-30T06:45:14.202Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-30T06:45:14.203Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-30T06:45:14.203Z - [32minfo[39m: 1. schedule/week4/topics
+2026-08-30T06:45:15.224Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-30T06:45:17.920Z - [34mdebug[39m: 
+2026-08-30T06:45:17.924Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/topics.md
+2026-08-30T06:45:17.994Z - [32minfo[39m: Site data built
+2026-08-30T06:45:17.994Z - [32minfo[39m: Pages rebuilt
+2026-08-30T06:45:17.994Z - [32minfo[39m: Website regeneration complete! Total build time: 2.788s
+2026-08-30T06:45:25.064Z - [32minfo[39m: [14:45:25] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/images/incorrectDependencyWithAssociation.puml
+2026-08-30T06:45:25.068Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-30T06:45:25.069Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-30T06:45:25.070Z - [32minfo[39m: 1. schedule/week4/topics
+2026-08-30T06:45:26.080Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-30T06:45:27.892Z - [34mdebug[39m: 
+2026-08-30T06:45:27.915Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/topics.md
+2026-08-30T06:45:28.025Z - [32minfo[39m: Site data built
+2026-08-30T06:45:28.025Z - [32minfo[39m: Pages rebuilt
+2026-08-30T06:45:28.025Z - [32minfo[39m: Website regeneration complete! Total build time: 1.949s
+2026-08-30T06:45:36.507Z - [32minfo[39m: [14:45:36] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/images/incorrectDependencyWithInheritance.puml
+2026-08-30T06:45:36.508Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-30T06:45:36.510Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-30T06:45:36.510Z - [32minfo[39m: 1. schedule/week4/topics
+2026-08-30T06:45:37.515Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-30T06:45:39.491Z - [34mdebug[39m: 
+2026-08-30T06:45:39.556Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/topics.md
+2026-08-30T06:45:39.601Z - [32minfo[39m: Site data built
+2026-08-30T06:45:39.601Z - [32minfo[39m: Pages rebuilt
+2026-08-30T06:45:39.601Z - [32minfo[39m: Website regeneration complete! Total build time: 2.09s
+2026-08-30T06:46:09.859Z - [32minfo[39m: [14:46:09] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md
+2026-08-30T06:46:09.861Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-30T06:46:09.863Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-30T06:46:09.864Z - [32minfo[39m: 1. schedule/week4/topics
+2026-08-30T06:46:10.880Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-30T06:46:11.878Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/topics.md
+2026-08-30T06:46:11.922Z - [32minfo[39m: Site data built
+2026-08-30T06:46:11.922Z - [32minfo[39m: Pages rebuilt
+2026-08-30T06:46:11.923Z - [32minfo[39m: Website regeneration complete! Total build time: 1.049s
+2026-08-30T06:46:55.262Z - [32minfo[39m: [14:46:55] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md
+2026-08-30T06:46:55.263Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-30T06:46:55.264Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-30T06:46:55.264Z - [32minfo[39m: 1. schedule/week4/topics
+2026-08-30T06:46:56.279Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-30T06:46:57.098Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/topics.md
+2026-08-30T06:46:57.151Z - [32minfo[39m: Site data built
+2026-08-30T06:46:57.151Z - [32minfo[39m: Pages rebuilt
+2026-08-30T06:46:57.151Z - [32minfo[39m: Website regeneration complete! Total build time: 0.882s
+2026-08-30T06:47:54.807Z - [32minfo[39m: [14:47:54] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md
+2026-08-30T06:47:54.808Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-30T06:47:54.809Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-30T06:47:54.809Z - [32minfo[39m: 1. schedule/week4/topics
+2026-08-30T06:47:55.815Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-30T06:47:56.609Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/topics.md
+2026-08-30T06:47:56.651Z - [32minfo[39m: Site data built
+2026-08-30T06:47:56.651Z - [32minfo[39m: Pages rebuilt
+2026-08-30T06:47:56.651Z - [32minfo[39m: Website regeneration complete! Total build time: 0.84s
+2026-08-30T06:49:26.404Z - [32minfo[39m: [14:49:26] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md
+2026-08-30T06:49:26.406Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-30T06:49:26.410Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-30T06:49:26.411Z - [32minfo[39m: 1. schedule/week4/topics
+2026-08-30T06:49:27.415Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-30T06:49:28.186Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/topics.md
+2026-08-30T06:49:28.231Z - [32minfo[39m: Site data built
+2026-08-30T06:49:28.231Z - [32minfo[39m: Pages rebuilt
+2026-08-30T06:49:28.231Z - [32minfo[39m: Website regeneration complete! Total build time: 0.819s
+2026-08-30T06:51:30.945Z - [32minfo[39m: Website generation started at 14:51:30
+2026-08-30T06:51:31.387Z - [32minfo[39m: Building assets...
