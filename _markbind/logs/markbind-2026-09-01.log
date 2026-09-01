@@ -1,0 +1,181 @@
+2026-09-01T02:22:29.373Z - [32minfo[39m: Website generation (lazy) started at 10:22:29
+2026-09-01T02:22:30.077Z - [32minfo[39m: Building assets...
+2026-09-01T02:22:30.430Z - [32minfo[39m: Assets built
+2026-09-01T02:22:30.430Z - [32minfo[39m: Generating landing page...
+2026-09-01T02:22:31.030Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/index.md
+2026-09-01T02:22:31.055Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-09-01T02:22:31.146Z - [32minfo[39m: Site data built
+2026-09-01T02:22:31.146Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 2.143s
+2026-09-01T02:22:31.163Z - [32minfo[39m: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2026-09-01T02:22:31.163Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-09-01T02:23:39.705Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/gradeBreakdown as some of its dependencies were changed since the last visit
+2026-09-01T02:23:43.148Z - [34mdebug[39m: 
+2026-09-01T02:23:43.153Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/gradeBreakdown.md
+2026-09-01T02:23:43.308Z - [32minfo[39m: Site data built
+2026-09-01T02:23:43.309Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 3.606s
+2026-09-01T02:24:03.971Z - [32minfo[39m: [10:24:03] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/site.json
+2026-09-01T02:24:03.974Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-01T02:24:03.976Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-01T02:24:03.977Z - [32minfo[39m: 1. admin/gradeBreakdown
+2026-09-01T02:24:06.526Z - [32minfo[39m: Pages or site config modified, updating pages...
+2026-09-01T02:24:07.718Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/gradeBreakdown as some of its dependencies were changed since the last visit
+2026-09-01T02:24:09.075Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/gradeBreakdown.md
+2026-09-01T02:24:09.208Z - [32minfo[39m: Site data built
+2026-09-01T02:24:09.208Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 1.49s
+2026-09-01T02:24:09.214Z - [32minfo[39m: Site data built
+2026-09-01T02:25:07.247Z - [32minfo[39m: [10:25:07] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/gradeBreakdown.md
+2026-09-01T02:25:07.257Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-01T02:25:07.257Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-01T02:25:07.258Z - [32minfo[39m: 1. admin/gradeBreakdown
+2026-09-01T02:25:08.291Z - [32minfo[39m: Rebuilding 1 pages
+2026-09-01T02:25:09.087Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/gradeBreakdown.md
+2026-09-01T02:25:09.107Z - [32minfo[39m: Site data built
+2026-09-01T02:25:09.107Z - [32minfo[39m: Pages rebuilt
+2026-09-01T02:25:09.107Z - [32minfo[39m: Website regeneration complete! Total build time: 0.835s
+2026-09-01T02:25:25.990Z - [32minfo[39m: [10:25:25] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/gradeBreakdown.md
+2026-09-01T02:25:25.990Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-01T02:25:25.991Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-01T02:25:25.991Z - [32minfo[39m: 1. admin/gradeBreakdown
+2026-09-01T02:25:27.008Z - [32minfo[39m: Rebuilding 1 pages
+2026-09-01T02:25:27.808Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/gradeBreakdown.md
+2026-09-01T02:25:27.840Z - [32minfo[39m: Site data built
+2026-09-01T02:25:27.840Z - [32minfo[39m: Pages rebuilt
+2026-09-01T02:25:27.841Z - [32minfo[39m: Website regeneration complete! Total build time: 0.845s
+2026-09-01T02:26:05.560Z - [32minfo[39m: [10:26:05] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/gradeBreakdown.md
+2026-09-01T02:26:05.566Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-01T02:26:05.568Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-01T02:26:05.568Z - [32minfo[39m: 1. admin/gradeBreakdown
+2026-09-01T02:26:06.591Z - [32minfo[39m: Rebuilding 1 pages
+2026-09-01T02:26:07.358Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/gradeBreakdown.md
+2026-09-01T02:26:07.377Z - [32minfo[39m: Site data built
+2026-09-01T02:26:07.377Z - [32minfo[39m: Pages rebuilt
+2026-09-01T02:26:07.377Z - [32minfo[39m: Website regeneration complete! Total build time: 0.803s
+2026-09-01T02:26:54.082Z - [32minfo[39m: [10:26:54] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/gradeBreakdown.md
+2026-09-01T02:26:54.091Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-01T02:26:54.098Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-01T02:26:54.107Z - [32minfo[39m: 1. admin/gradeBreakdown
+2026-09-01T02:26:55.133Z - [32minfo[39m: Rebuilding 1 pages
+2026-09-01T02:26:56.412Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/gradeBreakdown.md
+2026-09-01T02:26:56.431Z - [32minfo[39m: Site data built
+2026-09-01T02:26:56.431Z - [32minfo[39m: Pages rebuilt
+2026-09-01T02:26:56.431Z - [32minfo[39m: Website regeneration complete! Total build time: 1.314s
+2026-09-01T02:44:29.842Z - [32minfo[39m: [10:44:29] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/css/main.css
+2026-09-01T02:44:29.949Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-01T02:44:29.962Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-01T02:44:29.963Z - [32minfo[39m: 1. admin/gradeBreakdown
+2026-09-01T02:44:31.104Z - [32minfo[39m: Assets built
+2026-09-01T02:44:52.281Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/index as some of its dependencies were changed since the last visit
+2026-09-01T02:44:53.096Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/index.md
+2026-09-01T02:44:53.118Z - [32minfo[39m: Site data built
+2026-09-01T02:44:53.118Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.838s
+2026-09-01T02:44:56.206Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/project as some of its dependencies were changed since the last visit
+2026-09-01T02:44:58.231Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/project.md
+2026-09-01T02:44:58.289Z - [32minfo[39m: Site data built
+2026-09-01T02:44:58.289Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 2.084s
+2026-09-01T02:45:13.464Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week3/project as some of its dependencies were changed since the last visit
+2026-09-01T02:45:15.065Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week3/project.md
+2026-09-01T02:45:15.095Z - [32minfo[39m: Site data built
+2026-09-01T02:45:15.095Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 1.632s
+2026-09-01T02:54:59.919Z - [32minfo[39m: [10:54:59] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/macros.njk
+2026-09-01T02:54:59.957Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-01T02:54:59.969Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-01T02:54:59.970Z - [32minfo[39m: 1. schedule/week3/project
+2026-09-01T02:55:01.042Z - [32minfo[39m: No pages needed to be rebuilt
+2026-09-01T02:55:09.674Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/index as some of its dependencies were changed since the last visit
+2026-09-01T02:55:09.925Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/index.md
+2026-09-01T02:55:09.958Z - [32minfo[39m: Site data built
+2026-09-01T02:55:09.958Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.286s
+2026-09-01T02:55:14.300Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/softwareEngineering as some of its dependencies were changed since the last visit
+2026-09-01T02:55:14.425Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/softwareEngineering.md
+2026-09-01T02:55:14.439Z - [32minfo[39m: Site data built
+2026-09-01T02:55:14.439Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.14s
+2026-09-01T02:58:49.076Z - [32minfo[39m: [10:58:49] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/css/main.css
+2026-09-01T02:58:49.091Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-01T02:58:49.096Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-01T02:58:49.097Z - [32minfo[39m: 1. se-book-adapted/chapters/softwareEngineering
+2026-09-01T02:58:50.193Z - [32minfo[39m: Assets built
+2026-09-01T03:00:28.460Z - [32minfo[39m: [11:00:28] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/css/textbook.css
+2026-09-01T03:00:28.465Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-01T03:00:28.466Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-01T03:00:28.466Z - [32minfo[39m: 1. se-book-adapted/chapters/softwareEngineering
+2026-09-01T03:00:29.488Z - [32minfo[39m: Assets built
+2026-09-01T03:00:47.316Z - [32minfo[39m: Website generation (lazy) started at 11:00:47
+2026-09-01T03:00:47.942Z - [32minfo[39m: Building assets...
+2026-09-01T03:00:48.335Z - [32minfo[39m: Assets built
+2026-09-01T03:00:48.336Z - [32minfo[39m: Generating landing page...
+2026-09-01T03:00:48.892Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/index.md
+2026-09-01T03:00:48.915Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-09-01T03:00:48.998Z - [32minfo[39m: Site data built
+2026-09-01T03:00:48.998Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 1.876s
+2026-09-01T03:00:49.017Z - [32minfo[39m: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2026-09-01T03:00:49.017Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-09-01T03:00:57.250Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/index as some of its dependencies were changed since the last visit
+2026-09-01T03:00:57.433Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/index.md
+2026-09-01T03:00:57.445Z - [32minfo[39m: Site data built
+2026-09-01T03:00:57.445Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.196s
+2026-09-01T03:01:01.891Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/softwareEngineering as some of its dependencies were changed since the last visit
+2026-09-01T03:01:02.064Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/softwareEngineering.md
+2026-09-01T03:01:02.078Z - [32minfo[39m: Site data built
+2026-09-01T03:01:02.078Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.189s
+2026-09-01T03:01:28.594Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/admin as some of its dependencies were changed since the last visit
+2026-09-01T03:01:28.945Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/admin.md
+2026-09-01T03:01:28.955Z - [32minfo[39m: Site data built
+2026-09-01T03:01:28.955Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.361s
+2026-09-01T03:01:38.759Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/project as some of its dependencies were changed since the last visit
+2026-09-01T03:01:40.528Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/project.md
+2026-09-01T03:01:40.585Z - [32minfo[39m: Site data built
+2026-09-01T03:01:40.585Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 1.827s
+2026-09-01T03:06:20.984Z - [32minfo[39m: [11:06:20] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/css/main.css
+2026-09-01T03:06:21.029Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-01T03:06:21.036Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-01T03:06:21.036Z - [32minfo[39m: 1. schedule/week4/project
+2026-09-01T03:06:22.108Z - [32minfo[39m: Assets built
+2026-09-01T03:06:38.122Z - [32minfo[39m: [11:06:38] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/macros.njk
+2026-09-01T03:06:38.128Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-01T03:06:38.132Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-01T03:06:38.133Z - [32minfo[39m: 1. schedule/week4/project
+2026-09-01T03:06:39.177Z - [32minfo[39m: No pages needed to be rebuilt
+2026-09-01T03:06:45.213Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/softwareEngineering as some of its dependencies were changed since the last visit
+2026-09-01T03:06:45.365Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/softwareEngineering.md
+2026-09-01T03:06:45.393Z - [32minfo[39m: Site data built
+2026-09-01T03:06:45.394Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.182s
+2026-09-01T03:08:09.051Z - [32minfo[39m: [11:08:09] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/css/main.css
+2026-09-01T03:08:09.054Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-01T03:08:09.054Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-01T03:08:09.054Z - [32minfo[39m: 1. se-book-adapted/chapters/softwareEngineering
+2026-09-01T03:08:10.065Z - [32minfo[39m: Assets built
+2026-09-01T03:08:55.082Z - [32minfo[39m: [11:08:55] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/css/main.css
+2026-09-01T03:08:55.084Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-01T03:08:55.084Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-01T03:08:55.085Z - [32minfo[39m: 1. se-book-adapted/chapters/softwareEngineering
+2026-09-01T03:08:56.104Z - [32minfo[39m: Assets built
+2026-09-01T03:09:16.459Z - [32minfo[39m: [11:09:16] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/css/main.css
+2026-09-01T03:09:16.462Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-01T03:09:16.463Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-01T03:09:16.464Z - [32minfo[39m: 1. se-book-adapted/chapters/softwareEngineering
+2026-09-01T03:09:17.490Z - [32minfo[39m: Assets built
+2026-09-01T03:10:59.539Z - [32minfo[39m: [11:10:59] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/css/main.css
+2026-09-01T03:10:59.548Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-01T03:10:59.548Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-01T03:10:59.549Z - [32minfo[39m: 1. se-book-adapted/chapters/softwareEngineering
+2026-09-01T03:11:00.565Z - [32minfo[39m: Assets built
+2026-09-01T03:11:17.993Z - [32minfo[39m: [11:11:17] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/css/main.css
+2026-09-01T03:11:17.994Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-01T03:11:17.995Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-01T03:11:17.995Z - [32minfo[39m: 1. se-book-adapted/chapters/softwareEngineering
+2026-09-01T03:11:19.014Z - [32minfo[39m: Assets built
+2026-09-01T03:12:15.290Z - [32minfo[39m: [11:12:15] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/css/textbook.css
+2026-09-01T03:12:15.293Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-01T03:12:15.294Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-01T03:12:15.294Z - [32minfo[39m: 1. se-book-adapted/chapters/softwareEngineering
+2026-09-01T03:12:16.339Z - [32minfo[39m: Assets built
+2026-09-01T03:12:32.909Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/index as some of its dependencies were changed since the last visit
+2026-09-01T03:12:33.521Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/index.md
+2026-09-01T03:12:33.540Z - [32minfo[39m: Site data built
+2026-09-01T03:12:33.540Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.633s
+2026-09-01T03:12:46.173Z - [32minfo[39m: [11:12:46] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/site.json
+2026-09-01T03:12:46.177Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-01T03:12:46.179Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-01T03:12:46.180Z - [32minfo[39m: 1. index
+2026-09-01T08:41:43.861Z - [32minfo[39m: Website generation started at 16:41:43
+2026-09-01T08:41:44.617Z - [32minfo[39m: Building assets...

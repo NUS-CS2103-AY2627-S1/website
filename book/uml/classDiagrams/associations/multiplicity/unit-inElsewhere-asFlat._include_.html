@@ -4,7 +4,7 @@
 <div><h4 id="multiplicity"><span>Multiplicity</span><a class="fa fa-anchor" href="#multiplicity" onclick="event.stopPropagation()"></a></h4></div>
 <div id="main">
 <div>
-<pic eager src="/website/book/uml/classDiagrams/associations/multiplicity/images/notation.png" height="120"></pic>
+<pic eager class="tbg" src="/website/book/uml/classDiagrams/associations/multiplicity/images/notation.png" height="120"></pic>
 <p></p>
 <p>Commonly used multiplicities:</p>
 <ul>
@@ -14,7 +14,7 @@
 <li><code class="hljs inline no-lang" v-pre>n..m</code> : the number of linked objects must be within <code class="hljs inline no-lang" v-pre>n</code> to <code class="hljs inline no-lang" v-pre>m</code> inclusive e.g., <code class="hljs inline no-lang" v-pre>2..5</code>, <code class="hljs inline no-lang" v-pre>1..*</code> (one or more), <code class="hljs inline no-lang" v-pre>*..5</code> (up to five)</li></ul>
 <box>
 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In the diagram below, an <code class="hljs inline no-lang" v-pre>Admin</code> object administers (is in charge of) any number of students but a <code class="hljs inline no-lang" v-pre>Student</code> object must always be under the charge of exactly one <code class="hljs inline no-lang" v-pre>Admin</code> object.</p>
-<pic eager src="/website/book/uml/classDiagrams/associations/multiplicity/images/adminStudent.png" width="300"></pic></box>
+<pic eager class="tbg" src="/website/book/uml/classDiagrams/associations/multiplicity/images/adminStudent.png" width="300"></pic></box>
 <box>
 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In the diagram below,</p>
 <ul>
@@ -22,7 +22,7 @@
 <li>A professor cannot supervise more than 5 students but can have no students to supervise.</li>
 <li>An admin can handle any number of professors and any number of students, including none.</li>
 <li>A professor/student can be handled by any number of admins, including none.</li></ul>
-<pic eager src="/website/book/uml/classDiagrams/associations/multiplicity/images/adminProfessorStudent.png" height="70"></pic></box>
+<pic eager class="tbg" src="/website/book/uml/classDiagrams/associations/multiplicity/images/adminProfessorStudent.png" height="70"></pic></box>
 <box type="warning" seamless>
 <p><strong>There is no <em>default</em> multiplicity</strong> in UML. If a class diagram does not show the multiplicity of an association, it simply means the <em>multiplicity is unspecified</em>.</p></box></div>
 <div>
