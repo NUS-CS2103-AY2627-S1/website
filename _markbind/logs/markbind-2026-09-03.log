@@ -1,0 +1,81 @@
+2026-09-02T17:28:48.379Z - [32minfo[39m: Website generation (lazy) started at 01:28:47
+2026-09-02T17:28:49.301Z - [32minfo[39m: Building assets...
+2026-09-02T17:28:49.684Z - [32minfo[39m: Assets built
+2026-09-02T17:28:49.684Z - [32minfo[39m: Generating landing page...
+2026-09-02T17:28:50.246Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/index.md
+2026-09-02T17:28:50.268Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-09-02T17:28:50.346Z - [32minfo[39m: Site data built
+2026-09-02T17:28:50.346Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 2.658s
+2026-09-02T17:28:50.360Z - [32minfo[39m: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2026-09-02T17:28:50.360Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-09-02T17:29:01.796Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/project as some of its dependencies were changed since the last visit
+2026-09-02T17:29:03.826Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/project.md
+2026-09-02T17:29:03.929Z - [32minfo[39m: Site data built
+2026-09-02T17:29:03.929Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 2.134s
+2026-09-02T17:29:10.662Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-w4 as some of its dependencies were changed since the last visit
+2026-09-02T17:29:11.575Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-w4.md
+2026-09-02T17:29:11.628Z - [32minfo[39m: Site data built
+2026-09-02T17:29:11.628Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.966s
+2026-09-02T17:31:04.851Z - [32minfo[39m: [01:31:04] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/CP3108A-option.md
+2026-09-02T17:31:04.853Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-02T17:31:04.855Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-02T17:31:04.856Z - [32minfo[39m: 1. admin/ip-w4
+2026-09-02T17:31:05.863Z - [32minfo[39m: No pages needed to be rebuilt
+2026-09-02T17:31:10.707Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-w5 as some of its dependencies were changed since the last visit
+2026-09-02T17:31:11.255Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-w5.md
+2026-09-02T17:31:11.287Z - [32minfo[39m: Site data built
+2026-09-02T17:31:11.287Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.584s
+2026-09-02T17:31:50.643Z - [32minfo[39m: [01:31:50] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/CP3108A-option.md
+2026-09-02T17:31:50.644Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-02T17:31:50.645Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-02T17:31:50.645Z - [32minfo[39m: 1. admin/ip-w5
+2026-09-02T17:31:51.658Z - [32minfo[39m: No pages needed to be rebuilt
+2026-09-02T17:31:53.108Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-w6 as some of its dependencies were changed since the last visit
+2026-09-02T17:31:53.778Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-w6.md
+2026-09-02T17:31:53.802Z - [32minfo[39m: Site data built
+2026-09-02T17:31:53.802Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.694s
+2026-09-02T17:33:01.691Z - [32minfo[39m: [01:33:01] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/CP3108A-option.md
+2026-09-02T17:33:01.703Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-02T17:33:01.704Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-02T17:33:01.704Z - [32minfo[39m: 1. admin/ip-w6
+2026-09-02T17:33:02.710Z - [32minfo[39m: No pages needed to be rebuilt
+2026-09-02T17:33:03.288Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-w7 as some of its dependencies were changed since the last visit
+2026-09-02T17:33:03.566Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-w7.md
+2026-09-02T17:33:03.582Z - [32minfo[39m: Site data built
+2026-09-02T17:33:03.582Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.294s
+2026-09-02T17:33:22.944Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/CP3108A-option as some of its dependencies were changed since the last visit
+2026-09-02T17:33:23.029Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/CP3108A-option.md
+2026-09-02T17:33:23.059Z - [32minfo[39m: Site data built
+2026-09-02T17:33:23.059Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.115s
+2026-09-02T17:34:02.005Z - [32minfo[39m: [01:34:02] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/CP3108A-option.md
+2026-09-02T17:34:02.006Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-02T17:34:02.007Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-02T17:34:02.007Z - [32minfo[39m: 1. admin/CP3108A-option
+2026-09-02T17:34:02.008Z - [32minfo[39m: 2. admin/ip-w7
+2026-09-02T17:34:03.016Z - [32minfo[39m: Rebuilding 1 pages
+2026-09-02T17:34:03.054Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/CP3108A-option.md
+2026-09-02T17:34:03.071Z - [32minfo[39m: Site data built
+2026-09-02T17:34:03.071Z - [32minfo[39m: Pages rebuilt
+2026-09-02T17:34:03.071Z - [32minfo[39m: Website regeneration complete! Total build time: 0.063s
+2026-09-02T17:34:29.390Z - [32minfo[39m: [01:34:29] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/CP3108A-option.md
+2026-09-02T17:34:29.392Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-02T17:34:29.392Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-02T17:34:29.392Z - [32minfo[39m: 1. admin/CP3108A-option
+2026-09-02T17:34:29.393Z - [32minfo[39m: 2. admin/ip-w7
+2026-09-02T17:34:30.400Z - [32minfo[39m: Rebuilding 1 pages
+2026-09-02T17:34:30.438Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/CP3108A-option.md
+2026-09-02T17:34:30.453Z - [32minfo[39m: Site data built
+2026-09-02T17:34:30.453Z - [32minfo[39m: Pages rebuilt
+2026-09-02T17:34:30.453Z - [32minfo[39m: Website regeneration complete! Total build time: 0.058s
+2026-09-02T17:34:47.870Z - [32minfo[39m: [01:34:47] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/CP3108A-option.md
+2026-09-02T17:34:47.873Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-02T17:34:47.875Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-02T17:34:47.876Z - [32minfo[39m: 1. admin/CP3108A-option
+2026-09-02T17:34:47.876Z - [32minfo[39m: 2. admin/ip-w7
+2026-09-02T17:34:48.881Z - [32minfo[39m: Rebuilding 1 pages
+2026-09-02T17:34:48.928Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/CP3108A-option.md
+2026-09-02T17:34:48.959Z - [32minfo[39m: Site data built
+2026-09-02T17:34:48.959Z - [32minfo[39m: Pages rebuilt
+2026-09-02T17:34:48.959Z - [32minfo[39m: Website regeneration complete! Total build time: 0.081s
+2026-09-02T17:35:07.390Z - [32minfo[39m: Website generation started at 01:35:07
+2026-09-02T17:35:07.809Z - [32minfo[39m: Building assets...
