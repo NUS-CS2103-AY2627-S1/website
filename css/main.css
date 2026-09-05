@@ -623,10 +623,19 @@
     --bs-highlight-color: #212529;       /* was #dee2e6; 9.8:1 on the gold */
 }
 
-/* MarkBind leaves mark's text at `color: inherit`, which inside a
-   fixed-colour ground -- e.g. a text-bg-info panel header, where the
-   inherited colour is black -- ignores the token above. Pin it. */
-[data-bs-theme="dark"] mark {
+/* MarkBind leaves mark's text at `color: inherit`, so a highlight takes
+   whatever colour its surroundings happen to carry. That is wrong wherever
+   the surroundings are coloured for a different ground: a text-bg-info
+   panel header, where the inherited colour is black, or a collapsed
+   cross-page panel title, whose rule below paints every descendant the
+   page's text colour. Pin mark to the paired token instead.
+
+   Unscoped, because light needs it too -- --bs-highlight-color is #212529
+   in both themes now, and without this a highlighted panel title inherits
+   the title's grey at 5.7:1 instead of the highlight's own 14.4:1. This
+   rule cannot beat an !important container rule on its own; see the
+   <mark> exclusions on the .card-title pair for the other half. */
+mark {
     color: var(--bs-highlight-color);
 }
 
@@ -698,9 +707,15 @@ mark code.hljs.no-lang {
    pins .btn-outline-secondary's --bs-btn-color to a fixed #6c757d,
    giving 2.8:1 on the panel ground. The button's own colour cannot be
    overridden -- MarkBind's Vue layer re-applies it -- so colour the
-   title inside it instead. */
+   title inside it instead.
+
+   The `*` has to skip <mark> and its contents. A highlighted title
+   carries its own ground, so forcing the page's text colour onto it
+   paints light-on-highlight; the exclusion lets the mark rules above
+   supply the paired colour instead. !important plus (0,3,0) means
+   nothing on the mark side could win this by specificity. */
 [data-bs-theme="dark"] .morph-display-wrapper .card-title,
-[data-bs-theme="dark"] .morph-display-wrapper .card-title * {
+[data-bs-theme="dark"] .morph-display-wrapper .card-title *:not(mark, mark *) {
     color: var(--bs-body-color) !important;
 }
 
@@ -886,9 +901,11 @@ mark code.hljs.no-lang {
 
 /* Collapsed cross-page panel titles -- the light half of the pair whose
    dark half is fixed above. Bootstrap's fixed #6c757d is 4.45:1 on the
-   panel ground. */
+   panel ground. Same <mark> exclusion, for the same reason: on the
+   yellow highlight this grey reached only 5.7:1, where the highlight's
+   own near-black gives 14.4:1. */
 .morph-display-wrapper .card-title,
-.morph-display-wrapper .card-title * {
+.morph-display-wrapper .card-title *:not(mark, mark *) {
     color: #5c636a !important;           /* 6.1:1 white, 5.1:1 on panel */
 }
 
