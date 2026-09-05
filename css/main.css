@@ -667,16 +667,56 @@
 
 
 /* Heading text paired with the info badges (`<span class="text-info">`).
-   --bs-info is a bright cyan (#0dcaf0) that reads well on the dark page
-   but only manages 2.0:1 on white -- and light is the default theme, so
-   this was the site's worst contrast in the theme most readers see. The
-   *-text-emphasis token is the per-theme pair: a deeper teal on white,
-   a lighter cyan on the dark ground.
+
+   Bootstrap's plain colour utilities are not theme-aware. `.text-info`
+   resolves to rgba(var(--bs-info-rgb), ...), and --bs-info-rgb is
+   declared exactly once, as 13,202,240 (#0dcaf0), with no
+   [data-bs-theme="dark"] counterpart -- the same trap as --bs-light-rgb
+   and --bs-dark-rgb further down. That cyan reads well on the dark page
+   but manages 2.0:1 on white, and light is the default theme, so this
+   was the site's worst contrast in the theme most readers see.
+
+   The theme-aware pair is --bs-info-text-emphasis, which Bootstrap 5.3
+   exposes as `.text-info-emphasis`. Relabelling every `.text-info` call
+   site across the site's markdown would be the by-the-book fix; pointing
+   the utility at the token is the cheap equivalent.
+
+   Bootstrap derives the light half of that token mechanically, as
+   shade-color($info, 60%), and #055160 lands so dark it reads almost
+   black beside body text. The value below is that same ladder taken one
+   step less far -- shade-color($info, 40%) -- which lifts it a long way
+   (Lab L* 31 -> 47, chroma 21 -> 28) while holding --bs-info's own hue.
+   Dark keeps Bootstrap's #6edff6, which measures well as it is.
+
+   Holding the hue is the point. The site pairs these labels with
+   `text-bg-info` badges and banners -- see admin/tp-expectations.md,
+   where an <h2 class="text-bg-info"> sits directly above a matching
+   <span class="text-info"> -- and that fill is --bs-info itself, fixed
+   at hue 190 in both themes. Anything off that hue reads as a second
+   colour beside the badge rather than the same one, which is what a
+   turquoise (hue 175) did here. Dark already works this way: #6edff6 is
+   the same hue as the fill, only lighter.
+
+   40% is also the last step that clears AA. These spans are not all
+   headings -- they also wrap 10.5px `<code>` marks and one 16px
+   regular-weight line -- so the 4.5:1 bar for normal text applies, and
+   shade 35% (#08839c) falls to 4.2:1 on a <box>.
+
+   Retuning the token rather than hard-coding a colour on `.text-info`
+   keeps everything that reaches it by another route in step --
+   `.text-info-emphasis`, `.alert-info`, `.list-group-item-info`. None
+   are in use today; a future .alert-info would sit at 4.34:1 on
+   --bs-info-bg-subtle, so give that one an explicit colour if it ever
+   turns up.
 
    :not(.bg-info) spares the mid-semester survey bar charts, which stack
    `text-info bg-info` deliberately so the filler dots stay invisible. */
+:root:not([data-bs-theme="dark"]) {
+    --bs-info-text-emphasis: #087990;                 /* was #055160 */
+}
+
 .text-info:not(.bg-info) {
-    color: var(--bs-info-text-emphasis) !important;   /* 5.1:1 light, 9.9:1 dark */
+    color: var(--bs-info-text-emphasis) !important;   /* 5.1:1 light, 10.0:1 dark */
 }
 
 
