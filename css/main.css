@@ -623,10 +623,19 @@
     --bs-highlight-color: #212529;       /* was #dee2e6; 9.8:1 on the gold */
 }
 
-/* MarkBind leaves mark's text at `color: inherit`, which inside a
-   fixed-colour ground -- e.g. a text-bg-info panel header, where the
-   inherited colour is black -- ignores the token above. Pin it. */
-[data-bs-theme="dark"] mark {
+/* MarkBind leaves mark's text at `color: inherit`, so a highlight takes
+   whatever colour its surroundings happen to carry. That is wrong wherever
+   the surroundings are coloured for a different ground: a text-bg-info
+   panel header, where the inherited colour is black, or a collapsed
+   cross-page panel title, whose rule below paints every descendant the
+   page's text colour. Pin mark to the paired token instead.
+
+   Unscoped, because light needs it too -- --bs-highlight-color is #212529
+   in both themes now, and without this a highlighted panel title inherits
+   the title's grey at 5.7:1 instead of the highlight's own 14.4:1. This
+   rule cannot beat an !important container rule on its own; see the
+   <mark> exclusions on the .card-title pair for the other half. */
+mark {
     color: var(--bs-highlight-color);
 }
 
@@ -698,9 +707,15 @@ mark code.hljs.no-lang {
    pins .btn-outline-secondary's --bs-btn-color to a fixed #6c757d,
    giving 2.8:1 on the panel ground. The button's own colour cannot be
    overridden -- MarkBind's Vue layer re-applies it -- so colour the
-   title inside it instead. */
+   title inside it instead.
+
+   The `*` has to skip <mark> and its contents. A highlighted title
+   carries its own ground, so forcing the page's text colour onto it
+   paints light-on-highlight; the exclusion lets the mark rules above
+   supply the paired colour instead. !important plus (0,3,0) means
+   nothing on the mark side could win this by specificity. */
 [data-bs-theme="dark"] .morph-display-wrapper .card-title,
-[data-bs-theme="dark"] .morph-display-wrapper .card-title * {
+[data-bs-theme="dark"] .morph-display-wrapper .card-title *:not(mark, mark *) {
     color: var(--bs-body-color) !important;
 }
 
@@ -886,9 +901,11 @@ mark code.hljs.no-lang {
 
 /* Collapsed cross-page panel titles -- the light half of the pair whose
    dark half is fixed above. Bootstrap's fixed #6c757d is 4.45:1 on the
-   panel ground. */
+   panel ground. Same <mark> exclusion, for the same reason: on the
+   yellow highlight this grey reached only 5.7:1, where the highlight's
+   own near-black gives 14.4:1. */
 .morph-display-wrapper .card-title,
-.morph-display-wrapper .card-title * {
+.morph-display-wrapper .card-title *:not(mark, mark *) {
     color: #5c636a !important;           /* 6.1:1 white, 5.1:1 on panel */
 }
 
@@ -1040,4 +1057,69 @@ kbd.DocSearch-Commands-Key {
    the no-results screen -- otherwise inherits the dark body color. */
 [data-bs-theme="dark"] .DocSearch-Modal {
     color: var(--docsearch-text-color);   /* 15.4:1 on the modal */
+}
+
+/* CustardUI (the `custardui` plugin: the inline "Your GitHub username" fields,
+   the floating settings button, and the settings panel). Every piece of it is
+   a Svelte custom element with an open shadow root, so none of the site's
+   rules reach inside -- but custom properties inherit straight through a
+   shadow boundary, and the widget takes all of its colours from --cv-*
+   properties it declares on :root. That is the whole seam, and it is enough.
+
+   The widget already ships a full dark palette. It is keyed to an attribute
+   the widget sets on <html> itself, [data-cv-theme="dark"], from a top-level
+   `colorScheme` in custardui.config.json -- "light" (the default), "dark", or
+   "auto". None of those can track our theme: "auto" follows the OS
+   prefers-color-scheme, which is not the same thing as the site's own dark
+   mode button. So on a dark page the widget stays on its light palette, and
+   the username field paints --cv-text, rgba(0, 0, 0, .9), straight onto the
+   #212529 page -- #030404 composited, 1.33:1. Invisible, near enough.
+
+   Leave `colorScheme` unset. Setting it would make the widget's own dark
+   block, :root[data-cv-theme="dark"], live at the same (0,2,0) as the one
+   below but later in the cascade. Identical values, so dark would look the
+   same -- but "auto" with a dark OS and a light page would then paint the
+   widget dark on white, which is the bug again with the themes swapped.
+
+   So re-declare that dark palette under a trigger that does track: our own
+   [data-bs-theme="dark"]. The values below are the widget's own, copied
+   verbatim, so this switches its dark theme on rather than inventing one.
+
+   :root[data-bs-theme="dark"] rather than the bare attribute selector used
+   elsewhere in this file, because the widget's light defaults sit on a plain
+   :root, (0,1,0), in a stylesheet it injects at runtime -- i.e. after
+   main.css. A matching (0,1,0) here would lose on order. (0,2,0) does not,
+   and it is the specificity the widget's own dark block already uses.
+
+   Light mode needs no counterpart: the widget's defaults are the light
+   palette.
+
+   Four of its tokens are identical in both its palettes (--cv-primary,
+   --cv-modal-radius, --cv-card-radius, --cv-section-label-transform) and are
+   left alone. --cv-icon-bg and --cv-icon-color are skipped for a different
+   reason: custardui.config.json's `icon` block is applied as an inline style
+   on the button, and inline beats :root, so declaring them here would be
+   dead weight. The green settings button is configured, not themed.
+
+   The field's underline stays faint on purpose -- rgba(255, 255, 255, .1)
+   composites to #373b3e, 1.36:1, which is the same near-nothing that
+   rgba(0, 0, 0, .15) on white gives in light mode. The pencil icon, not the
+   rule, is what marks the field as editable. */
+:root[data-bs-theme="dark"] {
+    --cv-bg: #101722;                            /* settings panel ground */
+    --cv-text: #e2e8f0;                          /* 12.5:1 on the page, 14.6:1 on the panel */
+    --cv-text-secondary: rgba(255, 255, 255, 0.6);  /* #a6a8a9, 6.5:1 on the page */
+    --cv-border: rgba(255, 255, 255, 0.1);
+    --cv-bg-hover: rgba(255, 255, 255, 0.05);
+    --cv-primary-hover: #60a5fa;
+    --cv-danger: #f87171;
+    --cv-danger-bg: rgba(248, 113, 113, 0.1);
+    --cv-shadow: rgba(0, 0, 0, 0.5);
+    --cv-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.5);
+    --cv-input-bg: #1e293b;                      /* panel fields; 11.9:1 with --cv-text */
+    --cv-input-border: rgba(255, 255, 255, 0.1);
+    --cv-switch-bg: rgba(255, 255, 255, 0.1);
+    --cv-switch-knob: #e2e8f0;
+    --cv-modal-icon-bg: rgba(255, 255, 255, 0.08);
+    --cv-focus-ring: rgba(62, 132, 244, 0.5);
 }

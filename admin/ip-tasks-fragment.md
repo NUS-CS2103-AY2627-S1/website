@@ -67,7 +67,7 @@
 
 * Be familiar with how this course expects to use AI tools:
 
-{{ embed_topic("courseExpectations.md#use-of-ai", "Admin " + icon_embedding + " Course Expectations → **Use of AI**", "1", indent=1, type="codex") }}
+{{ embed_topic("courseExpectations.md#use-of-ai-section", "Admin " + icon_embedding + " Course Expectations → **Use of AI**", "1", indent=1, type="codex") }}
 
 <div class="indented-level1">
 
@@ -1067,7 +1067,7 @@ If you added the `Ui.png` correctly and set up the product website correctly, ==
    {{ show_github_username_entry() }}
 
    * There is no need for the release to be tagged `A-Release` specifically.
-   * Ensure your release appears at <a href="https://github.com/[[username: JohnDoe]]/ip/releases" target="_blank" class="cv-bind">https://github.com/[[username: JohnDoe]]/ip/releases</a>. Use an incognito browser window when checking this URL, to ensure the release is visible to the public.
+   * <div id="ip-release-url">Ensure your release appears at <a href="https://github.com/[[username: JohnDoe]]/ip/releases" target="_blank" class="cv-bind">https://github.com/[[username: JohnDoe]]/ip/releases</a>. Use an incognito browser window when checking this URL, to ensure the release is visible to the public.</div>
    * The JAR file should be uploaded as an 'asset', with the `.jar` extension. Do not put it inside a zip file.
    * Avoid uploading multiple JAR files to this release, as this can create extra work for the evaluators. Upload only the JAR file you want to be evaluated as your iP.
    * If you have multiple iP releases on GitHub, we take the JAR file from the latest release, irrespective of the release name or the tag used. So, feel free to create more releases if you happen to update the code _after_ creating the initial release.

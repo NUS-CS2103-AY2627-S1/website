@@ -44,10 +44,8 @@ The tutorial is held F2F from this week onwards. See [the tutorials page]({{ bas
 
    {{ icon_tip }} To identify nesting problems or long methods, zoom out and scroll through the entire PR code to do a visual inspection (no need to read the code line-by-line). After visually locating a method that looks too long/deep, have a closer look to see it can be improved by using better abstraction.
 
-   {{ icon_tip }} If existing PR comments are getting in your way, you can hide them using the following option:
-   <pic src="https://git-mastery.org/lessons/prsReview/images/hideExistingComments.png" /><br>
-   {{ icon_tip }} You can use the following setting to try the two different views available and pick the one you like.<br>
-   <pic src="https://git-mastery.org/lessons/prsReview/images/splitVsUnifiedDiffView.png" />
+   {{ icon_tip }} You can use the setting above to also try the two different views available (`Unified` vs `Split`) and pick the one you like. The same dialog can be used to hide existing comments (if they are getting in your way).<br>
+   <pic src="https://git-mastery.org/lessons/prsReview/images/configurePrView.png" width="300" /><br>
    </box>
 
 {{ show_faq("howToDecideTooLongOrTooDeepMethods") }}

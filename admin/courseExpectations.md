@@ -13,7 +13,7 @@
 This course requires you to write Java code almost every week, starting from the very first week. If your Java skills are rusty, please brush up on them.
 
 </div>
-<div id="use-of-ai">
+<div id="use-of-ai-section">
 
 ## Use of AI
 
@@ -42,8 +42,11 @@ This course requires you to write Java code almost every week, starting from the
 
 The [AI@SoC page](https://mysoc.nus.edu.sg/category/ai/) includes the following:
 
-* ChatGPT:  https://nusitintranet.nus.edu.sg/gen-ai (accessible via NUS VPN if outside campus) -- This NUS-wide subscription does not come with Codex credits but SoC students will receive a monthly allocation of Codex credit through this account (paid by SoC). Non-SoC students taking this course should onboard onto the NUS-wide ChatGPT account first and then file a ticket at https://rt.comp.nus.edu.sg/ requesting Codex credit.
-* Gemini (and Antigravity)
+* ChatGPT:  First, sign up through https://nusitintranet.nus.edu.sg/gen-ai (accessible via NUS VPN if outside campus) -- This NUS-wide subscription does not come with Codex credits but SoC students will receive a monthly allocation of Codex credit through this account (paid by SoC).<br>
+  Non-SoC students taking this course should onboard onto the NUS-wide ChatGPT account first and then file a ticket at https://rt.comp.nus.edu.sg/ requesting Codex credit.
+* Gemini (and Antigravity).<br>
+  Non-SoC students taking this course needs an SoC account to access Gemini. They can create/re-enable their SoC account via https://mysoc.nus.edu.sg/~newacct<br>
+  If you encounter any issues, file a ticked via https://rt.comp.nus.edu.sg directly.
 
 The AI tool use required for CS2103/T course tasks is expected to be well within the usage limits of a single standard-tier subscription (i.e., the S$30/month tiers of ChatGPT and Claude) and the limits of the free subscriptions provided by SoC.
 </box>

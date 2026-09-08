@@ -782,9 +782,9 @@ Here is the user persona and problem scope my team wrote for our product:
 [persona and scope]
 
 Don't rewrite it. Instead:
-- List the claims in it that we have assumed rather than observed, and suggest how we could check each one.
-- Name up to 5 kinds of users this persona leaves out, especially those whose needs would change our feature list.
-- Point out details that are stereotypes rather than characteristics that actually affect how the user would use the product.
+- List the claims in it that we may have assumed incorrectly.
+- Name up to 5 kinds of users this persona leaves out, especially those whose needs would change our product's behavior.
+- Point out details that are not characteristics that don't actually affect how the user would use the product.
 {% endcall %}
 
 **2. Ask AI to role-play the persona, but aim it at friction.** Ask an AI "would you use this product?" and you will get a yes. **The question worth asking is where the user gives up.**
@@ -797,9 +797,18 @@ Here are the stages of the user journey we expect them to go through:
 
 [stages]
 
+Which stages are missing? Which are less important than the rest?
+
+{% endcall %}
+{% call mdblock() %}
+
+Here's the updated list of stages:
+
+[stages]
+
 For each stage, tell me in the persona's voice: what they are trying to achieve, what would confuse or annoy them, and the point at which they would abandon the product and go back to how they do things now.
 
-Be critical. Assume they are busy and have little patience for learning a new tool. Do not reassure me that the product is useful.
+Be critical. Assume they are busy and have little patience for learning a new tool.
 {% endcall %}
 
 

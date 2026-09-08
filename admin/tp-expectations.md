@@ -22,7 +22,12 @@ Furthermore, we estimate that this bar is roughly _equivalent_ to **writing abou
 **The expected level of _functionality_ from a team is roughly ==what you can achieve if each member contributes about the same amount of functional code that a <tooltip content="i.e., if all requirements were met at the _minimal_ level specified">typical iP</tooltip> requires==**.
 </div>
 
-==There are no extra marks for exceeding the implementation _effort_ bar== stated above. Hence, _effort_ is graded mostly on an S/U basis -- it is the _quality_ of the code that really determines the marks for the _implementation_ component (more info <trigger trigger="click" for="modal:tPexpectations-implementationGrading">here</trigger>). Try to avoid adding more features than necessary, unless you are doing it out of interest; you are better off spending more effort on improving other aspects of the project instead. As mentioned elsewhere, a feature that is just the right size and of high quality will earn more marks than a feature that is bigger (or more difficult, or more interesting/novel) but of lower quality.
+==There are no extra marks for exceeding the implementation _effort_ bar== stated above. Hence, _effort_ is graded mostly on an S/U basis -- it is the _quality_ of the code that really determines the marks for the _implementation_ component (more info <trigger trigger="click" for="modal:tPexpectations-implementationGrading-1">here</trigger>). Try to avoid adding more features than necessary, unless you are doing it out of interest; you are better off spending more effort on improving other aspects of the project instead. As mentioned elsewhere, a feature that is just the right size and of high quality will earn more marks than a feature that is bigger (or more difficult, or more interesting/novel) but of lower quality.
+
+<modal large header="tP: Grading [extract] → " id="modal:tPexpectations-implementationGrading-1">
+  <include src="tp-grading.md#grading-implementation"/>
+</modal>
+
 
 <div tags="m--cs2103">
 
@@ -205,11 +210,11 @@ This is a non-exhaustive list; you may define additional roles.
 
 <h2 class="text-bg-codex p-1">{{ icon_ai }} Expectations on AI use in the tP</h2>
 
-* **You are expected to use AI in the tP**, following the guidance in [Course Expectations → Use of AI]({{ url_course_website }}/admin/courseExpectations.html?cv-box=use-of-ai%3Ared%3Atl%3ADetails%2520...).
+* **You are expected to use AI in the tP**, following the guidance in [Course Expectations → Use of AI]({{ url_course_website }}/admin/courseExpectations.html?cv-box=use-of-ai-section%3Ared%3Atl%3ADetails%2520...).
 * **We recommend that you ==gradually increase your level of AI use== throughout the tP**, but this is not _required_.
   <box type="warning" seamless>
 
-  If you used AI sparingly in the iP or did not read its AI guidance, **skim those iP guidance notes** now for techniques that may help you later.
+  If you used AI sparingly in the iP or did not read its AI guidance, **skim those AI guidance notes** now for techniques that may help you later. %%For example, those notes mention how to create some useful 'skills' that might be useful for the tP as well.%%
   </box>
 * Unlike in the iP, we will not provide frequent AI guidance for the tP.<br>
   **You are expected to decide where and how to use AI and to craft most of your own prompts.** We will still provide occasional guidance on using AI in the tP.
