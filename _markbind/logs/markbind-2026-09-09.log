@@ -1,0 +1,69 @@
+2026-09-08T16:08:32.886Z - [32minfo[39m: [00:08:32] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architectureDiagrams/views/text.md
+2026-09-08T16:08:32.919Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-08T16:08:32.919Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-08T16:08:32.919Z - [32minfo[39m: 1. se-book-adapted/chapters/architecture
+2026-09-08T16:08:33.989Z - [32minfo[39m: Rebuilding 1 pages
+2026-09-08T16:08:34.293Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/architecture.md
+2026-09-08T16:08:34.327Z - [32minfo[39m: Site data built
+2026-09-08T16:08:34.327Z - [32minfo[39m: Pages rebuilt
+2026-09-08T16:08:34.327Z - [32minfo[39m: Website regeneration complete! Total build time: 0.405s
+2026-09-08T16:10:53.950Z - [32minfo[39m: [00:10:53] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architectureDiagrams/views/text.md
+2026-09-08T16:10:53.951Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-08T16:10:53.951Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-08T16:10:53.951Z - [32minfo[39m: 1. se-book-adapted/chapters/architecture
+2026-09-08T16:10:54.956Z - [32minfo[39m: Rebuilding 1 pages
+2026-09-08T16:10:55.238Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/architecture.md
+2026-09-08T16:10:55.277Z - [32minfo[39m: Site data built
+2026-09-08T16:10:55.277Z - [32minfo[39m: Pages rebuilt
+2026-09-08T16:10:55.277Z - [32minfo[39m: Website regeneration complete! Total build time: 0.324s
+2026-09-08T16:12:23.954Z - [32minfo[39m: [00:12:23] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architectureDiagrams/views/resources.md
+2026-09-08T16:12:23.955Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-08T16:12:23.956Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-08T16:12:23.956Z - [32minfo[39m: 1. se-book-adapted/chapters/architecture
+2026-09-08T16:12:24.960Z - [32minfo[39m: Rebuilding 1 pages
+2026-09-08T16:12:25.233Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/architecture.md
+2026-09-08T16:12:25.280Z - [32minfo[39m: Site data built
+2026-09-08T16:12:25.280Z - [32minfo[39m: Pages rebuilt
+2026-09-08T16:12:25.280Z - [32minfo[39m: Website regeneration complete! Total build time: 0.323s
+2026-09-08T16:14:53.849Z - [32minfo[39m: [00:14:53] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architectureDiagrams/views/text.md
+2026-09-08T16:14:53.851Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-08T16:14:53.851Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-08T16:14:53.851Z - [32minfo[39m: 1. se-book-adapted/chapters/architecture
+2026-09-08T16:14:54.863Z - [32minfo[39m: Rebuilding 1 pages
+2026-09-08T16:14:55.172Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/architecture.md
+2026-09-08T16:14:55.215Z - [32minfo[39m: Site data built
+2026-09-08T16:14:55.215Z - [32minfo[39m: Pages rebuilt
+2026-09-08T16:14:55.215Z - [32minfo[39m: Website regeneration complete! Total build time: 0.355s
+2026-09-08T16:16:13.076Z - [32minfo[39m: [00:16:13] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architectureDiagrams/views/text.md
+2026-09-08T16:16:13.077Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-08T16:16:13.078Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-08T16:16:13.078Z - [32minfo[39m: 1. se-book-adapted/chapters/architecture
+2026-09-08T16:16:14.082Z - [32minfo[39m: Rebuilding 1 pages
+2026-09-08T16:16:14.332Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/architecture.md
+2026-09-08T16:16:14.357Z - [32minfo[39m: Site data built
+2026-09-08T16:16:14.357Z - [32minfo[39m: Pages rebuilt
+2026-09-08T16:16:14.357Z - [32minfo[39m: Website regeneration complete! Total build time: 0.278s
+2026-09-08T16:18:38.289Z - [32minfo[39m: [00:18:38] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/textbookTopics-fragment.md
+2026-09-08T16:18:38.291Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-08T16:18:38.292Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-08T16:18:38.292Z - [32minfo[39m: 1. se-book-adapted/chapters/architecture
+2026-09-08T16:18:38.296Z - [32minfo[39m: [00:18:38] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architectureDiagrams/views/text.md
+2026-09-08T16:18:38.297Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-08T16:18:38.297Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-08T16:18:38.297Z - [32minfo[39m: 1. se-book-adapted/chapters/architecture
+2026-09-08T16:18:39.447Z - [32minfo[39m: Rebuilding 1 pages
+2026-09-08T16:18:39.711Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/architecture.md
+2026-09-08T16:18:39.749Z - [32minfo[39m: Site data built
+2026-09-08T16:18:39.749Z - [32minfo[39m: Pages rebuilt
+2026-09-08T16:18:39.749Z - [32minfo[39m: Website regeneration complete! Total build time: 0.303s
+2026-09-08T16:18:55.546Z - [32minfo[39m: [00:18:55] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/textbookTopics-fragment.md
+2026-09-08T16:18:55.547Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-08T16:18:55.548Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-08T16:18:55.548Z - [32minfo[39m: 1. se-book-adapted/chapters/architecture
+2026-09-08T16:18:56.719Z - [32minfo[39m: Rebuilding 1 pages
+2026-09-08T16:18:56.943Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/architecture.md
+2026-09-08T16:18:56.970Z - [32minfo[39m: Site data built
+2026-09-08T16:18:56.970Z - [32minfo[39m: Pages rebuilt
+2026-09-08T16:18:56.970Z - [32minfo[39m: Website regeneration complete! Total build time: 0.257s
+2026-09-08T16:22:15.358Z - [32minfo[39m: Website generation started at 00:22:15
+2026-09-08T16:22:15.735Z - [32minfo[39m: Building assets...
