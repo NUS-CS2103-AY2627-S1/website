@@ -18,7 +18,7 @@
 <box>
 <p><span class="badge rounded-pill bg-success text-white"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> <strong>'Unroll' chained/compound method calls before drawing sequence diagram.</strong> Consider the Java statement <code class="hljs inline java" v-pre><span class="hljs-keyword">new</span> Book().add(<span class="hljs-keyword">new</span> Chapter());</code>. How do we show it as a sequence diagram? First, 'unroll' it into a simpler series of statements, which can then be drawn as a sequence diagram easily. For example, that statement is equivalent to the following:</p>
 <pre><code class="hljs java" v-pre><span>Book b = <span class="hljs-keyword">new</span> Book();
-</span><span><span class="highlighted">Chapter c = <span class="hljs-keyword">new</span> Chapter();  <span class="hljs-comment">// a is a temporary variable used for unrolling</span></span>
+</span><span><span class="highlighted">Chapter c = <span class="hljs-keyword">new</span> Chapter();  <span class="hljs-comment">// c is a temporary variable used for unrolling</span></span>
 </span><span>b.add(c);
 </span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
     <div class="tooltip-container">
@@ -61,7 +61,7 @@
 
     </div>
     </div>
-    </button></div></pre><pic src="/website/28d46244048ce0a0c97cd213e49b3f3b.png"></pic>
+    </button></div></pre><pic src="/website/fe10d1b78a5657f279433e2da147b51b.png"></pic>
 <p>Another example:</p>
 <pre><code class="hljs java" v-pre><span>Person person;
 </span><span><span class="hljs-comment">// ...</span>
