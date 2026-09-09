@@ -1,0 +1,122 @@
+2026-09-09T16:05:54.563Z - [32minfo[39m: [00:05:54] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/diagrams/architecture/architectureDiagrams/views/fourPlusOne.drawio
+2026-09-09T16:05:54.595Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-09T16:05:54.597Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-09T16:05:54.597Z - [32minfo[39m: 1. ../book/architecture/architectureDiagrams/views/index
+2026-09-09T16:05:54.598Z - [32minfo[39m: 2. schedule/week6/topics
+2026-09-09T16:05:55.614Z - [32minfo[39m: Assets built
+2026-09-09T16:07:28.895Z - [32minfo[39m: [00:07:28] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architectureDiagrams/views/images/fourPlusOne.svg
+2026-09-09T16:07:28.896Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-09T16:07:28.899Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-09T16:07:28.899Z - [32minfo[39m: 1. ../book/architecture/architectureDiagrams/views/index
+2026-09-09T16:07:28.900Z - [32minfo[39m: 2. schedule/week6/topics
+2026-09-09T16:07:29.919Z - [32minfo[39m: Assets built
+2026-09-09T16:08:04.317Z - [32minfo[39m: [00:08:04] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architectureDiagrams/views/text.md
+2026-09-09T16:08:04.318Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-09T16:08:04.319Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-09T16:08:04.319Z - [32minfo[39m: 1. ../book/architecture/architectureDiagrams/views/index
+2026-09-09T16:08:04.319Z - [32minfo[39m: 2. schedule/week6/topics
+2026-09-09T16:08:05.351Z - [32minfo[39m: Rebuilding 1 pages
+2026-09-09T16:08:05.883Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week6/topics.md
+2026-09-09T16:08:05.940Z - [32minfo[39m: Site data built
+2026-09-09T16:08:05.940Z - [32minfo[39m: Pages rebuilt
+2026-09-09T16:08:05.940Z - [32minfo[39m: Website regeneration complete! Total build time: 0.607s
+2026-09-09T16:08:07.117Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architectureDiagrams/views/index as some of its dependencies were changed since the last visit
+2026-09-09T16:08:07.163Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architectureDiagrams/views/index.md
+2026-09-09T16:08:07.172Z - [32minfo[39m: Site data built
+2026-09-09T16:08:07.172Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.056s
+2026-09-09T16:16:23.181Z - [32minfo[39m: [00:16:23] Reload for file add: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/diagrams/architecture/architectureDiagrams/views/c4Levels.drawio
+2026-09-09T16:16:23.184Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-09T16:16:23.184Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-09T16:16:23.184Z - [32minfo[39m: 1. ../book/architecture/architectureDiagrams/views/index
+2026-09-09T16:16:23.184Z - [32minfo[39m: 2. schedule/week6/topics
+2026-09-09T16:16:24.405Z - [32minfo[39m: Assets built
+2026-09-09T16:16:24.826Z - [32minfo[39m: [00:16:24] Reload for file add: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architectureDiagrams/views/images/c4Levels.svg
+2026-09-09T16:16:24.827Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-09T16:16:24.827Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-09T16:16:24.827Z - [32minfo[39m: 1. ../book/architecture/architectureDiagrams/views/index
+2026-09-09T16:16:24.827Z - [32minfo[39m: 2. schedule/week6/topics
+2026-09-09T16:16:26.062Z - [32minfo[39m: Assets built
+2026-09-09T16:17:50.211Z - [32minfo[39m: [00:17:50] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/diagrams/architecture/architectureDiagrams/views/c4Levels.drawio
+2026-09-09T16:17:50.212Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-09T16:17:50.213Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-09T16:17:50.213Z - [32minfo[39m: 1. ../book/architecture/architectureDiagrams/views/index
+2026-09-09T16:17:50.213Z - [32minfo[39m: 2. schedule/week6/topics
+2026-09-09T16:17:51.112Z - [32minfo[39m: [00:17:51] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architectureDiagrams/views/images/c4Levels.svg
+2026-09-09T16:17:51.112Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-09T16:17:51.112Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-09T16:17:51.112Z - [32minfo[39m: 1. ../book/architecture/architectureDiagrams/views/index
+2026-09-09T16:17:51.112Z - [32minfo[39m: 2. schedule/week6/topics
+2026-09-09T16:17:51.222Z - [32minfo[39m: Assets built
+2026-09-09T16:18:09.666Z - [32minfo[39m: [00:18:09] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architectureDiagrams/views/text.md
+2026-09-09T16:18:09.668Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-09T16:18:09.669Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-09T16:18:09.670Z - [32minfo[39m: 1. ../book/architecture/architectureDiagrams/views/index
+2026-09-09T16:18:09.670Z - [32minfo[39m: 2. schedule/week6/topics
+2026-09-09T16:18:10.692Z - [32minfo[39m: Rebuilding 1 pages
+2026-09-09T16:18:11.297Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week6/topics.md
+2026-09-09T16:18:11.362Z - [32minfo[39m: Site data built
+2026-09-09T16:18:11.362Z - [32minfo[39m: Pages rebuilt
+2026-09-09T16:18:11.363Z - [32minfo[39m: Website regeneration complete! Total build time: 0.689s
+2026-09-09T16:18:12.543Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architectureDiagrams/views/index as some of its dependencies were changed since the last visit
+2026-09-09T16:18:12.588Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architectureDiagrams/views/index.md
+2026-09-09T16:18:12.607Z - [32minfo[39m: Site data built
+2026-09-09T16:18:12.607Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.064s
+2026-09-09T16:18:28.728Z - [32minfo[39m: [00:18:28] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architectureDiagrams/views/images/fourPlusOne.svg
+2026-09-09T16:18:28.729Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-09T16:18:28.729Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-09T16:18:28.729Z - [32minfo[39m: 1. ../book/architecture/architectureDiagrams/views/index
+2026-09-09T16:18:29.738Z - [32minfo[39m: Assets built
+2026-09-09T16:18:35.318Z - [32minfo[39m: [00:18:35] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architectureDiagrams/views/text.md
+2026-09-09T16:18:35.321Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-09T16:18:35.322Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-09T16:18:35.322Z - [32minfo[39m: 1. ../book/architecture/architectureDiagrams/views/index
+2026-09-09T16:18:35.322Z - [32minfo[39m: 2. schedule/week6/topics
+2026-09-09T16:18:36.335Z - [32minfo[39m: Rebuilding 1 pages
+2026-09-09T16:18:36.993Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week6/topics.md
+2026-09-09T16:18:37.060Z - [32minfo[39m: Site data built
+2026-09-09T16:18:37.060Z - [32minfo[39m: Pages rebuilt
+2026-09-09T16:18:37.060Z - [32minfo[39m: Website regeneration complete! Total build time: 0.736s
+2026-09-09T16:18:38.200Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architectureDiagrams/views/index as some of its dependencies were changed since the last visit
+2026-09-09T16:18:38.233Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architectureDiagrams/views/index.md
+2026-09-09T16:18:38.247Z - [32minfo[39m: Site data built
+2026-09-09T16:18:38.247Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.048s
+2026-09-09T16:43:41.688Z - [32minfo[39m: [00:43:41] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/diagrams/architecture/architectureDiagrams/views/c4Levels.drawio
+2026-09-09T16:43:41.691Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-09T16:43:41.692Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-09T16:43:41.692Z - [32minfo[39m: 1. ../book/architecture/architectureDiagrams/views/index
+2026-09-09T16:43:41.692Z - [32minfo[39m: 2. schedule/week6/topics
+2026-09-09T16:43:42.721Z - [32minfo[39m: Assets built
+2026-09-09T16:44:13.444Z - [32minfo[39m: [00:44:13] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architectureDiagrams/views/images/c4Levels.svg
+2026-09-09T16:44:13.445Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-09T16:44:13.446Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-09T16:44:13.446Z - [32minfo[39m: 1. ../book/architecture/architectureDiagrams/views/index
+2026-09-09T16:44:13.446Z - [32minfo[39m: 2. schedule/week6/topics
+2026-09-09T16:44:14.458Z - [32minfo[39m: Assets built
+2026-09-09T16:44:56.431Z - [32minfo[39m: [00:44:56] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/diagrams/architecture/architectureDiagrams/views/fourPlusOne.drawio
+2026-09-09T16:44:56.433Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-09T16:44:56.434Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-09T16:44:56.434Z - [32minfo[39m: 1. ../book/architecture/architectureDiagrams/views/index
+2026-09-09T16:44:56.434Z - [32minfo[39m: 2. schedule/week6/topics
+2026-09-09T16:44:57.439Z - [32minfo[39m: Assets built
+2026-09-09T16:45:24.254Z - [32minfo[39m: [00:45:24] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architectureDiagrams/views/images/fourPlusOne.svg
+2026-09-09T16:45:24.256Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-09T16:45:24.257Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-09T16:45:24.257Z - [32minfo[39m: 1. ../book/architecture/architectureDiagrams/views/index
+2026-09-09T16:45:24.257Z - [32minfo[39m: 2. schedule/week6/topics
+2026-09-09T16:45:25.276Z - [32minfo[39m: Assets built
+2026-09-09T16:46:11.521Z - [32minfo[39m: [00:46:11] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architectureDiagrams/views/text.md
+2026-09-09T16:46:11.523Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-09T16:46:11.523Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-09T16:46:11.523Z - [32minfo[39m: 1. ../book/architecture/architectureDiagrams/views/index
+2026-09-09T16:46:11.523Z - [32minfo[39m: 2. schedule/week6/topics
+2026-09-09T16:46:12.544Z - [32minfo[39m: Rebuilding 1 pages
+2026-09-09T16:46:13.077Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week6/topics.md
+2026-09-09T16:46:13.143Z - [32minfo[39m: Site data built
+2026-09-09T16:46:13.143Z - [32minfo[39m: Pages rebuilt
+2026-09-09T16:46:13.143Z - [32minfo[39m: Website regeneration complete! Total build time: 0.614s
+2026-09-09T16:46:14.293Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architectureDiagrams/views/index as some of its dependencies were changed since the last visit
+2026-09-09T16:46:14.332Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architectureDiagrams/views/index.md
+2026-09-09T16:46:14.343Z - [32minfo[39m: Site data built
+2026-09-09T16:46:14.343Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.051s
+2026-09-09T16:48:53.610Z - [32minfo[39m: Website generation started at 00:48:53
+2026-09-09T16:48:54.268Z - [32minfo[39m: Building assets...
