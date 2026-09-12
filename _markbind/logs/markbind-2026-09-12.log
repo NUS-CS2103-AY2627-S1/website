@@ -1,0 +1,61 @@
+2026-09-12T08:08:27.285Z - [32minfo[39m: Website generation (lazy) started at 16:08:26
+2026-09-12T08:08:27.937Z - [32minfo[39m: Building assets...
+2026-09-12T08:08:28.270Z - [32minfo[39m: Assets built
+2026-09-12T08:08:28.270Z - [32minfo[39m: Generating landing page...
+2026-09-12T08:08:28.788Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/index.md
+2026-09-12T08:08:28.807Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-09-12T08:08:28.880Z - [32minfo[39m: Site data built
+2026-09-12T08:08:28.880Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 2.013s
+2026-09-12T08:08:28.893Z - [32minfo[39m: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2026-09-12T08:08:28.894Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-09-12T08:09:03.826Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixE-gitHub as some of its dependencies were changed since the last visit
+2026-09-12T08:09:04.181Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixE-gitHub.md
+2026-09-12T08:09:04.204Z - [32minfo[39m: Site data built
+2026-09-12T08:09:04.204Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.378s
+2026-09-12T08:12:56.215Z - [32minfo[39m: [16:12:56] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixE-gitHub.md
+2026-09-12T08:12:56.220Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-12T08:12:56.222Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-12T08:12:56.222Z - [32minfo[39m: 1. admin/appendixE-gitHub
+2026-09-12T08:12:57.231Z - [32minfo[39m: Rebuilding 1 pages
+2026-09-12T08:12:57.649Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixE-gitHub.md
+2026-09-12T08:12:57.680Z - [32minfo[39m: Site data built
+2026-09-12T08:12:57.680Z - [32minfo[39m: Pages rebuilt
+2026-09-12T08:12:57.680Z - [32minfo[39m: Website regeneration complete! Total build time: 0.454s
+2026-09-12T08:19:51.356Z - [32minfo[39m: [16:19:51] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixE-gitHub.md
+2026-09-12T08:19:51.359Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-12T08:19:51.363Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-12T08:19:51.364Z - [32minfo[39m: 1. admin/appendixE-gitHub
+2026-09-12T08:19:52.381Z - [32minfo[39m: Rebuilding 1 pages
+2026-09-12T08:19:52.693Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixE-gitHub.md
+2026-09-12T08:19:52.719Z - [32minfo[39m: Site data built
+2026-09-12T08:19:52.720Z - [32minfo[39m: Pages rebuilt
+2026-09-12T08:19:52.720Z - [32minfo[39m: Website regeneration complete! Total build time: 0.355s
+2026-09-12T08:22:45.520Z - [32minfo[39m: [16:22:45] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixE-gitHub.md
+2026-09-12T08:22:45.522Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-12T08:22:45.522Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-12T08:22:45.522Z - [32minfo[39m: 1. admin/appendixE-gitHub
+2026-09-12T08:22:46.533Z - [32minfo[39m: Rebuilding 1 pages
+2026-09-12T08:22:46.851Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixE-gitHub.md
+2026-09-12T08:22:46.874Z - [32minfo[39m: Site data built
+2026-09-12T08:22:46.874Z - [32minfo[39m: Pages rebuilt
+2026-09-12T08:22:46.874Z - [32minfo[39m: Website regeneration complete! Total build time: 0.345s
+2026-09-12T08:23:57.593Z - [32minfo[39m: [16:23:57] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixE-gitHub.md
+2026-09-12T08:23:57.597Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-12T08:23:57.597Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-12T08:23:57.597Z - [32minfo[39m: 1. admin/appendixE-gitHub
+2026-09-12T08:23:58.604Z - [32minfo[39m: Rebuilding 1 pages
+2026-09-12T08:23:58.950Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixE-gitHub.md
+2026-09-12T08:23:58.983Z - [32minfo[39m: Site data built
+2026-09-12T08:23:58.983Z - [32minfo[39m: Pages rebuilt
+2026-09-12T08:23:58.983Z - [32minfo[39m: Website regeneration complete! Total build time: 0.385s
+2026-09-12T08:24:15.863Z - [32minfo[39m: [16:24:15] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixE-gitHub.md
+2026-09-12T08:24:15.864Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-12T08:24:15.866Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-12T08:24:15.866Z - [32minfo[39m: 1. admin/appendixE-gitHub
+2026-09-12T08:24:16.870Z - [32minfo[39m: Rebuilding 1 pages
+2026-09-12T08:24:17.198Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixE-gitHub.md
+2026-09-12T08:24:17.220Z - [32minfo[39m: Site data built
+2026-09-12T08:24:17.220Z - [32minfo[39m: Pages rebuilt
+2026-09-12T08:24:17.220Z - [32minfo[39m: Website regeneration complete! Total build time: 0.353s
+2026-09-12T08:24:33.552Z - [32minfo[39m: Website generation started at 16:24:33
+2026-09-12T08:24:33.957Z - [32minfo[39m: Building assets...
