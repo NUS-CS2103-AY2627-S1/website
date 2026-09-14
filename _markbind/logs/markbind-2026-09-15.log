@@ -1,0 +1,146 @@
+2026-09-14T18:11:00.520Z - [32minfo[39m: Website generation (lazy) started at 02:10:59
+2026-09-14T18:11:01.079Z - [33mwarn[39m: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!NUS-CS2103-AY2627-S1!website.git/book/_markbind/variables.md'
+2026-09-14T18:11:01.080Z - [33mwarn[39m: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!NUS-CS2103-AY2627-S1!website.git/_markbind/variables.md'
+2026-09-14T18:11:01.107Z - [32minfo[39m: Building assets...
+2026-09-14T18:11:02.539Z - [32minfo[39m: Assets built
+2026-09-14T18:11:02.541Z - [32minfo[39m: Generating landing page...
+2026-09-14T18:11:03.705Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/index.md
+2026-09-14T18:11:03.739Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-09-14T18:11:03.900Z - [32minfo[39m: Site data built
+2026-09-14T18:11:03.900Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 4.261s
+2026-09-14T18:11:03.927Z - [32minfo[39m: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2026-09-14T18:11:03.928Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-09-14T18:11:09.042Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/index as some of its dependencies were changed since the last visit
+2026-09-14T18:11:09.193Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/index.md
+2026-09-14T18:11:09.208Z - [32minfo[39m: Site data built
+2026-09-14T18:11:09.208Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.166s
+2026-09-14T18:11:13.323Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/debugging as some of its dependencies were changed since the last visit
+2026-09-14T18:11:13.491Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/debugging.md
+2026-09-14T18:11:13.623Z - [32minfo[39m: Site data built
+2026-09-14T18:11:13.624Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.302s
+2026-09-14T18:17:02.210Z - [32minfo[39m: [02:17:02] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/how/text.md
+2026-09-14T18:17:02.221Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-14T18:17:02.225Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-14T18:17:02.225Z - [32minfo[39m: 1. se-book-adapted/chapters/debugging
+2026-09-14T18:17:02.228Z - [32minfo[39m: [02:17:02] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/variables.md
+2026-09-14T18:17:02.234Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-14T18:17:02.234Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-14T18:17:02.234Z - [32minfo[39m: 1. se-book-adapted/chapters/debugging
+2026-09-14T18:17:03.272Z - [33mwarn[39m: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!NUS-CS2103-AY2627-S1!website.git/book/_markbind/variables.md'
+2026-09-14T18:17:03.272Z - [33mwarn[39m: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!NUS-CS2103-AY2627-S1!website.git/_markbind/variables.md'
+2026-09-14T18:17:03.299Z - [33mwarn[39m: Rebuilding all pages as variables file was changed, or the --force-reload flag was set
+2026-09-14T18:17:03.308Z - [32minfo[39m: Rebuilding 1 pages
+2026-09-14T18:17:03.481Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/debugging.md
+2026-09-14T18:17:03.498Z - [32minfo[39m: Site data built
+2026-09-14T18:17:03.498Z - [32minfo[39m: Pages rebuilt
+2026-09-14T18:17:03.498Z - [32minfo[39m: Website regeneration complete! Total build time: 0.261s
+2026-09-14T18:17:13.870Z - [32minfo[39m: [02:17:13] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/variables.md
+2026-09-14T18:17:13.870Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-14T18:17:13.870Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-14T18:17:13.870Z - [32minfo[39m: 1. se-book-adapted/chapters/debugging
+2026-09-14T18:17:14.889Z - [33mwarn[39m: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!NUS-CS2103-AY2627-S1!website.git/book/_markbind/variables.md'
+2026-09-14T18:17:14.890Z - [33mwarn[39m: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!NUS-CS2103-AY2627-S1!website.git/_markbind/variables.md'
+2026-09-14T18:17:14.913Z - [33mwarn[39m: Rebuilding all pages as variables file was changed, or the --force-reload flag was set
+2026-09-14T18:17:14.918Z - [32minfo[39m: Rebuilding 1 pages
+2026-09-14T18:17:15.102Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/debugging.md
+2026-09-14T18:17:15.118Z - [32minfo[39m: Site data built
+2026-09-14T18:17:15.118Z - [32minfo[39m: Pages rebuilt
+2026-09-14T18:17:15.118Z - [32minfo[39m: Website regeneration complete! Total build time: 0.246s
+2026-09-14T18:17:45.986Z - [32minfo[39m: [02:17:45] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/variables.md
+2026-09-14T18:17:45.987Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-14T18:17:45.988Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-14T18:17:45.988Z - [32minfo[39m: 1. se-book-adapted/chapters/debugging
+2026-09-14T18:17:47.019Z - [33mwarn[39m: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!NUS-CS2103-AY2627-S1!website.git/book/_markbind/variables.md'
+2026-09-14T18:17:47.019Z - [33mwarn[39m: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!NUS-CS2103-AY2627-S1!website.git/_markbind/variables.md'
+2026-09-14T18:17:47.037Z - [33mwarn[39m: Rebuilding all pages as variables file was changed, or the --force-reload flag was set
+2026-09-14T18:17:47.039Z - [32minfo[39m: Rebuilding 1 pages
+2026-09-14T18:17:47.210Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/debugging.md
+2026-09-14T18:17:47.224Z - [32minfo[39m: Site data built
+2026-09-14T18:17:47.224Z - [32minfo[39m: Pages rebuilt
+2026-09-14T18:17:47.224Z - [32minfo[39m: Website regeneration complete! Total build time: 0.231s
+2026-09-14T18:18:19.622Z - [32minfo[39m: [02:18:19] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/variables.md
+2026-09-14T18:18:19.627Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-14T18:18:19.629Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-14T18:18:19.629Z - [32minfo[39m: 1. se-book-adapted/chapters/debugging
+2026-09-14T18:18:20.643Z - [32minfo[39m: No pages needed to be rebuilt
+2026-09-14T18:18:47.645Z - [32minfo[39m: [02:18:47] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/variables.md
+2026-09-14T18:18:47.649Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-14T18:18:47.652Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-14T18:18:47.653Z - [32minfo[39m: 1. se-book-adapted/chapters/debugging
+2026-09-14T18:18:48.667Z - [32minfo[39m: No pages needed to be rebuilt
+2026-09-14T18:18:59.833Z - [32minfo[39m: [02:18:59] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/variables.md
+2026-09-14T18:18:59.834Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-14T18:18:59.835Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-14T18:18:59.835Z - [32minfo[39m: 1. se-book-adapted/chapters/debugging
+2026-09-14T18:19:00.840Z - [32minfo[39m: No pages needed to be rebuilt
+2026-09-14T18:19:27.677Z - [32minfo[39m: [02:19:27] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/variables.md
+2026-09-14T18:19:27.680Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-14T18:19:27.683Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-14T18:19:27.684Z - [32minfo[39m: 1. se-book-adapted/chapters/debugging
+2026-09-14T18:19:27.778Z - [32minfo[39m: [02:19:27] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/variables.md
+2026-09-14T18:19:27.778Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-14T18:19:27.778Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-14T18:19:27.778Z - [32minfo[39m: 1. se-book-adapted/chapters/debugging
+2026-09-14T18:19:28.703Z - [33mwarn[39m: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!NUS-CS2103-AY2627-S1!website.git/book/_markbind/variables.md'
+2026-09-14T18:19:28.703Z - [33mwarn[39m: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!NUS-CS2103-AY2627-S1!website.git/_markbind/variables.md'
+2026-09-14T18:19:28.718Z - [33mwarn[39m: Rebuilding all pages as variables file was changed, or the --force-reload flag was set
+2026-09-14T18:19:28.719Z - [32minfo[39m: Rebuilding 1 pages
+2026-09-14T18:19:28.883Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/debugging.md
+2026-09-14T18:19:28.900Z - [32minfo[39m: Site data built
+2026-09-14T18:19:28.900Z - [32minfo[39m: Pages rebuilt
+2026-09-14T18:19:28.900Z - [32minfo[39m: Website regeneration complete! Total build time: 0.213s
+2026-09-14T18:20:07.152Z - [32minfo[39m: [02:20:07] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/variables.md
+2026-09-14T18:20:07.164Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-14T18:20:07.167Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-14T18:20:07.167Z - [32minfo[39m: 1. se-book-adapted/chapters/debugging
+2026-09-14T18:20:08.210Z - [33mwarn[39m: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!NUS-CS2103-AY2627-S1!website.git/book/_markbind/variables.md'
+2026-09-14T18:20:08.211Z - [33mwarn[39m: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!NUS-CS2103-AY2627-S1!website.git/_markbind/variables.md'
+2026-09-14T18:20:08.230Z - [33mwarn[39m: Rebuilding all pages as variables file was changed, or the --force-reload flag was set
+2026-09-14T18:20:08.232Z - [32minfo[39m: Rebuilding 1 pages
+2026-09-14T18:20:08.384Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/debugging.md
+2026-09-14T18:20:08.400Z - [32minfo[39m: Site data built
+2026-09-14T18:20:08.400Z - [32minfo[39m: Pages rebuilt
+2026-09-14T18:20:08.400Z - [32minfo[39m: Website regeneration complete! Total build time: 0.213s
+2026-09-14T18:20:16.862Z - [32minfo[39m: [02:20:16] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/variables.md
+2026-09-14T18:20:16.863Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-14T18:20:16.863Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-14T18:20:16.863Z - [32minfo[39m: 1. se-book-adapted/chapters/debugging
+2026-09-14T18:20:17.883Z - [33mwarn[39m: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!NUS-CS2103-AY2627-S1!website.git/book/_markbind/variables.md'
+2026-09-14T18:20:17.883Z - [33mwarn[39m: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!NUS-CS2103-AY2627-S1!website.git/_markbind/variables.md'
+2026-09-14T18:20:17.900Z - [33mwarn[39m: Rebuilding all pages as variables file was changed, or the --force-reload flag was set
+2026-09-14T18:20:17.902Z - [32minfo[39m: Rebuilding 1 pages
+2026-09-14T18:20:18.064Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/debugging.md
+2026-09-14T18:20:18.080Z - [32minfo[39m: Site data built
+2026-09-14T18:20:18.080Z - [32minfo[39m: Pages rebuilt
+2026-09-14T18:20:18.080Z - [32minfo[39m: Website regeneration complete! Total build time: 0.216s
+2026-09-14T18:20:33.901Z - [32minfo[39m: [02:20:33] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/variables.md
+2026-09-14T18:20:33.906Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-14T18:20:33.910Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-14T18:20:33.911Z - [32minfo[39m: 1. se-book-adapted/chapters/debugging
+2026-09-14T18:20:34.953Z - [32minfo[39m: No pages needed to be rebuilt
+2026-09-14T18:20:46.498Z - [32minfo[39m: Website generation (lazy) started at 02:20:46
+2026-09-14T18:20:46.911Z - [33mwarn[39m: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!NUS-CS2103-AY2627-S1!website.git/book/_markbind/variables.md'
+2026-09-14T18:20:46.912Z - [33mwarn[39m: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!NUS-CS2103-AY2627-S1!website.git/_markbind/variables.md'
+2026-09-14T18:20:46.935Z - [32minfo[39m: Building assets...
+2026-09-14T18:20:48.217Z - [32minfo[39m: Assets built
+2026-09-14T18:20:48.217Z - [32minfo[39m: Generating landing page...
+2026-09-14T18:20:48.701Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/index.md
+2026-09-14T18:20:48.721Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-09-14T18:20:48.801Z - [32minfo[39m: Site data built
+2026-09-14T18:20:48.802Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 2.767s
+2026-09-14T18:20:48.813Z - [32minfo[39m: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2026-09-14T18:20:48.814Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-09-14T18:20:53.176Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week6/topics as some of its dependencies were changed since the last visit
+2026-09-14T18:20:56.778Z - [34mdebug[39m: 
+2026-09-14T18:20:56.782Z - [34mdebug[39m: 
+2026-09-14T18:20:56.806Z - [34mdebug[39m: 
+2026-09-14T18:20:56.824Z - [34mdebug[39m: 
+2026-09-14T18:20:56.865Z - [34mdebug[39m: 
+2026-09-14T18:20:56.880Z - [34mdebug[39m: 
+2026-09-14T18:20:56.981Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week6/topics.md
+2026-09-14T18:20:57.034Z - [32minfo[39m: Site data built
+2026-09-14T18:20:57.034Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 3.859s
+2026-09-14T18:21:35.575Z - [32minfo[39m: Website generation started at 02:21:35
+2026-09-14T18:21:35.892Z - [33mwarn[39m: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!NUS-CS2103-AY2627-S1!website.git/book/_markbind/variables.md'
+2026-09-14T18:21:35.892Z - [33mwarn[39m: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!NUS-CS2103-AY2627-S1!website.git/_markbind/variables.md'
+2026-09-14T18:21:35.914Z - [32minfo[39m: Building assets...
