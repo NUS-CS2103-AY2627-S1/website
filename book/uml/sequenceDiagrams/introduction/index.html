@@ -51,8 +51,8 @@
  --><!----></span></span></a></li> <!--]--></ul></div><div class="navbar-right" data-v-94b60ff6><ul class="navbar-nav" data-v-94b60ff6><!--[--><li class="nav-link"><form class="navbar-form"><div style="position:relative;" class="dropdown" data-v-103d5c4e><div id="algolia-search-input" data-v-103d5c4e></div><ul class="dropdown-menu search-dropdown-menu dropdown-menu-hidden dropdown-menu-end" data-v-103d5c4e><!--[--><!--]--></ul></div></form></li><!--]--></ul><!----></div></div></nav><div style="display:none;" class="lower-navbar-container" data-v-94b60ff6><!--[--><!----><!----><!--]--></div></div></header> <div id="flex-body"><div id="content-wrapper" class="fixed-header-padding"><div><link rel="stylesheet" href="/website/book/css/textbook.css"> <div class="website-content"><div><p><span class="dimmed"><strong><span>Tools → UML → Sequence Diagrams →
 </span></strong></span></p> <div id="title-and-body"><div><h4 id="introduction"><span>Introduction</span><a class="fa fa-anchor" href="#introduction" onclick="event.stopPropagation()"></a></h4></div> <div id="main"><div><p><strong>A UML <span class="badge bg-term-highlight text-body-emphasis"><span class="large">sequence diagram</span></span> <em>captures the interactions between multiple entities for a given scenario.</em></strong></p> <div class="alert box-container alert-default" style="" data-v-2c3d295c><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-2c3d295c><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-2c3d295c><!-- icon on the left, not shown if there is a header --><!----><!-- Icon -- content divider for seamless boxes without the header attribute --><!----><!-- Content wrapper --><div class="contents" style="" data-v-2c3d295c><!--[--><p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider the code below.</p> <pre><code class="hljs java"><span><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Workflow</span> </span>{
 </span><span>
-</span><span>    <span class="hljs-function">Step <span class="hljs-title">executeStep</span><span class="hljs-params">()</span> </span>{
-</span><span>        Step step = <span class="hljs-keyword">new</span> Step();
+</span><span>    <span class="hljs-function">Step <span class="hljs-title">executeStep</span><span class="hljs-params">(Step step)</span> </span>{
+</span><span>        step.init();
 </span><span>        <span class="hljs-keyword">if</span> (step.isValid()) {
 </span><span>            step.execute();
 </span><span>        }
@@ -61,6 +61,12 @@
 </span><span>}
 </span><span>
 </span><span><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Step</span> </span>{
+</span><span>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">boolean</span> <span class="hljs-title">isValid</span><span class="hljs-params">()</span> </span>{
+</span><span>        <span class="hljs-comment">// ...</span>
+</span><span>    }
+</span><span>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">init</span><span class="hljs-params">()</span> </span>{
+</span><span>        <span class="hljs-comment">// ...</span>
+</span><span>    }
 </span><span>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">execute</span><span class="hljs-params">()</span> </span>{
 </span><span>        <span class="hljs-comment">// ...</span>
 </span><span>    }
@@ -106,7 +112,7 @@
 
     </div>
     </div>
-    </button></div></pre><p>Here is the sequence diagram to model the interactions for the method call <code class="hljs inline no-lang">producePrototype()</code> on a <code class="hljs inline no-lang">Machine</code> object.</p> <span class="image-wrapper tbg" eager><img src="/website/book/uml/sequenceDiagrams/introduction/images/workflow.svg" width="518" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span> <p></p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div></div> <div></div></div></div></div></div></div></div> <nav id="page-nav" class="fixed-header-padding" data-v-6b1b63d2><!--[--><div class="nav-component slim-scroll"></div><!--]--><!--v-if--></nav> <div class="scroll-top-button fa-lg d-print-none" style="display:none;bottom:2%;right:2%;position:fixed;" aria-hidden="true"><!--[--><i class="fas fa-arrow-circle-up"></i><!--]--></div></div> <footer><div class="text-center"><small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 7.2.1</a>, generated on Mon, 14 Sept 2026, 12:57:00 GMT+8]</small></div></footer><!--]--></div>
+    </button></div></pre><p>Here is the sequence diagram to model the interactions for the method call <code class="hljs inline no-lang">producePrototype()</code> on a <code class="hljs inline no-lang">Machine</code> object.</p> <span class="image-wrapper tbg" eager><img src="/website/book/uml/sequenceDiagrams/introduction/images/workflow.svg" width="518" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span> <p></p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div></div> <div></div></div></div></div></div></div></div> <nav id="page-nav" class="fixed-header-padding" data-v-6b1b63d2><!--[--><div class="nav-component slim-scroll"></div><!--]--><!--v-if--></nav> <div class="scroll-top-button fa-lg d-print-none" style="display:none;bottom:2%;right:2%;position:fixed;" aria-hidden="true"><!--[--><i class="fas fa-arrow-circle-up"></i><!--]--></div></div> <footer><div class="text-center"><small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 7.2.1</a>, generated on Mon, 14 Sept 2026, 17:12:14 GMT+8]</small></div></footer><!--]--></div>
 </body><script src="/website/markbind/js/bootstrap-utility.min.js"></script>
 <script src="/website/markbind/js/polyfill.min.js"></script>
 <script src="/website/markbind/js/vue.global.prod.min.js"></script>

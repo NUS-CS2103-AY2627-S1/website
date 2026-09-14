@@ -9,8 +9,8 @@
 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider the code below.</p>
 <pre><code class="hljs java" v-pre><span><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Workflow</span> </span>{
 </span><span>
-</span><span>    <span class="hljs-function">Step <span class="hljs-title">executeStep</span><span class="hljs-params">()</span> </span>{
-</span><span>        Step step = <span class="hljs-keyword">new</span> Step();
+</span><span>    <span class="hljs-function">Step <span class="hljs-title">executeStep</span><span class="hljs-params">(Step step)</span> </span>{
+</span><span>        step.init();
 </span><span>        <span class="hljs-keyword">if</span> (step.isValid()) {
 </span><span>            step.execute();
 </span><span>        }
@@ -19,6 +19,12 @@
 </span><span>}
 </span><span>
 </span><span><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Step</span> </span>{
+</span><span>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">boolean</span> <span class="hljs-title">isValid</span><span class="hljs-params">()</span> </span>{
+</span><span>        <span class="hljs-comment">// ...</span>
+</span><span>    }
+</span><span>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">init</span><span class="hljs-params">()</span> </span>{
+</span><span>        <span class="hljs-comment">// ...</span>
+</span><span>    }
 </span><span>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">execute</span><span class="hljs-params">()</span> </span>{
 </span><span>        <span class="hljs-comment">// ...</span>
 </span><span>    }
