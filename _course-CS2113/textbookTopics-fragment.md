@@ -405,6 +405,7 @@
           {
             name: "",
             level_three_topics: [
+              {name: "views", heading: "Different Diagrams of one System", priority: "1"},
               {name: "reading", heading: "Reading", priority: "1"},
               {name: "drawing", heading: "Drawing", priority: "1"}
             ]
@@ -572,17 +573,6 @@
     heading: "Design Approaches",
     priority: "4",
     level_one_topics: [
-      {
-        name: "multilevelDesign",
-        level_two_topics: [
-          {
-            name: "",
-            level_three_topics: [
-              {name: "what", heading: "What", priority: "3"}
-            ]
-          }
-        ]
-      },
       {
         name: "topDownBottomUp",
         priority: "4",
@@ -983,7 +973,7 @@
           {
             name: "",
             level_three_topics: [
-              {name: "lateVsEarly", heading: "'Late and One Time' vs 'Early and Frequent'", priority: "2"},
+              {name: "lateVsEarly", heading: "'Late and One-Time' vs 'Early and Frequent'", priority: "2"},
               {name: "bigBangVsIncremental", heading: "Big-Bang vs Incremental Integration", priority: "3"},
               {name: "topDownVsBottomUp", heading: "Top-Down vs Bottom-Up Integration", priority: "4"}
             ]
@@ -1719,7 +1709,9 @@
               {name: "fineTuningHistory", heading: "Tour 5: Fine-Tuning the Revision History", priority: "1"},
               {name: "branchingLocally", heading: "Tour 6: Branching Locally", priority: "1"},
               {name: "syncingBranches", heading: "Tour 7: Keeping Branches in Sync", priority: "1"},
-              {name: "remoteBranches", heading: "Tour 8: Working with Remote Branches", priority: "1"}
+              {name: "remoteBranches", heading: "Tour 8: Working with Remote Branches", priority: "1"},
+              {name: "workingWithPrs", heading: "Tour 9: Working with Pull Requests", priority: "2"},
+              {name: "managingProjects", heading: "Tour 10: Managing Git-Based Projects", priority: "2"}
             ]
           }
         ]

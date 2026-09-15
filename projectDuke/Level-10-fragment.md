@@ -13,7 +13,7 @@ Add a GUI to the chatbot, using JavaFX.
 <br>
 
 Refer to the [_JavaFX Tutorial_ @SE-EDU/guides](https://se-education.org/guides/tutorials/javaFx.html) to learn how to get started with JavaFX.<br>
-Complete ==at least the first four parts of the tutorial==. Part 5 covers cosmetic UI tweaks and is optional to learn.
+Complete ==at least the first four parts of the tutorial==. Part 5 covers cosmetic UI tweaks -- optional to do{% if cs2103%} for others but CP3108A/B students should do at least half{% endif %}.
 
 {% call show_ai_guidance("JavaFX Tutorial") %}
 

@@ -24,20 +24,14 @@ The tP developer guide also has something called an _architecture diagram_. Let'
 
 {% endcall %}
 <!-- ---------------------------------------------------------------------------- -->
-{% call topic_preamble("designApproaches-multilevelDesign-what", reuse=false) %}
-
-As the tP is bigger than the iP, it's not possible to work with its entire design at the same time. The next topic explains a technique that can help when dealing with the design of a bigger system.
-
-{% endcall %}
-<!-- ---------------------------------------------------------------------------- -->
 {% call topic_followup("Debugging", reuse=false) %}
 
 {% call show_ai_impact("Debugging") %}
 
-{% endcall %}
 **AI can help with the grunt work of debugging, but being skilled in systematic debugging still matters.** Agents can explain error messages, inspect unfamiliar code, suggest possible causes, and generate tests or probes, so routine searching and debugger setup matter less. However, an agent can confidently give a wrong diagnosis or change code until the symptom disappears without finding the cause.
 
 **As developers debug more code they did not write, they need good debugging skills** to be able to reproduce failures, test hypotheses against the running program, and verify that each fix removes the real cause.
+{% endcall %}
 {% endcall %}
 
 <!-- ---------------------------------------------------------------------------- -->

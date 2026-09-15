@@ -79,6 +79,9 @@ Note that 'product design' or 'functionality' are not critical learning outcomes
 
 **Evaluates:** how much value you contributed to the product
 
+{{ embed_topic("tp-expectations.md#functionality-expectations", "Admin " + icon_embedding + " tP → Expectations → Functionality Expectations", "3", indent="1") }}
+
+
 **Evaluation method:**
 
 <div tags="m--cs2103">

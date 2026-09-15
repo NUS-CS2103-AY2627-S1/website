@@ -717,7 +717,7 @@
  'CS2103T-T12-4': 'https://docs.google.com/document/d/10vHyRsiU-qY6OsG9BBIq7YqB4Hp5vMarqt6rTFleDhM/edit?usp=sharing',
  'CS2103T-T13-1': 'https://docs.google.com/document/d/1pAzGwXtZvLtbEfrRWvTYSQ5P3Vn1O8hVH4f7vTFytlw/edit?usp=sharing',
  'CS2103T-T13-2': 'https://docs.google.com/document/d/1DYGy2Z-uATT830ZD4JBOwBfW4ChGIFScGH_KwUmPiO8/edit?usp=sharing',
- 'CS2103T-T13-3': 'https://docs.google.com/document/d/1a275W7M7HDzYafmJfePXNSI-ga67gZIEgA3MJ8BxldQ/edit?tab=t.0',
+ 'CS2103T-T13-3': 'https://docs.google.com/document/d/1euM-1RjozO1QbBvKC8iicP5DsgeU3N70QLhAGnkcQeU/edit?tab=t.pj29jlmdx7zf',
  'CS2103T-T13-4': 'https://docs.google.com/document/d/1R1aoWZlboZz0MLi0c2CJ_Pb_VqYK8lvr4F2wEvu7Zug/edit?usp=sharing',
  'CS2103T-T14-1': 'https://docs.google.com/document/d/1Wk_MsO3jgxwGn9myL8HlWA7VMZl_lg49ZLyIKmd3Zjs/edit?usp=sharing',
  'CS2103T-T14-2': 'https://docs.google.com/document/d/1zk1XzJGqQL52LoMy6ZOlrfYCqwTm937VIdsnqqdtHrA/edit?usp=sharing',

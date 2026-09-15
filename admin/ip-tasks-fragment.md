@@ -597,14 +597,14 @@ If your fork doesn't have the `add-gradle-support` branch (i.e., you did not cop
 **JavaFX Tutorial Submission:** [#r#required for CP3108A/B##, optional for the rest]:
 
 1. Fork the starter repo, as instructed in the [JavaFX Tutorial Part 1](https://se-education.org/guides/tutorials/javaFxPart1.html?cv-highlight=c%3AFork%20this%20starte%3Ao%20your%20computer.%3A56%3Acontent-wrapper%3AP%3A4%3A-1581711106%3A-1581711106%3Ablue%3Atl%3ASee%2520here%253A).
-1. As you go through the tutorial, commit regularly. After finishing a tutorial part, add a matching tag `Tutorial-Part1`, `Tutorial-Part2`, etc.
+1. As you go through the tutorial, commit regularly. After finishing a tutorial part, add matching tags `Tutorial-Part1`, `Tutorial-Part2`, ... `Tutorial-Part5` (all five required for CP3108A/B).
 1. Push the commits and tags to your fork.
 1. Also complete, commit, tag, and push at least half of the tweaks shown in Part 5 of the tutorial.
 
 </box>
 </div>
 
-* **Follow the sample [build.gradle given in the JavaFX tutorial](https://se-education.org/guides/tutorials/javaFxPart1.html#setting-up-java-fx)** closely, instead of following suggestions from AI tools.<br>
+* **#r#Follow the sample## [build.gradle given in the JavaFX tutorial](https://se-education.org/guides/tutorials/javaFxPart1.html#setting-up-java-fx)** #r#closely, instead of following suggestions from AI tools.##<br>
   %%Reason: As there are different ways of achieving this, following advice from AI tools can result in a 'Frankenstein' solution (i.e., a mixture of different approaches) that might work on your computer but might not work on other OSes.%% {{ bullet_important_red }}
 * **You no longer need to keep the text-based UI** after adding a GUI. But you are welcome to keep it too -- in fact keeping it makes testing the app easier as most of the core logic can be tested via the text UI rather than the GUI as the latter is harder to subject to automated tests.{{ bullet_info }}
 * **Is the `bye` command still needed**, now that the GUI can be closed in other ways?<br>
@@ -1055,7 +1055,7 @@ If you added the `Ui.png` correctly and set up the product website correctly, ==
    * Create the JAR file {% if cs2103%}[using Gradle](https://se-education.org/guides/tutorials/gradle.html) -- this needs to be a [fat JAR file](https://se-education.org/guides/tutorials/jar.html#fat-jar-files:~:text=given%20here.-,Fat%20JAR%20files,-A%20normal%20JAR) (hence, it's best created [using Gradle's shadow plugin](https://se-education.org/guides/tutorials/jar.html#:~:text=Creating-,JAR%20files,With%20Gradle,-With%20IntelliJ%20IDEA)).{% else %}in one of these ways:
      * If you have added a GUI or using third-party libraries: [use Gradle](https://se-education.org/guides/tutorials/gradle.html).
      * Else: you can use IntelliJ.{% endif %}
-   * The JAR file should be ==cross-platform and should work on a computer that has Java {{ java_version }}==. To avoid version compatibility issues, we strongly recommend the following approach:
+   * The JAR file should be ==cross-platform and should work on a computer that has Java {{ java_version }}==. #r#Do not upload multiple JAR files.## To avoid version compatibility issues, we strongly recommend the following approach:
       * Open a terminal window and navigate to the root of your project folder. {{ numbers_roman }}
       * Run the `java -version` command to confirm the terminal is using Java {{ java_version }}.
       * Run the `./gradlew clean shadowJar` command to create the JAR file.

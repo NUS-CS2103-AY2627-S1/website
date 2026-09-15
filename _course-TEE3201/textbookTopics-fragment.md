@@ -397,6 +397,7 @@
           {
             name: "",
             level_three_topics: [
+              {name: "views", heading: "Different Diagrams of one System", priority: "1"},
               {name: "reading", heading: "Reading", priority: "1"},
               {name: "drawing", heading: "Drawing", priority: "1"}
             ]
@@ -554,17 +555,6 @@
     name: "designApproaches",
     heading: "Design Approaches",
     level_one_topics: [
-      {
-        name: "multilevelDesign",
-        level_two_topics: [
-          {
-            name: "",
-            level_three_topics: [
-              {name: "what", heading: "What", priority: "2"}
-            ]
-          }
-        ]
-      },
       {
         name: "topDownBottomUp",
         level_two_topics: [

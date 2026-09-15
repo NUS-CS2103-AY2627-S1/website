@@ -924,14 +924,9 @@ The next topic is like 'design patterns at architecture level'. In fact, the MVC
 As with design patterns, we covered only a few architecture styles. Although you didn't have to design an architecture in the tP, knowing the existence of these styles might come in handy in your future projects.
 </div>
 <!-- ---------------------------------------------------------------------------- -->
-<div id="{{ slugify("designApproaches-multilevelDesign-what") }}" >
-
-**First, let us learn about multi-level design**, a pre-cursor to learning about architecture.
-</div>
-<!-- ---------------------------------------------------------------------------- -->
 <div id="{{ slugify("architecture-introduction-what") }}" >
 
-Now that we know about multi-level design, let us learn about architecture, which is a special case of multi-level design. We also cover _architecture diagrams_ here.
+**First, let us learn what software architecture is.** We also cover _architecture diagrams_ here, including how a bigger system's design can be shown at multiple levels.
 </div>
 <!-- ---------------------------------------------------------------------------- -->
 <div id="{{ slugify("Architecture Diagrams: Drawing") }}" >

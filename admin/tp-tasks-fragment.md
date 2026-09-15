@@ -1293,7 +1293,7 @@ Furthermore, these sections will be graded at the final project evaluation, and 
 <div class="indented-level1">
 <box>
 
-* ##### Adding a photo {icon="https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Portrait_placeholder.png/600px-Portrait_placeholder.png?20210811085635" i-width="100px" i-class="rounded" }
+* ##### Adding a photo {icon="images/portraitPlaceholder.png" i-width="100px" i-class="rounded" }
   * Add a suitable photo of yourself, as described <trigger trigger="click" for="modal:mid-v12-photo">here</trigger>.<br>
   * The filename of the profile photo should be<br>
     `docs/images/github_username_in_lower_case.png`<br>

@@ -393,6 +393,7 @@
           {
             name: "",
             level_three_topics: [
+              {name: "views", heading: "Different Diagrams of one System", priority: "4"},
               {name: "reading", heading: "Reading", priority: "4"},
               {name: "drawing", heading: "Drawing", priority: "4"}
             ]
@@ -548,17 +549,6 @@
     name: "designApproaches",
     heading: "Design Approaches",
     level_one_topics: [
-      {
-        name: "multilevelDesign",
-        level_two_topics: [
-          {
-            name: "",
-            level_three_topics: [
-              {name: "what", heading: "Multi-Level Design", priority: "4"}
-            ]
-          }
-        ]
-      },
       {
         name: "topDownBottomUp",
         level_two_topics: [
@@ -941,7 +931,7 @@
           {
             name: "",
             level_three_topics: [
-              {name: "lateVsEarly", heading: "'Late and One Time' vs 'Early and Frequent'", priority: "4"},
+              {name: "lateVsEarly", heading: "'Late and One-Time' vs 'Early and Frequent'", priority: "4"},
               {name: "bigBangVsIncremental", heading: "Big-Bang vs Incremental Integration", priority: "4"},
               {name: "topDownVsBottomUp", heading: "Top-Down vs Bottom-Up Integration", priority: "4"}
             ]
