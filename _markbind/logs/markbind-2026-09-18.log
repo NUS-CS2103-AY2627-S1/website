@@ -1,0 +1,3 @@
+2026-09-18T10:27:24.171Z - [31merror[39m: ENOTEMPTY: directory not empty, rmdir '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site/book'
+2026-09-18T10:27:28.074Z - [32minfo[39m: Website generation started at 18:27:27
+2026-09-18T10:27:28.389Z - [32minfo[39m: Building assets...
