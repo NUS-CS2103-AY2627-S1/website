@@ -1,0 +1,52 @@
+2026-10-19T13:46:21.954Z - [32minfo[39m: Website generation (lazy) started at 21:46:21
+2026-10-19T13:46:22.712Z - [32minfo[39m: Building assets...
+2026-10-19T13:46:23.082Z - [32minfo[39m: Assets built
+2026-10-19T13:46:23.083Z - [32minfo[39m: Generating landing page...
+2026-10-19T13:46:23.650Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/index.md
+2026-10-19T13:46:23.671Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-10-19T13:46:23.757Z - [32minfo[39m: Site data built
+2026-10-19T13:46:23.757Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 2.555s
+2026-10-19T13:46:23.773Z - [32minfo[39m: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2026-10-19T13:46:23.773Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-10-19T13:46:41.272Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week10/tutorial as some of its dependencies were changed since the last visit
+2026-10-19T13:46:41.605Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week10/tutorial.md
+2026-10-19T13:46:41.619Z - [32minfo[39m: Site data built
+2026-10-19T13:46:41.619Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.348s
+2026-10-19T13:48:22.569Z - [32minfo[39m: [21:48:22] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-grading-bugs-fragment.md
+2026-10-19T13:48:22.571Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-10-19T13:48:22.573Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-10-19T13:48:22.574Z - [32minfo[39m: 1. schedule/week10/tutorial
+2026-10-19T13:48:23.580Z - [32minfo[39m: Rebuilding 1 pages
+2026-10-19T13:48:23.868Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week10/tutorial.md
+2026-10-19T13:48:23.881Z - [32minfo[39m: Site data built
+2026-10-19T13:48:23.881Z - [32minfo[39m: Pages rebuilt
+2026-10-19T13:48:23.881Z - [32minfo[39m: Website regeneration complete! Total build time: 0.305s
+2026-10-19T13:51:44.767Z - [32minfo[39m: [21:51:44] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-grading-bugs-fragment.md
+2026-10-19T13:51:44.770Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-10-19T13:51:44.775Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-10-19T13:51:44.776Z - [32minfo[39m: 1. schedule/week10/tutorial
+2026-10-19T13:51:45.794Z - [32minfo[39m: Rebuilding 1 pages
+2026-10-19T13:51:46.088Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week10/tutorial.md
+2026-10-19T13:51:46.101Z - [32minfo[39m: Site data built
+2026-10-19T13:51:46.101Z - [32minfo[39m: Pages rebuilt
+2026-10-19T13:51:46.101Z - [32minfo[39m: Website regeneration complete! Total build time: 0.321s
+2026-10-19T13:52:31.286Z - [32minfo[39m: [21:52:31] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-grading-bugs-fragment.md
+2026-10-19T13:52:31.291Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-10-19T13:52:31.292Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-10-19T13:52:31.292Z - [32minfo[39m: 1. schedule/week10/tutorial
+2026-10-19T13:52:32.299Z - [32minfo[39m: Rebuilding 1 pages
+2026-10-19T13:52:32.589Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week10/tutorial.md
+2026-10-19T13:52:32.603Z - [32minfo[39m: Site data built
+2026-10-19T13:52:32.603Z - [32minfo[39m: Pages rebuilt
+2026-10-19T13:52:32.603Z - [32minfo[39m: Website regeneration complete! Total build time: 0.309s
+2026-10-19T13:53:08.043Z - [32minfo[39m: [21:53:08] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-grading-bugs-fragment.md
+2026-10-19T13:53:08.048Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-10-19T13:53:08.050Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-10-19T13:53:08.051Z - [32minfo[39m: 1. schedule/week10/tutorial
+2026-10-19T13:53:09.059Z - [32minfo[39m: Rebuilding 1 pages
+2026-10-19T13:53:09.355Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week10/tutorial.md
+2026-10-19T13:53:09.368Z - [32minfo[39m: Site data built
+2026-10-19T13:53:09.368Z - [32minfo[39m: Pages rebuilt
+2026-10-19T13:53:09.368Z - [32minfo[39m: Website regeneration complete! Total build time: 0.314s
+2026-10-19T13:53:19.046Z - [32minfo[39m: Website generation started at 21:53:18
+2026-10-19T13:53:19.384Z - [32minfo[39m: Building assets...
