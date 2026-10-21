@@ -12,14 +12,18 @@
 <div class="indented-level1 example">
 <box type="info" theme="light" seamless no-icon>
 <p><span style="position: relative; left: -32px; margin-right: -25px; background-color: var(--bs-light-border-subtle);" class="badge rounded-pill fs-6 fw-normal"><span><small><span class="dimmed"><span aria-hidden="true" class="fas fa-cube"></span> Example</span></small></span></span> A PERT chart for a simple software project:</p>
-<p><pic eager src="/website/book/projectPlanning/pertCharts/images/pert.jpg" height="320"></pic><br>
-<code class="hljs inline no-lang" v-pre>md</code> = man days</p></box></div></cv-toggle>
+<p><pic eager class="tbg" src="/website/book/projectPlanning/pertCharts/images/pert.svg" width="647"></pic><br>
+<small><span class="dimmed">Each box is a task with its estimated time in days. An arrow from one task to another means the first must finish before the second can start.</span></small></p></box></div></cv-toggle>
 <p>A PERT chart can help determine the following important information:</p>
 <ul>
 <li>The order of tasks. <span class="dimmed">In the example above, <code class="hljs inline no-lang" v-pre>Final Testing</code> cannot begin until all coding of individual subsystems has been completed.</span></li>
 <li>Which tasks can be done concurrently. <span class="dimmed">In the example above, the various subsystem designs can start independently once the <code class="hljs inline no-lang" v-pre>High level design</code> is completed.</span></li>
-<li>The shortest possible completion time. <span class="dimmed">In the example above, there is a path (indicated by the shaded boxes) from start to end that determines the shortest possible completion time.</span></li>
-<li>The <span class="badge bg-term-highlight text-body-emphasis"><span class="large">Critical Path</span></span>. <span class="dimmed">In the example above, the shaded path is also the critical path</span>.</li></ul>
+<li>The shortest possible completion time. <span class="dimmed">In the example above, there is a path (indicated by the shaded boxes) from start to end that determines the shortest possible completion time.</span></li></ul>
+<p>In addition, a PERT chart shows the <span class="badge bg-term-highlight text-body-emphasis"><span class="large">Critical Path</span></span> of the project.</p>
 <box type="definition" seamless>
-<p><strong>Critical path</strong> is the path in which any delay can directly affect the project duration. It is important to ensure tasks on the critical path are completed on time.</p></box></div>
+<p><strong>Critical Path</strong> is the path in which any delay can directly affect the project duration. It is important to ensure tasks on the critical path are completed on time.</p></box>
+<cv-toggle xtoggle-id="examples">
+<div class="indented-level1 example">
+<box type="info" theme="light" seamless no-icon>
+<p><span style="position: relative; left: -32px; margin-right: -25px; background-color: var(--bs-light-border-subtle);" class="badge rounded-pill fs-6 fw-normal"><span><small><span class="dimmed"><span aria-hidden="true" class="fas fa-cube"></span> Example</span></small></span></span> In the PERT chart given above, the shaded path is the critical path, which adds up to six days. Accordingly, the project cannot be completed in less than six days. If task <code class="hljs inline no-lang" v-pre>B.3</code> (which is not in the critical path) takes one day instead of the given 0.5, the project can still finish in six days. But if task <code class="hljs inline no-lang" v-pre>B.2</code> (which is in the critical path) takes 1.5 days instead of the given 1, the whole project will now take 6.5 days.</p></box></div></cv-toggle></div>
 <div></div></div></div>
