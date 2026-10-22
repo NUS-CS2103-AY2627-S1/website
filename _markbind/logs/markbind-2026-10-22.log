@@ -1,0 +1,182 @@
+2026-10-22T06:05:21.215Z - [32minfo[39m: Website generation (lazy) started at 14:05:20
+2026-10-22T06:05:21.722Z - [32minfo[39m: Building assets...
+2026-10-22T06:05:22.000Z - [32minfo[39m: Assets built
+2026-10-22T06:05:22.000Z - [32minfo[39m: Generating landing page...
+2026-10-22T06:05:22.666Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/index.md
+2026-10-22T06:05:22.716Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-10-22T06:05:22.932Z - [32minfo[39m: Site data built
+2026-10-22T06:05:22.932Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 2.153s
+2026-10-22T06:05:22.961Z - [32minfo[39m: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2026-10-22T06:05:22.961Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-10-22T06:06:16.293Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week11/index as some of its dependencies were changed since the last visit
+2026-10-22T06:06:16.799Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week11/index.md
+2026-10-22T06:06:16.819Z - [32minfo[39m: Site data built
+2026-10-22T06:06:16.819Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.528s
+2026-10-22T06:06:20.402Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week11/tutorial as some of its dependencies were changed since the last visit
+2026-10-22T06:06:20.516Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week11/tutorial.md
+2026-10-22T06:06:20.525Z - [32minfo[39m: Site data built
+2026-10-22T06:06:20.525Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.125s
+2026-10-22T06:06:52.702Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week11/project as some of its dependencies were changed since the last visit
+2026-10-22T06:06:54.126Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week11/project.md
+2026-10-22T06:06:54.152Z - [32minfo[39m: Site data built
+2026-10-22T06:06:54.152Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 1.45s
+2026-10-22T06:08:27.570Z - [32minfo[39m: [14:08:27] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/weeklyTpTasks-fragment.md
+2026-10-22T06:08:27.575Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-10-22T06:08:27.576Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-10-22T06:08:27.576Z - [32minfo[39m: 1. schedule/week11/project
+2026-10-22T06:08:28.634Z - [33mwarn[39m: Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/schedule-layout.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/schedule-layout.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/css.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/schedule-layout.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/header.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/schedule-layout.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/header.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/schedule-layout.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/header.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/schedule-layout.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/header.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/schedule-layout.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/header.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/schedule-layout.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/header.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/schedule-layout.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/header.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/schedule-layout.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/header.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/schedule-layout.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/header.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/schedule-layout.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/header.md) [Line 86, Column 30]
+  unexpected token: ,
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:336:23
+    at Template.root [as rootRenderFunc] (eval at _compile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:527:18), <anonymous>:96:3)
+    at Template.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:326:10)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:55:31
+    at createTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:110:13)
+    at handle (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:123:17)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:134:13
+    at next (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:258:7)
+    at Object.asyncIter (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:263:3)
+2026-10-22T06:08:35.439Z - [32minfo[39m: [14:08:35] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/weeklyTpTasks-fragment.md
+2026-10-22T06:08:35.443Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-10-22T06:08:35.444Z - [32minfo[39m: No pages are currently opened
+2026-10-22T06:08:36.463Z - [32minfo[39m: No pages needed to be rebuilt
+2026-10-22T06:08:38.516Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week11/project as some of its dependencies were changed since the last visit
+2026-10-22T06:08:39.898Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week11/project.md
+2026-10-22T06:08:39.900Z - [32minfo[39m: Site data built
+2026-10-22T06:08:39.900Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 1.384s
+2026-10-22T06:08:43.550Z - [32minfo[39m: Website generation (lazy) started at 14:08:43
+2026-10-22T06:08:43.910Z - [32minfo[39m: Building assets...
+2026-10-22T06:08:44.277Z - [32minfo[39m: Assets built
+2026-10-22T06:08:44.277Z - [32minfo[39m: Generating landing page...
+2026-10-22T06:08:44.761Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/index.md
+2026-10-22T06:08:44.781Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-10-22T06:08:44.870Z - [32minfo[39m: Site data built
+2026-10-22T06:08:44.870Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 1.374s
+2026-10-22T06:08:44.882Z - [32minfo[39m: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2026-10-22T06:08:44.882Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-10-22T06:08:48.979Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week11/project as some of its dependencies were changed since the last visit
+2026-10-22T06:08:50.471Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week11/project.md
+2026-10-22T06:08:50.510Z - [32minfo[39m: Site data built
+2026-10-22T06:08:50.510Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 1.532s
+2026-10-22T06:09:50.519Z - [32minfo[39m: [14:09:50] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/weeklyTpTasks-fragment.md
+2026-10-22T06:09:50.524Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-10-22T06:09:50.537Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-10-22T06:09:50.537Z - [32minfo[39m: 1. schedule/week11/project
+2026-10-22T06:09:50.537Z - [32minfo[39m: 2. index
+2026-10-22T06:09:51.669Z - [32minfo[39m: Rebuilding 2 pages
+2026-10-22T06:09:53.025Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week11/project.md
+2026-10-22T06:09:53.257Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/index.md
+2026-10-22T06:09:53.265Z - [32minfo[39m: Site data built
+2026-10-22T06:09:53.265Z - [32minfo[39m: Pages rebuilt
+2026-10-22T06:09:53.265Z - [32minfo[39m: Website regeneration complete! Total build time: 1.606s
+2026-10-22T07:09:17.869Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week11/index as some of its dependencies were changed since the last visit
+2026-10-22T07:09:18.527Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week11/index.md
+2026-10-22T07:09:18.544Z - [32minfo[39m: Site data built
+2026-10-22T07:09:18.544Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.693s
+2026-10-22T07:11:18.726Z - [32minfo[39m: [15:11:18] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/weeklyTpTasks-fragment.md
+2026-10-22T07:11:18.728Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-10-22T07:11:18.729Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-10-22T07:11:18.729Z - [32minfo[39m: 1. schedule/week11/project
+2026-10-22T07:11:19.850Z - [32minfo[39m: Rebuilding 1 pages
+2026-10-22T07:11:21.210Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week11/project.md
+2026-10-22T07:11:21.241Z - [32minfo[39m: Site data built
+2026-10-22T07:11:21.241Z - [32minfo[39m: Pages rebuilt
+2026-10-22T07:11:21.241Z - [32minfo[39m: Website regeneration complete! Total build time: 1.392s
+2026-10-22T07:12:31.319Z - [32minfo[39m: [15:12:31] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/weeklyTpTasks-fragment.md
+2026-10-22T07:12:31.324Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-10-22T07:12:31.326Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-10-22T07:12:31.327Z - [32minfo[39m: 1. schedule/week11/project
+2026-10-22T07:12:32.424Z - [32minfo[39m: Rebuilding 1 pages
+2026-10-22T07:12:33.750Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week11/project.md
+2026-10-22T07:12:33.773Z - [32minfo[39m: Site data built
+2026-10-22T07:12:33.773Z - [32minfo[39m: Pages rebuilt
+2026-10-22T07:12:33.773Z - [32minfo[39m: Website regeneration complete! Total build time: 1.352s
+2026-10-22T07:13:51.807Z - [32minfo[39m: [15:13:51] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/weeklyTpTasks-fragment.md
+2026-10-22T07:13:51.813Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-10-22T07:13:51.813Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-10-22T07:13:51.813Z - [32minfo[39m: 1. schedule/week11/project
+2026-10-22T07:13:52.907Z - [32minfo[39m: Rebuilding 1 pages
+2026-10-22T07:13:54.268Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week11/project.md
+2026-10-22T07:13:54.291Z - [32minfo[39m: Site data built
+2026-10-22T07:13:54.291Z - [32minfo[39m: Pages rebuilt
+2026-10-22T07:13:54.291Z - [32minfo[39m: Website regeneration complete! Total build time: 1.385s
+2026-10-22T07:15:00.395Z - [32minfo[39m: [15:15:00] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-tasks-fragment.md
+2026-10-22T07:15:00.400Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-10-22T07:15:00.401Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-10-22T07:15:00.401Z - [32minfo[39m: 1. schedule/week11/project
+2026-10-22T07:15:01.416Z - [32minfo[39m: Rebuilding 1 pages
+2026-10-22T07:15:02.861Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week11/project.md
+2026-10-22T07:15:02.882Z - [32minfo[39m: Site data built
+2026-10-22T07:15:02.883Z - [32minfo[39m: Pages rebuilt
+2026-10-22T07:15:02.883Z - [32minfo[39m: Website regeneration complete! Total build time: 1.474s
+2026-10-22T07:15:59.341Z - [32minfo[39m: [15:15:59] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-tasks-fragment.md
+2026-10-22T07:15:59.369Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-10-22T07:15:59.380Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-10-22T07:15:59.381Z - [32minfo[39m: 1. schedule/week11/project
+2026-10-22T07:16:00.448Z - [32minfo[39m: Rebuilding 1 pages
+2026-10-22T07:16:01.930Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week11/project.md
+2026-10-22T07:16:01.952Z - [32minfo[39m: Site data built
+2026-10-22T07:16:01.952Z - [32minfo[39m: Pages rebuilt
+2026-10-22T07:16:01.952Z - [32minfo[39m: Website regeneration complete! Total build time: 1.546s
+2026-10-22T07:16:58.754Z - [32minfo[39m: [15:16:58] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-tasks-fragment.md
+2026-10-22T07:16:58.756Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-10-22T07:16:58.758Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-10-22T07:16:58.758Z - [32minfo[39m: 1. schedule/week11/project
+2026-10-22T07:16:59.769Z - [32minfo[39m: Rebuilding 1 pages
+2026-10-22T07:17:01.207Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week11/project.md
+2026-10-22T07:17:01.229Z - [32minfo[39m: Site data built
+2026-10-22T07:17:01.229Z - [32minfo[39m: Pages rebuilt
+2026-10-22T07:17:01.229Z - [32minfo[39m: Website regeneration complete! Total build time: 1.465s
+2026-10-22T07:17:30.844Z - [32minfo[39m: [15:17:30] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-tasks-fragment.md
+2026-10-22T07:17:30.854Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-10-22T07:17:30.858Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-10-22T07:17:30.859Z - [32minfo[39m: 1. schedule/week11/project
+2026-10-22T07:17:31.892Z - [32minfo[39m: Rebuilding 1 pages
+2026-10-22T07:17:33.314Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week11/project.md
+2026-10-22T07:17:33.335Z - [32minfo[39m: Site data built
+2026-10-22T07:17:33.335Z - [32minfo[39m: Pages rebuilt
+2026-10-22T07:17:33.335Z - [32minfo[39m: Website regeneration complete! Total build time: 1.47s
+2026-10-22T07:17:47.503Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week12/index as some of its dependencies were changed since the last visit
+2026-10-22T07:17:47.844Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week12/index.md
+2026-10-22T07:17:47.852Z - [32minfo[39m: Site data built
+2026-10-22T07:17:47.852Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.349s
+2026-10-22T07:17:55.836Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week12/project as some of its dependencies were changed since the last visit
+2026-10-22T07:17:59.508Z - [34mdebug[39m: 
+2026-10-22T07:17:59.804Z - [34mdebug[39m: 
+2026-10-22T07:17:59.891Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week12/project.md
+2026-10-22T07:17:59.950Z - [32minfo[39m: Site data built
+2026-10-22T07:17:59.950Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 4.114s
+2026-10-22T07:23:19.939Z - [32minfo[39m: [15:23:19] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-constraints.md
+2026-10-22T07:23:19.943Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-10-22T07:23:19.944Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-10-22T07:23:19.944Z - [32minfo[39m: 1. schedule/week11/project
+2026-10-22T07:23:19.944Z - [32minfo[39m: 2. schedule/week12/project
+2026-10-22T07:23:20.968Z - [32minfo[39m: Rebuilding 1 pages
+2026-10-22T07:23:23.088Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week12/project.md
+2026-10-22T07:23:23.129Z - [32minfo[39m: Site data built
+2026-10-22T07:23:23.129Z - [32minfo[39m: Pages rebuilt
+2026-10-22T07:23:23.129Z - [32minfo[39m: Website regeneration complete! Total build time: 2.175s
+2026-10-22T07:23:28.221Z - [32minfo[39m: Website generation started at 15:23:28
+2026-10-22T07:23:28.594Z - [32minfo[39m: Building assets...
