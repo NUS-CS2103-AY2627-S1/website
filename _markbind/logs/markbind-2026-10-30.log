@@ -1,0 +1,41 @@
+2026-10-29T16:11:24.007Z - [32minfo[39m: Website generation (lazy) started at 00:11:23
+2026-10-29T16:11:24.540Z - [33mwarn[39m: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!NUS-CS2103-AY2627-S1!website.git/book/_markbind/variables.md'
+2026-10-29T16:11:24.540Z - [33mwarn[39m: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!NUS-CS2103-AY2627-S1!website.git/_markbind/variables.md'
+2026-10-29T16:11:24.564Z - [32minfo[39m: Building assets...
+2026-10-29T16:11:26.169Z - [32minfo[39m: Assets built
+2026-10-29T16:11:26.170Z - [32minfo[39m: Generating landing page...
+2026-10-29T16:11:26.938Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/index.md
+2026-10-29T16:11:26.982Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-10-29T16:11:27.162Z - [32minfo[39m: Site data built
+2026-10-29T16:11:27.162Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 3.844s
+2026-10-29T16:11:27.182Z - [32minfo[39m: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2026-10-29T16:11:27.182Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-10-29T16:11:40.615Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week12/index as some of its dependencies were changed since the last visit
+2026-10-29T16:11:40.939Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week12/index.md
+2026-10-29T16:11:40.948Z - [32minfo[39m: Site data built
+2026-10-29T16:11:40.948Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.335s
+2026-10-29T16:11:44.178Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week13/index as some of its dependencies were changed since the last visit
+2026-10-29T16:11:44.412Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week13/index.md
+2026-10-29T16:11:44.429Z - [32minfo[39m: Site data built
+2026-10-29T16:11:44.429Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.251s
+2026-10-29T16:11:54.735Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/exams as some of its dependencies were changed since the last visit
+2026-10-29T16:11:55.052Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/exams.md
+2026-10-29T16:11:55.068Z - [32minfo[39m: Site data built
+2026-10-29T16:11:55.068Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.333s
+2026-10-29T16:15:48.468Z - [32minfo[39m: [00:15:48] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/exams.md
+2026-10-29T16:15:48.474Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-10-29T16:15:48.477Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-10-29T16:15:48.478Z - [32minfo[39m: 1. admin/exams
+2026-10-29T16:15:49.504Z - [32minfo[39m: Rebuilding 1 pages
+2026-10-29T16:15:49.915Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/exams.md
+2026-10-29T16:15:49.940Z - [32minfo[39m: Site data built
+2026-10-29T16:15:49.940Z - [32minfo[39m: Pages rebuilt
+2026-10-29T16:15:49.940Z - [32minfo[39m: Website regeneration complete! Total build time: 0.451s
+2026-10-30T03:06:21.438Z - [32minfo[39m: [11:06:21] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-tasks-fragment.md
+2026-10-30T03:06:21.459Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-10-30T03:06:21.463Z - [32minfo[39m: No pages are currently opened
+2026-10-30T03:06:22.567Z - [32minfo[39m: No pages needed to be rebuilt
+2026-10-30T03:06:28.854Z - [32minfo[39m: Website generation started at 11:06:28
+2026-10-30T03:06:29.354Z - [33mwarn[39m: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!NUS-CS2103-AY2627-S1!website.git/book/_markbind/variables.md'
+2026-10-30T03:06:29.355Z - [33mwarn[39m: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!NUS-CS2103-AY2627-S1!website.git/_markbind/variables.md'
+2026-10-30T03:06:29.377Z - [32minfo[39m: Building assets...
