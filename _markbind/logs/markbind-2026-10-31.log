@@ -1,0 +1,66 @@
+2026-10-31T04:39:06.638Z - [32minfo[39m: Website generation (lazy) started at 12:39:06
+2026-10-31T04:39:07.908Z - [32minfo[39m: Building assets...
+2026-10-31T04:39:08.481Z - [32minfo[39m: Assets built
+2026-10-31T04:39:08.483Z - [32minfo[39m: Generating landing page...
+2026-10-31T04:39:09.124Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/index.md
+2026-10-31T04:39:09.166Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-10-31T04:39:09.334Z - [32minfo[39m: Site data built
+2026-10-31T04:39:09.334Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 3.197s
+2026-10-31T04:39:09.365Z - [32minfo[39m: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2026-10-31T04:39:09.366Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-10-31T04:39:09.783Z - [32minfo[39m: [12:39:09] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-tasks-fragment.md
+2026-10-31T04:39:09.784Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-10-31T04:39:09.786Z - [32minfo[39m: No pages are currently opened
+2026-10-31T04:39:10.824Z - [32minfo[39m: No pages needed to be rebuilt
+2026-10-31T04:39:49.037Z - [32minfo[39m: [12:39:49] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-tasks-fragment.md
+2026-10-31T04:39:49.041Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-10-31T04:39:49.042Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-10-31T04:39:49.042Z - [32minfo[39m: 1. index
+2026-10-31T04:39:50.051Z - [32minfo[39m: Rebuilding 1 pages
+2026-10-31T04:39:50.426Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/index.md
+2026-10-31T04:39:50.439Z - [32minfo[39m: Site data built
+2026-10-31T04:39:50.439Z - [32minfo[39m: Pages rebuilt
+2026-10-31T04:39:50.440Z - [32minfo[39m: Website regeneration complete! Total build time: 0.391s
+2026-10-31T04:39:51.426Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week12/project as some of its dependencies were changed since the last visit
+2026-10-31T04:39:55.859Z - [34mdebug[39m: 
+2026-10-31T04:39:55.860Z - [34mdebug[39m: 
+2026-10-31T04:39:55.920Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week12/project.md
+2026-10-31T04:39:55.998Z - [32minfo[39m: Site data built
+2026-10-31T04:39:55.998Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 4.572s
+2026-10-31T04:40:15.295Z - [32minfo[39m: [12:40:15] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-tasks-fragment.md
+2026-10-31T04:40:15.296Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-10-31T04:40:15.296Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-10-31T04:40:15.297Z - [32minfo[39m: 1. schedule/week12/project
+2026-10-31T04:40:16.301Z - [32minfo[39m: Rebuilding 1 pages
+2026-10-31T04:40:18.499Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week12/project.md
+2026-10-31T04:40:18.539Z - [32minfo[39m: Site data built
+2026-10-31T04:40:18.539Z - [32minfo[39m: Pages rebuilt
+2026-10-31T04:40:18.539Z - [32minfo[39m: Website regeneration complete! Total build time: 2.24s
+2026-10-31T04:41:06.562Z - [32minfo[39m: [12:41:06] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-tasks-fragment.md
+2026-10-31T04:41:06.569Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-10-31T04:41:06.569Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-10-31T04:41:06.570Z - [32minfo[39m: 1. schedule/week12/project
+2026-10-31T04:41:07.598Z - [32minfo[39m: Rebuilding 1 pages
+2026-10-31T04:41:09.594Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week12/project.md
+2026-10-31T04:41:09.634Z - [32minfo[39m: Site data built
+2026-10-31T04:41:09.634Z - [32minfo[39m: Pages rebuilt
+2026-10-31T04:41:09.634Z - [32minfo[39m: Website regeneration complete! Total build time: 2.06s
+2026-10-31T04:42:29.075Z - [32minfo[39m: [12:42:29] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-tasks-fragment.md
+2026-10-31T04:42:29.080Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-10-31T04:42:29.080Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-10-31T04:42:29.081Z - [32minfo[39m: 1. schedule/week12/project
+2026-10-31T04:42:30.086Z - [32minfo[39m: Rebuilding 1 pages
+2026-10-31T04:42:32.112Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week12/project.md
+2026-10-31T04:42:32.152Z - [32minfo[39m: Site data built
+2026-10-31T04:42:32.152Z - [32minfo[39m: Pages rebuilt
+2026-10-31T04:42:32.152Z - [32minfo[39m: Website regeneration complete! Total build time: 2.07s
+2026-10-31T04:44:04.433Z - [32minfo[39m: [12:44:04] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week12/topics-py.md
+2026-10-31T04:44:04.440Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-10-31T04:44:04.440Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-10-31T04:44:04.441Z - [32minfo[39m: 1. schedule/week12/project
+2026-10-31T04:44:04.487Z - [32minfo[39m: [12:44:04] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week12/topics.md
+2026-10-31T04:44:04.487Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-10-31T04:44:04.487Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-10-31T04:44:04.487Z - [32minfo[39m: 1. schedule/week12/project
+2026-10-31T04:44:07.420Z - [32minfo[39m: Website generation started at 12:44:07
+2026-10-31T04:44:07.789Z - [32minfo[39m: Building assets...
