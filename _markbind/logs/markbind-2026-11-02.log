@@ -1,0 +1,49 @@
+2026-11-02T15:08:36.398Z - [32minfo[39m: Website generation (lazy) started at 23:08:35
+2026-11-02T15:08:36.841Z - [32minfo[39m: Building assets...
+2026-11-02T15:08:37.164Z - [32minfo[39m: Assets built
+2026-11-02T15:08:37.165Z - [32minfo[39m: Generating landing page...
+2026-11-02T15:08:37.577Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/index.md
+2026-11-02T15:08:37.604Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-11-02T15:08:37.687Z - [32minfo[39m: Site data built
+2026-11-02T15:08:37.687Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 1.712s
+2026-11-02T15:08:37.698Z - [32minfo[39m: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2026-11-02T15:08:37.699Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-11-02T15:08:43.125Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week12/project as some of its dependencies were changed since the last visit
+2026-11-02T15:08:46.845Z - [34mdebug[39m: 
+2026-11-02T15:08:47.103Z - [34mdebug[39m: 
+2026-11-02T15:08:47.190Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week12/project.md
+2026-11-02T15:08:47.252Z - [32minfo[39m: Site data built
+2026-11-02T15:08:47.252Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 4.129s
+2026-11-02T15:14:06.166Z - [32minfo[39m: [23:14:06] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-tasks-fragment.md
+2026-11-02T15:14:06.178Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-11-02T15:14:06.184Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-11-02T15:14:06.185Z - [32minfo[39m: 1. schedule/week12/project
+2026-11-02T15:14:07.215Z - [32minfo[39m: Rebuilding 1 pages
+2026-11-02T15:14:09.349Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week12/project.md
+2026-11-02T15:14:09.395Z - [32minfo[39m: Site data built
+2026-11-02T15:14:09.395Z - [32minfo[39m: Pages rebuilt
+2026-11-02T15:14:09.395Z - [32minfo[39m: Website regeneration complete! Total build time: 2.199s
+2026-11-02T15:14:57.229Z - [32minfo[39m: [23:14:57] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-tasks-fragment.md
+2026-11-02T15:14:57.230Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-11-02T15:14:57.231Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-11-02T15:14:57.231Z - [32minfo[39m: 1. schedule/week12/project
+2026-11-02T15:14:58.235Z - [32minfo[39m: Rebuilding 1 pages
+2026-11-02T15:15:00.716Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week12/project.md
+2026-11-02T15:15:00.759Z - [32minfo[39m: Site data built
+2026-11-02T15:15:00.759Z - [32minfo[39m: Pages rebuilt
+2026-11-02T15:15:00.759Z - [32minfo[39m: Website regeneration complete! Total build time: 2.528s
+2026-11-02T15:17:33.222Z - [32minfo[39m: [23:17:33] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-tasks-fragment.md
+2026-11-02T15:17:33.230Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-11-02T15:17:33.230Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-11-02T15:17:33.231Z - [32minfo[39m: 1. schedule/week12/project
+2026-11-02T15:17:34.243Z - [32minfo[39m: Rebuilding 1 pages
+2026-11-02T15:17:36.357Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week12/project.md
+2026-11-02T15:17:36.399Z - [32minfo[39m: Site data built
+2026-11-02T15:17:36.399Z - [32minfo[39m: Pages rebuilt
+2026-11-02T15:17:36.399Z - [32minfo[39m: Website regeneration complete! Total build time: 2.163s
+2026-11-02T15:18:05.033Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-constraints as some of its dependencies were changed since the last visit
+2026-11-02T15:18:05.275Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-constraints.md
+2026-11-02T15:18:05.292Z - [32minfo[39m: Site data built
+2026-11-02T15:18:05.293Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.261s
+2026-11-02T15:18:37.024Z - [32minfo[39m: Website generation started at 23:18:36
+2026-11-02T15:18:37.375Z - [32minfo[39m: Building assets...
