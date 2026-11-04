@@ -1,0 +1,147 @@
+2026-11-04T14:33:33.089Z - [32minfo[39m: Website generation (lazy) started at 22:33:32
+2026-11-04T14:33:33.592Z - [32minfo[39m: Building assets...
+2026-11-04T14:33:33.873Z - [32minfo[39m: Assets built
+2026-11-04T14:33:33.874Z - [32minfo[39m: Generating landing page...
+2026-11-04T14:33:34.271Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/index.md
+2026-11-04T14:33:34.292Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-11-04T14:33:34.362Z - [32minfo[39m: Site data built
+2026-11-04T14:33:34.363Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 1.677s
+2026-11-04T14:33:34.383Z - [32minfo[39m: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2026-11-04T14:33:34.383Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-11-04T14:33:51.899Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-pe as some of its dependencies were changed since the last visit
+2026-11-04T14:33:54.823Z - [34mdebug[39m: 
+2026-11-04T14:33:54.823Z - [34mdebug[39m: 
+2026-11-04T14:33:54.843Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-pe.md
+2026-11-04T14:33:54.951Z - [32minfo[39m: Site data built
+2026-11-04T14:33:54.951Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 3.055s
+2026-11-04T14:37:23.352Z - [32minfo[39m: [22:37:23] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-pe-fragment.md
+2026-11-04T14:37:23.357Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-11-04T14:37:23.360Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-11-04T14:37:23.360Z - [32minfo[39m: 1. admin/tp-pe
+2026-11-04T14:37:24.383Z - [32minfo[39m: Rebuilding 1 pages
+2026-11-04T14:37:25.350Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-pe.md
+2026-11-04T14:37:25.396Z - [32minfo[39m: Site data built
+2026-11-04T14:37:25.396Z - [32minfo[39m: Pages rebuilt
+2026-11-04T14:37:25.396Z - [32minfo[39m: Website regeneration complete! Total build time: 1.029s
+2026-11-04T14:39:06.548Z - [32minfo[39m: [22:39:06] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-pe-fragment.md
+2026-11-04T14:39:06.550Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-11-04T14:39:06.551Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-11-04T14:39:06.551Z - [32minfo[39m: 1. admin/tp-pe
+2026-11-04T14:39:07.556Z - [32minfo[39m: Rebuilding 1 pages
+2026-11-04T14:39:07.615Z - [31merror[39m: Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-pe-fragment.md) [Line 283, Column 34]
+  expected variable end
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at Template.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:313:23)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:55:31
+    at createTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:110:13)
+    at handle (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:123:17)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:134:13
+    at next (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:258:7)
+    at Object.asyncIter (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:263:3)
+    at Environment.getTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:116:9)
+    at Environment.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:47:10)
+2026-11-04T14:39:07.667Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-pe.md
+2026-11-04T14:39:07.685Z - [32minfo[39m: Site data built
+2026-11-04T14:39:07.685Z - [32minfo[39m: Pages rebuilt
+2026-11-04T14:39:07.685Z - [32minfo[39m: Website regeneration complete! Total build time: 0.132s
+2026-11-04T14:39:35.019Z - [32minfo[39m: [22:39:35] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-pe-fragment.md
+2026-11-04T14:39:35.022Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-11-04T14:39:35.023Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-11-04T14:39:35.023Z - [32minfo[39m: 1. admin/tp-pe
+2026-11-04T14:39:36.029Z - [32minfo[39m: Rebuilding 1 pages
+2026-11-04T14:39:36.968Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-pe.md
+2026-11-04T14:39:37.010Z - [32minfo[39m: Site data built
+2026-11-04T14:39:37.010Z - [32minfo[39m: Pages rebuilt
+2026-11-04T14:39:37.010Z - [32minfo[39m: Website regeneration complete! Total build time: 0.986s
+2026-11-04T14:41:21.205Z - [32minfo[39m: [22:41:21] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-pe-fragment.md
+2026-11-04T14:41:21.207Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-11-04T14:41:21.207Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-11-04T14:41:21.207Z - [32minfo[39m: 1. admin/tp-pe
+2026-11-04T14:41:22.219Z - [32minfo[39m: Rebuilding 1 pages
+2026-11-04T14:41:23.177Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-pe.md
+2026-11-04T14:41:23.221Z - [32minfo[39m: Site data built
+2026-11-04T14:41:23.221Z - [32minfo[39m: Pages rebuilt
+2026-11-04T14:41:23.221Z - [32minfo[39m: Website regeneration complete! Total build time: 1.011s
+2026-11-04T14:41:37.147Z - [32minfo[39m: [22:41:37] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-pe-fragment.md
+2026-11-04T14:41:37.147Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-11-04T14:41:37.147Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-11-04T14:41:37.147Z - [32minfo[39m: 1. admin/tp-pe
+2026-11-04T14:41:38.158Z - [32minfo[39m: Rebuilding 1 pages
+2026-11-04T14:41:39.157Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-pe.md
+2026-11-04T14:41:39.197Z - [32minfo[39m: Site data built
+2026-11-04T14:41:39.197Z - [32minfo[39m: Pages rebuilt
+2026-11-04T14:41:39.197Z - [32minfo[39m: Website regeneration complete! Total build time: 1.041s
+2026-11-04T14:42:31.545Z - [32minfo[39m: [22:42:31] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-pe-fragment.md
+2026-11-04T14:42:31.558Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-11-04T14:42:31.559Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-11-04T14:42:31.559Z - [32minfo[39m: 1. admin/tp-pe
+2026-11-04T14:42:32.568Z - [32minfo[39m: Rebuilding 1 pages
+2026-11-04T14:42:33.520Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-pe.md
+2026-11-04T14:42:33.563Z - [32minfo[39m: Site data built
+2026-11-04T14:42:33.563Z - [32minfo[39m: Pages rebuilt
+2026-11-04T14:42:33.563Z - [32minfo[39m: Website regeneration complete! Total build time: 0.999s
+2026-11-04T14:43:12.386Z - [32minfo[39m: [22:43:12] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-pe-fragment.md
+2026-11-04T14:43:12.387Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-11-04T14:43:12.388Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-11-04T14:43:12.388Z - [32minfo[39m: 1. admin/tp-pe
+2026-11-04T14:43:13.392Z - [32minfo[39m: Rebuilding 1 pages
+2026-11-04T14:43:14.322Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-pe.md
+2026-11-04T14:43:14.372Z - [32minfo[39m: Site data built
+2026-11-04T14:43:14.372Z - [32minfo[39m: Pages rebuilt
+2026-11-04T14:43:14.372Z - [32minfo[39m: Website regeneration complete! Total build time: 0.984s
+2026-11-04T14:43:45.793Z - [32minfo[39m: [22:43:45] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-pe-fragment.md
+2026-11-04T14:43:45.794Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-11-04T14:43:45.795Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-11-04T14:43:45.795Z - [32minfo[39m: 1. admin/tp-pe
+2026-11-04T14:43:46.804Z - [32minfo[39m: Rebuilding 1 pages
+2026-11-04T14:43:47.753Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-pe.md
+2026-11-04T14:43:47.802Z - [32minfo[39m: Site data built
+2026-11-04T14:43:47.802Z - [32minfo[39m: Pages rebuilt
+2026-11-04T14:43:47.802Z - [32minfo[39m: Website regeneration complete! Total build time: 1.003s
+2026-11-04T14:43:53.763Z - [32minfo[39m: [22:43:53] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-pe-fragment.md
+2026-11-04T14:43:53.764Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-11-04T14:43:53.765Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-11-04T14:43:53.765Z - [32minfo[39m: 1. admin/tp-pe
+2026-11-04T14:43:54.771Z - [32minfo[39m: Rebuilding 1 pages
+2026-11-04T14:43:55.648Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-pe.md
+2026-11-04T14:43:55.683Z - [32minfo[39m: Site data built
+2026-11-04T14:43:55.683Z - [32minfo[39m: Pages rebuilt
+2026-11-04T14:43:55.683Z - [32minfo[39m: Website regeneration complete! Total build time: 0.916s
+2026-11-04T14:44:06.253Z - [32minfo[39m: [22:44:06] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-pe-fragment.md
+2026-11-04T14:44:06.253Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-11-04T14:44:06.254Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-11-04T14:44:06.254Z - [32minfo[39m: 1. admin/tp-pe
+2026-11-04T14:44:07.264Z - [32minfo[39m: Rebuilding 1 pages
+2026-11-04T14:44:08.187Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-pe.md
+2026-11-04T14:44:08.230Z - [32minfo[39m: Site data built
+2026-11-04T14:44:08.230Z - [32minfo[39m: Pages rebuilt
+2026-11-04T14:44:08.230Z - [32minfo[39m: Website regeneration complete! Total build time: 0.972s
+2026-11-04T14:44:45.898Z - [32minfo[39m: [22:44:45] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-pe-fragment.md
+2026-11-04T14:44:45.904Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-11-04T14:44:45.904Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-11-04T14:44:45.904Z - [32minfo[39m: 1. admin/tp-pe
+2026-11-04T14:44:46.913Z - [32minfo[39m: Rebuilding 1 pages
+2026-11-04T14:44:47.877Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-pe.md
+2026-11-04T14:44:47.916Z - [32minfo[39m: Site data built
+2026-11-04T14:44:47.916Z - [32minfo[39m: Pages rebuilt
+2026-11-04T14:44:47.916Z - [32minfo[39m: Website regeneration complete! Total build time: 1.007s
+2026-11-04T14:45:44.799Z - [32minfo[39m: [22:45:44] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-pe-fragment.md
+2026-11-04T14:45:44.801Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-11-04T14:45:44.801Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-11-04T14:45:44.801Z - [32minfo[39m: 1. admin/tp-pe
+2026-11-04T14:45:45.818Z - [32minfo[39m: Rebuilding 1 pages
+2026-11-04T14:45:46.789Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-pe.md
+2026-11-04T14:45:46.833Z - [32minfo[39m: Site data built
+2026-11-04T14:45:46.833Z - [32minfo[39m: Pages rebuilt
+2026-11-04T14:45:46.833Z - [32minfo[39m: Website regeneration complete! Total build time: 1.024s
+2026-11-04T14:48:47.464Z - [32minfo[39m: [22:48:47] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-pe-fragment.md
+2026-11-04T14:48:47.466Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-11-04T14:48:47.470Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-11-04T14:48:47.471Z - [32minfo[39m: 1. admin/tp-pe
+2026-11-04T14:48:48.476Z - [32minfo[39m: Rebuilding 1 pages
+2026-11-04T14:48:49.426Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-pe.md
+2026-11-04T14:48:49.468Z - [32minfo[39m: Site data built
+2026-11-04T14:48:49.468Z - [32minfo[39m: Pages rebuilt
+2026-11-04T14:48:49.468Z - [32minfo[39m: Website regeneration complete! Total build time: 0.994s
+2026-11-04T15:21:51.804Z - [32minfo[39m: Website generation started at 23:21:51
+2026-11-04T15:21:52.173Z - [32minfo[39m: Building assets...
