@@ -1,0 +1,30 @@
+2026-11-06T05:07:20.806Z - [32minfo[39m: Website generation (lazy) started at 13:07:20
+2026-11-06T05:07:21.320Z - [32minfo[39m: Building assets...
+2026-11-06T05:07:21.648Z - [32minfo[39m: Assets built
+2026-11-06T05:07:21.649Z - [32minfo[39m: Generating landing page...
+2026-11-06T05:07:22.047Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/index.md
+2026-11-06T05:07:22.070Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-11-06T05:07:22.151Z - [32minfo[39m: Site data built
+2026-11-06T05:07:22.151Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 1.792s
+2026-11-06T05:07:22.167Z - [32minfo[39m: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2026-11-06T05:07:22.167Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-11-06T05:08:08.789Z - [32minfo[39m: [13:08:08] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/weeklyAdminTasks-fragment.md
+2026-11-06T05:08:08.795Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-11-06T05:08:08.796Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-11-06T05:08:08.796Z - [32minfo[39m: 1. index
+2026-11-06T05:08:09.812Z - [32minfo[39m: Rebuilding 1 pages
+2026-11-06T05:08:10.164Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/index.md
+2026-11-06T05:08:10.173Z - [32minfo[39m: Site data built
+2026-11-06T05:08:10.173Z - [32minfo[39m: Pages rebuilt
+2026-11-06T05:08:10.173Z - [32minfo[39m: Website regeneration complete! Total build time: 0.374s
+2026-11-06T05:09:11.546Z - [32minfo[39m: [13:09:11] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/weeklyAdminTasks-fragment.md
+2026-11-06T05:09:11.553Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-11-06T05:09:11.554Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-11-06T05:09:11.554Z - [32minfo[39m: 1. index
+2026-11-06T05:09:12.582Z - [32minfo[39m: Rebuilding 1 pages
+2026-11-06T05:09:12.901Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/index.md
+2026-11-06T05:09:12.912Z - [32minfo[39m: Site data built
+2026-11-06T05:09:12.912Z - [32minfo[39m: Pages rebuilt
+2026-11-06T05:09:12.912Z - [32minfo[39m: Website regeneration complete! Total build time: 0.348s
+2026-11-06T05:29:53.357Z - [32minfo[39m: Website generation started at 13:29:53
+2026-11-06T05:29:53.842Z - [32minfo[39m: Building assets...
