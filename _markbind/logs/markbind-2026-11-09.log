@@ -1,0 +1,66 @@
+2026-11-09T05:28:02.241Z - [32minfo[39m: Website generation (lazy) started at 13:28:01
+2026-11-09T05:28:02.802Z - [32minfo[39m: Building assets...
+2026-11-09T05:28:03.135Z - [32minfo[39m: Assets built
+2026-11-09T05:28:03.136Z - [32minfo[39m: Generating landing page...
+2026-11-09T05:28:03.441Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/index.md
+2026-11-09T05:28:03.461Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-11-09T05:28:03.547Z - [32minfo[39m: Site data built
+2026-11-09T05:28:03.547Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 1.756s
+2026-11-09T05:28:03.556Z - [32minfo[39m: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2026-11-09T05:28:03.557Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-11-09T05:28:29.319Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/index as some of its dependencies were changed since the last visit
+2026-11-09T05:28:29.487Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/index.md
+2026-11-09T05:28:29.514Z - [32minfo[39m: Site data built
+2026-11-09T05:28:29.514Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.197s
+2026-11-09T05:28:37.550Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/designPatterns as some of its dependencies were changed since the last visit
+2026-11-09T05:28:40.149Z - [34mdebug[39m: 
+2026-11-09T05:28:40.217Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/designPatterns.md
+2026-11-09T05:28:40.263Z - [32minfo[39m: Site data built
+2026-11-09T05:28:40.264Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 2.715s
+2026-11-09T05:30:23.133Z - [32minfo[39m: [13:30:23] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/modelViewController/what/text.md
+2026-11-09T05:30:23.136Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-11-09T05:30:23.137Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-11-09T05:30:23.137Z - [32minfo[39m: 1. se-book-adapted/chapters/designPatterns
+2026-11-09T05:30:24.154Z - [32minfo[39m: Rebuilding 1 pages
+2026-11-09T05:30:24.512Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/designPatterns.md
+2026-11-09T05:30:24.558Z - [32minfo[39m: Site data built
+2026-11-09T05:30:24.558Z - [32minfo[39m: Pages rebuilt
+2026-11-09T05:30:24.558Z - [32minfo[39m: Website regeneration complete! Total build time: 0.418s
+2026-11-09T05:31:55.672Z - [32minfo[39m: [13:31:55] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/modelViewController/what/text.md
+2026-11-09T05:31:55.676Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-11-09T05:31:55.676Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-11-09T05:31:55.676Z - [32minfo[39m: 1. se-book-adapted/chapters/designPatterns
+2026-11-09T05:31:56.727Z - [32minfo[39m: Rebuilding 1 pages
+2026-11-09T05:31:57.100Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/designPatterns.md
+2026-11-09T05:31:57.141Z - [32minfo[39m: Site data built
+2026-11-09T05:31:57.141Z - [32minfo[39m: Pages rebuilt
+2026-11-09T05:31:57.141Z - [32minfo[39m: Website regeneration complete! Total build time: 0.447s
+2026-11-09T05:36:08.329Z - [32minfo[39m: [13:36:08] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/modelViewController/what/text.md
+2026-11-09T05:36:08.333Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-11-09T05:36:08.334Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-11-09T05:36:08.334Z - [32minfo[39m: 1. se-book-adapted/chapters/designPatterns
+2026-11-09T05:36:09.383Z - [32minfo[39m: Rebuilding 1 pages
+2026-11-09T05:36:09.715Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/designPatterns.md
+2026-11-09T05:36:09.750Z - [32minfo[39m: Site data built
+2026-11-09T05:36:09.750Z - [32minfo[39m: Pages rebuilt
+2026-11-09T05:36:09.750Z - [32minfo[39m: Website regeneration complete! Total build time: 0.412s
+2026-11-09T05:38:04.008Z - [32minfo[39m: [13:38:04] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/modelViewController/what/text.md
+2026-11-09T05:38:04.009Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-11-09T05:38:04.010Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-11-09T05:38:04.010Z - [32minfo[39m: 1. se-book-adapted/chapters/designPatterns
+2026-11-09T05:38:05.033Z - [32minfo[39m: Rebuilding 1 pages
+2026-11-09T05:38:05.283Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/designPatterns.md
+2026-11-09T05:38:05.313Z - [32minfo[39m: Site data built
+2026-11-09T05:38:05.313Z - [32minfo[39m: Pages rebuilt
+2026-11-09T05:38:05.313Z - [32minfo[39m: Website regeneration complete! Total build time: 0.3s
+2026-11-09T05:38:35.677Z - [32minfo[39m: [13:38:35] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/modelViewController/what/text.md
+2026-11-09T05:38:35.679Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-11-09T05:38:35.680Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-11-09T05:38:35.680Z - [32minfo[39m: 1. se-book-adapted/chapters/designPatterns
+2026-11-09T05:38:36.686Z - [32minfo[39m: Rebuilding 1 pages
+2026-11-09T05:38:36.946Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/designPatterns.md
+2026-11-09T05:38:36.984Z - [32minfo[39m: Site data built
+2026-11-09T05:38:36.984Z - [32minfo[39m: Pages rebuilt
+2026-11-09T05:38:36.984Z - [32minfo[39m: Website regeneration complete! Total build time: 0.3s
+2026-11-09T05:39:35.308Z - [32minfo[39m: Website generation started at 13:39:35
+2026-11-09T05:39:35.676Z - [32minfo[39m: Building assets...
