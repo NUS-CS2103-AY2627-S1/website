@@ -1,0 +1,8 @@
+2026-11-09T16:11:02.348Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/debugging as some of its dependencies were changed since the last visit
+2026-11-09T16:11:02.577Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/debugging.md
+2026-11-09T16:11:02.603Z - [32minfo[39m: Site data built
+2026-11-09T16:11:02.603Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.256s
+2026-11-09T17:11:40.354Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/security as some of its dependencies were changed since the last visit
+2026-11-09T17:11:40.560Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/security.md
+2026-11-09T17:11:40.582Z - [32minfo[39m: Site data built
+2026-11-09T17:11:40.582Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.228s
