@@ -1,0 +1,101 @@
+2026-11-13T16:40:48.795Z - [32minfo[39m: Website generation (lazy) started at 00:40:48
+2026-11-13T16:40:49.488Z - [32minfo[39m: Building assets...
+2026-11-13T16:40:49.915Z - [32minfo[39m: Assets built
+2026-11-13T16:40:49.915Z - [32minfo[39m: Generating landing page...
+2026-11-13T16:40:50.240Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/index.md
+2026-11-13T16:40:50.261Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-11-13T16:40:50.348Z - [32minfo[39m: Site data built
+2026-11-13T16:40:50.348Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 2.145s
+2026-11-13T16:40:51.376Z - [32minfo[39m: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:58182
+2026-11-13T16:40:51.377Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-11-13T16:40:59.571Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/exam-reference-sheet as some of its dependencies were changed since the last visit
+2026-11-13T16:40:59.734Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/exam-reference-sheet.md
+2026-11-13T16:40:59.747Z - [32minfo[39m: Site data built
+2026-11-13T16:40:59.747Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.177s
+2026-11-13T16:43:06.701Z - [32minfo[39m: [00:43:06] Reload for file deletion: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/images/exam-reference/Slide3.png
+2026-11-13T16:43:06.707Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-11-13T16:43:06.708Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-11-13T16:43:06.709Z - [32minfo[39m: 1. admin/exam-reference-sheet
+2026-11-13T16:43:06.709Z - [32minfo[39m: 2. index
+2026-11-13T16:43:07.085Z - [32minfo[39m: [00:43:07] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/images/exam-reference/Slide2.png
+2026-11-13T16:43:07.085Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-11-13T16:43:07.085Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-11-13T16:43:07.085Z - [32minfo[39m: 1. admin/exam-reference-sheet
+2026-11-13T16:43:07.086Z - [32minfo[39m: 2. index
+2026-11-13T16:43:07.086Z - [32minfo[39m: [00:43:07] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/images/exam-reference/Slide6.png
+2026-11-13T16:43:07.086Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-11-13T16:43:07.086Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-11-13T16:43:07.086Z - [32minfo[39m: 1. admin/exam-reference-sheet
+2026-11-13T16:43:07.086Z - [32minfo[39m: 2. index
+2026-11-13T16:43:07.087Z - [32minfo[39m: [00:43:07] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/images/exam-reference/Slide1.png
+2026-11-13T16:43:07.087Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-11-13T16:43:07.087Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-11-13T16:43:07.087Z - [32minfo[39m: 1. admin/exam-reference-sheet
+2026-11-13T16:43:07.087Z - [32minfo[39m: 2. index
+2026-11-13T16:43:07.087Z - [32minfo[39m: [00:43:07] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/images/exam-reference/Slide4.png
+2026-11-13T16:43:07.087Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-11-13T16:43:07.088Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-11-13T16:43:07.088Z - [32minfo[39m: 1. admin/exam-reference-sheet
+2026-11-13T16:43:07.088Z - [32minfo[39m: 2. index
+2026-11-13T16:43:07.088Z - [32minfo[39m: [00:43:07] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/images/exam-reference/Slide5.png
+2026-11-13T16:43:07.089Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-11-13T16:43:07.089Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-11-13T16:43:07.089Z - [32minfo[39m: 1. admin/exam-reference-sheet
+2026-11-13T16:43:07.089Z - [32minfo[39m: 2. index
+2026-11-13T16:43:07.094Z - [32minfo[39m: [00:43:07] Reload for file add: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/images/exam-reference/Slide3.png
+2026-11-13T16:43:07.094Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-11-13T16:43:07.094Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-11-13T16:43:07.094Z - [32minfo[39m: 1. admin/exam-reference-sheet
+2026-11-13T16:43:07.094Z - [32minfo[39m: 2. index
+2026-11-13T16:43:08.077Z - [34mdebug[39m: Assets removed
+2026-11-13T16:43:08.113Z - [32minfo[39m: Assets built
+2026-11-13T16:44:27.457Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-pe as some of its dependencies were changed since the last visit
+2026-11-13T16:44:30.695Z - [34mdebug[39m: 
+2026-11-13T16:44:30.830Z - [34mdebug[39m: 
+2026-11-13T16:44:30.890Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-pe.md
+2026-11-13T16:44:30.944Z - [32minfo[39m: Site data built
+2026-11-13T16:44:30.945Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 3.489s
+2026-11-13T16:46:02.852Z - [32minfo[39m: [00:46:02] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-pe-fragment.md
+2026-11-13T16:46:02.853Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-11-13T16:46:02.854Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-11-13T16:46:02.855Z - [32minfo[39m: 1. admin/tp-pe
+2026-11-13T16:46:02.855Z - [32minfo[39m: 2. index
+2026-11-13T16:46:03.879Z - [32minfo[39m: Rebuilding 1 pages
+2026-11-13T16:46:05.099Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-pe.md
+2026-11-13T16:46:05.147Z - [32minfo[39m: Site data built
+2026-11-13T16:46:05.147Z - [32minfo[39m: Pages rebuilt
+2026-11-13T16:46:05.147Z - [32minfo[39m: Website regeneration complete! Total build time: 1.287s
+2026-11-13T16:46:56.887Z - [32minfo[39m: [00:46:56] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-pe-fragment.md
+2026-11-13T16:46:56.888Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-11-13T16:46:56.888Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-11-13T16:46:56.888Z - [32minfo[39m: 1. admin/tp-pe
+2026-11-13T16:46:56.888Z - [32minfo[39m: 2. index
+2026-11-13T16:46:57.896Z - [32minfo[39m: Rebuilding 1 pages
+2026-11-13T16:46:57.970Z - [31merror[39m: Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-pe-fragment.md) [Line 548, Column 110]
+  parseSignature: expected comma after expression
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at Template.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:313:23)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:55:31
+    at createTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:110:13)
+    at handle (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:123:17)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:134:13
+    at next (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:258:7)
+    at Object.asyncIter (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:263:3)
+    at Environment.getTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:116:9)
+    at Environment.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:47:10)
+2026-11-13T16:46:58.024Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-pe.md
+2026-11-13T16:46:58.045Z - [32minfo[39m: Site data built
+2026-11-13T16:46:58.045Z - [32minfo[39m: Pages rebuilt
+2026-11-13T16:46:58.046Z - [32minfo[39m: Website regeneration complete! Total build time: 0.155s
+2026-11-13T16:47:28.731Z - [32minfo[39m: [00:47:28] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-pe-fragment.md
+2026-11-13T16:47:28.759Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-11-13T16:47:28.784Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-11-13T16:47:28.786Z - [32minfo[39m: 1. admin/tp-pe
+2026-11-13T16:47:28.786Z - [32minfo[39m: 2. index
+2026-11-13T16:47:29.818Z - [32minfo[39m: Rebuilding 1 pages
+2026-11-13T16:47:30.917Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-pe.md
+2026-11-13T16:47:30.951Z - [32minfo[39m: Site data built
+2026-11-13T16:47:30.951Z - [32minfo[39m: Pages rebuilt
+2026-11-13T16:47:30.951Z - [32minfo[39m: Website regeneration complete! Total build time: 1.138s
+2026-11-13T16:50:00.104Z - [32minfo[39m: Website generation started at 00:49:59
+2026-11-13T16:50:00.786Z - [32minfo[39m: Building assets...
