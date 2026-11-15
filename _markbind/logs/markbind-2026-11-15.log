@@ -1,0 +1,45 @@
+2026-11-15T06:12:30.040Z - [32minfo[39m: Website generation (lazy) started at 14:12:29
+2026-11-15T06:12:30.493Z - [32minfo[39m: Building assets...
+2026-11-15T06:12:30.814Z - [32minfo[39m: Assets built
+2026-11-15T06:12:30.815Z - [32minfo[39m: Generating landing page...
+2026-11-15T06:12:31.137Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/index.md
+2026-11-15T06:12:31.161Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-11-15T06:12:31.245Z - [32minfo[39m: Site data built
+2026-11-15T06:12:31.246Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 1.676s
+2026-11-15T06:12:31.260Z - [32minfo[39m: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2026-11-15T06:12:31.260Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-11-15T06:12:39.624Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-pe as some of its dependencies were changed since the last visit
+2026-11-15T06:12:42.498Z - [34mdebug[39m: 
+2026-11-15T06:12:42.498Z - [34mdebug[39m: 
+2026-11-15T06:12:42.501Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-pe.md
+2026-11-15T06:12:42.553Z - [32minfo[39m: Site data built
+2026-11-15T06:12:42.553Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 2.93s
+2026-11-15T06:14:23.952Z - [32minfo[39m: [14:14:23] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixE-gitHub.md
+2026-11-15T06:14:23.954Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-11-15T06:14:23.955Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-11-15T06:14:23.955Z - [32minfo[39m: 1. admin/tp-pe
+2026-11-15T06:14:24.961Z - [32minfo[39m: Rebuilding 1 pages
+2026-11-15T06:14:26.081Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-pe.md
+2026-11-15T06:14:26.127Z - [32minfo[39m: Site data built
+2026-11-15T06:14:26.127Z - [32minfo[39m: Pages rebuilt
+2026-11-15T06:14:26.127Z - [32minfo[39m: Website regeneration complete! Total build time: 1.17s
+2026-11-15T06:16:31.117Z - [32minfo[39m: [14:16:31] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixE-gitHub.md
+2026-11-15T06:16:31.118Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-11-15T06:16:31.120Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-11-15T06:16:31.121Z - [32minfo[39m: 1. admin/tp-pe
+2026-11-15T06:16:32.126Z - [32minfo[39m: Rebuilding 1 pages
+2026-11-15T06:16:33.167Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-pe.md
+2026-11-15T06:16:33.212Z - [32minfo[39m: Site data built
+2026-11-15T06:16:33.212Z - [32minfo[39m: Pages rebuilt
+2026-11-15T06:16:33.212Z - [32minfo[39m: Website regeneration complete! Total build time: 1.091s
+2026-11-15T06:17:08.214Z - [32minfo[39m: [14:17:08] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixE-gitHub.md
+2026-11-15T06:17:08.215Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-11-15T06:17:08.219Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-11-15T06:17:08.219Z - [32minfo[39m: 1. admin/tp-pe
+2026-11-15T06:17:09.224Z - [32minfo[39m: Rebuilding 1 pages
+2026-11-15T06:17:10.253Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-pe.md
+2026-11-15T06:17:10.292Z - [32minfo[39m: Site data built
+2026-11-15T06:17:10.293Z - [32minfo[39m: Pages rebuilt
+2026-11-15T06:17:10.293Z - [32minfo[39m: Website regeneration complete! Total build time: 1.072s
+2026-11-15T06:19:50.590Z - [32minfo[39m: Website generation started at 14:19:50
+2026-11-15T06:19:50.959Z - [32minfo[39m: Building assets...
